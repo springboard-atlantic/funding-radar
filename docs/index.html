@@ -9,16 +9,18 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-  /* Achromatic ledger, Springboard brand: navy ink, the brand teal only on the main data
-     (deadlines that are near), a blue-grey ledger ground. Poppins, the brand face.
+  /* Achromatic ledger, Springboard brand (springboardatlantic.ca theme: primary #85BE00,
+     secondary #103154, light #F2F2F2, Poppins). Navy ink; the brand green only on the main
+     data (deadlines that are near). #85BE00 is a fill colour only (2.2:1 on white); text in
+     the green uses the darker #557A00 (5.0:1).
      Grid: one 1152px column; 3 x 373.33 + 2 x 16 = 1152 (runway spans 2, topics 1). */
   :root {
-    --ground: #f2f4f6;  --surface: #ffffff;  --raised: #f6f8f9;  --active: #e8ecef;
-    --border: #e3e7ea;  --rule: #eef1f3;     --control: #cfd6db;
-    --text: #112337;    --muted: #4f5d6b;    --faint: #66727e;
-    --primary: #112337;
-    --accent: #2f7d92;  --accent-pale: #e3eff2;
-    --positive: #247b50;  --pill-positive-bg: #dcfae5;  --pill-positive-ink: #04250e;
+    --ground: #f2f2f2;  --surface: #ffffff;  --raised: #f6f7f5;  --active: #e9ebe6;
+    --border: #e2e4e0;  --rule: #eef0ec;     --control: #cdd2cc;
+    --text: #103154;    --muted: #4c5a68;    --faint: #66707a;
+    --primary: #103154;
+    --accent: #85be00;  --accent-ink: #557a00;  --accent-pale: #eef6d9;  --accent-pale-ink: #3f5c00;
+    --positive: #557a00;  --pill-positive-bg: #eef6d9;  --pill-positive-ink: #3f5c00;
     --negative: #c4242a;
     --pill-warning-bg: #fffbeb;  --pill-warning-ink: #92400e;
     --grid: #e5e9ec;
@@ -52,12 +54,12 @@
   .btn { height: var(--control-height); padding: 0 14px; border-radius: var(--radius-control); font: 500 14px var(--font);
          cursor: pointer; display: inline-flex; align-items: center; gap: 8px; white-space: nowrap; flex: none;
          transition: background-color .12s, border-color .12s; }
-  .btn-secondary { background: #e5e9ec; border: 0; color: var(--text); }
-  .btn-secondary:hover { background: #d9dfe3; }
+  .btn-secondary { background: #e3e6e0; border: 0; color: var(--text); }
+  .btn-secondary:hover { background: #d6dad2; }
   .btn-ghost { background: var(--surface); border: 1px solid var(--control); color: var(--text); }
   .btn-ghost:hover { border-color: var(--faint); }
   .btn:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible, .bar-row:focus-visible, .week:focus-visible {
-         outline: 2px solid var(--accent); outline-offset: 2px; }
+         outline: 2px solid var(--accent-ink); outline-offset: 2px; }
   .btn svg { width: 16px; height: 16px; }
 
   /* KPI strip: one card split by dividers */
@@ -67,7 +69,7 @@
   .kpi:first-child { border-left: 0; }
   .kpi .label { color: var(--muted); font-size: 13px; }
   .kpi .value { font-size: var(--fs-kpi); font-weight: 500; line-height: 1.25; margin-top: 2px; }
-  .kpi .value.lead { color: var(--accent); }
+  .kpi .value.lead { color: var(--accent-ink); }
   .kpi .value.zero { color: var(--faint); }
   .kpi .sub { color: var(--faint); font-size: 12px; margin-top: 2px; }
 
@@ -89,7 +91,7 @@
           background: none; border: 0; padding: 0 0 4px; cursor: pointer; border-radius: 4px 4px 0 0; font: inherit; color: inherit; }
   .week:hover, .week[aria-pressed="true"] { background: var(--raised); }
   .week[aria-pressed="true"] { background: var(--accent-pale); }
-  .week .sq { width: min(100%, 28px); height: var(--sq, 10px); border-radius: 2px; background: #9aa6b1; flex: none; }
+  .week .sq { width: min(100%, 28px); height: var(--sq, 10px); border-radius: 2px; background: #a3abb3; flex: none; }
   .week .sq.near { background: var(--accent); }
   .week .n { font-size: 12px; color: var(--muted); line-height: 1; padding-bottom: 4px; }
   .week.near .n { color: var(--text); font-weight: 500; }
@@ -108,8 +110,8 @@
   .bar-row .t { font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .bar-row .v { font-size: 13px; text-align: right; }
   .bar-row .track { grid-column: 1 / -1; height: 3px; margin-top: 5px; }
-  .bar-row .fill { height: 3px; border-radius: 2px; background: #b3bcc4; }
-  .bar-row:first-child .fill { background: var(--text); }
+  .bar-row .fill { height: 3px; border-radius: 2px; background: #b8bec4; }
+  .bar-row:first-child .fill { background: var(--accent); }
 
   /* Toolbar */
   .list-panel { padding: 0; }
@@ -127,7 +129,7 @@
   .chipset { display: flex; flex-wrap: wrap; gap: 6px; }
   .chip-active { display: inline-flex; align-items: center; gap: 6px; height: 26px; padding: 0 6px 0 10px; border-radius: var(--radius-chip);
                  background: var(--active); border: 0; font: 400 12px var(--font); color: var(--text); cursor: pointer; }
-  .chip-active:hover { background: #dce2e6; }
+  .chip-active:hover { background: #dde0d8; }
   .linkbtn { background: none; border: 0; padding: 0; font: 500 13px var(--font); color: var(--text); text-decoration: underline;
              text-underline-offset: 3px; cursor: pointer; }
 
@@ -147,7 +149,7 @@
   .sub { color: var(--muted); font-size: 13px; margin-top: 3px; }
   .desc { color: var(--muted); font-size: 13px; margin-top: 4px; max-width: 640px;
           display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .new { color: var(--accent); font-weight: 500; }
+  .new { color: var(--accent-ink); font-weight: 500; }
   .tags { display: flex; flex-wrap: wrap; gap: 4px; max-width: 260px; }
   .tag { flex: none; white-space: nowrap; font-size: 12px; color: var(--muted); background: var(--raised); border-radius: var(--radius-chip); padding: 1px 7px; }
   .pill { flex: none; white-space: nowrap; display: inline-block; font-size: 12px; font-weight: 500; border-radius: 999px; padding: 2px 9px; }
@@ -157,7 +159,7 @@
   .dash { color: var(--faint); }
   .dl { white-space: nowrap; }
   .dl .when { display: block; color: var(--muted); font-size: 12px; }
-  .dl.near b { color: var(--accent); font-weight: 600; }
+  .dl.near b { color: var(--accent-ink); font-weight: 600; }
   .dl b { font-weight: 500; }
   .more { display: flex; justify-content: center; align-items: center; gap: 16px; padding: 16px; color: var(--muted); font-size: 13px; }
   .empty { padding: 28px var(--card-pad); color: var(--muted); }
@@ -244,7 +246,7 @@
     <section class="panel runway-panel" aria-labelledby="runway-h">
       <div class="panel-head">
         <h2 id="runway-h">Deadlines in the next 13 weeks</h2>
-        <div class="legend"><span><i style="background:var(--accent)"></i>Within 30 days</span><span><i style="background:#9aa6b1"></i>Later</span></div>
+        <div class="legend"><span><i style="background:var(--accent)"></i>Within 30 days</span><span><i style="background:#a3abb3"></i>Later</span></div>
       </div>
       <div class="runway" id="runway" role="group" aria-label="Calls closing per week"></div>
       <div class="axis" id="axis" aria-hidden="true"></div>
