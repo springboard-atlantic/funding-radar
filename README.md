@@ -42,10 +42,23 @@ sources.yaml ──► scraper/scrape.py ──► docs/data/opportunities.json 
 5. **Actions → Weekly funding scrape → Run workflow** to test it once. From then on it runs
    every Monday at 10:00 UTC automatically.
 
+### Hosting on Vercel instead of GitHub Pages
+
+GitHub keeps running the weekly scrape; Vercel only serves the page, and redeploys
+automatically each time the weekly job commits new data.
+
+1. Sign in at vercel.com with the GitHub account → **Add New… → Project** →
+   import `springboard-atlantic/funding-radar`.
+2. Leave the settings as detected (`vercel.json` already sets the output folder to `docs`,
+   no build step) → **Deploy**. The page is live at `https://funding-radar-<…>.vercel.app`.
+3. Optional: **Settings → Domains** to add a custom domain such as `radar.springboardatlantic.ca`.
+
+`vercel.json` also allows the page to be framed only by SharePoint (`*.sharepoint.com`).
+
 ## 2. Embed it in SharePoint
 
 1. A SharePoint admin allows the site once: **Site settings → HTML Field Security**
-   → add `github.io` (or your custom domain) to the allowed domains.
+   → add `vercel.app` (or `github.io`, or your custom domain) to the allowed domains.
    (Site contents → ⚙ → Site information → View all site settings → HTML Field Security.)
 2. On the hub page: **Edit → + → Embed** web part, paste:
    ```html
