@@ -14,7 +14,8 @@
      data (deadlines that are near). #85BE00 is a fill colour only (2.2:1 on white); text in
      the green uses the darker #557A00 (5.0:1).
      Grid: one 1152px column; 3 x 373.33 + 2 x 16 = 1152 (runway spans 2, topics 1).
-     Add ?view=upcoming to the URL for the compact SharePoint embed (upcoming list only). */
+     SharePoint embeds: ?view=upcoming (heading, topic filters and the upcoming list) or
+     ?view=list (the upcoming list alone). Both take &rows=N and &topic=<topic name>. */
   :root {
     --ground: #f2f2f2;  --surface: #ffffff;  --raised: #f6f7f5;  --active: #e9ebe6;
     --border: #e2e4e0;  --rule: #eef0ec;     --control: #cdd2cc;
@@ -197,6 +198,23 @@
   body.compact .topbar { height: 48px; }
   body.compact .brand img { height: 22px; }
   body.compact .panel { border: 0; }
+  /* List only: no logo, heading or filters; denser rows for a short web part */
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  body.listonly .wrap { padding: 0; }
+  body.listonly .up summary { grid-template-columns: 48px 1fr auto; gap: 14px; padding: 10px 12px; }
+  body.listonly .date { width: 48px; height: 48px; border-radius: 6px; }
+  body.listonly .date .m { font-size: 11px; }
+  body.listonly .date .d { font-size: 18px; }
+  body.listonly .date.none .d { font-size: 12px; }
+  body.listonly .up .t { font-size: 14px; }
+  body.listonly .up .meta { font-size: 12px; }
+  body.listonly .detail { padding: 0 12px 14px 74px; }
+  body.listonly .up-foot { padding: 10px 12px; }
+  @media (max-width: 640px) {
+    body.listonly .up summary { grid-template-columns: 44px 1fr; }
+    body.listonly .date { width: 44px; height: 44px; }
+    body.listonly .detail { padding: 4px 12px 14px; }
+  }
 
   @media (max-width: 1000px) {
     .row { grid-template-columns: 1fr; }
@@ -338,8 +356,10 @@
                   "AI & digital", "Defence & dual-use", "Quantum & emerging tech", "Talent & internships", "Research"];
   const $ = (id) => document.getElementById(id);
   const params = new URLSearchParams(location.search);
-  const compact = params.get("view") === "upcoming";
-  const state = { q: "", region: "", funder: "", audience: "", cat: "", week: null, sort: "deadline", hideClosed: true, shown: PAGE, upShown: compact ? 6 : UP_PAGE };
+  const listOnly = params.get("view") === "list";
+  const compact = listOnly || params.get("view") === "upcoming";
+  const firstRows = Math.max(1, Math.min(50, parseInt(params.get("rows"), 10) || (compact ? 6 : UP_PAGE)));
+  const state = { q: "", region: "", funder: "", audience: "", cat: params.get("topic") || "", week: null, sort: "deadline", hideClosed: true, shown: PAGE, upShown: firstRows };
   let data = { items: [], sources: [], meta: {} };
 
   const today = new Date(); today.setHours(0, 0, 0, 0);
@@ -427,7 +447,7 @@
     $("upcoming").innerHTML = shown.length ? shown.map(upRow).join("")
       : `<li class="empty">Nothing${state.cat ? " in " + esc(state.cat) : ""} is open or upcoming right now. <button class="linkbtn" type="button" data-cat-clear>Show all topics</button></li>`;
     const rest = items.length - shown.length;
-    const allLink = compact ? `<a class="linkbtn" href="${location.pathname}" target="_blank" rel="noopener">Open the full Funding Radar ↗</a>` : "";
+    const allLink = compact ? `<a class="linkbtn" href="${location.pathname}" target="_blank" rel="noopener">${listOnly ? "Search all opportunities" : "Open the full Funding Radar"} ↗</a>` : "";
     $("upFoot").innerHTML = `<span class="num">${shown.length ? `Showing ${shown.length} of ${plural(items.length, "upcoming opportunity", "upcoming opportunities")}` : ""}</span>
       <span style="display:flex;gap:16px;align-items:center">${rest > 0 ? `<button class="btn btn-ghost" type="button" id="upMore">Show ${Math.min(rest, UP_PAGE)} more</button>` : ""}${allLink}</span>`;
     document.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", String(c.dataset.cat === state.cat)));
@@ -554,7 +574,7 @@
     URL.revokeObjectURL(a.href);
   }
 
-  function setCat(c) { state.cat = c; state.upShown = compact ? 6 : UP_PAGE; state.shown = PAGE; renderUpcoming(); if (!compact) renderList(); }
+  function setCat(c) { state.cat = c; state.upShown = firstRows; state.shown = PAGE; renderUpcoming(); if (!compact) renderList(); }
 
   function bind() {
     $("chips").addEventListener("click", (e) => { const c = e.target.closest(".chip"); if (c) setCat(c.dataset.cat); });
@@ -590,6 +610,12 @@
   if (compact) {
     document.body.classList.add("compact");
     $("all").hidden = true; $("overview").hidden = true; $("viewAll").hidden = true;
+  }
+  if (listOnly) {
+    // Keep the title for screen readers; show only the list.
+    document.body.classList.add("listonly");
+    document.querySelector(".topbar").hidden = true; $("chips").hidden = true; $("finding").hidden = true;
+    $("up-h").classList.add("sr-only"); document.querySelector("#up-h").closest(".head").style.padding = "0";
   }
 
   fetch("data/opportunities.json", { cache: "no-cache" })

@@ -66,6 +66,13 @@ automatically each time the weekly job commits new data.
    ```
 3. Publish. Opportunity links open in a new tab.
 
+**List-only embed** — `?view=list` shows just the upcoming opportunities (no logo, heading or
+filters), each expandable to its details. Options: `&rows=10` sets how many show first,
+`&topic=Intellectual%20property` pre-filters to one topic:
+```html
+<iframe src="https://<your-site>/?view=list&rows=8" width="100%" height="560" style="border:0"></iframe>
+```
+
 **Compact "Upcoming opportunities" embed** — for a small SharePoint section, add `?view=upcoming`
 to the address. It shows only the next deadlines (each expandable to its details and the
 funder's link) and a link to open the full Funding Radar:
