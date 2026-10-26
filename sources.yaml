@@ -1,0 +1,317 @@
+# Funding Radar – list of websites to check every week.
+#
+# To add a source, copy an entry and change it. Fields:
+#   id          short unique name (letters, numbers, dashes)
+#   name        display name of the funder
+#   region      National | Atlantic | Nova Scotia | New Brunswick | PEI | Newfoundland and Labrador | Ontario | ...
+#   type        html   – a listing page; every matching link becomes an opportunity
+#               rss    – an RSS/Atom feed
+#               page   – one program page, tracked as a single evergreen program (flags when the page changes)
+#               gcnews – Government of Canada News Centre, filtered by title_include
+#   url         the page/feed to read
+#   home        (optional) link shown in "Sources" if different from url
+#   item        (html) CSS selector for each opportunity block (optional)
+#   link/title/desc  (html) CSS selectors inside each block (optional)
+#   scope       (html) CSS selector for the area of the page to read (default: main)
+#   include     (html) regex – only keep links whose URL matches
+#   exclude     regex – drop links whose URL or title matches
+#   title_include  regex – only keep items whose title/description matches
+#   detail      true = open each NEW item's page to grab a summary and deadline
+#   title_from_detail  true = use the item page's main heading as the title
+#   categories / audience   tags always applied to this source's items
+#   kind        Call / Program / Announcement (how the item is labelled)
+#   enabled     false to switch a source off without deleting it
+
+sources:
+
+  # ---------------------------------------------------------------- Federal research
+  - id: nserc
+    name: NSERC
+    funder: Natural Sciences and Engineering Research Council of Canada
+    region: National
+    type: html
+    url: https://nserc-crsng.canada.ca/en/funding/funding-opportunity?field_fo_status%5Bopen%5D=open
+    item: .views-row
+    link: gcds-link[href], a[href]
+    desc: .views-field-field-description
+    paginate: {param: page, max: 6}
+    detail: true
+    default_status: open
+    kind: Call
+    categories: [Research]
+
+  # CIHR's full list lives on ResearchNet, whose robots.txt forbids automated
+  # access, so we follow CIHR's own "Funding news" page instead.
+  - id: cihr
+    name: CIHR
+    funder: Canadian Institutes of Health Research
+    region: National
+    type: html
+    url: https://cihr-irsc.gc.ca/e/26626.html
+    home: https://www.researchnet-recherchenet.ca/rnr16/srch.do?all=1&search=true&sort=program&masterList=true&view=currentOpps&language=E
+    include: cihr-irsc\.gc\.ca/e/5\d{4}\.html
+    exclude: (54570|54171|50987)\.html
+    detail: true
+    kind: Announcement
+    categories: [Research, Health & life sciences]
+
+  - id: sshrc
+    name: SSHRC
+    funder: Social Sciences and Humanities Research Council
+    region: National
+    type: sshrc
+    url: https://sshrc-crsh.canada.ca/documents/json/funding/opportunities/opportunities.js
+    home: https://sshrc-crsh.canada.ca/en/funding/opportunities.aspx
+    kind: Program
+    categories: [Research]
+
+  - id: nfrf
+    name: New Frontiers in Research Fund
+    funder: Tri-agency (NFRF)
+    region: National
+    type: html
+    url: https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/index-eng.aspx
+    include: nfrf-fnfr/(?!index)
+    exclude: (faq|contact|results|resultats|news|nouvelles|governance|committee|policies|guide|stories|characteristics|edi-eng|acknowledging|about)
+    detail: true
+    kind: Call
+    categories: [Research]
+
+  - id: cfi
+    name: Canada Foundation for Innovation
+    funder: Canada Foundation for Innovation
+    region: National
+    type: html
+    url: https://www.innovation.ca/apply-manage-awards/funding-opportunities
+    include: innovation\.ca/apply-manage-awards/funding-opportunities/.+
+    detail: true
+    title_from_detail: true
+    kind: Call
+    categories: [Research, Infrastructure & equipment]
+
+  - id: genome-canada
+    name: Genome Canada
+    funder: Genome Canada
+    region: National
+    type: page            # list is rendered by JavaScript; track the page for changes instead
+    program: Genome Canada funding opportunities
+    url: https://genomecanada.ca/projects-funding-opportunities/funding-opportunities/
+    kind: Program
+    categories: [Research, Health & life sciences]
+
+  - id: mitacs
+    name: Mitacs
+    funder: Mitacs
+    region: National
+    type: html
+    url: https://www.mitacs.ca/programs-resources/programs/
+    include: mitacs\.ca/(our-programs|programs-resources/programs)/.+
+    detail: true
+    kind: Program
+    default_status: open
+    categories: [Talent & internships, Industry partnership]
+
+  # ---------------------------------------------------------------- Federal innovation / industry
+  - id: nrc-irap
+    name: NRC IRAP
+    funder: National Research Council – Industrial Research Assistance Program
+    region: National
+    type: html
+    url: https://nrc.canada.ca/en/support-technology-innovation
+    include: nrc\.canada\.ca/en/support-technology-innovation/.+
+    exclude: (about-nrc|contact|success|stories|news|feedback|make-your-mark|advisory-services)
+    detail: true
+    kind: Program
+    categories: [SME & business, Commercialization]
+
+  - id: isc
+    name: Innovative Solutions Canada
+    funder: Innovation, Science and Economic Development Canada
+    region: National
+    type: html
+    url: https://ised-isde.canada.ca/site/innovative-solutions-canada/en
+    item: section.tile
+    include: innovative-solutions-canada/en/
+    exclude: (our-stories|awarded|submit-your-idea|subscribe|contact|form/)
+    detail: true
+    kind: Call
+    categories: [SME & business, Commercialization]
+
+  - id: ideas
+    name: IDEaS (National Defence)
+    funder: Department of National Defence – IDEaS
+    region: National
+    type: html
+    url: https://www.canada.ca/en/department-national-defence/programs/defence-ideas/opportunities.html
+    include: defence-ideas/(element|opportunit|current)/.+
+    detail: true
+    kind: Call
+    categories: [Defence & security]
+
+  - id: gc-news
+    name: Government of Canada announcements
+    funder: Government of Canada (News Centre)
+    region: National
+    type: gcnews
+    url: https://api.io.canada.ca/io-server/gc/news/en/v2
+    home: https://www.canada.ca/en/news.html
+    days: 45
+    pick: 500
+    # keep only research / innovation / business / talent related announcements
+    title_require: research|innovat|scien|technolog|commerciali|entrepreneur|start-?up|business|SME|industr|clean|ocean|artificial intelligence|\bAI\b|student|intern|graduate|talent|skills|manufactur|export
+    title_include: call for (proposals|applications|expressions of interest)|accepting applications|applications? (are |is )?(now )?open|now open|open for applications|launch(es|ed)? .{0,40}(program|fund|initiative|competition|challenge|call)|new (funding )?(program|fund|stream|competition)|intake|funding opportunit|apply (now|for)
+    kind: Announcement
+
+  # ---------------------------------------------------------------- Atlantic
+  - id: acoa
+    name: ACOA
+    funder: Atlantic Canada Opportunities Agency
+    region: Atlantic
+    type: html
+    url: https://www.canada.ca/en/atlantic-canada-opportunities/services/programs.html
+    item: a.figcaption
+    title: figcaption
+    desc: p
+    include: atlantic-canada-opportunities/services/.+\.html
+    exclude: (programs\.html|contact|forms-and-tools|how-to-submit-claim|see-projects|research-studies)
+    detail: true
+    kind: Program
+    categories: [SME & business]
+
+  - id: research-ns
+    name: Research Nova Scotia
+    funder: Research Nova Scotia
+    region: Nova Scotia
+    type: html
+    url: https://researchns.ca/funding-opportunities/
+    exclude: (funding-opportunities/?$|/contact|/about|/news|linkedin|twitter|facebook|mailto)
+    include: researchns\.ca/.+
+    detail: true
+    title_from_detail: true
+    kind: Call
+    categories: [Research]
+
+  - id: invest-ns
+    name: Invest Nova Scotia
+    funder: Invest Nova Scotia
+    region: Nova Scotia
+    type: html
+    url: https://investnovascotia.ca/incentives-programs-services
+    paginate: {param: page, max: 8}
+    include: investnovascotia\.ca/incentives-programs-services/[a-z0-9-]+/?$
+    exclude: (index%2ephp|\?|fundingportal)
+    detail: true
+    kind: Program
+    categories: [SME & business]
+
+  - id: innovation-pei
+    name: Innovation PEI
+    funder: Innovation PEI
+    region: Prince Edward Island
+    type: wpjson
+    url: https://www.innovationpei.com/wp-json/wp/v2/program?per_page=100
+    home: https://www.innovationpei.com/business-supports/
+    kind: Program
+    categories: [SME & business]
+
+  - id: ocean-supercluster
+    name: Canada's Ocean Supercluster
+    funder: Canada's Ocean Supercluster
+    region: Atlantic
+    type: html
+    url: https://oceansupercluster.ca/programs/
+    include: oceansupercluster\.ca/.+
+    exclude: (programs/?$|/news|/about|/contact|/members|/team|/careers|/events|/privacy|/blog)
+    detail: true
+    title_from_detail: true
+    kind: Program
+    categories: [Ocean, Industry partnership]
+
+  - id: nbif
+    name: New Brunswick Innovation Foundation
+    funder: New Brunswick Innovation Foundation (NBIF)
+    region: New Brunswick
+    type: html
+    url: https://www.nbif.ca/programs
+    scope: body
+    include: nbif\.ca/[a-z0-9-]+/?$
+    exclude: (cart|book-a-call|programs-?/?$|about|team|news|contact|portfolio|limited-partner|careers|events|privacy|blog|login)
+    detail: true
+    kind: Program
+    categories: [Startups & spin-offs, Research]
+
+  - id: nl-jgrd
+    name: Newfoundland and Labrador – Industry funding
+    funder: Government of NL – Jobs, Growth and Rural Development
+    region: Newfoundland and Labrador
+    type: html
+    url: https://www.gov.nl.ca/jgrd/funding/
+    scope: body
+    include: gov\.nl\.ca/jgrd/funding/[a-z0-9-]+/?$
+    detail: true
+    kind: Program
+    categories: [SME & business]
+
+  # ---------------------------------------------------------------- Colleges / national networks
+  - id: cican
+    name: Colleges and Institutes Canada
+    funder: Colleges and Institutes Canada (CICan)
+    region: National
+    type: html
+    url: https://www.collegesinstitutes.ca/media-and-resources/opportunities/
+    include: collegesinstitutes\.ca/opportunity/.+
+    detail: true
+    kind: Call
+    audience: [Colleges & polytechnics]
+
+  - id: oci
+    name: Ontario Centre of Innovation
+    funder: Ontario Centre of Innovation
+    region: Ontario
+    type: html
+    url: https://www.oc-innovation.ca/programs/
+    include: oc-innovation\.ca/programs/.+
+    detail: true
+    title_from_detail: true
+    kind: Program
+    categories: [Industry partnership, Commercialization]
+
+  - id: alberta-innovates
+    name: Alberta Innovates
+    funder: Alberta Innovates
+    region: Alberta
+    type: page
+    program: Alberta Innovates funding programs
+    url: https://albertainnovates.ca/funding/
+    kind: Program
+
+  - id: ngen
+    name: NGen (Next Generation Manufacturing Canada)
+    funder: Next Generation Manufacturing Canada
+    region: National
+    type: page            # project calls are listed for members only; track the public page
+    program: NGen advanced manufacturing project funding
+    url: https://www.ngen.ca/funding
+    kind: Program
+    categories: [Industry partnership, SME & business]
+
+  # ---------------------------------------------------------------- Evergreen programs (tracked for changes)
+  - id: swpp
+    name: Student Work Placement Program
+    funder: Employment and Social Development Canada
+    region: National
+    type: page
+    url: https://www.canada.ca/en/employment-social-development/programs/student-work-placement-program.html
+    kind: Program
+    default_status: open
+    categories: [Talent & internships]
+
+  - id: irap-youth
+    name: NRC IRAP – hire young graduates
+    funder: National Research Council – IRAP
+    region: National
+    type: page
+    url: https://nrc.canada.ca/en/support-technology-innovation/nrc-irap-funding-hire-young-graduates
+    kind: Program
+    default_status: open
+    categories: [Talent & internships, SME & business]

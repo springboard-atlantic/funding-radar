@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Funding Radar</title>
+<meta name="description" content="Weekly roundup of Canadian funding, support and program opportunities for tech-transfer offices.">
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --ink: #1d2433; --muted: #5b6475; --line: #e2e5eb;
+    --accent: #0b5cad; --accent-soft: #e8f1fb; --new: #0a7a43; --new-soft: #e3f5ec;
+    --warn: #a35200; --warn-soft: #fdf0e1; --closed: #8a8f99; --radius: 10px;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 15px/1.5 "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 20px 16px 40px; }
+  header h1 { margin: 0; font-size: 1.5rem; }
+  header p { margin: 4px 0 0; color: var(--muted); }
+  .stats { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0; }
+  .stat { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+          padding: 10px 14px; min-width: 130px; cursor: pointer; text-align: left; font: inherit; color: inherit; }
+  .stat b { display: block; font-size: 1.35rem; }
+  .stat span { color: var(--muted); font-size: .85rem; }
+  .stat[aria-pressed="true"] { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft); }
+  .controls { display: grid; grid-template-columns: 2fr repeat(4, 1fr); gap: 8px; margin-bottom: 10px; }
+  .controls input, .controls select { width: 100%; padding: 8px 10px; border: 1px solid var(--line);
+          border-radius: 8px; font: inherit; background: var(--card); color: var(--ink); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 14px; }
+  .chip { border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 4px 11px;
+          font: inherit; font-size: .85rem; cursor: pointer; color: var(--ink); }
+  .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .bar { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap;
+         color: var(--muted); font-size: .9rem; margin-bottom: 10px; }
+  .bar button, .linkbtn { font: inherit; font-size: .9rem; border: 1px solid var(--line); background: var(--card);
+         border-radius: 8px; padding: 5px 10px; cursor: pointer; color: var(--ink); }
+  .list { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 12px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px;
+          display: flex; flex-direction: column; gap: 8px; }
+  .card.inactive { opacity: .6; }
+  .top { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; font-size: .78rem; }
+  .badge { padding: 2px 8px; border-radius: 999px; background: #eef0f4; color: var(--muted); font-weight: 600; }
+  .badge.new { background: var(--new-soft); color: var(--new); }
+  .badge.open { background: var(--accent-soft); color: var(--accent); }
+  .badge.upcoming { background: var(--warn-soft); color: var(--warn); }
+  .badge.closed { color: var(--closed); }
+  .badge.soon { background: var(--warn-soft); color: var(--warn); }
+  .card h3 { margin: 0; font-size: 1.02rem; line-height: 1.35; }
+  .card h3 a { color: var(--ink); text-decoration: none; }
+  .card h3 a:hover { color: var(--accent); text-decoration: underline; }
+  .funder { color: var(--muted); font-size: .86rem; }
+  .desc { margin: 0; font-size: .9rem; color: #343c4c; }
+  .tags { display: flex; flex-wrap: wrap; gap: 4px; }
+  .tag { font-size: .75rem; padding: 1px 7px; border-radius: 6px; border: 1px solid var(--line); color: var(--muted); }
+  .foot { margin-top: auto; display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: .85rem; }
+  .foot a { color: var(--accent); font-weight: 600; text-decoration: none; }
+  .foot a:hover { text-decoration: underline; }
+  .deadline { color: var(--warn); font-weight: 600; }
+  .empty { text-align: center; color: var(--muted); padding: 40px 0; }
+  details.sources { margin-top: 28px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 16px; }
+  details.sources summary { cursor: pointer; font-weight: 600; }
+  .srctable { width: 100%; border-collapse: collapse; font-size: .88rem; margin-top: 8px; }
+  .srctable td, .srctable th { text-align: left; padding: 6px 8px; border-top: 1px solid var(--line); vertical-align: top; }
+  .ok { color: var(--new); } .err { color: #b3261e; }
+  .note { color: var(--muted); font-size: .82rem; margin-top: 16px; }
+  @media (max-width: 760px) {
+    .controls { grid-template-columns: 1fr 1fr; }
+    .controls input { grid-column: 1 / -1; }
+    .list { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Funding Radar</h1>
+    <p>Funding, support and program opportunities for research, commercialization, industry engagement, spin-offs, SMEs and talent in Canada. Collected weekly from official funder websites. <span id="updated"></span></p>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="controls">
+    <input id="q" type="search" placeholder="Search title, funder or description…" aria-label="Search">
+    <select id="region" aria-label="Region"><option value="">All regions</option></select>
+    <select id="funder" aria-label="Funder"><option value="">All funders</option></select>
+    <select id="audience" aria-label="Audience"><option value="">All audiences</option></select>
+    <select id="sort" aria-label="Sort">
+      <option value="new">Newest first</option>
+      <option value="deadline">Deadline (soonest)</option>
+      <option value="funder">Funder A–Z</option>
+      <option value="title">Title A–Z</option>
+    </select>
+  </div>
+  <div class="chips" id="chips" aria-label="Topics"></div>
+
+  <div class="bar">
+    <span id="count"></span>
+    <span>
+      <label><input type="checkbox" id="hideClosed" checked> Hide closed</label>
+      <button id="reset" type="button">Reset filters</button>
+      <button id="csv" type="button">Download CSV</button>
+    </span>
+  </div>
+
+  <div class="list" id="list"></div>
+
+  <details class="sources">
+    <summary>Sources checked (<span id="srcCount"></span>)</summary>
+    <table class="srctable"><thead><tr><th>Source</th><th>Region</th><th>Items</th><th>Last check</th></tr></thead><tbody id="srcBody"></tbody></table>
+  </details>
+  <p class="note">Information is gathered automatically and summarized from each funder's website; always confirm eligibility and deadlines on the official page before applying. "New" marks opportunities first seen in the last 14 days.</p>
+</div>
+
+<script>
+(function () {
+  const NEW_DAYS = 14, SOON_DAYS = 30;
+  const $ = (id) => document.getElementById(id);
+  const state = { q: "", region: "", funder: "", audience: "", cats: new Set(), quick: "", sort: "new", hideClosed: true };
+  let data = { items: [], sources: [], meta: {} };
+
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  const daysUntil = (iso) => Math.round((new Date(iso + "T00:00:00") - today) / 86400000);
+  const daysSince = (iso) => -daysUntil(iso);
+  const fmtDate = (iso) => new Date(iso + "T00:00:00").toLocaleDateString("en-CA", { year: "numeric", month: "short", day: "numeric" });
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  const isNew = (it) => it.first_seen > (data.meta.baseline || "") && daysSince(it.first_seen) <= NEW_DAYS;
+  const isSoon = (it) => it.deadline && daysUntil(it.deadline) >= 0 && daysUntil(it.deadline) <= SOON_DAYS;
+  const isUpdated = (it) => it.updated && daysSince(it.updated) <= NEW_DAYS;
+
+  function readHash() {
+    // Filters can be preset from the URL, e.g. index.html#region=Atlantic&cat=Commercialization
+    const p = new URLSearchParams(location.hash.slice(1));
+    if (p.get("region")) state.region = p.get("region");
+    if (p.get("q")) state.q = p.get("q");
+    if (p.get("audience")) state.audience = p.get("audience");
+    p.getAll("cat").forEach((c) => state.cats.add(c));
+  }
+
+  function fillSelect(el, values) {
+    values.forEach((v) => { const o = document.createElement("option"); o.value = o.textContent = v; el.appendChild(o); });
+  }
+  const uniq = (arr) => [...new Set(arr)].filter(Boolean).sort((a, b) => a.localeCompare(b));
+
+  function filtered() {
+    const q = state.q.trim().toLowerCase();
+    return data.items.filter((it) => {
+      if (!it.active) return false;
+      if (state.hideClosed && it.status === "closed") return false;
+      if (state.region && it.region !== state.region) return false;
+      if (state.funder && it.source_name !== state.funder) return false;
+      if (state.audience && !(it.audience || []).includes(state.audience)) return false;
+      for (const c of state.cats) if (!(it.categories || []).includes(c)) return false;
+      if (state.quick === "new" && !isNew(it)) return false;
+      if (state.quick === "soon" && !isSoon(it)) return false;
+      if (state.quick === "open" && it.status !== "open") return false;
+      if (q && !`${it.title} ${it.funder} ${it.source_name} ${it.description} ${(it.categories || []).join(" ")}`.toLowerCase().includes(q)) return false;
+      return true;
+    });
+  }
+
+  function sorted(items) {
+    const by = {
+      new: (a, b) => (b.first_seen.localeCompare(a.first_seen)) || (isSoon(b) - isSoon(a)) || a.title.localeCompare(b.title),
+      deadline: (a, b) => (a.deadline || "9999").localeCompare(b.deadline || "9999") || a.title.localeCompare(b.title),
+      funder: (a, b) => a.source_name.localeCompare(b.source_name) || a.title.localeCompare(b.title),
+      title: (a, b) => a.title.localeCompare(b.title),
+    }[state.sort];
+    return items.slice().sort(by);
+  }
+
+  function card(it) {
+    const badges = [];
+    if (isNew(it)) badges.push('<span class="badge new">New</span>');
+    else if (isUpdated(it)) badges.push('<span class="badge new">Updated</span>');
+    if (it.status && it.status !== "unknown") badges.push(`<span class="badge ${it.status}">${it.status[0].toUpperCase() + it.status.slice(1)}</span>`);
+    badges.push(`<span class="badge">${esc(it.kind)}</span>`);
+    badges.push(`<span class="badge">${esc(it.region)}</span>`);
+    let dl = "";
+    if (it.deadline) {
+      const d = daysUntil(it.deadline);
+      dl = `<span class="deadline">Deadline ${fmtDate(it.deadline)}${d <= SOON_DAYS ? ` · ${d === 0 ? "today" : d + " days"}` : ""}</span>`;
+    } else dl = `<span class="funder">First seen ${fmtDate(it.first_seen)}</span>`;
+    const tags = (it.categories || []).slice(0, 5).map((t) => `<span class="tag">${esc(t)}</span>`).join("");
+    return `<article class="card">
+      <div class="top">${badges.join("")}</div>
+      <h3><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a></h3>
+      <div class="funder">${esc(it.funder)}</div>
+      ${it.description ? `<p class="desc">${esc(it.description)}</p>` : ""}
+      <div class="tags">${tags}</div>
+      <div class="foot">${dl}<a href="${esc(it.url)}" target="_blank" rel="noopener">Details ↗</a></div>
+    </article>`;
+  }
+
+  function renderStats() {
+    const act = data.items.filter((i) => i.active && i.status !== "closed");
+    const tiles = [
+      ["", act.length, "Active opportunities"],
+      ["new", act.filter(isNew).length, `New in last ${NEW_DAYS} days`],
+      ["soon", act.filter(isSoon).length, `Deadline within ${SOON_DAYS} days`],
+      ["open", act.filter((i) => i.status === "open").length, "Marked open"],
+    ];
+    $("stats").innerHTML = tiles.map(([k, n, label]) =>
+      `<button class="stat" type="button" data-quick="${k}" aria-pressed="${state.quick === k}"><b>${n}</b><span>${label}</span></button>`).join("");
+  }
+
+  function render() {
+    renderStats();
+    const items = sorted(filtered());
+    $("count").textContent = `${items.length} opportunit${items.length === 1 ? "y" : "ies"} shown`;
+    $("list").innerHTML = items.length ? items.map(card).join("") : '<div class="empty">No opportunities match these filters.</div>';
+    document.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", state.cats.has(c.dataset.cat)));
+  }
+
+  function renderSources() {
+    $("srcCount").textContent = data.sources.length;
+    $("srcBody").innerHTML = data.sources.map((s) => `<tr>
+      <td><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a></td>
+      <td>${esc(s.region)}</td><td>${s.count}</td>
+      <td class="${s.ok ? "ok" : "err"}">${s.ok ? "OK" : "Check site directly – " + esc(s.error)}</td></tr>`).join("");
+  }
+
+  function downloadCsv() {
+    const cols = ["title", "funder", "region", "kind", "status", "deadline", "categories", "audience", "url", "description", "first_seen"];
+    const cell = (v) => `"${String(Array.isArray(v) ? v.join("; ") : v ?? "").replace(/"/g, '""')}"`;
+    const rows = [cols.join(",")].concat(sorted(filtered()).map((it) => cols.map((c) => cell(it[c])).join(",")));
+    const blob = new Blob(["﻿" + rows.join("\r\n")], { type: "text/csv;charset=utf-8" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = `funding-radar-${new Date().toISOString().slice(0, 10)}.csv`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }
+
+  function bind() {
+    $("q").addEventListener("input", (e) => { state.q = e.target.value; render(); });
+    ["region", "funder", "audience", "sort"].forEach((k) => $(k).addEventListener("change", (e) => { state[k] = e.target.value; render(); }));
+    $("hideClosed").addEventListener("change", (e) => { state.hideClosed = e.target.checked; render(); });
+    $("chips").addEventListener("click", (e) => {
+      const c = e.target.closest(".chip"); if (!c) return;
+      state.cats.has(c.dataset.cat) ? state.cats.delete(c.dataset.cat) : state.cats.add(c.dataset.cat);
+      render();
+    });
+    $("stats").addEventListener("click", (e) => {
+      const s = e.target.closest(".stat"); if (!s) return;
+      state.quick = state.quick === s.dataset.quick ? "" : s.dataset.quick;
+      if (state.quick === "soon") { state.sort = "deadline"; $("sort").value = "deadline"; }
+      render();
+    });
+    $("reset").addEventListener("click", () => {
+      Object.assign(state, { q: "", region: "", funder: "", audience: "", quick: "", sort: "new", hideClosed: true });
+      state.cats.clear();
+      ["q", "region", "funder", "audience"].forEach((k) => ($(k).value = ""));
+      $("sort").value = "new"; $("hideClosed").checked = true;
+      render();
+    });
+    $("csv").addEventListener("click", downloadCsv);
+  }
+
+  fetch("data/opportunities.json", { cache: "no-cache" })
+    .then((r) => r.json())
+    .then((d) => {
+      data = d;
+      const active = d.items.filter((i) => i.active);
+      fillSelect($("region"), uniq(active.map((i) => i.region)));
+      fillSelect($("funder"), uniq(active.map((i) => i.source_name)));
+      fillSelect($("audience"), uniq(active.flatMap((i) => i.audience || [])));
+      const cats = uniq(active.flatMap((i) => i.categories || []));
+      $("chips").innerHTML = cats.map((c) => `<button class="chip" type="button" data-cat="${esc(c)}" aria-pressed="false">${esc(c)}</button>`).join("");
+      if (d.meta.generated) $("updated").textContent = `Last updated ${new Date(d.meta.generated).toLocaleDateString("en-CA", { year: "numeric", month: "long", day: "numeric" })}.`;
+      readHash();
+      $("q").value = state.q; $("region").value = state.region; $("audience").value = state.audience;
+      bind(); renderSources(); render();
+    })
+    .catch(() => { $("list").innerHTML = '<div class="empty">Could not load the opportunity list. Please try again later.</div>'; });
+})();
+</script>
+</body>
+</html>
