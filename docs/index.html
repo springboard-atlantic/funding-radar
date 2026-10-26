@@ -357,6 +357,8 @@
   const isSoon = (it) => upcomingDeadline(it) && daysUntil(it.deadline) <= SOON_DAYS;
   const weekOf = (it) => (upcomingDeadline(it) ? Math.floor(daysUntil(it.deadline) / 7) : null);
   const live = () => data.items.filter((i) => i.active && i.status !== "closed");
+  // A database entry names its real sponsor, credited to the database it came from.
+  const who = (it) => (it.via ? `${esc(it.funder)} <span style="color:var(--faint)">via ${esc(it.via)}</span>` : esc(it.source_name));
   const hasCat = (it) => !state.cat || (it.categories || []).includes(state.cat);
 
   // Upcoming = a deadline in the next 120 days, then calls announced as "coming soon".
@@ -406,7 +408,7 @@
     return `<li><details class="up">
       <summary>${date}
         <span><span class="t">${esc(it.title)}</span>
-          <span class="meta" style="display:block">${isNew(it) ? '<span class="new">New · </span>' : ""}${esc(it.source_name)} · ${esc(it.region)}</span></span>
+          <span class="meta" style="display:block">${isNew(it) ? '<span class="new">New · </span>' : ""}${who(it)} · ${esc(it.region)}</span></span>
         <span class="right">${left}<span class="chev" aria-hidden="true">›</span></span>
       </summary>
       <div class="detail">
@@ -473,7 +475,7 @@
     return items.slice().sort(by);
   }
   function row(it) {
-    const meta = [it.kind, it.source_name, it.region].filter(Boolean).map(esc).join(" · ");
+    const meta = [esc(it.kind), who(it), esc(it.region)].filter(Boolean).join(" · ");
     const tags = (it.categories || []).slice(0, 3).map((t) => `<span class="tag${t === "Intellectual property" ? " ip" : ""}">${esc(t)}</span>`).join("");
     const status = it.status && it.status !== "unknown"
       ? `<span class="pill ${it.status}">${it.status[0].toUpperCase() + it.status.slice(1)}</span>` : '<span class="dash">–</span>';

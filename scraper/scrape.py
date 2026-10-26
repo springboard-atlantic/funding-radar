@@ -9,6 +9,7 @@ Run:  python scraper/scrape.py            (all sources)
 """
 from __future__ import annotations
 
+import difflib
 import hashlib
 import json
 import re
@@ -249,6 +250,46 @@ def extract_wpjson(src: dict) -> list[dict]:
     return out
 
 
+def extract_table(src: dict) -> list[dict]:
+    """An HTML table whose header names the columns (e.g. a university's funding database).
+
+    `columns` maps our fields to header text: title (required, its link is the item URL),
+    funder, deadline, status. `open_values` lists status cells that mean the call is open."""
+    r = fetch(src["url"])
+    soup = BeautifulSoup(r.text, "lxml")
+    table = soup.select_one(src.get("table", "table"))
+    if table is None:
+        return []
+    headers = [clean(th.get_text(" ")).lower() for th in table.find_all("th")]
+    cols = {k: headers.index(v.lower()) for k, v in src["columns"].items() if v.lower() in headers}
+    open_values = {v.lower() for v in src.get("open_values", [])}
+    out = []
+    for tr in table.find_all("tr"):
+        cells = tr.find_all("td")
+        if len(cells) < len(headers) or "title" not in cols:
+            continue
+        cell = lambda k: clean(cells[cols[k]].get_text(" ")) if k in cols else ""
+        a = cells[cols["title"]].find("a", href=True)
+        if not a:
+            continue
+        deadline = None
+        if cell("deadline"):
+            try:
+                deadline = dateparser.parse(cell("deadline"), fuzzy=False).date().isoformat()
+            except (ValueError, OverflowError):
+                deadline = None
+        out.append({
+            "title": clean(a.get_text(" ")),
+            "url": urljoin(r.url, a["href"]),
+            "funder": cell("funder") or None,
+            "description": "",
+            "extra_text": " ".join(clean(c.get_text(" ")) for c in cells),
+            "deadline": deadline,
+            "status": "open" if cell("status").lower() in open_values else None,
+        })
+    return out
+
+
 def extract_sshrc(src: dict) -> list[dict]:
     """SSHRC publishes its opportunity list as a JavaScript module; convert it to JSON."""
     r = fetch(src["url"])
@@ -406,7 +447,7 @@ def extract_page(src: dict) -> list[dict]:
 
 
 EXTRACTORS = {"rss": extract_rss, "gcnews": extract_gcnews, "html": extract_html, "page": extract_page,
-              "wpjson": extract_wpjson, "sshrc": extract_sshrc}
+              "wpjson": extract_wpjson, "sshrc": extract_sshrc, "table": extract_table}
 
 
 def meta_description(soup: BeautifulSoup) -> str:
@@ -483,7 +524,7 @@ def run(only: set[str] | None = None) -> None:
             raws = EXTRACTORS[src.get("type", "html")](src)
             title_include = re.compile(src["title_include"], re.I) if src.get("title_include") and src.get("type") != "gcnews" else None
             out_of_scope = re.compile(config["exclude_regions"]) if config.get("exclude_regions") else None
-            details_left = MAX_DETAIL_FETCHES
+            details_left = src.get("max_detail", MAX_DETAIL_FETCHES)
             for raw in raws:
                 if not raw.get("url") or not raw.get("title"):
                     continue
@@ -531,6 +572,24 @@ def run(only: set[str] | None = None) -> None:
         if s["id"] not in ran:
             statuses.append(s)
 
+    # An aggregator (a university's database) repeats many calls the funders list
+    # themselves; keep the funder's own entry and drop the copy.
+    aggregators = {s["id"] for s in config["sources"] if s.get("aggregator")}
+    def title_key(t: str) -> str:
+        t = re.sub(r"(nserc|sshrc|cihr|cfi|nfrf|mitacs|rti|the|program|programme|grants?|awards?|competition)", " ", t.lower())
+        return " ".join(re.sub(r"[^a-z0-9]+", " ", t).split())
+    def same_call(agg: str, off: str) -> bool:
+        if not agg or not off:
+            return False
+        return agg == off or (len(off.split()) >= 2 and f" {off} " in f" {agg} ") or             difflib.SequenceMatcher(None, agg, off).ratio() >= 0.85
+    official = [title_key(it["title"]) for it in items.values() if it["source_id"] not in aggregators]
+    for iid in [i for i, it in items.items() if it["source_id"] in aggregators
+                and any(same_call(title_key(it["title"]), o) for o in official)]:
+        del items[iid]
+    for st in statuses:
+        if st["id"] in aggregators:
+            st["count"] = sum(1 for it in items.values() if it["source_id"] == st["id"])
+
     known_ids = {s["id"] for s in config["sources"]}
     out_items = sorted((it for it in items.values() if it["source_id"] in known_ids),
                        key=lambda it: (it["first_seen"], it["title"]), reverse=True)
@@ -567,7 +626,8 @@ def build_item(iid: str, raw: dict, src: dict, old: dict | None, today: str) -> 
         "title": raw["title"],
         "url": raw["url"],
         "description": clean(raw.get("description"), 420),
-        "funder": src.get("funder", src["name"]),
+        "funder": raw.get("funder") or src.get("funder", src["name"]),
+        "via": src.get("short", src["name"]) if src.get("aggregator") else None,
         "source_id": src["id"],
         "source_name": src["name"],
         "region": src.get("region", "National"),

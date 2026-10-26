@@ -1,8 +1,8 @@
 {
  "meta": {
-  "generated": "2026-10-26T19:44:05+00:00",
+  "generated": "2026-10-26T20:01:52+00:00",
   "baseline": "2026-10-26",
-  "item_count": 229
+  "item_count": 314
  },
  "sources": [
   {
@@ -16,6 +16,16 @@
    "seconds": 57.3
   },
   {
+   "id": "acoa-aif",
+   "name": "ACOA – Atlantic Innovation Fund",
+   "url": "https://www.canada.ca/en/atlantic-canada-opportunities/services/atlantic-innovation-fund.html",
+   "region": "Atlantic",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "seconds": 3.9
+  },
+  {
    "id": "cfi",
    "name": "Canada Foundation for Innovation",
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities",
@@ -23,7 +33,7 @@
    "ok": true,
    "count": 7,
    "error": null,
-   "seconds": 12.5
+   "seconds": 1.1
   },
   {
    "id": "ocean-supercluster",
@@ -86,6 +96,16 @@
    "seconds": 1.4
   },
   {
+   "id": "global-clusters",
+   "name": "Global Innovation Clusters",
+   "url": "https://ised-isde.canada.ca/site/global-innovation-clusters/en",
+   "region": "National",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "seconds": 0.8
+  },
+  {
    "id": "gc-news",
    "name": "Government of Canada announcements",
    "url": "https://www.canada.ca/en/news.html",
@@ -104,6 +124,16 @@
    "count": 6,
    "error": null,
    "seconds": 5.3
+  },
+  {
+   "id": "tcs-ipp",
+   "name": "Innovation Partnership Program (Trade Commissioner Service)",
+   "url": "https://www.tradecommissioner.gc.ca/en/our-solutions/support-programs/innovation-partnership-program.html",
+   "region": "National",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "seconds": 4.0
   },
   {
    "id": "innovation-pei",
@@ -146,6 +176,16 @@
    "seconds": 7.9
   },
   {
+   "id": "mun-rfd",
+   "name": "Memorial University – Research Funding Database",
+   "url": "https://research-tools.mun.ca/funding/opportunities/",
+   "region": "Atlantic",
+   "ok": true,
+   "count": 80,
+   "error": null,
+   "seconds": 33.9
+  },
+  {
    "id": "mitacs",
    "name": "Mitacs",
    "url": "https://www.mitacs.ca/programs-resources/programs/",
@@ -154,6 +194,16 @@
    "count": 15,
    "error": null,
    "seconds": 26.4
+  },
+  {
+   "id": "dnd-ip",
+   "name": "National Defence – IP licensing",
+   "url": "https://www.canada.ca/en/department-national-defence/corporate/intellectual-property.html",
+   "region": "National",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "seconds": 2.1
   },
   {
    "id": "nbif",
@@ -236,6 +286,16 @@
    "seconds": 0.1
   },
   {
+   "id": "nrc-ip-licensing",
+   "name": "NRC – IP licensing",
+   "url": "https://nrc.canada.ca/en/research-development/intellectual-property-licensing",
+   "region": "National",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "seconds": 0.9
+  },
+  {
    "id": "nserc",
    "name": "NSERC",
    "url": "https://nserc-crsng.canada.ca/en/funding/funding-opportunity?field_fo_status%5Bopen%5D=open",
@@ -243,7 +303,7 @@
    "ok": true,
    "count": 38,
    "error": null,
-   "seconds": 48.8
+   "seconds": 5.6
   },
   {
    "id": "research-ns",
@@ -273,7 +333,7 @@
    "ok": true,
    "count": 33,
    "error": null,
-   "seconds": 1.0
+   "seconds": 1.3
   },
   {
    "id": "swpp",
@@ -287,6 +347,34 @@
   }
  ],
  "items": [
+  {
+   "id": "a5f9454c5aa2a27b",
+   "title": "endMS Doctoral Studentship Awards and Postdoctoral Fellowship Program",
+   "url": "https://research-tools.mun.ca/funding/opportunities/endms-doctoral-studentship-awards-and-postdoctoral-fellowship-program/",
+   "description": "",
+   "funder": "MS Canada",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Talent & internships"
+   ],
+   "audience": [
+    "Universities",
+    "Students & trainees"
+   ],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
   {
    "id": "cf7c1132b94661f3",
    "title": "What we heard: Strengthening the long-term sustainability of the Project Grant program: Message from the Vice-President, Research Programs",
@@ -444,6 +532,30 @@
    "active": true
   },
   {
+   "id": "0f0a022d1d49affa",
+   "title": "UArctic Chairs",
+   "url": "https://research-tools.mun.ca/funding/opportunities/uarctic-chairs/",
+   "description": "",
+   "funder": "uArctic",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-12-01",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "37c0a99e6912890b",
    "title": "Transformation",
    "url": "https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/transformation/transformation-eng.aspx",
@@ -566,6 +678,34 @@
    "active": true
   },
   {
+   "id": "8162aab0c0561ddd",
+   "title": "The Defence Industry: Atlantic Indigenous Economic Opportunities RFP",
+   "url": "https://research-tools.mun.ca/funding/opportunities/the-defence-industry-atlantic-indigenous-economic-opportunities-rfp/",
+   "description": "",
+   "funder": "Atlantic Policy Congress of First Nations Chiefs Secretariat",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Industry partnership",
+    "Defence & dual-use"
+   ],
+   "audience": [
+    "Industry & SMEs"
+   ],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "0afdcb10623d1cc6",
    "title": "The Brockhouse Canada Prize for Interdisciplinary Research in Science and Engineering",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/brockhouse-canada-prize-interdisciplinary-research-science-and-engineering",
@@ -659,6 +799,30 @@
    ],
    "audience": [],
    "deadline": "2026-12-31",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "c97b53ebb769528f",
+   "title": "Targeted Geoscience Initiative",
+   "url": "https://research-tools.mun.ca/funding/opportunities/targeted-geoscience-initiative/",
+   "description": "",
+   "funder": "National Research Council of Canada (NRC)",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-11-01",
    "status": "open",
    "published": null,
    "content_hash": null,
@@ -1056,6 +1220,54 @@
    "active": true
   },
   {
+   "id": "2fe57d3a9e5d5cf8",
+   "title": "Stem Cell Network Research Funding Competition – LOI",
+   "url": "https://research-tools.mun.ca/funding/opportunities/stem-cell-network-research-funding-competition-loi/",
+   "description": "",
+   "funder": "Stem Cell Network",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "ff9c05801fffe13d",
+   "title": "Stem Cell Network Research Funding Competition – Full Application",
+   "url": "https://research-tools.mun.ca/funding/opportunities/stem-cell-network-research-funding-competition-full-application/",
+   "description": "",
+   "funder": "Stem Cell Network",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-11-24",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "e4198970d6a51ac8",
    "title": "Springboard Atlantic IP Advantage",
    "url": "https://springboardatlantic.ca/ipadvantage/",
@@ -1147,6 +1359,30 @@
    "categories": [
     "Research",
     "Industry partnership"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "7bb271e2cae1c9c7",
+   "title": "Sony Research Award Program",
+   "url": "https://research-tools.mun.ca/funding/opportunities/sony-research-award-program/",
+   "description": "",
+   "funder": "Sony",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
    ],
    "audience": [],
    "deadline": null,
@@ -1281,6 +1517,54 @@
    "active": true
   },
   {
+   "id": "e484b37e9fbc953d",
+   "title": "Salmon Conservation Funding",
+   "url": "https://research-tools.mun.ca/funding/opportunities/salmon-conservation-funding/",
+   "description": "",
+   "funder": "The Foundation for Conservation of Atlantic Salmon",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-11-13",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "091ef66144bbda39",
+   "title": "Salary Based Research Grant Programs",
+   "url": "https://research-tools.mun.ca/funding/opportunities/salary-based-research-grant-programs/",
+   "description": "",
+   "funder": "Memorial University of Newfoundland",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "b17ec497380aac61",
    "title": "SSHRC Institutional Grants",
    "url": "https://sshrc-crsh.canada.ca/en/funding/opportunities/institutional-grants.aspx",
@@ -1334,6 +1618,30 @@
    "active": true
   },
   {
+   "id": "745739c2fc97a7c7",
+   "title": "SSHRC Explore – October 2026- Revised",
+   "url": "https://research-tools.mun.ca/funding/opportunities/sshrc-explore-october-2026/",
+   "description": "",
+   "funder": "Memorial University of Newfoundland",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "eac7d44b0cb71b8c",
    "title": "SMEs innovating with AI",
    "url": "https://nrc.canada.ca/en/support-technology-innovation/nrc-irap-support-smes-innovating-artificial-intelligence",
@@ -1378,6 +1686,102 @@
    "audience": [],
    "deadline": null,
    "status": "closed",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "ff47ee52c4a93e4f",
+   "title": "Research opportunities in HAWC suborbital, science, and application development activities (ROHSSA) – Cycle 4 NOI",
+   "url": "https://research-tools.mun.ca/funding/opportunities/research-opportunities-in-hawc-suborbital-science-and-application-development-activities-rohssa-cycle-4-noi/",
+   "description": "",
+   "funder": "Canadian Space Agency",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2027-08-31",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "68613865ac2d9b37",
+   "title": "Research opportunities in HAWC suborbital, science, and application development activities (ROHSSA) – Cycle 4 Application",
+   "url": "https://research-tools.mun.ca/funding/opportunities/research-opportunities-in-hawc-suborbital-science-and-application-development-activities-rohssa-cycle-4-application/",
+   "description": "",
+   "funder": "Canadian Space Agency",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2027-10-05",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "d1c2604fd3a40c62",
+   "title": "Research opportunities in HAWC suborbital, science, and application development activities (ROHSSA) – Cycle 3 NOI",
+   "url": "https://research-tools.mun.ca/funding/opportunities/research-opportunities-in-hawc-suborbital-science-and-application-development-activities-rohssa-cycle-3-noi/",
+   "description": "",
+   "funder": "Canadian Space Agency",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "99a6e32ef5a34040",
+   "title": "Research opportunities in HAWC suborbital, science, and application development activities (ROHSSA) – Cycle 3 Application",
+   "url": "https://research-tools.mun.ca/funding/opportunities/research-opportunities-in-hawc-suborbital-science-and-application-development-activities-rohssa-cycle-3-application/",
+   "description": "",
+   "funder": "Canadian Space Agency",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -1663,6 +2067,30 @@
    "active": true
   },
   {
+   "id": "f4b50a67e2f8f260",
+   "title": "Publication Subvention – September 2026",
+   "url": "https://research-tools.mun.ca/funding/opportunities/publication-subvention-september-2026/",
+   "description": "",
+   "funder": "Memorial University of Newfoundland",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "7abeb29c0081367c",
    "title": "Project Grant: Building a sustainable future for curiosity-driven research",
    "url": "https://cihr-irsc.gc.ca/e/54821.html",
@@ -1837,6 +2265,30 @@
    "active": true
   },
   {
+   "id": "b32e12419fc3bf1e",
+   "title": "Preserving Human Skills and Agency in The Age of Intelligent Technologies",
+   "url": "https://research-tools.mun.ca/funding/opportunities/preserving-human-skills-and-agency-in-the-age-of-intelligent-technologies/",
+   "description": "",
+   "funder": "CSA Group",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-12-01",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "321b255354002381",
    "title": "Policy Innovation Partnership Grants",
    "url": "https://sshrc-crsh.canada.ca/en/funding/opportunities/policy-innovation-partnership-grants.aspx",
@@ -1872,6 +2324,55 @@
    "kind": "Call",
    "categories": [
     "Defence & dual-use"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "a93528a6c41c467f",
+   "title": "Pfizer RFP: Clinical Research Studies of Atirmociclib in HR+/HER2- and/or HER2+ Breast Cancer",
+   "url": "https://research-tools.mun.ca/funding/opportunities/pfizer-rfp-clinical-research-studies-of-atirmociclib-in-hr-her2-and-or-her2-breast-cancer/",
+   "description": "",
+   "funder": "Pfizer Inc",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": "2027-01-12",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "393ae3a106bf8f2c",
+   "title": "Pfizer New Mechanisms and Emerging Treatment Options in Metastatic Castration Resistant Prostate Cancer (mCRPC)",
+   "url": "https://research-tools.mun.ca/funding/opportunities/pfizer-new-mechanisms-and-emerging-treatment-options-in-metastatic-castration-resistant-prostate-cancer-mcrpc/",
+   "description": "",
+   "funder": "Pfizer Inc",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
    ],
    "audience": [],
    "deadline": null,
@@ -2003,6 +2504,30 @@
    ],
    "audience": [],
    "deadline": "2026-11-16",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "d02ffbf477c2751b",
+   "title": "POPCORN One-Year Pilot Randomized Trial Funding Opportunity",
+   "url": "https://research-tools.mun.ca/funding/opportunities/popcorn-one-year-pilot-randomized-trial-funding-opportunity/",
+   "description": "",
+   "funder": "POPCORN (Pediatric Outcome imProvement through COordination of Research Networks)",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-12-01",
    "status": "open",
    "published": null,
    "content_hash": null,
@@ -2194,6 +2719,78 @@
    "active": true
   },
   {
+   "id": "1920e280527a03bd",
+   "title": "OFI Community-Led Research Program – Tier 2",
+   "url": "https://research-tools.mun.ca/funding/opportunities/ofi-community-led-research-program-tier-2/",
+   "description": "",
+   "funder": "Ocean Frontier Institute",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-11-30",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "005d71160323a297",
+   "title": "Nutrition Research Funding Program – LOI",
+   "url": "https://research-tools.mun.ca/funding/opportunities/nutrition-research-funding-program-loi/",
+   "description": "",
+   "funder": "Dairy Farmers of Canada",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-12-01",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "526e3c3ecfed3e00",
+   "title": "Nutrition Research Funding Program – Full Application",
+   "url": "https://research-tools.mun.ca/funding/opportunities/nutrition-research-funding-program-full-application/",
+   "description": "",
+   "funder": "Dairy Farmers of Canada",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2027-04-16",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "05b3980ff894e0b2",
    "title": "Nova Scotia Research and Development Tax Credit",
    "url": "https://investnovascotia.ca/incentives-programs-services/nova-scotia-research-and-development-tax-credit",
@@ -2266,6 +2863,30 @@
    "active": true
   },
   {
+   "id": "a12c0c33cc39a302",
+   "title": "Northern Scientific Training Program (NSTP) 2027-2028",
+   "url": "https://research-tools.mun.ca/funding/opportunities/northern-scientific-training-program-nstp-2027-2028/",
+   "description": "",
+   "funder": "Memorial University of Newfoundland",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-10-30",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "e2e5556ab6082a3e",
    "title": "Northern Isolated Community Initiatives Fund",
    "url": "https://www.canada.ca/en/atlantic-canada-opportunities/services/northern-isolated-community-initiatives-fund.html",
@@ -2292,19 +2913,17 @@
    "id": "82ca9951105f7bd4",
    "title": "Northern Fund",
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/northern-fund",
-   "description": "The Northern Fund will provide eligible institutions and organizations in Northern Canada with research infrastructure that will enhance the capacity for research projects that address the priorities of the region and its communities. These research projects will be conceived, developed, led and managed by Northern institutions, researchers and communities.",
+   "description": "",
    "funder": "Canada Foundation for Innovation",
    "source_id": "cfi",
    "source_name": "Canada Foundation for Innovation",
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Research",
-    "Infrastructure & equipment"
+    "Infrastructure & equipment",
+    "Research"
    ],
-   "audience": [
-    "Universities"
-   ],
+   "audience": [],
    "deadline": null,
    "status": "unknown",
    "published": null,
@@ -2332,6 +2951,30 @@
     "Students & trainees"
    ],
    "deadline": "2026-10-30",
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "268e4ee9ec52e215",
+   "title": "National Anti-Racism Fund (NARF)’s Projects Grants – EOI",
+   "url": "https://research-tools.mun.ca/funding/opportunities/national-anti-racism-fund-narfs-projects-grants-eoi/",
+   "description": "",
+   "funder": "Canadian Race Relations Foundation",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
    "status": "unknown",
    "published": null,
    "content_hash": null,
@@ -2444,7 +3087,7 @@
    "id": "be9e2521c950a68e",
    "title": "NSERC Donna Strickland Prize for Societal Impact of Natural Sciences and Engineering Research",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/nserc-donna-strickland-prize-societal-impact-natural-sciences-and-engineering",
-   "description": "The NSERC Donna Strickland Prize for Societal Impact of Natural Sciences and Engineering Research is awarded annually to an individual or team whose outstanding research, conducted in Canada in the natural sciences and engineering, has led to exceptional benefits for Canadian society, environment or economy.",
+   "description": "The NSERC Donna Strickland Prize for Societal Impact of Natural Sciences and Engineering Research is awarded annually to an individual or team whose outstanding…",
    "funder": "Natural Sciences and Engineering Research Council of Canada",
    "source_id": "nserc",
    "source_name": "NSERC",
@@ -2464,18 +3107,41 @@
    "active": true
   },
   {
+   "id": "c6de0c33dc0a7928",
+   "title": "NSERC Create 2027 – Application",
+   "url": "https://research-tools.mun.ca/funding/opportunities/nserc-create-2027-application/",
+   "description": "",
+   "funder": "Natural Sciences and Engineering Research Council (NSERC)",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "89855ddce25d9445",
    "title": "NSERC Awards for Science Promotion",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/nserc-awards-science-promotion",
-   "description": "The NSERC Awards for Science Promotion recognize individuals and groups who inspire others by promoting science to the general public.Examples of science promotion activities that could be considered for the award include:organizing science camps, fairs, clubs or mentorship programs with youth organizationsenhancing equity, diversity and inclusion in existing programscreating new learning…",
+   "description": "The NSERC Awards for Science Promotion recognize individuals and groups who inspire others by promoting science to the general public. Examples of science…",
    "funder": "Natural Sciences and Engineering Research Council of Canada",
    "source_id": "nserc",
    "source_name": "NSERC",
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Research",
-    "Talent & internships"
+    "Research"
    ],
    "audience": [],
    "deadline": null,
@@ -2571,6 +3237,31 @@
    "active": true
   },
   {
+   "id": "3c62ee99aba41fbc",
+   "title": "NL Support Health Professional-led Research/Evaluation Funding",
+   "url": "https://research-tools.mun.ca/funding/opportunities/nl-support-health-professional-led-research-evaluation-funding/",
+   "description": "",
+   "funder": "NL SUPPORT",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "8b2761801a491c59",
    "title": "NGen advanced manufacturing project funding",
    "url": "https://www.ngen.ca/funding",
@@ -2594,6 +3285,102 @@
    "status": "unknown",
    "published": null,
    "content_hash": "c3eaa5a8a0c2495ee5bccfbc44d6afefba614216",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "690c98754c3a9506",
+   "title": "Multiculturalism and Anti-Racism Program (MARP) the Projects Component, Anti-Racism Call",
+   "url": "https://research-tools.mun.ca/funding/opportunities/multiculturalism-and-anti-racism-program-marp-the-projects-component-anti-racism-call/",
+   "description": "",
+   "funder": "Government of Canada",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-11-12",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "3c3f9f1c75ad4bda",
+   "title": "Multiculturalism and Anti-Racism Program (MARP) Events Component – Intake 3",
+   "url": "https://research-tools.mun.ca/funding/opportunities/multiculturalism-and-anti-racism-program-marp-events-component-intake-3/",
+   "description": "",
+   "funder": "Government of Canada",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2027-06-22",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "f477084ff1f4d5c1",
+   "title": "Multiculturalism and Anti-Racism Program (MARP) Events Component – Intake 2",
+   "url": "https://research-tools.mun.ca/funding/opportunities/multiculturalism-and-anti-racism-program-marp-events-component-intake-2/",
+   "description": "",
+   "funder": "Government of Canada",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2027-02-24",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "211481cda3020b4c",
+   "title": "Multiculturalism and Anti-Racism Program (MARP) Events Component – Intake 1",
+   "url": "https://research-tools.mun.ca/funding/opportunities/multiculturalism-and-anti-racism-program-marp-events-component-intake-1/",
+   "description": "",
+   "funder": "Government of Canada",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-10-27",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
    "first_seen": "2026-10-26",
    "last_seen": "2026-10-26",
    "updated": null,
@@ -2707,19 +3494,43 @@
    "id": "8219c594f8a4285d",
    "title": "Major Science Initiatives Fund",
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/major-science-initiatives-fund",
-   "description": "The Major Science Initiatives Fund (MSIF) provides support for the ongoing operating and maintenance needs of research facilities of national importance. It promotes responsible stewardship by ensuring these facilities adopt best practices for their management and governance.",
+   "description": "",
    "funder": "Canada Foundation for Innovation",
    "source_id": "cfi",
    "source_name": "Canada Foundation for Innovation",
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Research",
-    "Infrastructure & equipment"
+    "Infrastructure & equipment",
+    "Research"
    ],
    "audience": [],
    "deadline": null,
-   "status": "open",
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "525d7b62c7c1ba67",
+   "title": "MS Canada Discovery Research Grants",
+   "url": "https://research-tools.mun.ca/funding/opportunities/ms-canada-discovery-research-grants/",
+   "description": "",
+   "funder": "MS Canada",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -2744,6 +3555,127 @@
    ],
    "audience": [],
    "deadline": "2026-11-04",
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "8e447fede912ae08",
+   "title": "MINDS Targeted Engagement Grants (TEGs) and Young MINDS Initiative",
+   "url": "https://research-tools.mun.ca/funding/opportunities/minds-targeted-engagement-grants-tegs-and-young-minds-initiative/",
+   "description": "",
+   "funder": "National Defence and the Canadian Armed Forces",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-10-26",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "6d49efa8b24d3345",
+   "title": "MINDS Collaborative Networks Program",
+   "url": "https://research-tools.mun.ca/funding/opportunities/minds-collaborative-networks-program/",
+   "description": "",
+   "funder": "National Defence and the Canadian Armed Forces",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Industry partnership"
+   ],
+   "audience": [],
+   "deadline": "2026-11-23",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "92ac7d48f7a3c31d",
+   "title": "MEOPAR Living Lab Fund",
+   "url": "https://research-tools.mun.ca/funding/opportunities/meopar-living-lab-fund/",
+   "description": "",
+   "funder": "MEOPAR (Marine Environmental Observation Prediction & Response network)",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-11-18",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "fb5d6c4dc2b349da",
+   "title": "MEOPAR Expedition Fund",
+   "url": "https://research-tools.mun.ca/funding/opportunities/meopar-expedition-fund/",
+   "description": "",
+   "funder": "MEOPAR (Marine Environmental Observation Prediction & Response network)",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-10-30",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "30859df1c3b1c6d7",
+   "title": "Lung Cancer Canada Give a Breath Research Award",
+   "url": "https://research-tools.mun.ca/funding/opportunities/lung-cancer-canada-give-a-breath-research-award/",
+   "description": "",
+   "funder": "Lung Cancer Canada",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
    "status": "unknown",
    "published": null,
    "content_hash": null,
@@ -2856,6 +3788,83 @@
    "active": true
   },
   {
+   "id": "3022f1b4d9965c1d",
+   "title": "Knowledge Mobilization Grants: Mental Health of Older Persons – Registration",
+   "url": "https://research-tools.mun.ca/funding/opportunities/knowledge-mobilization-grants-mental-health-of-older-persons-registration/",
+   "description": "",
+   "funder": "Brain Canada Foundation",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Commercialization",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "d8600f129d3cdce6",
+   "title": "Knowledge Mobilization Grants: Mental Health of Older Persons – Full Application",
+   "url": "https://research-tools.mun.ca/funding/opportunities/knowledge-mobilization-grants-mental-health-of-older-persons-full-application/",
+   "description": "",
+   "funder": "Brain Canada Foundation",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Commercialization",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": "2026-10-27",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "8bceb7a1634faa84",
+   "title": "Kids Brain Health (KBH+) Conference 2026: Pitch Competition",
+   "url": "https://research-tools.mun.ca/funding/opportunities/kids-brain-health-kbh-conference-2026-pitch-competition/",
+   "description": "",
+   "funder": "Kids Brain Health (KBH+)",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "efc49a9128453196",
    "title": "Key Technology Expedited Program (KTEP)",
    "url": "https://ised-isde.canada.ca/site/canadian-intellectual-property-office/en/key-technology-expedited-program-ktep",
@@ -2911,7 +3920,7 @@
    "id": "67afc7e643db055f",
    "title": "John R. Evans Leaders Fund",
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/john-r-evans-leaders-fund",
-   "description": "Learn about how the John R. Evans Leaders Fund (JELF), which helps research institutions attract the best researchers, and view guidelines and deadlines to apply.",
+   "description": "",
    "funder": "Canada Foundation for Innovation",
    "source_id": "cfi",
    "source_name": "Canada Foundation for Innovation",
@@ -2921,9 +3930,7 @@
     "Infrastructure & equipment",
     "Research"
    ],
-   "audience": [
-    "Universities"
-   ],
+   "audience": [],
    "deadline": null,
    "status": "unknown",
    "published": null,
@@ -2950,6 +3957,30 @@
    "audience": [],
    "deadline": null,
    "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "521c25f1b23967c4",
+   "title": "J.R. Smallwood Foundation for Newfoundland & Labrador Studies",
+   "url": "https://research-tools.mun.ca/funding/opportunities/j-r-smallwood-foundation-for-newfoundland-labrador-studies/",
+   "description": "",
+   "funder": "Memorial University of Newfoundland",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-11-25",
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -3064,6 +4095,34 @@
    "active": true
   },
   {
+   "id": "38099bb1e0362076",
+   "title": "International Grenfell Association Grant",
+   "url": "https://research-tools.mun.ca/funding/opportunities/international-grenfell-association-grant/",
+   "description": "",
+   "funder": "International Grenfell Association",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Talent & internships",
+    "International"
+   ],
+   "audience": [
+    "Students & trainees"
+   ],
+   "deadline": "2026-11-01",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "cb4a5d99f20ae040",
    "title": "International",
    "url": "https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/international/international-eng.aspx",
@@ -3087,6 +4146,58 @@
    "status": "unknown",
    "published": null,
    "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "84d6daf8022813e0",
+   "title": "Intellectual property licensing",
+   "url": "https://nrc.canada.ca/en/research-development/intellectual-property-licensing",
+   "description": "Explore current licensing opportunities within your industry, compare options for managing and licensing intellectual property (IP), learn more about intellectual property strategy, and read the NRC's intellectual property policy.",
+   "funder": "National Research Council Canada",
+   "source_id": "nrc-ip-licensing",
+   "source_name": "NRC – IP licensing",
+   "region": "National",
+   "kind": "Program",
+   "categories": [
+    "Intellectual property",
+    "Commercialization",
+    "Industry partnership"
+   ],
+   "audience": [
+    "Industry & SMEs"
+   ],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": "c3b4e54b9ba52a57b75ae4863ba8b4c1d78c1cea",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "536cae4057576872",
+   "title": "Intellectual property",
+   "url": "https://www.canada.ca/en/department-national-defence/corporate/intellectual-property.html",
+   "description": "Intellectual property of the department of National Defence and how to seek permissions.",
+   "funder": "Department of National Defence",
+   "source_id": "dnd-ip",
+   "source_name": "National Defence – IP licensing",
+   "region": "National",
+   "kind": "Program",
+   "categories": [
+    "Intellectual property",
+    "Commercialization",
+    "Defence & dual-use"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": "f2b2f5d2244a0a7537be4ae122cf97a9908b6450",
    "first_seen": "2026-10-26",
    "last_seen": "2026-10-26",
    "updated": null,
@@ -3270,6 +4381,34 @@
    "active": true
   },
   {
+   "id": "21bcddd89899d51d",
+   "title": "Innovation Partnership Program",
+   "url": "https://www.tradecommissioner.gc.ca/en/our-solutions/support-programs/innovation-partnership-program.html",
+   "description": "Partnership Development Activities (PDAs) previously offered under the Canadian International Innovation Program (CIIP) are now available through the Innovation Partnership Program (IPP).",
+   "funder": "Global Affairs Canada – Trade Commissioner Service",
+   "source_id": "tcs-ipp",
+   "source_name": "Innovation Partnership Program (Trade Commissioner Service)",
+   "region": "National",
+   "kind": "Program",
+   "categories": [
+    "Commercialization",
+    "Industry partnership",
+    "Talent & internships",
+    "International"
+   ],
+   "audience": [
+    "Students & trainees"
+   ],
+   "deadline": null,
+   "status": "upcoming",
+   "published": null,
+   "content_hash": "333fb5085572a98f84be0005f7e375007d522526",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "e33d3fc0b62105d8",
    "title": "Innovation Networks",
    "url": "https://www.canada.ca/en/department-national-defence/programs/defence-ideas/element/innovation-networks.html",
@@ -3296,7 +4435,7 @@
    "id": "f9551fee896af773",
    "title": "Innovation Fund",
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/innovation-fund-old",
-   "description": "Learn about the Innovation Fund, which helps keep Canada at the forefront of research and innovation, and view guidelines and deadlines to apply.",
+   "description": "",
    "funder": "Canada Foundation for Innovation",
    "source_id": "cfi",
    "source_name": "Canada Foundation for Innovation",
@@ -3650,6 +4789,31 @@
    "active": true
   },
   {
+   "id": "452bc4606f8dd445",
+   "title": "Horizon Europe",
+   "url": "https://research-tools.mun.ca/funding/opportunities/horizon-europe/",
+   "description": "",
+   "funder": "Horizon Europe",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "International"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "5073bee264cf2b26",
    "title": "High-Altitude Platform System (HAPS) for Ultra-Long-Range (ULR) Wireless Backhaul",
    "url": "https://ised-isde.canada.ca/site/innovative-solutions-canada/en/high-altitude-platform-system-ultra-long-range-wireless-backhaul",
@@ -3668,6 +4832,78 @@
    "audience": [],
    "deadline": "2026-12-01",
    "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "790a9cb8eb66a9fb",
+   "title": "Heart and Stroke Foundation- New Investigator Award (NI)",
+   "url": "https://research-tools.mun.ca/funding/opportunities/heart-and-stroke-foundation-new-investigator-award-ni/",
+   "description": "",
+   "funder": "Heart and Stroke Foundation of Canada",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "2c1e510921dc08af",
+   "title": "Heart and Stroke Foundation – Grants-In-Aid – Indigenous Research Stream",
+   "url": "https://research-tools.mun.ca/funding/opportunities/heart-and-stroke-foundation-grants-in-aid-indigenous-research-stream/",
+   "description": "",
+   "funder": "Heart and Stroke Foundation of Canada",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "452666e5e7d01957",
+   "title": "Heart and Stroke Foundation – Grants-In-Aid",
+   "url": "https://research-tools.mun.ca/funding/opportunities/heart-and-stroke-foundation-grants-in-aid/",
+   "description": "",
+   "funder": "Heart and Stroke Foundation of Canada",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -3864,6 +5100,35 @@
    "active": true
   },
   {
+   "id": "ce34c669be8f9b87",
+   "title": "Global Innovation Clusters",
+   "url": "https://ised-isde.canada.ca/site/global-innovation-clusters/en",
+   "description": "Innovation is changing our everyday lives and bringing transformational benefits to the Canadian and global economy. Through the Global Innovation Clusters program, companies of all sizes, academic institutions and not-for-profits are coming together from across the country to address complex challenges no single company, sector or community can overcome alone. The Global Innovation Clusters are…",
+   "funder": "Innovation, Science and Economic Development Canada",
+   "source_id": "global-clusters",
+   "source_name": "Global Innovation Clusters",
+   "region": "National",
+   "kind": "Program",
+   "categories": [
+    "Quantum & emerging tech",
+    "Industry partnership",
+    "SME & business",
+    "International"
+   ],
+   "audience": [
+    "Industry & SMEs",
+    "Not-for-profits"
+   ],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": "beaf94b54435fcc7b163d400fbc549e1406597cd",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "28e57891f44e8638",
    "title": "German-Canadian International Research Training Group Joint Initiative",
    "url": "https://www.dfg.de/en/news/news-topics/announcements-proposals/2026/ifr-26-59",
@@ -3896,7 +5161,7 @@
    "id": "438506c82af7aee9",
    "title": "Gerhard Herzberg Canada Gold Medal for Science and Engineering",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/gerhard-herzberg-canada-gold-medal-science-and-engineering",
-   "description": "The Gerhard Herzberg Canada Gold Medal for Science and Engineering recognizes an individual whose body of work, conducted in Canada in the natural sciences or engineering, has demonstrated persistent excellence and influence. The award celebrates Canada’s most outstanding scientists and engineers and raises public awareness about the major contributions that top researchers make to science,…",
+   "description": "The Gerhard Herzberg Canada Gold Medal for Science and Engineering recognizes an individual whose body of work, conducted in Canada in the natural sciences or…",
    "funder": "Natural Sciences and Engineering Research Council of Canada",
    "source_id": "nserc",
    "source_name": "NSERC",
@@ -3905,9 +5170,7 @@
    "categories": [
     "Research"
    ],
-   "audience": [
-    "Universities"
-   ],
+   "audience": [],
    "deadline": null,
    "status": "open",
    "published": null,
@@ -3942,6 +5205,30 @@
    "active": true
   },
   {
+   "id": "41b2a75f286af432",
+   "title": "France Canada Research Fund (FCRF)",
+   "url": "https://research-tools.mun.ca/funding/opportunities/france-canada-research-fund-fcrf/",
+   "description": "",
+   "funder": "France Canada Research Fund (FCRF)",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2027-01-08",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "3c07d6b1ac7a5e61",
    "title": "Food Product Development Assistance",
    "url": "https://www.innovationpei.com/program/food-product-development-assistance/",
@@ -3970,7 +5257,7 @@
    "id": "fd4a101c3a32872d",
    "title": "Fisheries and Oceans Canada Aquatic Science supplement",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/fisheries-and-oceans-canada-aquatic-science-supplement",
-   "description": "The objectives of the Fisheries and Oceans Canada Aquatic Science supplement are to:",
+   "description": "Open Date modified: 2025-12-17",
    "funder": "Natural Sciences and Engineering Research Council of Canada",
    "source_id": "nserc",
    "source_name": "NSERC",
@@ -4060,6 +5347,32 @@
    ],
    "audience": [],
    "deadline": "2026-11-24",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "44fe33f0b441644b",
+   "title": "Extended: Genomics for National Security: Atlantic Canada’s Dual-Use Technology – LOI",
+   "url": "https://research-tools.mun.ca/funding/opportunities/extended-genomics-for-national-security-atlantic-canadas-dual-use-technology-loi/",
+   "description": "",
+   "funder": "Genome Atlantic",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Health & life sciences",
+    "Defence & dual-use"
+   ],
+   "audience": [],
+   "deadline": null,
    "status": "open",
    "published": null,
    "content_hash": null,
@@ -4208,18 +5521,18 @@
    "id": "f5a81d5fa5beab69",
    "title": "Exploration",
    "url": "https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/exploration/exploration-eng.aspx",
-   "description": "The objective of the Exploration stream is to support high-risk , high-reward and interdisciplinary research. It seeks to inspire projects that bring disciplines together beyond traditional disciplinary or common interdisciplinary approaches by research teams with the capacity to explore something new that might fail, but that has the potential for significant impact.",
-   "funder": "Tri-agency (NFRF)",
-   "source_id": "nfrf",
-   "source_name": "New Frontiers in Research Fund",
+   "description": "The Exploration stream supports high-risk, high-reward and interdisciplinary research. It seeks to inspire projects and research teams to bring disciplines together beyond traditional disciplinary or common interdisciplinary approaches, and to explore something new that might fail, but has the potential for significant impact. Value: $250,000.",
+   "funder": "Social Sciences and Humanities Research Council",
+   "source_id": "sshrc",
+   "source_name": "SSHRC",
    "region": "National",
-   "kind": "Call",
+   "kind": "Program",
    "categories": [
     "Research"
    ],
    "audience": [],
    "deadline": null,
-   "status": "open",
+   "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -4256,7 +5569,7 @@
    "id": "ffc2e31853bdd58d",
    "title": "Environment and Climate Change Canada Atmospheric and Meteorological undergraduate supplement",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/environment-and-climate-change-canada-atmospheric-and-meteorological",
-   "description": "The objectives of the Environment and Climate Change Canada Atmospheric and Meteorological undergraduate supplement are to:",
+   "description": "Open Date modified: 2025-12-19",
    "funder": "Natural Sciences and Engineering Research Council of Canada",
    "source_id": "nserc",
    "source_name": "NSERC",
@@ -4283,7 +5596,7 @@
    "id": "7f1eaf3b0d816e3c",
    "title": "Environment and Climate Change Canada Atmospheric and Meteorological graduate supplement",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/environment-and-climate-change-canada-atmospheric-and-meteorological-graduate",
-   "description": "The objectives of the Environment and Climate Change Canada Atmospheric and Meteorological graduate supplement are to:",
+   "description": "Open Date modified: 2025-12-19",
    "funder": "Natural Sciences and Engineering Research Council of Canada",
    "source_id": "nserc",
    "source_name": "NSERC",
@@ -4484,6 +5797,31 @@
    ],
    "deadline": null,
    "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "1ec67d734b368783",
+   "title": "EcoAction Stream 2: Freshwater Sustainability and Innovation across Canada",
+   "url": "https://research-tools.mun.ca/funding/opportunities/ecoaction-stream-2-freshwater-sustainability-and-innovation-across-canada/",
+   "description": "",
+   "funder": "Environment and Climate Change Canada",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Clean tech & climate"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -4715,24 +6053,67 @@
    "active": true
   },
   {
+   "id": "57a0443334b8d87f",
+   "title": "DOD Reconstructive Transplant Research Program (RTRP) Investigator-Initiated Research Award Award – Pre-Application",
+   "url": "https://research-tools.mun.ca/funding/opportunities/dod-reconstructive-transplant-research-program-rtrp-investigator-initiated-research-award-award-pre-application/",
+   "description": "",
+   "funder": "Department of Defence - United States of America",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "6296d81432d5d816",
+   "title": "DOD Reconstructive Transplant Research Program (RTRP) Investigator-Initiated Research Award Award – Full Application",
+   "url": "https://research-tools.mun.ca/funding/opportunities/dod-reconstructive-transplant-research-program-rtrp-investigator-initiated-research-award-award-full-application/",
+   "description": "",
+   "funder": "Department of Defence - United States of America",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-11-04",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "3665fbeaf0d78c8d",
    "title": "DND/NSERC supplemental funding award",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/dndnserc-supplemental-funding-award",
-   "description": "The objective of the DND/NSERC supplemental funding award is to encourage highly advanced training and research in the natural sciences and engineering in research fields relevant to national defence for the benefit of Canada. The supplement provides additional funding support for existing NSERC award holders at the doctoral and postdoctoral training levels at Canadian institutions.",
+   "description": "Open Date modified: 2026-01-09",
    "funder": "Natural Sciences and Engineering Research Council of Canada",
    "source_id": "nserc",
    "source_name": "NSERC",
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Research",
-    "Talent & internships",
-    "Defence & dual-use"
+    "Research"
    ],
-   "audience": [
-    "Universities",
-    "Students & trainees"
-   ],
+   "audience": [],
    "deadline": null,
    "status": "open",
    "published": null,
@@ -4760,6 +6141,30 @@
     "Universities"
    ],
    "deadline": "2026-11-02",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "65474d46a7c316e6",
+   "title": "CubeSat Initiative in Canada for STEM (CUBICS) 2026",
+   "url": "https://research-tools.mun.ca/funding/opportunities/cubesat-initiative-in-canada-for-stem-cubics-2026/",
+   "description": "",
+   "funder": "Canadian Space Agency",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-11-19",
    "status": "open",
    "published": null,
    "content_hash": null,
@@ -5015,7 +6420,7 @@
    "id": "4cc789f2793613fa",
    "title": "College Fund",
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/college-fund",
-   "description": "Learn about the College Fund, which helps colleges foster partnerships that address the needs of an industry or community, and view guidelines and deadlines to apply.",
+   "description": "",
    "funder": "Canada Foundation for Innovation",
    "source_id": "cfi",
    "source_name": "Canada Foundation for Innovation",
@@ -5023,12 +6428,10 @@
    "kind": "Call",
    "categories": [
     "Infrastructure & equipment",
-    "Research",
-    "Industry partnership"
+    "Research"
    ],
    "audience": [
-    "Colleges & polytechnics",
-    "Industry & SMEs"
+    "Colleges & polytechnics"
    ],
    "deadline": null,
    "status": "unknown",
@@ -5175,7 +6578,7 @@
    "id": "eb8cb67a1fd68c78",
    "title": "Canadian Forest Sector Workforce Diversity supplement",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/canadian-forest-sector-workforce-diversity-supplement",
-   "description": "The objectives of the Canadian Forest Sector Workforce Diversity supplement are to:",
+   "description": "Open Date modified: 2025-12-19",
    "funder": "Natural Sciences and Engineering Research Council of Canada",
    "source_id": "nserc",
    "source_name": "NSERC",
@@ -5183,6 +6586,32 @@
    "kind": "Call",
    "categories": [
     "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "2eb71fb250ebc7e0",
+   "title": "Canada–G7–Nordic call for proposals on quantum technologies",
+   "url": "https://research-tools.mun.ca/funding/opportunities/canada-g7-nordic-call-for-proposals-on-quantum-technologies/",
+   "description": "",
+   "funder": "Natural Sciences and Engineering Research Council (NSERC)",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "AI & digital",
+    "Quantum & emerging tech"
    ],
    "audience": [],
    "deadline": null,
@@ -5247,6 +6676,30 @@
    "active": true
   },
   {
+   "id": "9680825d2ed05c36",
+   "title": "Canada Nature Fund for Aquatic Species at Risk (CNFASAR)",
+   "url": "https://research-tools.mun.ca/funding/opportunities/canada-nature-fund-for-aquatic-species-at-risk-cnfasar/",
+   "description": "",
+   "funder": "Fisheries and Oceans Canada",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-11-16",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "d739284018d3b8d1",
    "title": "Canada Impact+ Research Training Awards",
    "url": "https://sshrc-crsh.canada.ca/en/funding/opportunities/canada-impact-plus-research-training-awards.aspx",
@@ -5278,7 +6731,7 @@
    "id": "c1b6d4e62f2ab0b7",
    "title": "Canada Impact+ Research Infrastructure Fund",
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/canada-impact-plus-research-infrastructure-fund",
-   "description": "The Canada Impact+ Research Infrastructure Fund (CIRIF) is part of the Canada Global Impact+ Research Talent Initiative, which is designed to attract globally recognized researchers, strengthen Canada’s innovation leadership, and enhance its competitiveness on the world stage. Its core objective is to transform groundbreaking discoveries into innovative products, policies and solutions that…",
+   "description": "Canada Impact+ Research Infrastructure Fund The Canada Impact+ Research Infrastructure Fund (CIRIF) is part of an initiative created to attract globally recognized researchers to Canada to transform groundbreaking discoveries into innovative products, policies and solutions that benefit Canadians.",
    "funder": "Canada Foundation for Innovation",
    "source_id": "cfi",
    "source_name": "Canada Foundation for Innovation",
@@ -5286,7 +6739,6 @@
    "kind": "Call",
    "categories": [
     "Research",
-    "Talent & internships",
     "Infrastructure & equipment",
     "International"
    ],
@@ -5402,6 +6854,234 @@
     "Students & trainees"
    ],
    "deadline": "2027-02-22",
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "71bde1ba8514348f",
+   "title": "CIHR Team Grant : National Evidence Platform: Youth Mental Health – Registration",
+   "url": "https://research-tools.mun.ca/funding/opportunities/cihr-team-grant-national-evidence-platform-youth-mental-health-registration/",
+   "description": "",
+   "funder": "Canadian Institute of Health Research (CIHR)",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Talent & internships",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "2879c5816ba66600",
+   "title": "CIHR Team Grant : National Evidence Platform: Youth Mental Health – Application",
+   "url": "https://research-tools.mun.ca/funding/opportunities/cihr-team-grant-national-evidence-platform-youth-mental-health-application/",
+   "description": "",
+   "funder": "Canadian Institute of Health Research (CIHR)",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Talent & internships",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "3c0f7bce9fbf1ecd",
+   "title": "CIHR Team Grant : National Cancer Data and Bio-Resource Coordinating Hub",
+   "url": "https://research-tools.mun.ca/funding/opportunities/cihr-team-grant-national-cancer-data-and-bio-resource-coordinating-hub/",
+   "description": "",
+   "funder": "Canadian Institute of Health Research (CIHR)",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2027-01-26",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "4c2e7dc517208871",
+   "title": "CIHR Project Grants: Spring 2027 Application",
+   "url": "https://research-tools.mun.ca/funding/opportunities/cihr-project-grants-spring-2027-application/",
+   "description": "",
+   "funder": "Canadian Institute of Health Research (CIHR)",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "545780c3247f5f8c",
+   "title": "CIHR Planning and Dissemination Grants – Institute/Initiative Community Support (Winter 2027 Competition)",
+   "url": "https://research-tools.mun.ca/funding/opportunities/cihr-planning-and-dissemination-grants-institute-initiative-community-support-winter-2027-competition/",
+   "description": "",
+   "funder": "Canadian Institute of Health Research (CIHR)",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-11-10",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "d5f29bcc9147ccdd",
+   "title": "CIHR Operating Grant : Evaluation and Implementation Science: Youth Mental Health – Registration",
+   "url": "https://research-tools.mun.ca/funding/opportunities/cihr-operating-grant-evaluation-implementation-science-youth-mental-health-registration/",
+   "description": "",
+   "funder": "Canadian Institute of Health Research (CIHR)",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Talent & internships",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "70de3e950182da80",
+   "title": "CIHR Operating Grant : Evaluation and Implementation Science: Youth Mental Health – Application",
+   "url": "https://research-tools.mun.ca/funding/opportunities/cihr-operating-grant-evaluation-and-implementation-science-youth-mental-health-application/",
+   "description": "",
+   "funder": "Canadian Institute of Health Research (CIHR)",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Talent & internships",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": "2026-11-05",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "0c542ffdcd9c4eab",
+   "title": "CIHR Health System Impact Fellowship",
+   "url": "https://research-tools.mun.ca/funding/opportunities/cihr-health-system-impact-fellowship/",
+   "description": "",
+   "funder": "Canadian Institute of Health Research (CIHR)",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Talent & internships",
+    "Health & life sciences"
+   ],
+   "audience": [
+    "Students & trainees"
+   ],
+   "deadline": null,
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "492010353f8cffa5",
+   "title": "CIHR Catalyst Grant : Analysis of Canadian Longitudinal Study on Aging (CLSA) Data (2026)",
+   "url": "https://research-tools.mun.ca/funding/opportunities/cihr-catalyst-grant-analysis-of-canadian-longitudinal-study-on-aging-clsa-data-2026/",
+   "description": "",
+   "funder": "Canadian Institute of Health Research (CIHR)",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
    "status": "unknown",
    "published": null,
    "content_hash": null,
@@ -5537,6 +7217,34 @@
    "active": true
   },
   {
+   "id": "c6f934424eeb8184",
+   "title": "British Academy International Interdisciplinary Research programme",
+   "url": "https://research-tools.mun.ca/funding/opportunities/british-academy-international-interdisciplinary-research-programme/",
+   "description": "",
+   "funder": "British Academy (The)",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Talent & internships",
+    "International"
+   ],
+   "audience": [
+    "Students & trainees"
+   ],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "9f18a651fd240572",
    "title": "Breakthru",
    "url": "https://www.nbif.ca/breakthru",
@@ -5554,6 +7262,30 @@
    "audience": [
     "Industry & SMEs"
    ],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "d7444c0037a27519",
+   "title": "Brain Tumour Research Grants",
+   "url": "https://research-tools.mun.ca/funding/opportunities/brain-tumour-research-grants/",
+   "description": "",
+   "funder": "Brain Tumour Foundation of Canada",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
    "deadline": null,
    "status": "unknown",
    "published": null,
@@ -5591,7 +7323,7 @@
    "id": "d681e7683cb75c84",
    "title": "Biosciences Research Infrastructure Fund",
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/biosciences-research-infrastructure-fund",
-   "description": "Learn about the Biosciences Research Infrastructure Fund (BRIF), which supports biosciences research infrastructure, and view guidelines and deadlines to apply.",
+   "description": "",
    "funder": "Canada Foundation for Innovation",
    "source_id": "cfi",
    "source_name": "Canada Foundation for Innovation",
@@ -5603,7 +7335,153 @@
    ],
    "audience": [],
    "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "5b17ef223c3d4c3f",
+   "title": "Biology to Prevention Award",
+   "url": "https://research-tools.mun.ca/funding/opportunities/biology-to-prevention-award/",
+   "description": "",
+   "funder": "Canadian Cancer Society",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-12-04",
    "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "b854e640eb0dc584",
+   "title": "Belmont Forum – Towards the ocean we want: biodiversity and ecosystem sustainability for nature and human well-being (CRA Ocean 2) – Full Application",
+   "url": "https://research-tools.mun.ca/funding/opportunities/belmont-forum-towards-the-ocean-we-want-biodiversity-and-ecosystem-sustainability-for-nature-and-human-well-being-cra-ocean-2-full-application/",
+   "description": "",
+   "funder": "Belmont Forum",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Clean tech & climate",
+    "Ocean"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "539765e893f8f10a",
+   "title": "Banting Foundation Discovery Award – NOI",
+   "url": "https://research-tools.mun.ca/funding/opportunities/banting-foundation-discovery-award-noi/",
+   "description": "",
+   "funder": "Banting Research Foundation",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "52fa2abe57db3fc1",
+   "title": "Banting Discovery Foundation Discovery Award – Full Application",
+   "url": "https://research-tools.mun.ca/funding/opportunities/banting-discovery-foundation-discovery-award-full-application/",
+   "description": "",
+   "funder": "Banting Research Foundation",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2027-01-25",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "2fe45129c70ae659",
+   "title": "BHCRI Fall 2026 CRTP Award Competition – Intent to Apply",
+   "url": "https://research-tools.mun.ca/funding/opportunities/bhcri-fall-2026-crtp-award-competition-intent-to-apply/",
+   "description": "",
+   "funder": "Beatrice Hunter Cancer Research Institute",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "db11397cb26fd499",
+   "title": "BHCRI Fall 2026 CRTP Award Competition – Application",
+   "url": "https://research-tools.mun.ca/funding/opportunities/bhcri-fall-2026-crtp-award-competition-application/",
+   "description": "",
+   "funder": "Beatrice Hunter Cancer Research Institute",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -5623,6 +7501,60 @@
    "kind": "Program",
    "categories": [
     "SME & business"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "a31e5bd0b5f5970b",
+   "title": "Atlantic Innovation Fund",
+   "url": "https://www.canada.ca/en/atlantic-canada-opportunities/services/atlantic-innovation-fund.html",
+   "description": "ACOA's Atlantic Innovation Fund helps researchers and innovative businesses team up to develop new products and services and put them on the market.",
+   "funder": "Atlantic Canada Opportunities Agency",
+   "source_id": "acoa-aif",
+   "source_name": "ACOA – Atlantic Innovation Fund",
+   "region": "Atlantic",
+   "kind": "Program",
+   "categories": [
+    "Industry partnership",
+    "Commercialization",
+    "Research",
+    "SME & business"
+   ],
+   "audience": [
+    "Universities",
+    "Industry & SMEs"
+   ],
+   "deadline": null,
+   "status": "closed",
+   "published": null,
+   "content_hash": "17223dca9153548946acf1ae775e141d15564e7b",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "8bae18ab5437a77e",
+   "title": "Atlantic Fisheries Fund",
+   "url": "https://research-tools.mun.ca/funding/opportunities/atlantic-fisheries-fund/",
+   "description": "",
+   "funder": "Fisheries and Oceans Canada",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Ocean"
    ],
    "audience": [],
    "deadline": null,
@@ -5665,7 +7597,7 @@
    "id": "7e3249f6a2279a17",
    "title": "Arthur B. McDonald Fellowships",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/arthur-b-mcdonald-fellowships",
-   "description": "Up to six Arthur B. McDonald Fellowships are awarded annually to recognize early-stage academic researchers in the natural sciences and engineering, and to support them in enhancing their research capacity so that they can become leaders in their field and inspire others. Arthur B. McDonald Fellowships were previously known as the E.W.R. Steacie Memorial Fellowships.",
+   "description": "Up to six Arthur B. McDonald Fellowships are awarded annually to recognize early-stage academic researchers in the natural sciences and engineering, and to…",
    "funder": "Natural Sciences and Engineering Research Council of Canada",
    "source_id": "nserc",
    "source_name": "NSERC",
@@ -5680,6 +7612,31 @@
     "Students & trainees"
    ],
    "deadline": null,
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "a6dd14a43a15a89f",
+   "title": "ArcticNet Call for Proposals: Partnered Research Program",
+   "url": "https://research-tools.mun.ca/funding/opportunities/arcticnet-call-for-proposals-partnered-research-program/",
+   "description": "",
+   "funder": "ArcticNet",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Industry partnership"
+   ],
+   "audience": [],
+   "deadline": "2026-12-18",
    "status": "open",
    "published": null,
    "content_hash": null,
@@ -6078,6 +8035,80 @@
    "active": true
   },
   {
+   "id": "14fbd4bf1573066c",
+   "title": "APC Fishery Models RFP",
+   "url": "https://research-tools.mun.ca/funding/opportunities/apc-fishery-models-rfp/",
+   "description": "",
+   "funder": "Atlantic Policy Congress of First Nations Chiefs Secretariat",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Ocean"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "fc1bfe59dab5d564",
+   "title": "AI-Assisted Seabed Habitat Assessment in the Flemish Pass- EOI",
+   "url": "https://research-tools.mun.ca/funding/opportunities/ai-assisted-seabed-habitat-assessment-in-the-flemish-pass-eoi/",
+   "description": "",
+   "funder": "Equinor",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "AI & digital"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "1882170aa49e9dcb",
+   "title": "AACR-CIHR Scholar-in-Training Awards",
+   "url": "https://research-tools.mun.ca/funding/opportunities/aacr-cihr-scholar-in-training-awards/",
+   "description": "",
+   "funder": "American Association for Cancer Research, Canadian Institute of Health Research (CIHR)",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-11-10",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "e3d3aca8b28093cf",
    "title": "A.I. Ocean program",
    "url": "https://oceansupercluster.ca/ai-ocean/",
@@ -6099,6 +8130,30 @@
     "Industry & SMEs"
    ],
    "deadline": null,
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "2ebd1dee5e4bc54e",
+   "title": "2027 WES Ecosystem Fund",
+   "url": "https://research-tools.mun.ca/funding/opportunities/2027-wes-ecosystem-fund/",
+   "description": "",
+   "funder": "Government of Canada",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-11-09",
    "status": "open",
    "published": null,
    "content_hash": null,
@@ -6158,6 +8213,54 @@
    "active": true
   },
   {
+   "id": "5b03189fa9622f01",
+   "title": "2026 Future Leaders in Canadian Brain Research – application",
+   "url": "https://research-tools.mun.ca/funding/opportunities/2026-future-leaders-in-canadian-brain-research-application/",
+   "description": "",
+   "funder": "Brain Canada Foundation",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2027-02-17",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "55738adec11d216a",
+   "title": "2026 Future Leaders in Canadian Brain Research – LOI",
+   "url": "https://research-tools.mun.ca/funding/opportunities/2026-future-leaders-in-canadian-brain-research-loi/",
+   "description": "",
+   "funder": "Brain Canada Foundation",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-10-29",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "38f35309934181a3",
    "title": "2026 Exploration Competition",
    "url": "https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/exploration/2026/competition-concours-eng.aspx",
@@ -6172,6 +8275,58 @@
    ],
    "audience": [],
    "deadline": "2027-03-31",
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "e843df750d8857bb",
+   "title": "*REVISED* SSHRC Exchange- International Representation – October 2026",
+   "url": "https://research-tools.mun.ca/funding/opportunities/sshrc-exchange-international-representation-october-2026/",
+   "description": "",
+   "funder": "Memorial University of Newfoundland",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Talent & internships",
+    "International"
+   ],
+   "audience": [
+    "Students & trainees"
+   ],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "8806e064b36d1323",
+   "title": "*REVISED* SSHRC Exchange -Paper Presentation at Scholarly Conference – October 2026",
+   "url": "https://research-tools.mun.ca/funding/opportunities/sshrc-exchange-paper-presentation-at-scholarly-conference-october-2026/",
+   "description": "",
+   "funder": "Memorial University of Newfoundland",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
    "status": "unknown",
    "published": null,
    "content_hash": null,

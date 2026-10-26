@@ -5,6 +5,7 @@
 #   name        display name of the funder
 #   region      National | Atlantic | Nova Scotia | New Brunswick | PEI | Newfoundland and Labrador | Ontario | ...
 #   type        html   – a listing page; every matching link becomes an opportunity
+#               table  – an HTML table with named columns (see mun-rfd)
 #               rss    – an RSS/Atom feed
 #               page   – one program page, tracked as a single evergreen program (flags when the page changes)
 #               gcnews – Government of Canada News Centre, filtered by title_include
@@ -336,6 +337,68 @@ sources:
     url: https://nrc.canada.ca/en/research-development/research-collaboration/programs/ideation-fund-where-breakthroughs-begin
     kind: Program
     categories: [Research, Quantum & emerging tech]
+
+  # ---------------------------------------------------------------- University funding databases
+  - id: mun-rfd
+    name: Memorial University – Research Funding Database
+    funder: Various sponsors (via Memorial University)
+    region: Atlantic
+    type: table
+    aggregator: true        # calls also listed by NSERC/SSHRC/etc. are dropped as duplicates
+    short: Memorial University
+    url: https://research-tools.mun.ca/funding/opportunities/
+    columns: {title: Title, funder: Funding Sources, deadline: Sponsor Deadline, status: Deadline Type}
+    open_values: [Open Call, Active Deadline]
+    detail: true
+    max_detail: 120
+    kind: Call
+    categories: [Research]
+
+  # ---------------------------------------------------------------- Federal innovation programs (from canada.ca/en/services/science/innovation)
+  - id: acoa-aif
+    name: ACOA – Atlantic Innovation Fund
+    funder: Atlantic Canada Opportunities Agency
+    region: Atlantic
+    type: page
+    url: https://www.canada.ca/en/atlantic-canada-opportunities/services/atlantic-innovation-fund.html
+    kind: Program
+    categories: [Research, Commercialization, Industry partnership]
+
+  - id: tcs-ipp
+    name: Innovation Partnership Program (Trade Commissioner Service)
+    funder: Global Affairs Canada – Trade Commissioner Service
+    region: National
+    type: page
+    url: https://www.tradecommissioner.gc.ca/en/our-solutions/support-programs/innovation-partnership-program.html
+    kind: Program
+    categories: [International, Industry partnership, Commercialization]
+
+  - id: nrc-ip-licensing
+    name: NRC – IP licensing
+    funder: National Research Council Canada
+    region: National
+    type: page
+    url: https://nrc.canada.ca/en/research-development/intellectual-property-licensing
+    kind: Program
+    categories: [Intellectual property, Commercialization]
+
+  - id: dnd-ip
+    name: National Defence – IP licensing
+    funder: Department of National Defence
+    region: National
+    type: page
+    url: https://www.canada.ca/en/department-national-defence/corporate/intellectual-property.html
+    kind: Program
+    categories: [Intellectual property, Defence & dual-use]
+
+  - id: global-clusters
+    name: Global Innovation Clusters
+    funder: Innovation, Science and Economic Development Canada
+    region: National
+    type: page
+    url: https://ised-isde.canada.ca/site/global-innovation-clusters/en
+    kind: Program
+    categories: [Industry partnership, Quantum & emerging tech]
 
   # ---------------------------------------------------------------- Evergreen programs (tracked for changes)
   - id: swpp
