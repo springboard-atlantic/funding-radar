@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated": "2026-10-26T19:09:50+00:00",
+  "generated": "2026-10-26T19:44:05+00:00",
   "baseline": "2026-10-26",
   "item_count": 229
  },
@@ -13,27 +13,17 @@
    "ok": true,
    "count": 16,
    "error": null,
-   "seconds": 2.9
-  },
-  {
-   "id": "alberta-innovates",
-   "name": "Alberta Innovates",
-   "url": "https://albertainnovates.ca/funding/",
-   "region": "Alberta",
-   "ok": true,
-   "count": 1,
-   "error": null,
-   "seconds": 0.3
+   "seconds": 57.3
   },
   {
    "id": "cfi",
    "name": "Canada Foundation for Innovation",
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities",
    "region": "National",
-   "ok": false,
-   "count": 0,
-   "error": "HTTP 403",
-   "seconds": 0.2
+   "ok": true,
+   "count": 7,
+   "error": null,
+   "seconds": 12.5
   },
   {
    "id": "ocean-supercluster",
@@ -43,7 +33,7 @@
    "ok": true,
    "count": 4,
    "error": null,
-   "seconds": 1.6
+   "seconds": 10.1
   },
   {
    "id": "cihr",
@@ -53,7 +43,27 @@
    "ok": true,
    "count": 7,
    "error": null,
-   "seconds": 0.6
+   "seconds": 12.4
+  },
+  {
+   "id": "cipo-financing",
+   "name": "CIPO – IP resources and financing",
+   "url": "https://ised-isde.canada.ca/site/canadian-intellectual-property-office/en/ip-resources-and-funding-entrepreneurs",
+   "region": "National",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "seconds": 1.6
+  },
+  {
+   "id": "cipo-ktep",
+   "name": "CIPO – Key Technology Expedited Program",
+   "url": "https://ised-isde.canada.ca/site/canadian-intellectual-property-office/en/key-technology-expedited-program-ktep",
+   "region": "National",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "seconds": 1.6
   },
   {
    "id": "cican",
@@ -63,7 +73,7 @@
    "ok": true,
    "count": 4,
    "error": null,
-   "seconds": 15.2
+   "seconds": 17.6
   },
   {
    "id": "genome-canada",
@@ -73,7 +83,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 1.2
+   "seconds": 1.4
   },
   {
    "id": "gc-news",
@@ -81,9 +91,9 @@
    "url": "https://www.canada.ca/en/news.html",
    "region": "National",
    "ok": true,
-   "count": 2,
+   "count": 0,
    "error": null,
-   "seconds": 0.8
+   "seconds": 1.6
   },
   {
    "id": "ideas",
@@ -93,7 +103,7 @@
    "ok": true,
    "count": 6,
    "error": null,
-   "seconds": 4.1
+   "seconds": 5.3
   },
   {
    "id": "innovation-pei",
@@ -103,7 +113,7 @@
    "ok": true,
    "count": 33,
    "error": null,
-   "seconds": 1.3
+   "seconds": 2.2
   },
   {
    "id": "isc",
@@ -113,7 +123,7 @@
    "ok": true,
    "count": 3,
    "error": null,
-   "seconds": 0.5
+   "seconds": 5.9
   },
   {
    "id": "invest-ns",
@@ -121,9 +131,19 @@
    "url": "https://investnovascotia.ca/incentives-programs-services",
    "region": "Nova Scotia",
    "ok": true,
-   "count": 21,
+   "count": 25,
    "error": null,
-   "seconds": 8.1
+   "seconds": 66.5
+  },
+  {
+   "id": "ised-ip",
+   "name": "ISED IP Strategy programs",
+   "url": "https://ised-isde.canada.ca/site/intellectual-property-strategy/en",
+   "region": "National",
+   "ok": true,
+   "count": 4,
+   "error": null,
+   "seconds": 7.9
   },
   {
    "id": "mitacs",
@@ -133,7 +153,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "seconds": 0.4
+   "seconds": 26.4
   },
   {
    "id": "nbif",
@@ -143,7 +163,7 @@
    "ok": true,
    "count": 2,
    "error": null,
-   "seconds": 0.4
+   "seconds": 4.2
   },
   {
    "id": "nfrf",
@@ -153,7 +173,7 @@
    "ok": true,
    "count": 7,
    "error": null,
-   "seconds": 1.6
+   "seconds": 13.6
   },
   {
    "id": "nl-jgrd",
@@ -163,7 +183,7 @@
    "ok": true,
    "count": 9,
    "error": null,
-   "seconds": 1.8
+   "seconds": 22.9
   },
   {
    "id": "ngen",
@@ -173,7 +193,27 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 0.3
+   "seconds": 1.1
+  },
+  {
+   "id": "nrc-challenge",
+   "name": "NRC Challenge programs",
+   "url": "https://nrc.canada.ca/en/research-development/research-collaboration/programs/challenge-programs",
+   "region": "National",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "seconds": 0.9
+  },
+  {
+   "id": "nrc-ideation",
+   "name": "NRC Ideation Fund",
+   "url": "https://nrc.canada.ca/en/research-development/research-collaboration/programs/ideation-fund-where-breakthroughs-begin",
+   "region": "National",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "seconds": 1.6
   },
   {
    "id": "nrc-irap",
@@ -183,7 +223,7 @@
    "ok": true,
    "count": 8,
    "error": null,
-   "seconds": 0.7
+   "seconds": 13.9
   },
   {
    "id": "irap-youth",
@@ -193,7 +233,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 0.7
+   "seconds": 0.1
   },
   {
    "id": "nserc",
@@ -201,19 +241,9 @@
    "url": "https://nserc-crsng.canada.ca/en/funding/funding-opportunity?field_fo_status%5Bopen%5D=open",
    "region": "National",
    "ok": true,
-   "count": 42,
+   "count": 38,
    "error": null,
-   "seconds": 5.4
-  },
-  {
-   "id": "oci",
-   "name": "Ontario Centre of Innovation",
-   "url": "https://www.oc-innovation.ca/programs/",
-   "region": "Ontario",
-   "ok": true,
-   "count": 6,
-   "error": null,
-   "seconds": 0.4
+   "seconds": 48.8
   },
   {
    "id": "research-ns",
@@ -223,7 +253,17 @@
    "ok": true,
    "count": 2,
    "error": null,
-   "seconds": 1.0
+   "seconds": 5.3
+  },
+  {
+   "id": "springboard-ip",
+   "name": "Springboard Atlantic – IP programs",
+   "url": "https://springboardatlantic.ca/ipadvantage/",
+   "region": "Atlantic",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "seconds": 1.1
   },
   {
    "id": "sshrc",
@@ -233,7 +273,7 @@
    "ok": true,
    "count": 33,
    "error": null,
-   "seconds": 0.8
+   "seconds": 1.0
   },
   {
    "id": "swpp",
@@ -243,7 +283,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 3.4
+   "seconds": 2.8
   }
  ],
  "items": [
@@ -251,18 +291,20 @@
    "id": "cf7c1132b94661f3",
    "title": "What we heard: Strengthening the long-term sustainability of the Project Grant program: Message from the Vice-President, Research Programs",
    "url": "https://cihr-irsc.gc.ca/e/54795.html",
-   "description": "August 5, 2026",
+   "description": "Since the start of the year, CIHR has been engaging the health research community on pressures facing the Project Grant program and ways to keep it strong, fair and sustainable. To date, we have heard from more than 2,000 individuals, through Ask Me Anything sessions, university visits, meetings with Project Grant peer review committee Chairs and Scientific Officers, discussions with CIHR…",
    "funder": "Canadian Institutes of Health Research",
    "source_id": "cihr",
    "source_name": "CIHR",
    "region": "National",
    "kind": "Announcement",
    "categories": [
-    "Health & life sciences",
     "Research",
-    "Clean tech & climate"
+    "Clean tech & climate",
+    "Health & life sciences"
    ],
-   "audience": [],
+   "audience": [
+    "Universities"
+   ],
    "deadline": null,
    "status": "unknown",
    "published": null,
@@ -276,7 +318,7 @@
    "id": "a8d464f2cc893d3c",
    "title": "Update on the Fall 2026 Project Grant competition: Message from the Vice-President, Research Programs",
    "url": "https://cihr-irsc.gc.ca/e/54778.html",
-   "description": "July 8, 2026",
+   "description": "With the Fall 2026 Project Grant competition now underway, I would like to share several updates about some targeted changes we’re making for this competition. These changes aim to strengthen peer review by ensuring peer review committee mandates are clear and growing the pool of quality reviewers.",
    "funder": "Canadian Institutes of Health Research",
    "source_id": "cihr",
    "source_name": "CIHR",
@@ -300,7 +342,7 @@
    "id": "50934daf162c5ff6",
    "title": "Update on CIHR’s transition to the tri-agency CV: Message from the Vice-President, Research Programs",
    "url": "https://cihr-irsc.gc.ca/e/54668.html",
-   "description": "March 19, 2026",
+   "description": "As you know, CIHR is transitioning to a new narrative-style tri-agency CV for our competitions and moving away from the Canadian Common CV (CCV).",
    "funder": "Canadian Institutes of Health Research",
    "source_id": "cihr",
    "source_name": "CIHR",
@@ -379,16 +421,19 @@
    "id": "1fed5aa318dc2c48",
    "title": "UK Market Bridge Program",
    "url": "https://investnovascotia.ca/incentives-programs-services/uk-market-bridge-program",
-   "description": "",
+   "description": "Apply today to join our virtual United Kingdom (UK) export readiness program for Atlantic Canadian small-to-medium enterprises (up to 499 paid employees).",
    "funder": "Invest Nova Scotia",
    "source_id": "invest-ns",
    "source_name": "Invest Nova Scotia",
    "region": "Nova Scotia",
    "kind": "Program",
    "categories": [
-    "SME & business"
+    "SME & business",
+    "International"
    ],
-   "audience": [],
+   "audience": [
+    "Industry & SMEs"
+   ],
    "deadline": null,
    "status": "unknown",
    "published": null,
@@ -402,14 +447,15 @@
    "id": "37c0a99e6912890b",
    "title": "Transformation",
    "url": "https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/transformation/transformation-eng.aspx",
-   "description": "Transformation provides large-scale support for Canada to build strength and leadership in interdisciplinary and transformative research.",
+   "description": "The Transformation stream is designed to support large-scale, Canadian-led interdisciplinary research projects that address a major challenge with the potential to realize real and lasting change ( high-reward ). The challenge may be fundamental, leading to a scientific breakthrough, or applied, with a social, economic, environmental or health impact. Projects are expected to be world-leading,…",
    "funder": "Tri-agency (NFRF)",
    "source_id": "nfrf",
    "source_name": "New Frontiers in Research Fund",
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Health & life sciences"
    ],
    "audience": [],
    "deadline": null,
@@ -454,7 +500,7 @@
    "id": "f9ff80cb63f79876",
    "title": "Trade Missions",
    "url": "https://investnovascotia.ca/incentives-programs-services/trade-missions",
-   "description": "",
+   "description": "For a nominal fee, we’ll take you into a market and provide you with an itinerary including:",
    "funder": "Invest Nova Scotia",
    "source_id": "invest-ns",
    "source_name": "Invest Nova Scotia",
@@ -477,7 +523,7 @@
    "id": "15f68e0ec78166f8",
    "title": "Trade Market Intelligence (TMI)",
    "url": "https://investnovascotia.ca/incentives-programs-services/trade-market-intelligence-tmi",
-   "description": "",
+   "description": "You can download the Guidelines by clicking the link on the sidebar under Related Documents.",
    "funder": "Invest Nova Scotia",
    "source_id": "invest-ns",
    "source_name": "Invest Nova Scotia",
@@ -556,7 +602,7 @@
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Defence & security"
+    "Defence & dual-use"
    ],
    "audience": [],
    "deadline": null,
@@ -572,17 +618,23 @@
    "id": "2b1985f941d948da",
    "title": "Technology Leadership",
    "url": "https://oceansupercluster.ca/technology-leadership/",
-   "description": "Innovation Ecosystem GRGREAGRGAREGEAGREA GRAEGR EAGREAGREAGRETEStETSWEATE ATEAWTREATART 5EAHGR GREAGRGREAGRGAREGEAGREAGRAEGREAGREAGREAGRETEStETSWEATEATEAWTREATART5EAHGRGREA GRGREAGRGAREGEAGRE AGRAEGREAGREAGREAGR EGRGREAGAREGEAGREAGRAEGREAGREAGRE AGRETEStETSWEATEATE AWTR EATART5EAHGRGREA GRGREAGRGAREGEAGREAGRAEGREA GREAGR EAGRETEStETSWEAT EATEAWTRE ATART5EAHG RGREAGRGREA…",
+   "description": "Technology Leadership Projects bring together investors and partners from across ocean industries to develop and commercialize innovative solutions to shared challenges, while increasing connectivity, strengthening capabilities, growing supply chain, and expanding international reach. At the heart of every Technology Leadership Project is a strong industry partnership. Some projects start from…",
    "funder": "Canada's Ocean Supercluster",
    "source_id": "ocean-supercluster",
    "source_name": "Canada's Ocean Supercluster",
    "region": "Atlantic",
    "kind": "Program",
    "categories": [
+    "Commercialization",
     "Industry partnership",
+    "Talent & internships",
+    "International",
     "Ocean"
    ],
-   "audience": [],
+   "audience": [
+    "Industry & SMEs",
+    "Students & trainees"
+   ],
    "deadline": null,
    "status": "unknown",
    "published": null,
@@ -596,7 +648,7 @@
    "id": "2533b8c28c95dca9",
    "title": "Tariff and Customs Advisory Program",
    "url": "https://investnovascotia.ca/incentives-programs-services/tariff-and-customs-advisory-program",
-   "description": "",
+   "description": "We are accepting applications for the Tariff and Customs Advisory Program (TCAP). Spaces are limited. The application deadline is December 31, 2026, or until program funds are fully committed.",
    "funder": "Invest Nova Scotia",
    "source_id": "invest-ns",
    "source_name": "Invest Nova Scotia",
@@ -607,7 +659,7 @@
    ],
    "audience": [],
    "deadline": "2026-12-31",
-   "status": "unknown",
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -680,6 +732,7 @@
    "kind": "Program",
    "categories": [
     "Research",
+    "Commercialization",
     "Clean tech & climate"
    ],
    "audience": [],
@@ -696,15 +749,19 @@
    "id": "fc126b564d3fc4a9",
    "title": "Support for intellectual property",
    "url": "https://nrc.canada.ca/en/support-technology-innovation/nrc-irap-support-intellectual-property",
-   "description": "Discover how your business could benefit from the intellectual property services offered through the IP Assist program.",
+   "description": "The National Research Council of Canada Industrial Research Assistance Program ( NRC IRAP ) provides comprehensive advisory services as well as funding to help accelerate the growth of Canadian small and medium-sized businesses. We have expanded our advisory service offering by adding a new program, IP Assist , to help innovative Canadian businesses make the very most of their innovations.",
    "funder": "National Research Council – Industrial Research Assistance Program",
    "source_id": "nrc-irap",
    "source_name": "NRC IRAP",
    "region": "National",
    "kind": "Program",
    "categories": [
-    "SME & business",
-    "Commercialization"
+    "Research",
+    "Intellectual property",
+    "Commercialization",
+    "Industry partnership",
+    "Startups & spin-offs",
+    "SME & business"
    ],
    "audience": [
     "Industry & SMEs"
@@ -722,7 +779,7 @@
    "id": "879f781144b9751f",
    "title": "Support for defence and dual-use technologies",
    "url": "https://nrc.canada.ca/en/support-technology-innovation/nrc-irap-support-smes-developing-defence-dual-use-technologies",
-   "description": "Learn more about support for SMEs to develop and scale made‑in‑Canada defence and dual‑use technologies.",
+   "description": "In January 2026, the Government of Canada announced a $241 million investment in the National Research Council of Canada Industrial Research Assistance Program (NRC IRAP) to launch the Defence Industry Assist initiative (DI Assist).",
    "funder": "National Research Council – Industrial Research Assistance Program",
    "source_id": "nrc-irap",
    "source_name": "NRC IRAP",
@@ -731,7 +788,9 @@
    "categories": [
     "Commercialization",
     "SME & business",
-    "Defence & security"
+    "Research",
+    "Industry partnership",
+    "Defence & dual-use"
    ],
    "audience": [
     "Industry & SMEs"
@@ -749,7 +808,7 @@
    "id": "84d994b47430733c",
    "title": "Supplier Diversity Certification Program",
    "url": "https://investnovascotia.ca/incentives-programs-services/supplier-diversity-certification-program",
-   "description": "",
+   "description": "You can download the Guidelines & FAQ by clicking the link on the sidebar under Related Documents.",
    "funder": "Invest Nova Scotia",
    "source_id": "invest-ns",
    "source_name": "Invest Nova Scotia",
@@ -760,7 +819,7 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -898,7 +957,7 @@
    "id": "9728c9acc1748620",
    "title": "Strengthening peer review together: Engaging the community to shape the future of the Project Grant program",
    "url": "https://cihr-irsc.gc.ca/e/54669.html",
-   "description": "March 16, 2026",
+   "description": "The most important thing CIHR can do is deliver high-quality peer review that is trusted by the research community. Without that trust, the entire system is at risk. Achieving this requires listening to the perspectives of the community we serve.",
    "funder": "Canadian Institutes of Health Research",
    "source_id": "cihr",
    "source_name": "CIHR",
@@ -997,10 +1056,39 @@
    "active": true
   },
   {
+   "id": "e4198970d6a51ac8",
+   "title": "Springboard Atlantic IP Advantage",
+   "url": "https://springboardatlantic.ca/ipadvantage/",
+   "description": "Intellectual property (IP) is a valuable asset used to gain a competitive advantage and thrive in global marketplaces. Springboard Atlantic IP Advantage partners with business accelerators and incubators to deliver IP supports to start-ups in Atlantic Canada. Partnering with business accelerators and incubators to give start-ups in Atlantic Canada access to vital IP supports As […]",
+   "funder": "Springboard Atlantic",
+   "source_id": "springboard-ip",
+   "source_name": "Springboard Atlantic – IP programs",
+   "region": "Atlantic",
+   "kind": "Program",
+   "categories": [
+    "Intellectual property",
+    "Commercialization",
+    "Industry partnership",
+    "Startups & spin-offs",
+    "International"
+   ],
+   "audience": [
+    "Industry & SMEs"
+   ],
+   "deadline": null,
+   "status": "open",
+   "published": null,
+   "content_hash": "00b1e5c43c0bc0dff9654ef2afa9899fd798b700",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "bb627e04daea77e9",
    "title": "Special calls",
    "url": "https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/special/special-eng.aspx",
-   "description": "Special calls are targeted to support emerging research as needed.",
+   "description": "New Frontiers in Research Fund (NFRF) special calls support research that targets emerging areas and aligns with the fund's overall objectives...",
    "funder": "Tri-agency (NFRF)",
    "source_id": "nfrf",
    "source_name": "New Frontiers in Research Fund",
@@ -1011,7 +1099,7 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
+   "status": "closed",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -1161,7 +1249,7 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -1180,7 +1268,7 @@
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Defence & security"
+    "Defence & dual-use"
    ],
    "audience": [],
    "deadline": null,
@@ -1230,7 +1318,8 @@
    "region": "National",
    "kind": "Program",
    "categories": [
-    "Research"
+    "Research",
+    "Commercialization"
    ],
    "audience": [
     "Universities"
@@ -1248,7 +1337,7 @@
    "id": "eac7d44b0cb71b8c",
    "title": "SMEs innovating with AI",
    "url": "https://nrc.canada.ca/en/support-technology-innovation/nrc-irap-support-smes-innovating-artificial-intelligence",
-   "description": "Learn more about support for SMEs innovating with artificial intelligence.",
+   "description": "As more and more Canadian small and medium-sized enterprises (SMEs) are working to harness the power of artificial intelligence (AI) to generate growth, the National Research Council of Canada Industrial Research Assistance Program (NRC IRAP) is committed to providing support to increase the quality and competitiveness of Canadian AI technologies.",
    "funder": "National Research Council – Industrial Research Assistance Program",
    "source_id": "nrc-irap",
    "source_name": "NRC IRAP",
@@ -1256,6 +1345,8 @@
    "kind": "Program",
    "categories": [
     "Commercialization",
+    "Research",
+    "Industry partnership",
     "SME & business",
     "AI & digital"
    ],
@@ -1292,7 +1383,7 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-10-26",
    "updated": null,
-   "active": false
+   "active": true
   },
   {
    "id": "76e00c344236e3f0",
@@ -1399,7 +1490,7 @@
    "id": "0e453824ae887b91",
    "title": "Regional Economic Growth through Innovation",
    "url": "https://www.canada.ca/en/atlantic-canada-opportunities/services/regional-economic-growth-through-innovation.html",
-   "description": "Supports productivity improvements, business scale‑up, technology adoption and market expansion.",
+   "description": "The Regional Economic Growth through Innovation program helps businesses and non-profits develop a strong, inclusive economy in Atlantic Canada.",
    "funder": "Atlantic Canada Opportunities Agency",
    "source_id": "acoa",
    "source_name": "ACOA",
@@ -1409,7 +1500,8 @@
     "SME & business"
    ],
    "audience": [
-    "Industry & SMEs"
+    "Industry & SMEs",
+    "Not-for-profits"
    ],
    "deadline": null,
    "status": "open",
@@ -1424,7 +1516,7 @@
    "id": "3bff69322ff12df0",
    "title": "Regional Development Fund",
    "url": "https://www.gov.nl.ca/jgrd/funding/regional-development-fund/",
-   "description": "",
+   "description": "The Department of Jobs, Growth and Rural Development provides support to organizations by way of non-repayable contributions for projects aimed...",
    "funder": "Government of NL – Jobs, Growth and Rural Development",
    "source_id": "nl-jgrd",
    "source_name": "Newfoundland and Labrador – Industry funding",
@@ -1447,7 +1539,7 @@
    "id": "ecaaa83962886f84",
    "title": "Regional Defence Investment Initiative",
    "url": "https://www.canada.ca/en/atlantic-canada-opportunities/services/regional-defence-investment-initiative.html",
-   "description": "Helps organizations build capacity and integrate into domestic and international defence and security supply chains.",
+   "description": "The Regional Defence Investment Initiative (RDII) is a $357.7 million cross-Canada initiative. ACOA is delivering $38.2 million under the RDII in Atlantic Canada over three years, starting in 2025-26, to support Canada’s defence and security needs while bolstering economic development.",
    "funder": "Atlantic Canada Opportunities Agency",
    "source_id": "acoa",
    "source_name": "ACOA",
@@ -1455,13 +1547,9 @@
    "kind": "Program",
    "categories": [
     "SME & business",
-    "Talent & internships",
-    "International",
-    "Defence & security"
+    "Defence & dual-use"
    ],
-   "audience": [
-    "Students & trainees"
-   ],
+   "audience": [],
    "deadline": null,
    "status": "open",
    "published": null,
@@ -1475,75 +1563,22 @@
    "id": "bd9c28cacbf72600",
    "title": "Regional Artificial Intelligence Initiative",
    "url": "https://www.canada.ca/en/atlantic-canada-opportunities/services/regional-artificial-intelligence-initiative.html",
-   "description": "Helps organizations adopt and deploy artificial intelligence by bridging research and commercialization.",
+   "description": "Artificial intelligence is changing how businesses operate, innovate and compete. Supporting responsible AI adoption and commercialization will improve productivity, grow Canadian companies, strengthen the economy, and help share the benefits and opportunities created by AI across regions and communities.",
    "funder": "Atlantic Canada Opportunities Agency",
    "source_id": "acoa",
    "source_name": "ACOA",
    "region": "Atlantic",
    "kind": "Program",
    "categories": [
-    "SME & business",
-    "Research",
     "Commercialization",
+    "SME & business",
     "AI & digital"
    ],
-   "audience": [],
+   "audience": [
+    "Industry & SMEs"
+   ],
    "deadline": "2026-11-20",
    "status": "open",
-   "published": null,
-   "content_hash": null,
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
-   "updated": null,
-   "active": true
-  },
-  {
-   "id": "17cda5b72936f0f6",
-   "title": "Ready 4 Market fund",
-   "url": "https://www.oc-innovation.ca/programs/ready-4-market/",
-   "description": "Ready 4 Market Ontario’s leading pre-seed investment fund. Our investments drive Canadian business development, economic growth, and scalable impact across a variety of technology sectors. Learn more",
-   "funder": "Ontario Centre of Innovation",
-   "source_id": "oci",
-   "source_name": "Ontario Centre of Innovation",
-   "region": "Ontario",
-   "kind": "Program",
-   "categories": [
-    "Commercialization",
-    "Industry partnership"
-   ],
-   "audience": [
-    "Industry & SMEs"
-   ],
-   "deadline": null,
-   "status": "unknown",
-   "published": null,
-   "content_hash": null,
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
-   "updated": null,
-   "active": true
-  },
-  {
-   "id": "3560a0f1aef93ba3",
-   "title": "Ready 4 Market fund",
-   "url": "https://www.oc-innovation.ca/programs/market-readiness-co-investment-fund/",
-   "description": "Browse Programs Digital Competence Centre Digitalization is redefining the future for companies. It is a critical factor in the success and growth of Ontario’s companies, enabling them to release products to the market faster and reach the right customers, all while offering a near perfect experience. Through DCC, Ontario is placing its SMEs at the forefront of digital transformation, supporting…",
-   "funder": "Ontario Centre of Innovation",
-   "source_id": "oci",
-   "source_name": "Ontario Centre of Innovation",
-   "region": "Ontario",
-   "kind": "Program",
-   "categories": [
-    "Commercialization",
-    "Industry partnership",
-    "SME & business",
-    "AI & digital"
-   ],
-   "audience": [
-    "Industry & SMEs"
-   ],
-   "deadline": null,
-   "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -1608,7 +1643,7 @@
    "id": "a1cfff8578f156af",
    "title": "REFINE | Buyer Engagement",
    "url": "https://investnovascotia.ca/incentives-programs-services/refine-buyer-engagement",
-   "description": "",
+   "description": "You can download the Guidelines & FAQ by clicking the link on the sidebar under Related Documents.",
    "funder": "Invest Nova Scotia",
    "source_id": "invest-ns",
    "source_name": "Invest Nova Scotia",
@@ -1619,7 +1654,7 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
+   "status": "closed",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -1631,7 +1666,7 @@
    "id": "7abeb29c0081367c",
    "title": "Project Grant: Building a sustainable future for curiosity-driven research",
    "url": "https://cihr-irsc.gc.ca/e/54821.html",
-   "description": "September 23, 2026",
+   "description": "This discussion paper summarizes the current pressures facing the Project Grant program, what CIHR has heard through recent engagements and a range of potential interventions for further discussion. Except for measures already announced or underway and clearly identified as such, no decisions have been made on anything presented here. The interventions are not a package or a preferred roadmap;…",
    "funder": "Canadian Institutes of Health Research",
    "source_id": "cihr",
    "source_name": "CIHR",
@@ -1703,7 +1738,7 @@
    "id": "bf5a4d57f88b8923",
    "title": "Productivity and Innovation Voucher Program",
    "url": "https://investnovascotia.ca/incentives-programs-services/productivity-and-innovation-voucher-program",
-   "description": "",
+   "description": "You can download the Guidelines, FAQ, and the Application Form by clicking the link on the sidebar under Related Documents.",
    "funder": "Invest Nova Scotia",
    "source_id": "invest-ns",
    "source_name": "Invest Nova Scotia",
@@ -1714,7 +1749,7 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
+   "status": "closed",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -1836,7 +1871,7 @@
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Defence & security"
+    "Defence & dual-use"
    ],
    "audience": [],
    "deadline": null,
@@ -1852,7 +1887,7 @@
    "id": "1b84274f1d408f58",
    "title": "Payroll Rebate",
    "url": "https://investnovascotia.ca/incentives-programs-services/payroll-rebate",
-   "description": "",
+   "description": "A payroll rebate is a performance-based incentive that helps growing companies succeed in Nova Scotia. Designed to reward results, it provides a return on eligible gross payroll, paid annually as your company meets agreed-upon growth targets. Rebates are issued for a set term—typically five years—up to an approved amount.",
    "funder": "Invest Nova Scotia",
    "source_id": "invest-ns",
    "source_name": "Invest Nova Scotia",
@@ -1861,7 +1896,37 @@
    "categories": [
     "SME & business"
    ],
-   "audience": [],
+   "audience": [
+    "Industry & SMEs"
+   ],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "1154c4788a2940a1",
+   "title": "Patent Collective Program",
+   "url": "https://ised-isde.canada.ca/site/ised/en/programs-and-initiatives/patent-collective-program",
+   "description": "From: Innovation, Science and Economic Development Canada The Patent Collective Program is a Government of Canada program designed to help small and medium-sized enterprises (SMEs) navigate the patent landscape and make informed decisions about intellectual property (IP) strategies that support growth. The independent, not-for-profit, membership-based organization Innovation Asset Collective…",
+   "funder": "Innovation, Science and Economic Development Canada – IP Strategy",
+   "source_id": "ised-ip",
+   "source_name": "ISED IP Strategy programs",
+   "region": "National",
+   "kind": "Program",
+   "categories": [
+    "Intellectual property",
+    "Commercialization",
+    "SME & business"
+   ],
+   "audience": [
+    "Industry & SMEs",
+    "Not-for-profits"
+   ],
    "deadline": null,
    "status": "unknown",
    "published": null,
@@ -1883,6 +1948,7 @@
    "kind": "Program",
    "categories": [
     "Research",
+    "Commercialization",
     "Industry partnership"
    ],
    "audience": [],
@@ -2105,7 +2171,7 @@
    "id": "21091176bacaf4e6",
    "title": "Outreach Initiative grants and contributions program",
    "url": "https://nrc.canada.ca/en/support-technology-innovation/outreach-initiative-grants-contributions-program",
-   "description": "Learn about grant funding to support non-profit organizations or charities for a variety of science- or innovation-based initiatives.",
+   "description": "The NRC's Outreach Initiative provides grant funding to support non-profit organizations or charities for a variety of science- or innovation-based initiatives or projects.",
    "funder": "National Research Council – Industrial Research Assistance Program",
    "source_id": "nrc-irap",
    "source_name": "NRC IRAP",
@@ -2128,38 +2194,10 @@
    "active": true
   },
   {
-   "id": "a1f39b839a3e20aa",
-   "title": "Ontario Vehicle Innovation Network (OVIN)",
-   "url": "https://www.oc-innovation.ca/programs/ontario-vehicle-innovation-network-ovin/",
-   "description": "Browse Programs Digital Competence Centre Digitalization is redefining the future for companies. It is a critical factor in the success and growth of Ontario’s companies, enabling them to release products to the market faster and reach the right customers, all while offering a near perfect experience. Through DCC, Ontario is placing its SMEs at the forefront of digital transformation, supporting…",
-   "funder": "Ontario Centre of Innovation",
-   "source_id": "oci",
-   "source_name": "Ontario Centre of Innovation",
-   "region": "Ontario",
-   "kind": "Program",
-   "categories": [
-    "Commercialization",
-    "Industry partnership",
-    "SME & business",
-    "AI & digital"
-   ],
-   "audience": [
-    "Industry & SMEs"
-   ],
-   "deadline": null,
-   "status": "unknown",
-   "published": null,
-   "content_hash": null,
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
-   "updated": null,
-   "active": true
-  },
-  {
    "id": "05b3980ff894e0b2",
    "title": "Nova Scotia Research and Development Tax Credit",
    "url": "https://investnovascotia.ca/incentives-programs-services/nova-scotia-research-and-development-tax-credit",
-   "description": "",
+   "description": "This credit offers tax relief to Nova Scotia corporations that incur qualified scientific research and experimental development (SR&ED) expenditures made in Nova Scotia, as defined by the federal Income Tax Act. You can claim this credit if you have a permanent establishment in Nova Scotia and if you made eligible expenditures for research and development carried out in Nova Scotia.",
    "funder": "Invest Nova Scotia",
    "source_id": "invest-ns",
    "source_name": "Invest Nova Scotia",
@@ -2183,7 +2221,7 @@
    "id": "fe40f59232acc4fd",
    "title": "Nova Scotia Loyal Producer Labelling Program",
    "url": "https://investnovascotia.ca/incentives-programs-services/nova-scotia-loyal-producer-labelling-program",
-   "description": "",
+   "description": "Increase your company’s brand awareness and make it easier for consumers to choose locally made products.",
    "funder": "Invest Nova Scotia",
    "source_id": "invest-ns",
    "source_name": "Invest Nova Scotia",
@@ -2192,9 +2230,11 @@
    "categories": [
     "SME & business"
    ],
-   "audience": [],
+   "audience": [
+    "Industry & SMEs"
+   ],
    "deadline": null,
-   "status": "unknown",
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -2206,7 +2246,7 @@
    "id": "e02cdb2150951b1b",
    "title": "Nova Scotia Capital Investment Tax Credit",
    "url": "https://investnovascotia.ca/incentives-programs-services/nova-scotia-capital-investment-tax-credit",
-   "description": "",
+   "description": "The Capital Investment Tax Credit (CITC) is a refundable corporate tax credit that can be claimed for capital costs directly related to acquiring qualified property for use in Nova Scotia as part of an approved project.",
    "funder": "Invest Nova Scotia",
    "source_id": "invest-ns",
    "source_name": "Invest Nova Scotia",
@@ -2229,7 +2269,7 @@
    "id": "e2e5556ab6082a3e",
    "title": "Northern Isolated Community Initiatives Fund",
    "url": "https://www.canada.ca/en/atlantic-canada-opportunities/services/northern-isolated-community-initiatives-fund.html",
-   "description": "Supports food‑related initiatives that strengthen and diversify economic activity across Inuit Nunangat, including Nunatsiavut.",
+   "description": "ACOA's Northern Isolated Community Initiatives (NICI) Fund supports current and new food-related initiatives that strengthen and diversify economic activity in Nunatsiavut (northern Labrador).",
    "funder": "Atlantic Canada Opportunities Agency",
    "source_id": "acoa",
    "source_name": "ACOA",
@@ -2313,60 +2353,11 @@
    "categories": [
     "Research",
     "Industry partnership",
-    "AI & digital"
+    "AI & digital",
+    "Quantum & emerging tech"
    ],
    "audience": [],
    "deadline": null,
-   "status": "open",
-   "published": null,
-   "content_hash": null,
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
-   "updated": null,
-   "active": true
-  },
-  {
-   "id": "a389b6ec0084ef40",
-   "title": "NSERC-FRQ NOVA program for junior researchers",
-   "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/nserc-frq-nova-program-junior-researchers",
-   "description": "This funding opportunity supports research projects led by junior researchers from Quebec in collaboration with researchers from other Canadian provinces and territories.",
-   "funder": "Natural Sciences and Engineering Research Council of Canada",
-   "source_id": "nserc",
-   "source_name": "NSERC",
-   "region": "National",
-   "kind": "Call",
-   "categories": [
-    "Research",
-    "Industry partnership"
-   ],
-   "audience": [
-    "Universities"
-   ],
-   "deadline": null,
-   "status": "open",
-   "published": null,
-   "content_hash": null,
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
-   "updated": null,
-   "active": true
-  },
-  {
-   "id": "20e9ad890e848d71",
-   "title": "NSERC-Alberta Innovates Advance Grants - Stream II",
-   "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/nserc-alberta-innovates-advance-grants-stream-ii",
-   "description": "A research partnership with Alberta Innovates that supports technology advancements.",
-   "funder": "Natural Sciences and Engineering Research Council of Canada",
-   "source_id": "nserc",
-   "source_name": "NSERC",
-   "region": "National",
-   "kind": "Call",
-   "categories": [
-    "Research",
-    "Industry partnership"
-   ],
-   "audience": [],
-   "deadline": "2026-11-02",
    "status": "open",
    "published": null,
    "content_hash": null,
@@ -2453,7 +2444,7 @@
    "id": "be9e2521c950a68e",
    "title": "NSERC Donna Strickland Prize for Societal Impact of Natural Sciences and Engineering Research",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/nserc-donna-strickland-prize-societal-impact-natural-sciences-and-engineering",
-   "description": "The NSERC Donna Strickland Prize for Societal Impact of Natural Sciences and Engineering Research is awarded annually to an individual or team whose outstanding…",
+   "description": "The NSERC Donna Strickland Prize for Societal Impact of Natural Sciences and Engineering Research is awarded annually to an individual or team whose outstanding research, conducted in Canada in the natural sciences and engineering, has led to exceptional benefits for Canadian society, environment or economy.",
    "funder": "Natural Sciences and Engineering Research Council of Canada",
    "source_id": "nserc",
    "source_name": "NSERC",
@@ -2476,14 +2467,15 @@
    "id": "89855ddce25d9445",
    "title": "NSERC Awards for Science Promotion",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/nserc-awards-science-promotion",
-   "description": "The NSERC Awards for Science Promotion recognize individuals and groups who inspire others by promoting science to the general public. Examples of science…",
+   "description": "The NSERC Awards for Science Promotion recognize individuals and groups who inspire others by promoting science to the general public.Examples of science promotion activities that could be considered for the award include:organizing science camps, fairs, clubs or mentorship programs with youth organizationsenhancing equity, diversity and inclusion in existing programscreating new learning…",
    "funder": "Natural Sciences and Engineering Research Council of Canada",
    "source_id": "nserc",
    "source_name": "NSERC",
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Talent & internships"
    ],
    "audience": [],
    "deadline": null,
@@ -2524,62 +2516,10 @@
    "active": true
   },
   {
-   "id": "36a6e84d67bce80b",
-   "title": "NSERC Alliance grants and Ontario Centre of Innovation Collaborate 2 Commercialize",
-   "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/nserc-alliance-grants-and-ontario-centre-innovation-collaborate-2-commercialize",
-   "description": "A collaborative research partnership with the OCI’s C2C program.",
-   "funder": "Natural Sciences and Engineering Research Council of Canada",
-   "source_id": "nserc",
-   "source_name": "NSERC",
-   "region": "National",
-   "kind": "Call",
-   "categories": [
-    "Research",
-    "Commercialization",
-    "Industry partnership"
-   ],
-   "audience": [],
-   "deadline": null,
-   "status": "open",
-   "published": null,
-   "content_hash": null,
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
-   "updated": null,
-   "active": true
-  },
-  {
-   "id": "4fbbf709b4393fb6",
-   "title": "NSERC Alliance and Alberta Innovates Campus Alberta Small Business Engagement (CASBE) Stream II",
-   "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/nserc-alliance-and-alberta-innovates-campus-alberta-small-business-engagement",
-   "description": "A collaborative research partnership with Alberta Innovates’ CASBE program.",
-   "funder": "Natural Sciences and Engineering Research Council of Canada",
-   "source_id": "nserc",
-   "source_name": "NSERC",
-   "region": "National",
-   "kind": "Call",
-   "categories": [
-    "Research",
-    "Industry partnership",
-    "SME & business"
-   ],
-   "audience": [
-    "Industry & SMEs"
-   ],
-   "deadline": null,
-   "status": "open",
-   "published": null,
-   "content_hash": null,
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
-   "updated": null,
-   "active": true
-  },
-  {
    "id": "0db0a3498d4ff735",
    "title": "NRC IRAP support for clean technology",
    "url": "https://nrc.canada.ca/en/support-technology-innovation/nrc-irap-support-clean-technology",
-   "description": "New support for Canadian SMEs to develop and advance clean technologies through to commercialization.",
+   "description": "Clean technology provides environmental benefits for Canada and improves our economic prosperity. Small and medium-sized businesses in Canada that are working on clean technology — whether they are developing it, testing it, or bringing it to market — are now eligible for support from the National Research Council of Canada Industrial Research Assistance Program (NRC IRAP).",
    "funder": "National Research Council – Industrial Research Assistance Program",
    "source_id": "nrc-irap",
    "source_name": "NRC IRAP",
@@ -2587,6 +2527,8 @@
    "kind": "Program",
    "categories": [
     "Commercialization",
+    "Research",
+    "Industry partnership",
     "SME & business",
     "Clean tech & climate"
    ],
@@ -2642,7 +2584,8 @@
     "SME & business",
     "Commercialization",
     "Industry partnership",
-    "Startups & spin-offs"
+    "Startups & spin-offs",
+    "Quantum & emerging tech"
    ],
    "audience": [
     "Industry & SMEs"
@@ -2715,16 +2658,19 @@
    "id": "83ab019f6c7aec8b",
    "title": "Market Exploration Program UK",
    "url": "https://investnovascotia.ca/incentives-programs-services/market-exploration-program-uk",
-   "description": "",
+   "description": "The Market Exploration Program UK (the Program) supports high-growth Atlantic Canadian ICT companies in cybersecurity, SaaS/enterprise software, and data analytics, and AI as they explore, validate, and position their solutions in the UK’s expanding innovation ecosystem .",
    "funder": "Invest Nova Scotia",
    "source_id": "invest-ns",
    "source_name": "Invest Nova Scotia",
    "region": "Nova Scotia",
    "kind": "Program",
    "categories": [
-    "SME & business"
+    "SME & business",
+    "AI & digital"
    ],
-   "audience": [],
+   "audience": [
+    "Industry & SMEs"
+   ],
    "deadline": null,
    "status": "unknown",
    "published": null,
@@ -2738,7 +2684,7 @@
    "id": "64fdcd69c2babfd7",
    "title": "Market Entry Development Program",
    "url": "https://investnovascotia.ca/incentives-programs-services/market-entry-development-program",
-   "description": "",
+   "description": "This project is supported by the Government of Canada and the four Atlantic Provinces through the Atlantic Trade, Investment, and Growth Agreement.",
    "funder": "Invest Nova Scotia",
    "source_id": "invest-ns",
    "source_name": "Invest Nova Scotia",
@@ -2749,7 +2695,7 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -2793,7 +2739,8 @@
    "kind": "Call",
    "categories": [
     "Commercialization",
-    "SME & business"
+    "SME & business",
+    "Quantum & emerging tech"
    ],
    "audience": [],
    "deadline": "2026-11-04",
@@ -2809,7 +2756,7 @@
    "id": "04db6896ea929107",
    "title": "Local Supplier Food Safety Support Pilot Program",
    "url": "https://investnovascotia.ca/incentives-programs-services/local-supplier-food-safety-support-pilot-program",
-   "description": "",
+   "description": "The Local Supplier Food Safety Support Pilot Program will help Nova Scotia food and beverage producers successfully achieve and maintain food safety requirements for retailers, food service companies and institutions, or to adjust their food safety program to meet emerging food safety requirements or new markets.",
    "funder": "Invest Nova Scotia",
    "source_id": "invest-ns",
    "source_name": "Invest Nova Scotia",
@@ -2817,33 +2764,6 @@
    "kind": "Program",
    "categories": [
     "SME & business"
-   ],
-   "audience": [],
-   "deadline": null,
-   "status": "unknown",
-   "published": null,
-   "content_hash": null,
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
-   "updated": null,
-   "active": true
-  },
-  {
-   "id": "0dfa55cbe0e43e59",
-   "title": "Life Sciences Innovation Fund",
-   "url": "https://www.oc-innovation.ca/programs/life-sciences-innovation-fund/",
-   "description": "Browse Programs Digital Competence Centre Digitalization is redefining the future for companies. It is a critical factor in the success and growth of Ontario’s companies, enabling them to release products to the market faster and reach the right customers, all while offering a near perfect experience. Through DCC, Ontario is placing its SMEs at the forefront of digital transformation, supporting…",
-   "funder": "Ontario Centre of Innovation",
-   "source_id": "oci",
-   "source_name": "Ontario Centre of Innovation",
-   "region": "Ontario",
-   "kind": "Program",
-   "categories": [
-    "Commercialization",
-    "Industry partnership",
-    "SME & business",
-    "Health & life sciences",
-    "AI & digital"
    ],
    "audience": [
     "Industry & SMEs"
@@ -2870,7 +2790,8 @@
    "categories": [
     "Industry partnership",
     "Startups & spin-offs",
-    "SME & business"
+    "SME & business",
+    "Quantum & emerging tech"
    ],
    "audience": [
     "Industry & SMEs",
@@ -2889,7 +2810,7 @@
    "id": "fda39c0cd57fa290",
    "title": "Launch Export Atlantic Incubator",
    "url": "https://investnovascotia.ca/incentives-programs-services/launch-export-atlantic-incubator",
-   "description": "",
+   "description": "Download the Guidelines by clicking the link on the sidebar under Related Documents.",
    "funder": "Invest Nova Scotia",
    "source_id": "invest-ns",
    "source_name": "Invest Nova Scotia",
@@ -2902,7 +2823,7 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
+   "status": "closed",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -2929,6 +2850,32 @@
    "status": "open",
    "published": null,
    "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "efc49a9128453196",
+   "title": "Key Technology Expedited Program (KTEP)",
+   "url": "https://ised-isde.canada.ca/site/canadian-intellectual-property-office/en/key-technology-expedited-program-ktep",
+   "description": "KTEP is a pilot program at the Canadian Intellectual Property Office (CIPO) that allows accelerated examination of patent applications at no additional cost.",
+   "funder": "Canadian Intellectual Property Office",
+   "source_id": "cipo-ktep",
+   "source_name": "CIPO – Key Technology Expedited Program",
+   "region": "National",
+   "kind": "Program",
+   "categories": [
+    "Quantum & emerging tech",
+    "Intellectual property",
+    "Commercialization",
+    "Startups & spin-offs"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": "6da7160993cb4450b3e7858d1cd2d811f2c7a5a7",
    "first_seen": "2026-10-26",
    "last_seen": "2026-10-26",
    "updated": null,
@@ -2990,7 +2937,7 @@
    "id": "c461d0e056bd8a46",
    "title": "Job Accelerator and Growth Program",
    "url": "https://www.gov.nl.ca/jgrd/funding/job-accelerator-and-growth-program/",
-   "description": "",
+   "description": "The Job Accelerator and Growth Program (JAG Program) is a new program created to support job creation and investment in...",
    "funder": "Government of NL – Jobs, Growth and Rural Development",
    "source_id": "nl-jgrd",
    "source_name": "Newfoundland and Labrador – Industry funding",
@@ -3014,7 +2961,7 @@
    "id": "434e53172be6cb66",
    "title": "Investment Attraction Fund",
    "url": "https://www.gov.nl.ca/jgrd/funding/investment-attraction-fund/",
-   "description": "",
+   "description": "PURPOSE The Investment Attraction Fund (“Fund”) is designed to attract large-scale businesses and foreign direct investment (“FDI”) to the Province...",
    "funder": "Government of NL – Jobs, Growth and Rural Development",
    "source_id": "nl-jgrd",
    "source_name": "Newfoundland and Labrador – Industry funding",
@@ -3023,7 +2970,9 @@
    "categories": [
     "SME & business"
    ],
-   "audience": [],
+   "audience": [
+    "Industry & SMEs"
+   ],
    "deadline": null,
    "status": "unknown",
    "published": null,
@@ -3037,7 +2986,7 @@
    "id": "01b88865e5877487",
    "title": "Invest Nova Scotia Accelerate",
    "url": "https://investnovascotia.ca/incentives-programs-services/invest-nova-scotia-accelerate",
-   "description": "",
+   "description": "You can download the Guidelines, Application Form, Eligible Expenses & Claims FAQ documents by clicking the link on the sidebar under Related Documents.",
    "funder": "Invest Nova Scotia",
    "source_id": "invest-ns",
    "source_name": "Invest Nova Scotia",
@@ -3049,7 +2998,7 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
+   "status": "closed",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -3088,7 +3037,7 @@
    "id": "ca9c92414d7e7259",
    "title": "International collaboration",
    "url": "https://nrc.canada.ca/en/support-technology-innovation/nrc-irap-international-collaboration",
-   "description": "Read about how we can help your business better compete in the global marketplace.",
+   "description": "Global collaboration has become a competitive necessity for small and medium-sized enterprises in Canada. IRAP's international activities play a key role in ensuring that our clients are knowledgeable about and suitably prepared to address global challenges.",
    "funder": "National Research Council – Industrial Research Assistance Program",
    "source_id": "nrc-irap",
    "source_name": "NRC IRAP",
@@ -3096,8 +3045,8 @@
    "kind": "Program",
    "categories": [
     "Commercialization",
-    "SME & business",
     "Industry partnership",
+    "SME & business",
     "Talent & internships",
     "International"
    ],
@@ -3118,7 +3067,7 @@
    "id": "cb4a5d99f20ae040",
    "title": "International",
    "url": "https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/international/international-eng.aspx",
-   "description": "The International stream enhances opportunities for Canadian researchers to partner on international projects.",
+   "description": "The International stream aims to support international collaborations and position Canada and Canadian researchers as strategic partners at the international level. The International stream includes two mechanisms:",
    "funder": "Tri-agency (NFRF)",
    "source_id": "nfrf",
    "source_name": "New Frontiers in Research Fund",
@@ -3135,6 +3084,36 @@
     "Students & trainees"
    ],
    "deadline": "2026-11-03",
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "a5de11941af9e191",
+   "title": "Intellectual Property Clinics Program",
+   "url": "https://ised-isde.canada.ca/site/intellectual-property-strategy/en/intellectual-property-strategy/intellectual-property-clinics-program",
+   "description": "IP clinics grant program IP clinics are a win-win, enabling students to learn more about IP, helping businesses get a sense of their IP needs and facilitating access to the profession that can provide quality IP advice. The program does so by supporting the provision of free or low-cost access to basic IP services and increasing the exposure of university students to IP issues. The program also…",
+   "funder": "Innovation, Science and Economic Development Canada – IP Strategy",
+   "source_id": "ised-ip",
+   "source_name": "ISED IP Strategy programs",
+   "region": "National",
+   "kind": "Program",
+   "categories": [
+    "Intellectual property",
+    "Commercialization",
+    "SME & business",
+    "Talent & internships"
+   ],
+   "audience": [
+    "Universities",
+    "Industry & SMEs",
+    "Students & trainees"
+   ],
+   "deadline": null,
    "status": "unknown",
    "published": null,
    "content_hash": null,
@@ -3217,7 +3196,7 @@
    "id": "8d90db0605ef098d",
    "title": "Innovation and Business Development Fund",
    "url": "https://www.gov.nl.ca/jgrd/funding/innovation-and-business-development-fund/",
-   "description": "",
+   "description": "The Innovation and Business Development Fund is focused on investments to grow Newfoundland and Labrador’s oil and gas supply and...",
    "funder": "Government of NL – Jobs, Growth and Rural Development",
    "source_id": "nl-jgrd",
    "source_name": "Newfoundland and Labrador – Industry funding",
@@ -3259,7 +3238,7 @@
     "Industry & SMEs"
    ],
    "deadline": null,
-   "status": "unknown",
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -3271,7 +3250,7 @@
    "id": "d67660b4c3f7e0e2",
    "title": "Innovation Rebate Program",
    "url": "https://investnovascotia.ca/incentives-programs-services/innovation-rebate-program",
-   "description": "",
+   "description": "You can download the Guidelines and FAQ by clicking the link on the sidebar under Related Documents.",
    "funder": "Invest Nova Scotia",
    "source_id": "invest-ns",
    "source_name": "Invest Nova Scotia",
@@ -3301,10 +3280,34 @@
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Defence & security"
+    "Defence & dual-use"
    ],
    "audience": [],
    "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "f9551fee896af773",
+   "title": "Innovation Fund",
+   "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/innovation-fund-old",
+   "description": "Learn about the Innovation Fund, which helps keep Canada at the forefront of research and innovation, and view guidelines and deadlines to apply.",
+   "funder": "Canada Foundation for Innovation",
+   "source_id": "cfi",
+   "source_name": "Canada Foundation for Innovation",
+   "region": "National",
+   "kind": "Call",
+   "categories": [
+    "Infrastructure & equipment",
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2027-02-02",
    "status": "unknown",
    "published": null,
    "content_hash": null,
@@ -3341,30 +3344,6 @@
    "active": true
   },
   {
-   "id": "f9551fee896af773",
-   "title": "Innovation Fund",
-   "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/innovation-fund-old",
-   "description": "Learn about the Innovation Fund, which helps keep Canada at the forefront of research and innovation, and view guidelines and deadlines to apply.",
-   "funder": "Canada Foundation for Innovation",
-   "source_id": "cfi",
-   "source_name": "Canada Foundation for Innovation",
-   "region": "National",
-   "kind": "Call",
-   "categories": [
-    "Infrastructure & equipment",
-    "Research"
-   ],
-   "audience": [],
-   "deadline": "2027-02-02",
-   "status": "unknown",
-   "published": null,
-   "content_hash": null,
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
-   "updated": null,
-   "active": true
-  },
-  {
    "id": "85a68a965bbd5df6",
    "title": "Innovation Ecosystem",
    "url": "https://oceansupercluster.ca/innovation-ecosystem/",
@@ -3392,7 +3371,7 @@
    "id": "a354955fbe0a65eb",
    "title": "Industrial and Technological Benefits policy",
    "url": "https://www.canada.ca/en/atlantic-canada-opportunities/services/industrial-technological-benefits-policy.html",
-   "description": "Ensures Atlantic Canadians benefit from Canada’s Industrial and Technological Benefits policy for major defence procurements.",
+   "description": "ACOA helps Atlantic Canadian organizations use the policy to find opportunities with contractors on Canadian Armed Forces and major Canadian Coast Guard projects",
    "funder": "Atlantic Canada Opportunities Agency",
    "source_id": "acoa",
    "source_name": "ACOA",
@@ -3400,8 +3379,7 @@
    "kind": "Program",
    "categories": [
     "SME & business",
-    "Industry partnership",
-    "Defence & security"
+    "Industry partnership"
    ],
    "audience": [],
    "deadline": null,
@@ -3429,6 +3407,34 @@
     "Clean tech & climate"
    ],
    "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "0df3ebe6a6b2272c",
+   "title": "Indigenous Intellectual Property Program Grant",
+   "url": "https://ised-isde.canada.ca/site/intellectual-property-strategy/en/intellectual-property-strategy/indigenous-intellectual-property-program-grant",
+   "description": "Indigenous intellectual property initiatives The Indigenous Intellectual Property Program (IIPP) initiatives aim to support Indigenous peoples' capacity building, education, awareness raising, and participation in national and international discussions about the complex relationship between the IP system and the protection of Indigenous knowledge (IK) and Indigenous cultural expressions (ICEs).…",
+   "funder": "Innovation, Science and Economic Development Canada – IP Strategy",
+   "source_id": "ised-ip",
+   "source_name": "ISED IP Strategy programs",
+   "region": "National",
+   "kind": "Program",
+   "categories": [
+    "Intellectual property",
+    "Commercialization",
+    "Talent & internships",
+    "International"
+   ],
+   "audience": [
+    "Students & trainees"
+   ],
    "deadline": null,
    "status": "unknown",
    "published": null,
@@ -3563,6 +3569,33 @@
    "active": true
   },
   {
+   "id": "4eb74d7f9373d8cf",
+   "title": "Ideation Fund - where breakthroughs begin",
+   "url": "https://nrc.canada.ca/en/research-development/research-collaboration/programs/ideation-fund-where-breakthroughs-begin",
+   "description": "The NRC recruits forward thinkers who work at the leading edge of research and technology to set a new standard for innovation. Recently launched, our Ideation Programs provide financial support for our researchers and scientists to pursue self-directed research in collaboration with our partners, and test transformative ideas that have the potential to develop into future disruptive technologies.",
+   "funder": "National Research Council Canada",
+   "source_id": "nrc-ideation",
+   "source_name": "NRC Ideation Fund",
+   "region": "National",
+   "kind": "Program",
+   "categories": [
+    "Quantum & emerging tech",
+    "Research",
+    "Industry partnership"
+   ],
+   "audience": [
+    "Universities"
+   ],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": "853968d1c2503d358c924c9011c2a2bf7d3aa5e8",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "52e0f5ed3f33ddce",
    "title": "Idea to Innovation grants",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/idea-innovation-grants",
@@ -3589,10 +3622,38 @@
    "active": true
   },
   {
+   "id": "f0d91dde2756bbf9",
+   "title": "IP resources and funding for entrepreneurs",
+   "url": "https://ised-isde.canada.ca/site/canadian-intellectual-property-office/en/ip-resources-and-funding-entrepreneurs",
+   "description": "Discover a selection of IP resources and funding programs backed by government initiatives and key partners. These resources are available to support Canadian businesses.",
+   "funder": "Canadian Intellectual Property Office",
+   "source_id": "cipo-financing",
+   "source_name": "CIPO – IP resources and financing",
+   "region": "National",
+   "kind": "Program",
+   "categories": [
+    "Intellectual property",
+    "Industry partnership",
+    "Startups & spin-offs",
+    "SME & business"
+   ],
+   "audience": [
+    "Industry & SMEs"
+   ],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": "0f44f730fe1d4ac6b4c09f20964233557a7d12fc",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "5073bee264cf2b26",
    "title": "High-Altitude Platform System (HAPS) for Ultra-Long-Range (ULR) Wireless Backhaul",
    "url": "https://ised-isde.canada.ca/site/innovative-solutions-canada/en/high-altitude-platform-system-ultra-long-range-wireless-backhaul",
-   "description": "Closing date: December 1, 2026, 14:00 Eastern time Challenge stream",
+   "description": "The Department of National Defence (DND), Shared Services Canada (SSC) and National Research Council of Canada (NRC) are seeking the development of a solution that will extend the reach of ultra-long-range wireless backhaul (i.e. over-the-horizon ranges) using High Altitude Platform Systems (HAPS).",
    "funder": "Innovation, Science and Economic Development Canada",
    "source_id": "isc",
    "source_name": "Innovative Solutions Canada",
@@ -3600,7 +3661,9 @@
    "kind": "Call",
    "categories": [
     "Commercialization",
-    "SME & business"
+    "SME & business",
+    "Research",
+    "Defence & dual-use"
    ],
    "audience": [],
    "deadline": "2026-12-01",
@@ -3616,14 +3679,15 @@
    "id": "1002d180bef88820",
    "title": "Harvester Enterprise Loan Program",
    "url": "https://www.gov.nl.ca/jgrd/funding/harvester-enterprise-loan-program/",
-   "description": "",
+   "description": "The Harvester Enterprise Loan Program (the “Program”) is an enhancement of the former Fisheries Loan Guarantee Program and will expand...",
    "funder": "Government of NL – Jobs, Growth and Rural Development",
    "source_id": "nl-jgrd",
    "source_name": "Newfoundland and Labrador – Industry funding",
    "region": "Newfoundland and Labrador",
    "kind": "Program",
    "categories": [
-    "SME & business"
+    "SME & business",
+    "Ocean"
    ],
    "audience": [
     "Industry & SMEs"
@@ -3641,7 +3705,7 @@
    "id": "2b1c3e357401109d",
    "title": "GreenShoots",
    "url": "https://investnovascotia.ca/incentives-programs-services/greenshoots",
-   "description": "",
+   "description": "You can download the Info Kit and Application Form by clicking the link on the sidebar under Related Documents.",
    "funder": "Invest Nova Scotia",
    "source_id": "invest-ns",
    "source_name": "Invest Nova Scotia",
@@ -3653,7 +3717,7 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
+   "status": "closed",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -3665,7 +3729,7 @@
    "id": "6af09785c084546d",
    "title": "Green Transition Fund Program",
    "url": "https://www.gov.nl.ca/jgrd/funding/green-transition-fund-program/",
-   "description": "",
+   "description": "As of March 1st, 2025, the Green Transition Fund will be accepting applications through a continual intake process. Applicants are...",
    "funder": "Government of NL – Jobs, Growth and Rural Development",
    "source_id": "nl-jgrd",
    "source_name": "Newfoundland and Labrador – Industry funding",
@@ -3677,7 +3741,7 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -3832,7 +3896,7 @@
    "id": "438506c82af7aee9",
    "title": "Gerhard Herzberg Canada Gold Medal for Science and Engineering",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/gerhard-herzberg-canada-gold-medal-science-and-engineering",
-   "description": "The Gerhard Herzberg Canada Gold Medal for Science and Engineering recognizes an individual whose body of work, conducted in Canada in the natural sciences or…",
+   "description": "The Gerhard Herzberg Canada Gold Medal for Science and Engineering recognizes an individual whose body of work, conducted in Canada in the natural sciences or engineering, has demonstrated persistent excellence and influence. The award celebrates Canada’s most outstanding scientists and engineers and raises public awareness about the major contributions that top researchers make to science,…",
    "funder": "Natural Sciences and Engineering Research Council of Canada",
    "source_id": "nserc",
    "source_name": "NSERC",
@@ -3841,7 +3905,9 @@
    "categories": [
     "Research"
    ],
-   "audience": [],
+   "audience": [
+    "Universities"
+   ],
    "deadline": null,
    "status": "open",
    "published": null,
@@ -3904,7 +3970,7 @@
    "id": "fd4a101c3a32872d",
    "title": "Fisheries and Oceans Canada Aquatic Science supplement",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/fisheries-and-oceans-canada-aquatic-science-supplement",
-   "description": "Open Date modified: 2025-12-17",
+   "description": "The objectives of the Fisheries and Oceans Canada Aquatic Science supplement are to:",
    "funder": "Natural Sciences and Engineering Research Council of Canada",
    "source_id": "nserc",
    "source_name": "NSERC",
@@ -3928,7 +3994,7 @@
    "id": "25d2089e06d007dd",
    "title": "Financial support for technology innovation",
    "url": "https://nrc.canada.ca/en/support-technology-innovation/financial-support-technology-innovation",
-   "description": "Find out if your business is eligible for financial support through NRC IRAP and how to connect with us.",
+   "description": "NRC Industrial Research Assistance Program (IRAP) provides financial support to qualified small and medium-sized enterprises in Canada to help them undertake technology innovation",
    "funder": "National Research Council – Industrial Research Assistance Program",
    "source_id": "nrc-irap",
    "source_name": "NRC IRAP",
@@ -3936,6 +4002,8 @@
    "kind": "Program",
    "categories": [
     "Commercialization",
+    "Research",
+    "Industry partnership",
     "SME & business"
    ],
    "audience": [
@@ -3962,7 +4030,8 @@
    "kind": "Call",
    "categories": [
     "Commercialization",
-    "SME & business"
+    "SME & business",
+    "Defence & dual-use"
    ],
    "audience": [],
    "deadline": "2026-11-19",
@@ -3978,17 +4047,19 @@
    "id": "ecde22e1436f1200",
    "title": "FRI Competition 2026",
    "url": "https://researchns.ca/fri-competition-2026/",
-   "description": "Research Nova Scotia works to develop research opportunities that help us achieve our mandate. Details and deadlines of all our current and recently closed funding opportunities can be found on this page. Competitions listed as ‘ OPEN ’ are currently accepting applications; ‘EOI Closed’ specifies competitions that are open only to applicants that successfully passed the EOI screening stage.…",
+   "description": "The Focused Research Investments (FRI) Opportunity Space Call for Proposals is now CLOSED. An Opportunity Space is a sector-level challenge that is limiting economic growth and where research is needed to advance solutions. Opportunity Spaces exist where there are partners with whom to work, private-sector interest, and existing research capacity. They represent significant challenges that […]",
    "funder": "Research Nova Scotia",
    "source_id": "research-ns",
    "source_name": "Research Nova Scotia",
    "region": "Nova Scotia",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Industry partnership",
+    "Quantum & emerging tech"
    ],
    "audience": [],
-   "deadline": "2026-11-10",
+   "deadline": "2026-11-24",
    "status": "open",
    "published": null,
    "content_hash": null,
@@ -4027,6 +4098,34 @@
    "active": true
   },
   {
+   "id": "d055db5bfbf349ba",
+   "title": "Export Successfully to the Aerospace & Defence Sector Program",
+   "url": "https://investnovascotia.ca/incentives-programs-services/export-successfully-aerospace-defence-sector-program",
+   "description": "The global Aerospace and Defence sector presents significant export opportunities for Atlantic Canadian companies. Invest Nova Scotia, in partnership with ACOA and the Atlantic Provinces, and led by LearnSphere, is pleased to introduce the Export Successfully to the Aerospace & Defence Sector Program —a new pilot program designed to help Atlantic Canadian companies build the strategy, knowledge,…",
+   "funder": "Invest Nova Scotia",
+   "source_id": "invest-ns",
+   "source_name": "Invest Nova Scotia",
+   "region": "Nova Scotia",
+   "kind": "Program",
+   "categories": [
+    "Industry partnership",
+    "SME & business",
+    "International",
+    "Defence & dual-use"
+   ],
+   "audience": [
+    "Industry & SMEs"
+   ],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "1848156b36c82b62",
    "title": "Export Enhancement and Diversification Fund",
    "url": "https://www.innovationpei.com/program/export-enhancement-diversification-assistance/",
@@ -4056,7 +4155,7 @@
    "id": "c6c520abcc3067e4",
    "title": "Export Development Program",
    "url": "https://investnovascotia.ca/incentives-programs-services/export-development-program",
-   "description": "",
+   "description": "The Export Development Program supports businesses to increase sales outside of Nova Scotia and improve competitiveness.",
    "funder": "Invest Nova Scotia",
    "source_id": "invest-ns",
    "source_name": "Invest Nova Scotia",
@@ -4066,9 +4165,38 @@
     "SME & business",
     "International"
    ],
-   "audience": [],
+   "audience": [
+    "Industry & SMEs"
+   ],
    "deadline": null,
-   "status": "unknown",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "e2271aef19d34576",
+   "title": "Export Accelerator for Diverse-Owned Businesses",
+   "url": "https://investnovascotia.ca/incentives-programs-services/export-accelerator-diverse-owned-businesses",
+   "description": "You can download the Guidelines and FAQ by clicking the link on the sidebar under Related Documents.",
+   "funder": "Invest Nova Scotia",
+   "source_id": "invest-ns",
+   "source_name": "Invest Nova Scotia",
+   "region": "Nova Scotia",
+   "kind": "Program",
+   "categories": [
+    "Startups & spin-offs",
+    "SME & business",
+    "International"
+   ],
+   "audience": [
+    "Industry & SMEs"
+   ],
+   "deadline": null,
+   "status": "closed",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -4080,7 +4208,7 @@
    "id": "f5a81d5fa5beab69",
    "title": "Exploration",
    "url": "https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/exploration/exploration-eng.aspx",
-   "description": "Exploration generates opportunities for Canadians to conduct innovative high-risk / high-reward interdisciplinary research.",
+   "description": "The objective of the Exploration stream is to support high-risk , high-reward and interdisciplinary research. It seeks to inspire projects that bring disciplines together beyond traditional disciplinary or common interdisciplinary approaches by research teams with the capacity to explore something new that might fail, but that has the potential for significant impact.",
    "funder": "Tri-agency (NFRF)",
    "source_id": "nfrf",
    "source_name": "New Frontiers in Research Fund",
@@ -4091,7 +4219,7 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -4128,7 +4256,7 @@
    "id": "ffc2e31853bdd58d",
    "title": "Environment and Climate Change Canada Atmospheric and Meteorological undergraduate supplement",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/environment-and-climate-change-canada-atmospheric-and-meteorological",
-   "description": "Open Date modified: 2025-12-19",
+   "description": "The objectives of the Environment and Climate Change Canada Atmospheric and Meteorological undergraduate supplement are to:",
    "funder": "Natural Sciences and Engineering Research Council of Canada",
    "source_id": "nserc",
    "source_name": "NSERC",
@@ -4155,7 +4283,7 @@
    "id": "7f1eaf3b0d816e3c",
    "title": "Environment and Climate Change Canada Atmospheric and Meteorological graduate supplement",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/environment-and-climate-change-canada-atmospheric-and-meteorological-graduate",
-   "description": "Open Date modified: 2025-12-19",
+   "description": "The objectives of the Environment and Climate Change Canada Atmospheric and Meteorological graduate supplement are to:",
    "funder": "Natural Sciences and Engineering Research Council of Canada",
    "source_id": "nserc",
    "source_name": "NSERC",
@@ -4233,29 +4361,6 @@
    "active": true
   },
   {
-   "id": "6f950740585c396c",
-   "title": "Enhancing skills to support innovation and growth in southern Alberta’s agri-food sector",
-   "url": "https://www.canada.ca/en/prairies-economic-development/news/2026/10/enhancing-skills-to-support-innovation-and-growth-in-southern-albertas-agri-food-sector.html",
-   "description": "PrairiesCan investment will help Lethbridge Polytechnic launch new programs that better prepare skilled tradespeople to operate in the food and beverage sector",
-   "funder": "Government of Canada (News Centre)",
-   "source_id": "gc-news",
-   "source_name": "Government of Canada announcements",
-   "region": "National",
-   "kind": "Announcement",
-   "categories": [],
-   "audience": [
-    "Colleges & polytechnics"
-   ],
-   "deadline": null,
-   "status": "unknown",
-   "published": "2026-10-22T14:00:00-04:00",
-   "content_hash": null,
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
-   "updated": null,
-   "active": true
-  },
-  {
    "id": "9d02d0984d1004e9",
    "title": "Enhancing Resilience to Wildfires in the Wildland-Rural Interface",
    "url": "https://sshrc-crsh.canada.ca/en/funding/opportunities/joint-initiatives/enhancing-resilience-wildfires-wildland-rural-interface.aspx",
@@ -4281,10 +4386,38 @@
    "active": true
   },
   {
+   "id": "0a3e824979f34644",
+   "title": "ElevateIP",
+   "url": "https://ised-isde.canada.ca/site/intellectual-property-strategy/site/ised/en/programs-and-initiatives/elevateip",
+   "description": "Elevate IP was established to help business accelerators and incubators provide the tools Canadian start-ups need to better protect, strategically manage and leverage their intellectual property. This is done by helping businesses secure and maintain their IP rights and provide them with the IP tools and education they need to grow. On a larger scale, ElevateIP serves to improve IP capacity in…",
+   "funder": "Innovation, Science and Economic Development Canada – IP Strategy",
+   "source_id": "ised-ip",
+   "source_name": "ISED IP Strategy programs",
+   "region": "National",
+   "kind": "Program",
+   "categories": [
+    "Intellectual property",
+    "Commercialization",
+    "Startups & spin-offs",
+    "SME & business"
+   ],
+   "audience": [
+    "Industry & SMEs"
+   ],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "30be35713efba792",
    "title": "Elevate Tourism Initiative",
    "url": "https://www.canada.ca/atlantic-canada-opportunities/services/elevate-tourism-initiative.html",
-   "description": "Expanded tourism offerings through a time‑limited, targeted investment initiative.",
+   "description": "We're sorry you ended up here. Sometimes a page gets moved or deleted, but hopefully we can help you find what you're looking for. What next?",
    "funder": "Atlantic Canada Opportunities Agency",
    "source_id": "acoa",
    "source_name": "ACOA",
@@ -4337,7 +4470,7 @@
    "id": "68c3dfd029d9b8b8",
    "title": "Economic Development Initiative",
    "url": "https://www.canada.ca/en/atlantic-canada-opportunities/services/economic-development-initiative.html",
-   "description": "Supports economic growth in official language minority communities through targeted initiatives.",
+   "description": "Through the Economic Development Initiative, ACOA is helping non-profit organizations support growth in Acadian and francophone official language minority communities",
    "funder": "Atlantic Canada Opportunities Agency",
    "source_id": "acoa",
    "source_name": "ACOA",
@@ -4346,7 +4479,9 @@
    "categories": [
     "SME & business"
    ],
-   "audience": [],
+   "audience": [
+    "Not-for-profits"
+   ],
    "deadline": null,
    "status": "open",
    "published": null,
@@ -4360,7 +4495,7 @@
    "id": "d497160adc1c531d",
    "title": "Early Stage Commercialization Fund",
    "url": "https://investnovascotia.ca/incentives-programs-services/early-stage-commercialization-fund",
-   "description": "",
+   "description": "You can download the Guidelines and Proposal Form by clicking the link on the sidebar under Related Documents.",
    "funder": "Invest Nova Scotia",
    "source_id": "invest-ns",
    "source_name": "Invest Nova Scotia",
@@ -4372,7 +4507,7 @@
    ],
    "audience": [],
    "deadline": "2026-10-26",
-   "status": "unknown",
+   "status": "closed",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -4453,17 +4588,18 @@
    "active": true
   },
   {
-   "id": "0a223ab700cf0944",
-   "title": "Discovery Grants – Northern Research Supplements program",
-   "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/discovery-grants-northern-research-supplements-program",
-   "description": "The Northern Research Supplements (NRS) program has been established to augment and promote Canadian university-based northern research and training. The main purpose of the NRS program is to recognize the added costs that are unique to conducting research in the Canadian North.",
+   "id": "2968553531e0a190",
+   "title": "Discovery Grants program (individual)",
+   "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/discovery-grants-program-individual",
+   "description": "The Discovery Grants program supports the development and sustainability of a diverse, high-quality research base in the natural sciences and engineering (NSE) at Canadian universities, fosters research excellence and strengthens the research training environment.",
    "funder": "Natural Sciences and Engineering Research Council of Canada",
    "source_id": "nserc",
    "source_name": "NSERC",
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Clean tech & climate"
    ],
    "audience": [
     "Universities"
@@ -4478,18 +4614,17 @@
    "active": true
   },
   {
-   "id": "2968553531e0a190",
-   "title": "Discovery Grants program (individual)",
-   "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/discovery-grants-program-individual",
-   "description": "The Discovery Grants program supports the development and sustainability of a diverse, high-quality research base in the natural sciences and engineering (NSE) at Canadian universities, fosters research excellence and strengthens the research training environment.",
+   "id": "0a223ab700cf0944",
+   "title": "Discovery Grants",
+   "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/discovery-grants-northern-research-supplements-program",
+   "description": "The Northern Research Supplements (NRS) program has been established to augment and promote Canadian university-based northern research and training. The main purpose of the NRS program is to recognize the added costs that are unique to conducting research in the Canadian North.",
    "funder": "Natural Sciences and Engineering Research Council of Canada",
    "source_id": "nserc",
    "source_name": "NSERC",
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Research",
-    "Clean tech & climate"
+    "Research"
    ],
    "audience": [
     "Universities"
@@ -4532,7 +4667,7 @@
    "id": "1ddc8a0a4c8df730",
    "title": "Digital Media Tax Credit",
    "url": "https://investnovascotia.ca/incentives-programs-services/digital-media-tax-credit",
-   "description": "",
+   "description": "The Digital Media Tax Credit (DMTC) is a refundable tax credit for costs directly related to the development of interactive digital media products in Nova Scotia.",
    "funder": "Invest Nova Scotia",
    "source_id": "invest-ns",
    "source_name": "Invest Nova Scotia",
@@ -4543,33 +4678,6 @@
     "AI & digital"
    ],
    "audience": [],
-   "deadline": null,
-   "status": "unknown",
-   "published": null,
-   "content_hash": null,
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
-   "updated": null,
-   "active": true
-  },
-  {
-   "id": "98625641e1de0ff7",
-   "title": "Digital Competence Centre",
-   "url": "https://www.oc-innovation.ca/programs/digital-competence-centre/",
-   "description": "Browse Programs Collaborate 2 Commercialize Collaborate 2 Commercialize supports the collaboration between Academia and Industry to solve an industry-based problem and drive the commercialization of Intellectual Property. Ready 4 Market Ready 4 Market (R4M) is Ontario’s leading pre-seed investment fund. Ontario Vehicle Innovation Network (OVIN) The Ontario Vehicle Innovation Network (OVIN)…",
-   "funder": "Ontario Centre of Innovation",
-   "source_id": "oci",
-   "source_name": "Ontario Centre of Innovation",
-   "region": "Ontario",
-   "kind": "Program",
-   "categories": [
-    "Commercialization",
-    "Industry partnership",
-    "AI & digital"
-   ],
-   "audience": [
-    "Industry & SMEs"
-   ],
    "deadline": null,
    "status": "unknown",
    "published": null,
@@ -4610,16 +4718,21 @@
    "id": "3665fbeaf0d78c8d",
    "title": "DND/NSERC supplemental funding award",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/dndnserc-supplemental-funding-award",
-   "description": "Open Date modified: 2026-01-09",
+   "description": "The objective of the DND/NSERC supplemental funding award is to encourage highly advanced training and research in the natural sciences and engineering in research fields relevant to national defence for the benefit of Canada. The supplement provides additional funding support for existing NSERC award holders at the doctoral and postdoctoral training levels at Canadian institutions.",
    "funder": "Natural Sciences and Engineering Research Council of Canada",
    "source_id": "nserc",
    "source_name": "NSERC",
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Talent & internships",
+    "Defence & dual-use"
    ],
-   "audience": [],
+   "audience": [
+    "Universities",
+    "Students & trainees"
+   ],
    "deadline": null,
    "status": "open",
    "published": null,
@@ -4641,7 +4754,7 @@
    "kind": "Call",
    "categories": [
     "Research",
-    "Defence & security"
+    "Defence & dual-use"
    ],
    "audience": [
     "Universities"
@@ -4666,7 +4779,8 @@
    "region": "National",
    "kind": "Program",
    "categories": [
-    "Research"
+    "Research",
+    "Commercialization"
    ],
    "audience": [],
    "deadline": null,
@@ -4682,19 +4796,20 @@
    "id": "e9c176020e270897",
    "title": "Continuing the conversation: Project Grant and what comes next",
    "url": "https://cihr-irsc.gc.ca/e/54847.html",
-   "description": "October 14, 2026",
+   "description": "Since publishing our discussion paper, Project Grant: Building a sustainable future for curiosity-driven research , we have continued meeting with members of the health research community to explore the challenges facing the Project Grant program and the potential interventions outlined in the paper.",
    "funder": "Canadian Institutes of Health Research",
    "source_id": "cihr",
    "source_name": "CIHR",
    "region": "National",
    "kind": "Announcement",
    "categories": [
-    "Health & life sciences",
-    "Research"
+    "Research",
+    "Clean tech & climate",
+    "Health & life sciences"
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -4713,7 +4828,7 @@
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Defence & security"
+    "Defence & dual-use"
    ],
    "audience": [],
    "deadline": null,
@@ -4736,7 +4851,8 @@
    "region": "National",
    "kind": "Program",
    "categories": [
-    "Research"
+    "Research",
+    "Commercialization"
    ],
    "audience": [],
    "deadline": "2026-11-02",
@@ -4759,7 +4875,7 @@
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Defence & security"
+    "Defence & dual-use"
    ],
    "audience": [],
    "deadline": null,
@@ -4775,7 +4891,7 @@
    "id": "239677a88547e8e4",
    "title": "Community Futures",
    "url": "https://www.canada.ca/en/atlantic-canada-opportunities/services/community-futures.html",
-   "description": "Provide loans, training and advisory services through Community Futures organizations that support rural small businesses.",
+   "description": "ACOA's Community Futures program helps to create jobs in rural Atlantic Canada. This is done with the help of Community Business Development Corporations.",
    "funder": "Atlantic Canada Opportunities Agency",
    "source_id": "acoa",
    "source_name": "ACOA",
@@ -4851,7 +4967,7 @@
    "id": "dca18478fe93b2ce",
    "title": "Community Capacity Building",
    "url": "https://www.gov.nl.ca/jgrd/funding/community-capacity-building-program/",
-   "description": "",
+   "description": "The Community Capacity Building component assists groups by enhancing skills essential to regional economic planning, development and implementation. The component...",
    "funder": "Government of NL – Jobs, Growth and Rural Development",
    "source_id": "nl-jgrd",
    "source_name": "Newfoundland and Labrador – Industry funding",
@@ -4874,15 +4990,16 @@
    "id": "30773b5d094d51ed",
    "title": "Coming soon: Continuing the conversation on the future of the Project Grant program: Message from the Vice-President, Research Programs",
    "url": "https://cihr-irsc.gc.ca/e/54819.html",
-   "description": "September 11, 2026",
+   "description": "Over the past several months, CIHR has been listening closely to the health research community about the pressures facing the Project Grant program and how we can ensure it remains strong, fair and sustainable for the future. These pressures continue to grow, as reflected in the record 4,000 registrations received for the most recent Project Grant competition.",
    "funder": "Canadian Institutes of Health Research",
    "source_id": "cihr",
    "source_name": "CIHR",
    "region": "National",
    "kind": "Announcement",
    "categories": [
-    "Health & life sciences",
-    "Research"
+    "Research",
+    "Clean tech & climate",
+    "Health & life sciences"
    ],
    "audience": [],
    "deadline": null,
@@ -4923,34 +5040,6 @@
    "active": true
   },
   {
-   "id": "fe80de8294d67b11",
-   "title": "Collaborate 2 Commercialize",
-   "url": "https://www.oc-innovation.ca/programs/voucher-for-innovation-and-productivity-vip/",
-   "description": "Browse Programs Digital Competence Centre Digitalization is redefining the future for companies. It is a critical factor in the success and growth of Ontario’s companies, enabling them to release products to the market faster and reach the right customers, all while offering a near perfect experience. Through DCC, Ontario is placing its SMEs at the forefront of digital transformation, supporting…",
-   "funder": "Ontario Centre of Innovation",
-   "source_id": "oci",
-   "source_name": "Ontario Centre of Innovation",
-   "region": "Ontario",
-   "kind": "Program",
-   "categories": [
-    "Commercialization",
-    "Industry partnership",
-    "SME & business",
-    "AI & digital"
-   ],
-   "audience": [
-    "Industry & SMEs"
-   ],
-   "deadline": null,
-   "status": "unknown",
-   "published": null,
-   "content_hash": null,
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
-   "updated": null,
-   "active": true
-  },
-  {
    "id": "ca82ad5b23377907",
    "title": "Climate Adaptation Program",
    "url": "https://investnovascotia.ca/incentives-programs-services/climate-adaptation-program",
@@ -4972,7 +5061,35 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-10-26",
    "updated": null,
-   "active": false
+   "active": true
+  },
+  {
+   "id": "aa2cf42124e70db6",
+   "title": "Challenge programs",
+   "url": "https://nrc.canada.ca/en/research-development/research-collaboration/programs/challenge-programs",
+   "description": "Consistent with Canada’s vision for science and building on the Innovation and Skills Plan, the government is transforming and re-tooling Canadian innovation programs to better support Canada’s innovators. Challenge Programs are a component of this transformation. To catalyze transformative, high-risk, high-reward research with the potential for game-changing scientific discoveries and…",
+   "funder": "National Research Council Canada",
+   "source_id": "nrc-challenge",
+   "source_name": "NRC Challenge programs",
+   "region": "National",
+   "kind": "Program",
+   "categories": [
+    "Quantum & emerging tech",
+    "Industry partnership",
+    "Research",
+    "SME & business"
+   ],
+   "audience": [
+    "Industry & SMEs"
+   ],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": "30e0ccb57b2fbb0ccbfcf22c57a8a66bba601a61",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "updated": null,
+   "active": true
   },
   {
    "id": "5b7bde019bcdc6cf",
@@ -5058,7 +5175,7 @@
    "id": "eb8cb67a1fd68c78",
    "title": "Canadian Forest Sector Workforce Diversity supplement",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/canadian-forest-sector-workforce-diversity-supplement",
-   "description": "Open Date modified: 2025-12-19",
+   "description": "The objectives of the Canadian Forest Sector Workforce Diversity supplement are to:",
    "funder": "Natural Sciences and Engineering Research Council of Canada",
    "source_id": "nserc",
    "source_name": "NSERC",
@@ -5242,7 +5359,7 @@
   },
   {
    "id": "68673f5185918c8d",
-   "title": "Canada Graduate Research Scholarship – Doctoral program",
+   "title": "Canada Graduate Research Scholarship",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/canada-graduate-research-scholarship-doctoral-program",
    "description": "The Canada Graduate Research Scholarship – Doctoral (CGRS D) program supports and promotes research excellence in a wide variety of disciplines and broad fields of health, natural sciences and engineering and social sciences and humanities, including interdisciplinary and multidisciplinary research. This support allows scholars to concentrate on their doctoral studies more fully, to seek out the…",
    "funder": "Natural Sciences and Engineering Research Council of Canada",
@@ -5324,7 +5441,7 @@
    "id": "be761e3da1b2c0c4",
    "title": "Business Investment Program",
    "url": "https://www.gov.nl.ca/jgrd/funding/business-investment-program/",
-   "description": "",
+   "description": "The Business Investment Program provides term loans to small and medium-sized enterprises (SMEs) in strategic growth sectors as identified by...",
    "funder": "Government of NL – Jobs, Growth and Rural Development",
    "source_id": "nl-jgrd",
    "source_name": "Newfoundland and Labrador – Industry funding",
@@ -5349,7 +5466,7 @@
    "id": "49acc74cbe5d55bd",
    "title": "Business Growth Program",
    "url": "https://www.gov.nl.ca/jgrd/funding/business-growth-program/",
-   "description": "",
+   "description": "The Business Growth Program provides non-repayable contributions for projects or initiatives to assist businesses start, innovate, scale and improve sales...",
    "funder": "Government of NL – Jobs, Growth and Rural Development",
    "source_id": "nl-jgrd",
    "source_name": "Newfoundland and Labrador – Industry funding",
@@ -5374,14 +5491,15 @@
    "id": "ec0b6aeedf4dc1ce",
    "title": "Business Development Program",
    "url": "https://www.canada.ca/en/atlantic-canada-opportunities/services/business-development-program.html",
-   "description": "Supports business start‑up, expansion, modernization and capacity building to strengthen competitiveness.",
+   "description": "ACOA's Business Development Program helps entrepreneurs launch, modernize and grow their business in Atlantic Canada.",
    "funder": "Atlantic Canada Opportunities Agency",
    "source_id": "acoa",
    "source_name": "ACOA",
    "region": "Atlantic",
    "kind": "Program",
    "categories": [
-    "SME & business"
+    "SME & business",
+    "Startups & spin-offs"
    ],
    "audience": [
     "Industry & SMEs"
@@ -5449,7 +5567,7 @@
    "id": "806a39fccb286e32",
    "title": "Black Entrepreneurship Program Ecosystem Fund",
    "url": "https://www.canada.ca/en/atlantic-canada-opportunities/services/bep-ecosystem-fund-atlantic-canada.html",
-   "description": "Supports Black‑led organizations that deliver business services to strengthen the Black entrepreneurship ecosystem.",
+   "description": "The Ecosystem Fund is a key component of the Black Entrepreneurship Program, a national initiative to break down barriers and create opportunities for Black entrepreneurs.",
    "funder": "Atlantic Canada Opportunities Agency",
    "source_id": "acoa",
    "source_name": "ACOA",
@@ -5459,11 +5577,9 @@
     "SME & business",
     "Startups & spin-offs"
    ],
-   "audience": [
-    "Industry & SMEs"
-   ],
+   "audience": [],
    "deadline": null,
-   "status": "open",
+   "status": "closed",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -5499,19 +5615,16 @@
    "id": "1161e145dc0982aa",
    "title": "Atlantic Trade and Investment Growth Strategy",
    "url": "https://www.canada.ca/en/atlantic-canada-opportunities/services/international-trade-investment.html",
-   "description": "ATIGS supports Atlantic trade and investment efforts by helping businesses expand export capacity and attract investment.",
+   "description": "The Atlantic Canada Opportunities Agency can help you to success on the world market, and create jobs right here at home. We can connect you to the right people.",
    "funder": "Atlantic Canada Opportunities Agency",
    "source_id": "acoa",
    "source_name": "ACOA",
    "region": "Atlantic",
    "kind": "Program",
    "categories": [
-    "SME & business",
-    "International"
+    "SME & business"
    ],
-   "audience": [
-    "Industry & SMEs"
-   ],
+   "audience": [],
    "deadline": null,
    "status": "open",
    "published": null,
@@ -5552,7 +5665,7 @@
    "id": "7e3249f6a2279a17",
    "title": "Arthur B. McDonald Fellowships",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/arthur-b-mcdonald-fellowships",
-   "description": "Up to six Arthur B. McDonald Fellowships are awarded annually to recognize early-stage academic researchers in the natural sciences and engineering, and to…",
+   "description": "Up to six Arthur B. McDonald Fellowships are awarded annually to recognize early-stage academic researchers in the natural sciences and engineering, and to support them in enhancing their research capacity so that they can become leaders in their field and inspire others. Arthur B. McDonald Fellowships were previously known as the E.W.R. Steacie Memorial Fellowships.",
    "funder": "Natural Sciences and Engineering Research Council of Canada",
    "source_id": "nserc",
    "source_name": "NSERC",
@@ -5672,7 +5785,8 @@
    "categories": [
     "Research",
     "Industry partnership",
-    "AI & digital"
+    "AI & digital",
+    "Quantum & emerging tech"
    ],
    "audience": [
     "Universities",
@@ -5742,27 +5856,6 @@
    "active": true
   },
   {
-   "id": "2c272a041f609a7b",
-   "title": "Alberta Innovates funding programs",
-   "url": "https://albertainnovates.ca/funding/",
-   "description": "Alberta Innovates respectfully acknowledges that we are situated on traditional territory of the Treaty 6, Treaty 7, and Treaty 8 First Nations; home to Métis Settlements, the Métis Nation of Alberta, comprising Districts 5/6 covering Calgary, 8 Devon, 9/10 in Edmonton and district 12 in Vegreville within the historical Northwest Métis Homeland. We respect the histories, languages, and cultures…",
-   "funder": "Alberta Innovates",
-   "source_id": "alberta-innovates",
-   "source_name": "Alberta Innovates",
-   "region": "Alberta",
-   "kind": "Program",
-   "categories": [],
-   "audience": [],
-   "deadline": null,
-   "status": "unknown",
-   "published": null,
-   "content_hash": "bf2a3680cabd10d2203c08a1c0e159476bcbb243",
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
-   "updated": null,
-   "active": true
-  },
-  {
    "id": "72dbb211e4034bef",
    "title": "Aid to Scholarly Journals",
    "url": "https://sshrc-crsh.canada.ca/en/funding/opportunities/aid-scholarly-journals.aspx",
@@ -5798,7 +5891,7 @@
    "categories": [
     "SME & business",
     "Industry partnership",
-    "Defence & security"
+    "Defence & dual-use"
    ],
    "audience": [
     "Industry & SMEs"
@@ -5988,45 +6081,26 @@
    "id": "e3d3aca8b28093cf",
    "title": "A.I. Ocean program",
    "url": "https://oceansupercluster.ca/ai-ocean/",
-   "description": "A.I. Ocean program GRGREAGRGARE GEAGREAG RAEGREAGREAGREAGRETEStETSW EATEATEAWTREATART5EAH GRGREAGRGREAGRGAREGEAG REAGRAEGREAGREAGREAGRETEStETSWEATEATEAWTREATART5EAHGRGREA GRGREAGRGAREGEAGREAGRAEGREAGR EAGREAGREGRGRE AGAREGEAGREAGRAEGREAGRE AGREAGRETEStETSWEATEATE AWTREATART5EAHGRGREAG RGREAG RGAREGEAGREAGRAEGREAGREAGR EAGRETEStETSWEATEATEAWTREATART5EAHG RGREAGRGR…",
+   "description": "Canada’s Ocean Supercluster has launched a Canada-wide Call for Proposals under its newly launched Artificial Intelligence (AI) Ocean program. This program aims to trigger new incremental investment into ocean AI solutions and accelerate the adoption of AI by Canadian ocean companies. The Call includes two streams including: AI Discovery Stream that will see companies plan for implementing AI in…",
    "funder": "Canada's Ocean Supercluster",
    "source_id": "ocean-supercluster",
    "source_name": "Canada's Ocean Supercluster",
    "region": "Atlantic",
    "kind": "Program",
    "categories": [
+    "Research",
     "Industry partnership",
-    "Ocean"
-   ],
-   "audience": [],
-   "deadline": null,
-   "status": "unknown",
-   "published": null,
-   "content_hash": null,
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
-   "updated": null,
-   "active": true
-  },
-  {
-   "id": "dcc290a0900711d0",
-   "title": "2027 Saskatchewan Agriculture Student Scholarship now accepting applications",
-   "url": "https://www.canada.ca/en/agriculture-agri-food/news/2026/10/2027-saskatchewan-agriculture-student-scholarship-now-accepting-applications.html",
-   "description": "Applications are open for the 2027 Agriculture Student Scholarship, funded by the Governments of Canada and Saskatchewan. Four scholarships are available, including a top prize of $6,000 and three runner-up scholarships valued at $3,000 each.",
-   "funder": "Government of Canada (News Centre)",
-   "source_id": "gc-news",
-   "source_name": "Government of Canada announcements",
-   "region": "National",
-   "kind": "Announcement",
-   "categories": [
-    "Talent & internships"
+    "Startups & spin-offs",
+    "SME & business",
+    "Ocean",
+    "AI & digital"
    ],
    "audience": [
-    "Students & trainees"
+    "Industry & SMEs"
    ],
    "deadline": null,
    "status": "open",
-   "published": "2026-10-07T14:45:01-04:00",
+   "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
    "last_seen": "2026-10-26",
@@ -6037,7 +6111,7 @@
    "id": "8511c6e40d72e5f9",
    "title": "2026 Transformation Competition",
    "url": "https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/transformation/2026/competition-concours-eng.aspx",
-   "description": "",
+   "description": "Funding opportunity description for the 2026 Transformation Competition",
    "funder": "Tri-agency (NFRF)",
    "source_id": "nfrf",
    "source_name": "New Frontiers in Research Fund",
@@ -6060,7 +6134,7 @@
    "id": "29241ec616019f9d",
    "title": "2026 International Joint Initiative for Research Harnessing Disruptive Technologies to Address Global Challenges",
    "url": "https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/international/2026/competition-concours-eng.aspx",
-   "description": "",
+   "description": "2026 International Joint Initiative for Research Harnessing Disruptive Technologies to Address Global Challenges",
    "funder": "Tri-agency (NFRF)",
    "source_id": "nfrf",
    "source_name": "New Frontiers in Research Fund",
@@ -6087,7 +6161,7 @@
    "id": "38f35309934181a3",
    "title": "2026 Exploration Competition",
    "url": "https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/exploration/2026/competition-concours-eng.aspx",
-   "description": "",
+   "description": "Funding opportunity description for the New Frontiers in Research Fund: 2026 Exploration Competition",
    "funder": "Tri-agency (NFRF)",
    "source_id": "nfrf",
    "source_name": "New Frontiers in Research Fund",

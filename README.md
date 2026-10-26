@@ -66,6 +66,16 @@ automatically each time the weekly job commits new data.
    ```
 3. Publish. Opportunity links open in a new tab.
 
+**Compact "Upcoming opportunities" embed** — for a small SharePoint section, add `?view=upcoming`
+to the address. It shows only the next deadlines (each expandable to its details and the
+funder's link) and a link to open the full Funding Radar:
+```html
+<iframe src="https://<your-site>/?view=upcoming" width="100%" height="720" style="border:0"></iframe>
+```
+
+**Scope** — Atlantic Canada and national programs only. `exclude_regions` at the top of
+`sources.yaml` drops anything whose title names another province, territory or regional agency.
+
 **Pre-filtered views** — add a hash to the URL to open the page with filters applied, e.g. an
 Atlantic-only commercialization view:
 `https://<your-account>.github.io/funding-radar/#region=Atlantic&cat=Commercialization`

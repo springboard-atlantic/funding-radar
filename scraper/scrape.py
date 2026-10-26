@@ -140,7 +140,8 @@ def find_deadline(text: str) -> str | None:
 
 CATEGORY_RULES: dict[str, str] = {
     "Research": r"\bresearch\b|discovery|operating grant|project grant|team grant|chair|scientist|investigator",
-    "Commercialization": r"commerciali|technology transfer|tech transfer|intellectual property|\bIP\b|proof[- ]of[- ]concept|prototype|market[- ]ready|patent|licens",
+    "Intellectual property": r"intellectual property|\bIP\b|patent|licens|trademark|copyright|freedom[- ]to[- ]operate|IP strateg",
+    "Commercialization": r"commerciali|technology transfer|tech transfer|intellectual property|proof[- ]of[- ]concept|prototype|market[- ]ready|patent|licens|mobiliz",
     "Industry partnership": r"industr|partner|alliance|collaborat|applied research|co-develop|consorti|cluster",
     "Startups & spin-offs": r"start-?up|spin-?off|spin-?out|entrepreneur|venture|accelerat|incubat|founder|early-stage compan",
     "SME & business": r"\bSMEs?\b|small and medium|small business|businesses|compan(?:y|ies)|firms?\b|enterprise|innovators?\b",
@@ -151,7 +152,8 @@ CATEGORY_RULES: dict[str, str] = {
     "Health & life sciences": r"health|medical|clinical|biomedical|genomic|life science|biotech|disease",
     "Ocean": r"ocean|marine|fisher|aquacultur|blue economy",
     "AI & digital": r"artificial intelligence|\bAI\b|machine learning|digital|quantum|cyber|data science",
-    "Defence & security": r"defence|defense|security|dual-use|military",
+    "Defence & dual-use": r"defence|defense|dual[- ]use|military|national security|NATO|DIANA|CBRNE",
+    "Quantum & emerging tech": r"quantum|semiconductor|photonic|biomanufactur|critical mineral|space tech|\bspace\b|hydrogen|robotic|advanced manufactur|synthetic biology|nanotech|6G|drone|uncrewed",
 }
 AUDIENCE_RULES: dict[str, str] = {
     "Universities": r"universit|faculty|professor|researcher|post-?doc|graduate student",
@@ -480,11 +482,15 @@ def run(only: set[str] | None = None) -> None:
         try:
             raws = EXTRACTORS[src.get("type", "html")](src)
             title_include = re.compile(src["title_include"], re.I) if src.get("title_include") and src.get("type") != "gcnews" else None
+            out_of_scope = re.compile(config["exclude_regions"]) if config.get("exclude_regions") else None
             details_left = MAX_DETAIL_FETCHES
             for raw in raws:
                 if not raw.get("url") or not raw.get("title"):
                     continue
                 if title_include and not title_include.search(raw["title"] + " " + raw.get("description", "")):
+                    continue
+                scope_text = raw["title"] + (" " + raw.get("description", "") if src.get("type") == "gcnews" else "")
+                if out_of_scope and out_of_scope.search(scope_text):
                     continue
                 iid = item_id(raw["url"])
                 old = prev_items.get(iid)
@@ -497,7 +503,7 @@ def run(only: set[str] | None = None) -> None:
                     raw["title"] = raw["title"].title()
                 items[iid] = build_item(iid, raw, src, old, today)
             status["count"] = sum(1 for it in items.values() if it["source_id"] == src["id"])
-            if status["count"] == 0:
+            if status["count"] == 0 and not raws:
                 status["ok"] = False
                 status["error"] = "no items found – page layout may have changed"
         except Exception as e:  # keep going: one broken site must not stop the run

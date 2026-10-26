@@ -22,6 +22,10 @@
 #   kind        Call / Program / Announcement (how the item is labelled)
 #   enabled     false to switch a source off without deleting it
 
+# Scope: Atlantic Canada and national programs only. Items whose title names another
+# province, territory or regional agency are dropped (for gc-news the summary is checked too).
+exclude_regions: \b(Saskatchewan|Alberta|Ontario|Qu[eé]bec|FRQ|Manitoba|British Columbia|B\.C\.|Yukon|Northwest Territories|Nunavut|Prairies|PrairiesCan|FedDev|PacifiCan|CanNor|CED|Toronto|Vancouver|Montr[eé]al|Calgary|Edmonton|Winnipeg|Regina|Saskatoon|Ottawa-Gatineau)\b
+
 sources:
 
   # ---------------------------------------------------------------- Federal research
@@ -146,7 +150,7 @@ sources:
     include: defence-ideas/(element|opportunit|current)/.+
     detail: true
     kind: Call
-    categories: [Defence & security]
+    categories: [Defence & dual-use]
 
   - id: gc-news
     name: Government of Canada announcements
@@ -264,27 +268,6 @@ sources:
     kind: Call
     audience: [Colleges & polytechnics]
 
-  - id: oci
-    name: Ontario Centre of Innovation
-    funder: Ontario Centre of Innovation
-    region: Ontario
-    type: html
-    url: https://www.oc-innovation.ca/programs/
-    include: oc-innovation\.ca/programs/.+
-    detail: true
-    title_from_detail: true
-    kind: Program
-    categories: [Industry partnership, Commercialization]
-
-  - id: alberta-innovates
-    name: Alberta Innovates
-    funder: Alberta Innovates
-    region: Alberta
-    type: page
-    program: Alberta Innovates funding programs
-    url: https://albertainnovates.ca/funding/
-    kind: Program
-
   - id: ngen
     name: NGen (Next Generation Manufacturing Canada)
     funder: Next Generation Manufacturing Canada
@@ -294,6 +277,65 @@ sources:
     url: https://www.ngen.ca/funding
     kind: Program
     categories: [Industry partnership, SME & business]
+
+  # ---------------------------------------------------------------- Intellectual property
+  - id: ised-ip
+    name: ISED IP Strategy programs
+    funder: Innovation, Science and Economic Development Canada – IP Strategy
+    region: National
+    type: html
+    url: https://ised-isde.canada.ca/site/intellectual-property-strategy/en
+    scope: body
+    include: (elevateip|intellectual-property-clinics-program|patent-collective-program|indigenous-intellectual-property-program-grant)
+    detail: true
+    kind: Program
+    categories: [Intellectual property, Commercialization]
+
+  - id: cipo-financing
+    name: CIPO – IP resources and financing
+    funder: Canadian Intellectual Property Office
+    region: National
+    type: page
+    url: https://ised-isde.canada.ca/site/canadian-intellectual-property-office/en/ip-resources-and-funding-entrepreneurs
+    kind: Program
+    categories: [Intellectual property]
+
+  - id: cipo-ktep
+    name: CIPO – Key Technology Expedited Program
+    funder: Canadian Intellectual Property Office
+    region: National
+    type: page
+    url: https://ised-isde.canada.ca/site/canadian-intellectual-property-office/en/key-technology-expedited-program-ktep
+    kind: Program
+    categories: [Intellectual property, Quantum & emerging tech]
+
+  - id: springboard-ip
+    name: Springboard Atlantic – IP programs
+    funder: Springboard Atlantic
+    region: Atlantic
+    type: page
+    url: https://springboardatlantic.ca/ipadvantage/
+    kind: Program
+    categories: [Intellectual property, Startups & spin-offs]
+
+  # ---------------------------------------------------------------- Emerging sectors (AI, quantum, photonics…)
+  - id: nrc-challenge
+    name: NRC Challenge programs
+    funder: National Research Council Canada
+    region: National
+    type: page
+    url: https://nrc.canada.ca/en/research-development/research-collaboration/programs/challenge-programs
+    kind: Program
+    categories: [Research, Industry partnership, Quantum & emerging tech]
+
+  - id: nrc-ideation
+    name: NRC Ideation Fund
+    funder: National Research Council Canada
+    region: National
+    type: page
+    url: https://nrc.canada.ca/en/research-development/research-collaboration/programs/ideation-fund-where-breakthroughs-begin
+    kind: Program
+    categories: [Research, Quantum & emerging tech]
 
   # ---------------------------------------------------------------- Evergreen programs (tracked for changes)
   - id: swpp

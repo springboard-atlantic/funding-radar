@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Funding Radar · Springboard Atlantic</title>
-<meta name="description" content="Weekly roundup of Canadian funding, support and program opportunities for tech-transfer offices.">
+<meta name="description" content="Upcoming funding, IP and commercialization opportunities for tech-transfer offices in Atlantic Canada.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
@@ -13,31 +13,29 @@
      secondary #103154, light #F2F2F2, Poppins). Navy ink; the brand green only on the main
      data (deadlines that are near). #85BE00 is a fill colour only (2.2:1 on white); text in
      the green uses the darker #557A00 (5.0:1).
-     Grid: one 1152px column; 3 x 373.33 + 2 x 16 = 1152 (runway spans 2, topics 1). */
+     Grid: one 1152px column; 3 x 373.33 + 2 x 16 = 1152 (runway spans 2, topics 1).
+     Add ?view=upcoming to the URL for the compact SharePoint embed (upcoming list only). */
   :root {
     --ground: #f2f2f2;  --surface: #ffffff;  --raised: #f6f7f5;  --active: #e9ebe6;
     --border: #e2e4e0;  --rule: #eef0ec;     --control: #cdd2cc;
     --text: #103154;    --muted: #4c5a68;    --faint: #66707a;
-    --primary: #103154;
     --accent: #85be00;  --accent-ink: #557a00;  --accent-pale: #eef6d9;  --accent-pale-ink: #3f5c00;
-    --positive: #557a00;  --pill-positive-bg: #eef6d9;  --pill-positive-ink: #3f5c00;
+    --pill-positive-bg: #eef6d9;  --pill-positive-ink: #3f5c00;
     --negative: #c4242a;
     --pill-warning-bg: #fffbeb;  --pill-warning-ink: #92400e;
-    --grid: #e5e9ec;
     --radius-card: 8px;  --radius-control: 6px;  --radius-chip: 4px;
     --gap: 16px;  --card-pad: 20px;
     --control-height: 36px;
     --font: "Poppins", "Segoe UI", system-ui, sans-serif;
-    --fs-title: 24px;  --fs-section: 16px;  --fs-kpi: 26px;  --fs-body: 14px;  --fs-small: 12px;
     --column: 1152px;
   }
   * { box-sizing: border-box; }
   html { -webkit-text-size-adjust: 100%; }
-  body { margin: 0; background: var(--ground); color: var(--text);
-         font: 400 var(--fs-body)/1.55 var(--font); }
+  body { margin: 0; background: var(--ground); color: var(--text); font: 400 14px/1.55 var(--font); }
   a { color: inherit; }
   .num { font-variant-numeric: tabular-nums; }
   .wrap { max-width: calc(var(--column) + 48px); margin: 0 auto; padding: 0 24px 48px; }
+  [hidden] { display: none !important; }
 
   /* Top bar on the page ground */
   .topbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; height: 64px; }
@@ -46,75 +44,74 @@
   .brand span { font-weight: 600; font-size: 15px; padding-left: 14px; border-left: 1px solid var(--control); line-height: 22px; }
   .stamp { color: var(--muted); font-size: 13px; text-align: right; }
 
-  /* Title row */
-  .titlerow { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; padding: 20px 0 24px; }
-  h1 { margin: 0; font-size: var(--fs-title); font-weight: 600; line-height: 1.25; letter-spacing: -0.01em; }
-  .finding { margin: 6px 0 0; font-size: 15px; color: var(--muted); max-width: 720px; }
+  /* Section heads */
+  .head { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; padding: 16px 0 16px; }
+  h1 { margin: 0; font-size: 24px; font-weight: 600; line-height: 1.25; letter-spacing: -0.01em; }
+  h2 { margin: 0; font-size: 16px; font-weight: 600; line-height: 1.35; }
+  .section-h { font-size: 20px; letter-spacing: -0.01em; }
+  .finding { margin: 6px 0 0; font-size: 15px; color: var(--muted); max-width: 760px; }
   .finding b { color: var(--text); font-weight: 500; }
+
   .btn { height: var(--control-height); padding: 0 14px; border-radius: var(--radius-control); font: 500 14px var(--font);
-         cursor: pointer; display: inline-flex; align-items: center; gap: 8px; white-space: nowrap; flex: none;
+         cursor: pointer; display: inline-flex; align-items: center; gap: 8px; white-space: nowrap; flex: none; text-decoration: none;
          transition: background-color .12s, border-color .12s; }
+  .btn-primary { background: var(--text); color: #fff; border: 0; }
+  .btn-primary:hover { background: #1c4570; }
   .btn-secondary { background: #e3e6e0; border: 0; color: var(--text); }
   .btn-secondary:hover { background: #d6dad2; }
   .btn-ghost { background: var(--surface); border: 1px solid var(--control); color: var(--text); }
   .btn-ghost:hover { border-color: var(--faint); }
-  .btn:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible, .bar-row:focus-visible, .week:focus-visible {
-         outline: 2px solid var(--accent-ink); outline-offset: 2px; }
   .btn svg { width: 16px; height: 16px; }
+  .btn:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible, summary:focus-visible,
+  .chip:focus-visible, .bar-row:focus-visible, .week:focus-visible { outline: 2px solid var(--accent-ink); outline-offset: 2px; }
 
-  /* KPI strip: one card split by dividers */
-  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); background: var(--surface);
-          border: 1px solid var(--border); border-radius: var(--radius-card); margin-bottom: var(--gap); }
-  .kpi { padding: 16px var(--card-pad); border-left: 1px solid var(--rule); }
-  .kpi:first-child { border-left: 0; }
-  .kpi .label { color: var(--muted); font-size: 13px; }
-  .kpi .value { font-size: var(--fs-kpi); font-weight: 500; line-height: 1.25; margin-top: 2px; }
-  .kpi .value.lead { color: var(--accent-ink); }
-  .kpi .value.zero { color: var(--faint); }
-  .kpi .sub { color: var(--faint); font-size: 12px; margin-top: 2px; }
+  /* Topic chips (filter both lists) */
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+  .chip { height: 30px; padding: 0 12px; border-radius: 999px; border: 1px solid var(--control); background: var(--surface);
+          font: 400 13px var(--font); color: var(--text); cursor: pointer; white-space: nowrap; transition: background-color .12s, border-color .12s; }
+  .chip:hover { border-color: var(--faint); }
+  .chip[aria-pressed="true"] { background: var(--text); border-color: var(--text); color: #fff; }
 
-  /* Panels */
-  .row { display: grid; grid-template-columns: 2fr 1fr; gap: var(--gap); margin-bottom: var(--gap); align-items: stretch; }
-  .runway-panel { display: flex; flex-direction: column; }
-  .runway-panel .runway { flex: 1; min-height: 196px; height: auto; }
-  .panel { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-card); padding: var(--card-pad); min-width: 0; }
-  .panel-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 14px; }
-  h2 { margin: 0; font-size: var(--fs-section); font-weight: 600; line-height: 1.35; }
-  .panel-head .meta { color: var(--faint); font-size: 12px; white-space: nowrap; }
-  .legend { display: flex; gap: 16px; color: var(--muted); font-size: 12px; }
-  .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+  /* Upcoming list */
+  .panel { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-card); min-width: 0; }
+  .upcoming { list-style: none; margin: 0; padding: 0; }
+  .up { border-bottom: 1px solid var(--rule); }
+  .up:last-child { border-bottom: 0; }
+  .up summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: 64px 1fr auto; gap: 16px; align-items: center;
+                padding: 14px var(--card-pad); transition: background-color .1s; }
+  .up summary::-webkit-details-marker { display: none; }
+  .up summary:hover { background: var(--raised); }
+  .up[open] summary { background: var(--raised); }
+  .date { width: 64px; height: 64px; border-radius: 8px; background: var(--raised); display: flex; flex-direction: column;
+          align-items: center; justify-content: center; line-height: 1.1; flex: none; }
+  .date .m { font-size: 12px; color: var(--muted); }
+  .date .d { font-size: 24px; font-weight: 600; }
+  .date.soon { background: var(--accent); }
+  .date.soon .m, .date.soon .d { color: var(--text); }
+  .date.none .d { font-size: 13px; font-weight: 500; color: var(--muted); }
+  .up .t { font-weight: 500; font-size: 15px; line-height: 1.4; }
+  .up .meta { color: var(--muted); font-size: 13px; margin-top: 2px; }
+  .up .right { text-align: right; white-space: nowrap; }
+  .left { font-size: 13px; font-weight: 500; }
+  .left.soon { color: var(--accent-ink); }
+  .chev { display: inline-block; margin-left: 10px; color: var(--faint); transition: transform .15s; }
+  .up[open] .chev { transform: rotate(90deg); }
+  .detail { padding: 0 var(--card-pad) 18px calc(var(--card-pad) + 80px); background: var(--raised); }
+  .detail p { margin: 0 0 12px; max-width: 760px; color: var(--text); }
+  .facts { display: grid; grid-template-columns: max-content 1fr; gap: 4px 16px; margin: 0 0 14px; font-size: 13px; }
+  .facts dt { color: var(--muted); }
+  .facts dd { margin: 0; }
+  .tags { display: flex; flex-wrap: wrap; gap: 4px; }
+  .tag { flex: none; white-space: nowrap; font-size: 12px; color: var(--muted); background: var(--active); border-radius: var(--radius-chip); padding: 1px 7px; }
+  .tag.ip { background: var(--accent-pale); color: var(--accent-pale-ink); }
+  .up-foot { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 12px var(--card-pad);
+             border-top: 1px solid var(--rule); color: var(--muted); font-size: 13px; }
+  .linkbtn { background: none; border: 0; padding: 0; font: 500 13px var(--font); color: var(--text); text-decoration: underline;
+             text-underline-offset: 3px; cursor: pointer; }
+  .empty { padding: 24px var(--card-pad); color: var(--muted); }
 
-  /* Deadline runway: one column per week, one square per call */
-  .runway { display: grid; grid-template-columns: repeat(13, 1fr); gap: 6px; align-items: end; height: 196px;
-            border-bottom: 2px solid var(--text); padding-top: 18px; }
-  .week { display: flex; flex-direction: column-reverse; align-items: center; gap: 3px; height: 100%; justify-content: flex-start;
-          background: none; border: 0; padding: 0 0 4px; cursor: pointer; border-radius: 4px 4px 0 0; font: inherit; color: inherit; }
-  .week:hover, .week[aria-pressed="true"] { background: var(--raised); }
-  .week[aria-pressed="true"] { background: var(--accent-pale); }
-  .week .sq { width: min(100%, 28px); height: var(--sq, 10px); border-radius: 2px; background: #a3abb3; flex: none; }
-  .week .sq.near { background: var(--accent); }
-  .week .n { font-size: 12px; color: var(--muted); line-height: 1; padding-bottom: 4px; }
-  .week.near .n { color: var(--text); font-weight: 500; }
-  .week .n.empty { color: var(--faint); }
-  .axis { display: grid; grid-template-columns: repeat(13, 1fr); gap: 6px; margin-top: 6px; color: var(--faint); font-size: 12px; }
-  .axis span { white-space: nowrap; }
-  .runway-note { margin: 12px 0 0; color: var(--muted); font-size: 13px; }
-  .runway-note b { color: var(--text); font-weight: 500; }
-
-  /* Topic bar list */
-  .bars { display: flex; flex-direction: column; }
-  .bar-row { display: grid; grid-template-columns: 1fr auto; column-gap: 12px; padding: 6px 8px; margin: 0 -8px; border-radius: 6px;
-             cursor: pointer; background: none; border: 0; text-align: left; font: inherit; color: inherit; }
-  .bar-row:hover { background: var(--raised); }
-  .bar-row[aria-pressed="true"] { background: var(--active); }
-  .bar-row .t { font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .bar-row .v { font-size: 13px; text-align: right; }
-  .bar-row .track { grid-column: 1 / -1; height: 3px; margin-top: 5px; }
-  .bar-row .fill { height: 3px; border-radius: 2px; background: #b8bec4; }
-  .bar-row:first-child .fill { background: var(--accent); }
-
-  /* Toolbar */
-  .list-panel { padding: 0; }
+  /* All opportunities */
+  .section { margin-top: 40px; }
   .toolbar { display: grid; grid-template-columns: minmax(200px, 2fr) repeat(4, minmax(120px, 1fr)); gap: 10px; padding: var(--card-pad) var(--card-pad) 12px; }
   .search { position: relative; }
   .search svg { position: absolute; left: 12px; top: 10px; width: 16px; height: 16px; color: var(--faint); pointer-events: none; }
@@ -126,14 +123,8 @@
                padding: 0 var(--card-pad) 12px; color: var(--muted); font-size: 13px; }
   .list-meta label { display: inline-flex; align-items: center; gap: 8px; cursor: pointer; }
   .list-meta input { accent-color: var(--text); width: 16px; height: 16px; }
-  .chipset { display: flex; flex-wrap: wrap; gap: 6px; }
   .chip-active { display: inline-flex; align-items: center; gap: 6px; height: 26px; padding: 0 6px 0 10px; border-radius: var(--radius-chip);
                  background: var(--active); border: 0; font: 400 12px var(--font); color: var(--text); cursor: pointer; }
-  .chip-active:hover { background: #dde0d8; }
-  .linkbtn { background: none; border: 0; padding: 0; font: 500 13px var(--font); color: var(--text); text-decoration: underline;
-             text-underline-offset: 3px; cursor: pointer; }
-
-  /* The list as a table */
   table { width: 100%; border-collapse: collapse; }
   thead th { font-size: 12px; font-weight: 400; color: var(--muted); text-align: left; padding: 10px 12px; height: 38px;
              border-bottom: 1px solid var(--border); white-space: nowrap; }
@@ -141,17 +132,15 @@
   thead th:last-child, tbody td:last-child { padding-right: var(--card-pad); }
   th.r, td.r { text-align: right; }
   tbody td { padding: 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
-  tbody tr { transition: background-color .1s; }
   tbody tr:hover { background: var(--raised); }
   .opp { font-weight: 500; font-size: 14.5px; text-decoration: none; line-height: 1.4; }
   .opp:hover { text-decoration: underline; text-underline-offset: 3px; }
-  .opp .ext { color: var(--faint); font-weight: 400; }
+  .ext { color: var(--faint); font-weight: 400; }
   .sub { color: var(--muted); font-size: 13px; margin-top: 3px; }
   .desc { color: var(--muted); font-size: 13px; margin-top: 4px; max-width: 640px;
           display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
   .new { color: var(--accent-ink); font-weight: 500; }
-  .tags { display: flex; flex-wrap: wrap; gap: 4px; max-width: 260px; }
-  .tag { flex: none; white-space: nowrap; font-size: 12px; color: var(--muted); background: var(--raised); border-radius: var(--radius-chip); padding: 1px 7px; }
+  td .tags { max-width: 260px; }
   .pill { flex: none; white-space: nowrap; display: inline-block; font-size: 12px; font-weight: 500; border-radius: 999px; padding: 2px 9px; }
   .pill.open { background: var(--pill-positive-bg); color: var(--pill-positive-ink); }
   .pill.upcoming { background: var(--pill-warning-bg); color: var(--pill-warning-ink); }
@@ -162,14 +151,38 @@
   .dl.near b { color: var(--accent-ink); font-weight: 600; }
   .dl b { font-weight: 500; }
   .more { display: flex; justify-content: center; align-items: center; gap: 16px; padding: 16px; color: var(--muted); font-size: 13px; }
-  .empty { padding: 28px var(--card-pad); color: var(--muted); }
 
-  /* Sources */
-  details.sources { margin-top: var(--gap); }
+  /* Overview at the bottom */
+  .row { display: grid; grid-template-columns: 2fr 1fr; gap: var(--gap); }
+  .card { padding: var(--card-pad); }
+  .panel-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 14px; }
+  .panel-head .meta { color: var(--faint); font-size: 12px; white-space: nowrap; }
+  .legend { display: flex; gap: 16px; color: var(--muted); font-size: 12px; }
+  .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+  .runway-panel { display: flex; flex-direction: column; }
+  .runway { display: grid; grid-template-columns: repeat(13, 1fr); gap: 6px; align-items: end; flex: 1; min-height: 180px;
+            border-bottom: 2px solid var(--text); padding-top: 18px; }
+  .week { display: flex; flex-direction: column-reverse; align-items: center; gap: 3px; height: 100%; justify-content: flex-start;
+          background: none; border: 0; padding: 0 0 4px; cursor: pointer; border-radius: 4px 4px 0 0; font: inherit; color: inherit; }
+  .week:hover { background: var(--raised); }
+  .week .sq { width: min(100%, 28px); height: var(--sq, 10px); border-radius: 2px; background: #a3abb3; flex: none; }
+  .week .sq.near { background: var(--accent); }
+  .week .n { font-size: 12px; color: var(--muted); line-height: 1; padding-bottom: 4px; }
+  .axis { display: grid; grid-template-columns: repeat(13, 1fr); gap: 6px; margin-top: 6px; color: var(--faint); font-size: 12px; }
+  .axis span { white-space: nowrap; }
+  .bars { display: flex; flex-direction: column; }
+  .bar-row { display: grid; grid-template-columns: 1fr auto; column-gap: 12px; padding: 6px 8px; margin: 0 -8px; border-radius: 6px;
+             cursor: pointer; background: none; border: 0; text-align: left; font: inherit; color: inherit; }
+  .bar-row:hover { background: var(--raised); }
+  .bar-row .t { font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .bar-row .v { font-size: 13px; text-align: right; }
+  .bar-row .track { grid-column: 1 / -1; height: 3px; margin-top: 5px; }
+  .bar-row .fill { display: block; height: 3px; border-radius: 2px; background: #b8bec4; }
+  .bar-row:first-child .fill { background: var(--accent); }
+
+  details.sources { margin-top: var(--gap); padding: var(--card-pad); }
   details.sources summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
   details.sources summary::-webkit-details-marker { display: none; }
-  details.sources summary h2::after { content: " ›"; color: var(--faint); }
-  details[open].sources summary h2::after { content: " ⌄"; }
   .srcgrid { display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 32px; margin-top: 12px; }
   .src { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--rule); font-size: 13px; }
   .src a { text-decoration: none; }
@@ -178,7 +191,13 @@
   .src .st.err { color: var(--negative); }
   .foot { color: var(--muted); font-size: 12px; margin: 20px 0 0; max-width: 820px; }
 
-  /* Tablet */
+  /* Compact embed: ?view=upcoming */
+  body.compact { background: var(--surface); }
+  body.compact .wrap { padding: 0 16px 16px; max-width: none; }
+  body.compact .topbar { height: 48px; }
+  body.compact .brand img { height: 22px; }
+  body.compact .panel { border: 0; }
+
   @media (max-width: 1000px) {
     .row { grid-template-columns: 1fr; }
     .toolbar { grid-template-columns: 1fr 1fr; }
@@ -186,24 +205,26 @@
     .srcgrid { grid-template-columns: 1fr 1fr; }
     th.topics, td.topics { display: none; }
   }
-  /* Phone: rows become two-line list items */
   @media (max-width: 640px) {
     .wrap { padding: 0 16px 32px; }
     .topbar { height: 56px; }
     .brand img { height: 24px; }
     .brand span { font-size: 14px; padding-left: 10px; }
     .stamp { display: none; }
-    .titlerow { flex-direction: column; align-items: stretch; padding-top: 8px; gap: 12px; }
+    .head { flex-direction: column; align-items: stretch; gap: 12px; }
     h1 { font-size: 22px; }
-    .kpis { grid-template-columns: 1fr 1fr; }
-    .kpi:nth-child(3) { border-left: 0; }
-    .kpi:nth-child(n+3) { border-top: 1px solid var(--rule); }
-    .kpi .value { font-size: 22px; }
-    .runway { height: 160px; gap: 3px; }
+    .chips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; }
+    .up summary { grid-template-columns: 52px 1fr; gap: 12px; padding: 12px 16px; }
+    .date { width: 52px; height: 52px; }
+    .date .d { font-size: 20px; }
+    .up .right { grid-column: 2; text-align: left; }
+    .detail { padding: 4px 16px 16px; }
+    .up-foot { padding: 12px 16px; }
+    .runway { gap: 3px; }
     .axis { gap: 3px; font-size: 11px; }
     .axis span:nth-child(even), .axis span:last-child { visibility: hidden; }
     .runway-panel .panel-head { flex-direction: column; align-items: flex-start; gap: 6px; }
-    .toolbar { grid-template-columns: 1fr 1fr; padding: 16px 16px 10px; }
+    .toolbar { padding: 16px 16px 10px; }
     .list-meta { padding: 0 16px 10px; }
     thead { display: none; }
     table, tbody, tr, td { display: block; width: 100%; }
@@ -229,82 +250,96 @@
     <div class="stamp" id="stamp">Updated weekly from official funder websites</div>
   </header>
 
-  <div class="titlerow">
-    <div>
-      <h1>Funding and program opportunities</h1>
-      <p class="finding" id="finding">Loading this week's opportunities…</p>
+  <!-- 1. Upcoming opportunities: what the TTO should act on next -->
+  <section aria-labelledby="up-h">
+    <div class="head">
+      <div>
+        <h1 id="up-h">Upcoming opportunities</h1>
+        <p class="finding" id="finding">Loading this week's opportunities…</p>
+      </div>
+      <a class="btn btn-secondary" id="viewAll" href="#all">
+        View all opportunities
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 3l5 5-5 5"/></svg>
+      </a>
     </div>
-    <button class="btn btn-secondary" id="csv" type="button">
-      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M8 2v8m0 0L5 7m3 3 3-3M3 13h10"/></svg>
-      Download list (CSV)
-    </button>
-  </div>
-
-  <section class="kpis" aria-label="This week at a glance" id="kpis"></section>
-
-  <div class="row">
-    <section class="panel runway-panel" aria-labelledby="runway-h">
-      <div class="panel-head">
-        <h2 id="runway-h">Deadlines in the next 13 weeks</h2>
-        <div class="legend"><span><i style="background:var(--accent)"></i>Within 30 days</span><span><i style="background:#a3abb3"></i>Later</span></div>
-      </div>
-      <div class="runway" id="runway" role="group" aria-label="Calls closing per week"></div>
-      <div class="axis" id="axis" aria-hidden="true"></div>
-      <p class="runway-note" id="runway-note"></p>
-    </section>
-
-    <section class="panel" aria-labelledby="topics-h">
-      <div class="panel-head">
-        <h2 id="topics-h">Open by topic</h2>
-        <span class="meta">Opportunities</span>
-      </div>
-      <div class="bars" id="bars"></div>
-    </section>
-  </div>
-
-  <section class="panel list-panel" aria-labelledby="list-h" id="list">
-    <div class="toolbar">
-      <div class="search">
-        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="7" cy="7" r="4.5"/><path d="m10.5 10.5 3 3"/></svg>
-        <input id="q" type="search" placeholder="Search programs, funders or keywords" aria-label="Search">
-      </div>
-      <select id="region" aria-label="Region"><option value="">All regions</option></select>
-      <select id="audience" aria-label="Who it is for"><option value="">Anyone eligible</option></select>
-      <select id="funder" aria-label="Funder"><option value="">All funders</option></select>
-      <select id="sort" aria-label="Sort">
-        <option value="deadline">Closing soonest</option>
-        <option value="new">Newest first</option>
-        <option value="funder">Funder A–Z</option>
-        <option value="title">Title A–Z</option>
-      </select>
+    <div class="chips" id="chips" role="group" aria-label="Filter by topic"></div>
+    <div class="panel">
+      <ul class="upcoming" id="upcoming"></ul>
+      <div class="up-foot" id="upFoot"></div>
     </div>
-    <div class="list-meta">
-      <div class="chipset">
-        <h2 id="list-h" style="font-size:14px;font-weight:500;margin-right:6px"><span id="count" class="num"></span></h2>
-        <span id="activeChips" class="chipset"></span>
-      </div>
-      <label><input type="checkbox" id="hideClosed" checked> Hide closed</label>
-    </div>
-    <table>
-      <thead><tr><th>Opportunity</th><th class="topics">Topics</th><th class="status">Status</th><th class="r dlcell">Deadline</th></tr></thead>
-      <tbody id="rows"></tbody>
-    </table>
-    <div class="more" id="more"></div>
   </section>
 
-  <details class="panel sources">
-    <summary><h2>Sources checked this week</h2><span class="meta" id="srcCount"></span></summary>
-    <div class="srcgrid" id="srcBody"></div>
-  </details>
+  <!-- 2. Every tracked opportunity, searchable -->
+  <section class="section" id="all" aria-labelledby="all-h">
+    <div class="head"><h2 class="section-h" id="all-h">All opportunities</h2>
+      <button class="btn btn-ghost" id="csv" type="button">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M8 2v8m0 0L5 7m3 3 3-3M3 13h10"/></svg>
+        Download CSV
+      </button>
+    </div>
+    <div class="panel">
+      <div class="toolbar">
+        <div class="search">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="7" cy="7" r="4.5"/><path d="m10.5 10.5 3 3"/></svg>
+          <input id="q" type="search" placeholder="Search programs, funders or keywords" aria-label="Search">
+        </div>
+        <select id="region" aria-label="Region"><option value="">All regions</option></select>
+        <select id="audience" aria-label="Who it is for"><option value="">Anyone eligible</option></select>
+        <select id="funder" aria-label="Funder"><option value="">All funders</option></select>
+        <select id="sort" aria-label="Sort">
+          <option value="deadline">Closing soonest</option>
+          <option value="new">Newest first</option>
+          <option value="funder">Funder A–Z</option>
+          <option value="title">Title A–Z</option>
+        </select>
+      </div>
+      <div class="list-meta">
+        <div><span id="count" class="num" style="color:var(--text);font-weight:500"></span> <span id="activeChips"></span></div>
+        <label><input type="checkbox" id="hideClosed" checked> Hide closed</label>
+      </div>
+      <table>
+        <thead><tr><th>Opportunity</th><th class="topics">Topics</th><th class="status">Status</th><th class="r dlcell">Deadline</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+      <div class="more" id="more"></div>
+    </div>
+  </section>
 
-  <p class="foot">Collected automatically each Monday from official funder websites and summarized. Always confirm eligibility and deadlines on the funder's page before applying. "New" marks opportunities first seen in the last 14 days.</p>
+  <!-- 3. Overview -->
+  <section class="section" id="overview" aria-labelledby="ov-h">
+    <div class="head"><h2 class="section-h" id="ov-h">Deadline overview</h2></div>
+    <div class="row">
+      <div class="panel card runway-panel">
+        <div class="panel-head">
+          <h2>Calls closing in the next 13 weeks</h2>
+          <div class="legend"><span><i style="background:var(--accent)"></i>Within 30 days</span><span><i style="background:#a3abb3"></i>Later</span></div>
+        </div>
+        <div class="runway" id="runway" role="group" aria-label="Calls closing per week"></div>
+        <div class="axis" id="axis" aria-hidden="true"></div>
+      </div>
+      <div class="panel card">
+        <div class="panel-head"><h2>Open by topic</h2><span class="meta">Opportunities</span></div>
+        <div class="bars" id="bars"></div>
+      </div>
+    </div>
+    <details class="panel sources">
+      <summary><h2>Sources checked this week</h2><span class="panel-head meta" id="srcCount" style="margin:0"></span></summary>
+      <div class="srcgrid" id="srcBody"></div>
+    </details>
+    <p class="foot">Collected automatically each Monday from official funder websites, covering Atlantic Canada and national programs. Always confirm eligibility and deadlines on the funder's page before applying. "New" marks opportunities first seen in the last 14 days.</p>
+  </section>
 </div>
 
 <script>
 (function () {
-  const NEW_DAYS = 14, SOON_DAYS = 30, WEEKS = 13, PAGE = 40;
+  const NEW_DAYS = 14, SOON_DAYS = 30, UPCOMING_DAYS = 120, WEEKS = 13, PAGE = 40, UP_PAGE = 8;
+  // Topics shown as quick filters, in the order a TTO thinks about them.
+  const TOPICS = ["Intellectual property", "Commercialization", "Startups & spin-offs", "Industry partnership",
+                  "AI & digital", "Defence & dual-use", "Quantum & emerging tech", "Talent & internships", "Research"];
   const $ = (id) => document.getElementById(id);
-  const state = { q: "", region: "", funder: "", audience: "", cat: "", week: null, sort: "deadline", hideClosed: true, shown: PAGE };
+  const params = new URLSearchParams(location.search);
+  const compact = params.get("view") === "upcoming";
+  const state = { q: "", region: "", funder: "", audience: "", cat: "", week: null, sort: "deadline", hideClosed: true, shown: PAGE, upShown: compact ? 6 : UP_PAGE };
   let data = { items: [], sources: [], meta: {} };
 
   const today = new Date(); today.setHours(0, 0, 0, 0);
@@ -315,24 +350,104 @@
   const fmt = (d, opts) => d.toLocaleDateString("en-CA", opts || { month: "short", day: "numeric", year: "numeric" });
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const plural = (n, one, many) => `${n.toLocaleString("en-CA")} ${n === 1 ? one : many}`;
+  const inDays = (d) => (d === 0 ? "Closes today" : d === 1 ? "Closes tomorrow" : `${d} days left`);
 
   const isNew = (it) => it.first_seen > (data.meta.baseline || "") && -daysUntil(it.first_seen) <= NEW_DAYS;
   const upcomingDeadline = (it) => it.deadline && daysUntil(it.deadline) >= 0;
   const isSoon = (it) => upcomingDeadline(it) && daysUntil(it.deadline) <= SOON_DAYS;
-  const weekOf = (it) => upcomingDeadline(it) ? Math.floor(daysUntil(it.deadline) / 7) : null;
+  const weekOf = (it) => (upcomingDeadline(it) ? Math.floor(daysUntil(it.deadline) / 7) : null);
   const live = () => data.items.filter((i) => i.active && i.status !== "closed");
+  const hasCat = (it) => !state.cat || (it.categories || []).includes(state.cat);
+
+  // Upcoming = a deadline in the next 120 days, then calls announced as "coming soon".
+  // With a topic selected, that topic's ongoing (no-deadline) programs follow, so topics
+  // like IP that are mostly year-round programs still list something to act on.
+  function upcomingItems() {
+    const dated = live().filter((i) => hasCat(i) && upcomingDeadline(i) && daysUntil(i.deadline) <= UPCOMING_DAYS)
+      .sort((a, b) => a.deadline.localeCompare(b.deadline) || a.title.localeCompare(b.title));
+    const soon = live().filter((i) => hasCat(i) && !upcomingDeadline(i) && i.status === "upcoming")
+      .sort((a, b) => a.title.localeCompare(b.title));
+    const ongoing = state.cat ? live().filter((i) => hasCat(i) && !upcomingDeadline(i) && i.status !== "upcoming")
+      .sort((a, b) => (a.status === "open" ? 0 : 1) - (b.status === "open" ? 0 : 1) || a.title.localeCompare(b.title)) : [];
+    return dated.concat(soon, ongoing);
+  }
 
   function readHash() {
-    // Preset filters from the URL, e.g. #region=Atlantic&cat=Commercialization
     const p = new URLSearchParams(location.hash.slice(1));
     ["region", "q", "audience", "cat", "funder"].forEach((k) => { if (p.get(k)) state[k] = p.get(k); });
   }
-
   const uniq = (arr) => [...new Set(arr)].filter(Boolean).sort((a, b) => a.localeCompare(b));
   function fillSelect(el, values) {
     values.forEach((v) => { const o = document.createElement("option"); o.value = o.textContent = v; el.appendChild(o); });
   }
 
+  // ---- Upcoming ------------------------------------------------------------
+  function upRow(it) {
+    const tags = (it.categories || []).slice(0, 4).map((t) => `<span class="tag${t === "Intellectual property" ? " ip" : ""}">${esc(t)}</span>`).join("");
+    let date, left = "";
+    if (upcomingDeadline(it)) {
+      const d = toDate(it.deadline), n = daysUntil(it.deadline);
+      date = `<span class="date${n <= SOON_DAYS ? " soon" : ""}" aria-hidden="true"><span class="m">${fmt(d, { month: "short" })}</span><span class="d num">${d.getDate()}</span></span>`;
+      left = `<span class="left num${n <= SOON_DAYS ? " soon" : ""}">${inDays(n)}</span>`;
+    } else if (it.status === "upcoming") {
+      date = '<span class="date none" aria-hidden="true"><span class="d">Soon</span></span>';
+      left = '<span class="pill upcoming">Coming soon</span>';
+    } else {
+      date = '<span class="date none" aria-hidden="true"><span class="d">Open</span></span>';
+      left = '<span class="left">Ongoing program</span>';
+    }
+    const facts = [
+      ["Funder", esc(it.funder)],
+      ["Deadline", upcomingDeadline(it) ? fmt(toDate(it.deadline), { weekday: "long", month: "long", day: "numeric", year: "numeric" })
+        : it.status === "upcoming" ? "To be announced" : "No fixed deadline – check the funder's page"],
+      ["Region", esc(it.region)],
+      (it.audience || []).length ? ["Who can apply", esc(it.audience.join(", "))] : null,
+    ].filter(Boolean).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("");
+    return `<li><details class="up">
+      <summary>${date}
+        <span><span class="t">${esc(it.title)}</span>
+          <span class="meta" style="display:block">${isNew(it) ? '<span class="new">New · </span>' : ""}${esc(it.source_name)} · ${esc(it.region)}</span></span>
+        <span class="right">${left}<span class="chev" aria-hidden="true">›</span></span>
+      </summary>
+      <div class="detail">
+        ${it.description && it.description !== it.title ? `<p>${esc(it.description)}</p>` : ""}
+        <dl class="facts">${facts}</dl>
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+          <div class="tags">${tags}</div>
+          <a class="btn btn-primary" href="${esc(it.url)}" target="_blank" rel="noopener">View details on the funder's site ↗</a>
+        </div>
+      </div></details></li>`;
+  }
+
+  function renderUpcoming() {
+    const items = upcomingItems();
+    const shown = items.slice(0, state.upShown);
+    $("upcoming").innerHTML = shown.length ? shown.map(upRow).join("")
+      : `<li class="empty">Nothing${state.cat ? " in " + esc(state.cat) : ""} is open or upcoming right now. <button class="linkbtn" type="button" data-cat-clear>Show all topics</button></li>`;
+    const rest = items.length - shown.length;
+    const allLink = compact ? `<a class="linkbtn" href="${location.pathname}" target="_blank" rel="noopener">Open the full Funding Radar ↗</a>` : "";
+    $("upFoot").innerHTML = `<span class="num">${shown.length ? `Showing ${shown.length} of ${plural(items.length, "upcoming opportunity", "upcoming opportunities")}` : ""}</span>
+      <span style="display:flex;gap:16px;align-items:center">${rest > 0 ? `<button class="btn btn-ghost" type="button" id="upMore">Show ${Math.min(rest, UP_PAGE)} more</button>` : ""}${allLink}</span>`;
+    document.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", String(c.dataset.cat === state.cat)));
+  }
+
+  function renderFinding() {
+    const soon = live().filter(isSoon).sort((a, b) => a.deadline.localeCompare(b.deadline));
+    const first = soon[0];
+    $("finding").innerHTML = first
+      ? `<b>${plural(soon.length, "call closes", "calls close")} in the next 30 days.</b> Select one to see the details and the link to apply.`
+      : "No tracked deadlines fall in the next 30 days. Programs with continuous intake are listed under All opportunities.";
+  }
+
+  function renderChips() {
+    const counts = {};
+    live().forEach((i) => (i.categories || []).forEach((c) => (counts[c] = (counts[c] || 0) + 1)));
+    const topics = TOPICS.filter((t) => counts[t]);
+    $("chips").innerHTML = `<button class="chip" type="button" data-cat="" aria-pressed="${!state.cat}">All topics</button>` +
+      topics.map((t) => `<button class="chip" type="button" data-cat="${esc(t)}" aria-pressed="${state.cat === t}">${esc(t)}</button>`).join("");
+  }
+
+  // ---- All opportunities --------------------------------------------------
   function filtered() {
     const q = state.q.trim().toLowerCase();
     return data.items.filter((it) => {
@@ -341,13 +456,12 @@
       if (state.region && it.region !== state.region) return false;
       if (state.funder && it.source_name !== state.funder) return false;
       if (state.audience && !(it.audience || []).includes(state.audience)) return false;
-      if (state.cat && !(it.categories || []).includes(state.cat)) return false;
+      if (!hasCat(it)) return false;
       if (state.week !== null && weekOf(it) !== state.week) return false;
       if (q && !`${it.title} ${it.funder} ${it.source_name} ${it.description} ${(it.categories || []).join(" ")}`.toLowerCase().includes(q)) return false;
       return true;
     });
   }
-
   function sorted(items) {
     const dl = (i) => (upcomingDeadline(i) ? i.deadline : "9999");
     const by = {
@@ -358,70 +472,9 @@
     }[state.sort];
     return items.slice().sort(by);
   }
-
-  // ---- Static blocks: computed once from all live items ------------------
-  function renderSummary() {
-    const items = live();
-    const soon = sorted(items.filter(isSoon));
-    const fresh = items.filter(isNew).length;
-    const healthy = data.sources.filter((s) => s.ok).length;
-    const first = soon[0];
-    $("finding").innerHTML = first
-      ? `<b>${plural(soon.length, "call closes", "calls close")}</b> in the next 30 days. The first is ${esc(first.title)} (${esc(first.source_name)}) on ${fmt(toDate(first.deadline), { month: "long", day: "numeric" })}.`
-      : "No tracked deadlines fall in the next 30 days.";
-    const since = data.meta.baseline ? fmt(toDate(data.meta.baseline), { month: "short", day: "numeric" }) : "";
-    const kpis = [
-      ["Open or ongoing", items.length, "", "across " + plural(data.sources.length, "funder", "funders")],
-      ["Closing in 30 days", soon.length, "lead", soon.length ? "earliest " + fmt(toDate(soon[0].deadline), { month: "short", day: "numeric" }) : "none tracked"],
-      ["New in 14 days", fresh, fresh ? "" : "zero", fresh ? "first seen since last run" : "tracking began " + since],
-      ["Sources read", `${healthy}<span style="color:var(--faint);font-size:15px"> / ${data.sources.length}</span>`, "", healthy === data.sources.length ? "all healthy" : plural(data.sources.length - healthy, "needs a check", "need a check")],
-    ];
-    $("kpis").innerHTML = kpis.map(([label, value, cls, sub]) =>
-      `<div class="kpi"><div class="label">${label}</div><div class="value num ${cls}">${value}</div><div class="sub">${sub}</div></div>`).join("");
-  }
-
-  function renderRunway() {
-    const items = live().filter((i) => weekOf(i) !== null && weekOf(i) < WEEKS);
-    const weeks = Array.from({ length: WEEKS }, () => []);
-    items.forEach((i) => weeks[weekOf(i)].push(i));
-    const max = Math.max(1, ...weeks.map((w) => w.length));
-    const cap = 14; // squares drawn per column; taller weeks show the count above
-    $("runway").innerHTML = weeks.map((w, k) => {
-      const start = addDays(k * 7);
-      const near = w.some(isSoon);
-      const names = w.map((i) => `${fmt(toDate(i.deadline), { month: "short", day: "numeric" })}: ${i.title}`).join("\n");
-      const squares = w.slice(0, cap).map((i) => `<span class="sq${isSoon(i) ? " near" : ""}"></span>`).join("");
-      const label = `${plural(w.length, "call", "calls")} closing the week of ${fmt(start, { month: "long", day: "numeric" })}`;
-      return `<button class="week${near ? " near" : ""}" type="button" data-week="${k}" aria-pressed="${state.week === k}"
-        aria-label="${esc(label)}" title="${esc(names || label)}">${squares}<span class="n num${w.length ? "" : " empty"}">${w.length || "0"}</span></button>`;
-    }).join("");
-    $("axis").innerHTML = weeks.map((_, k) => `<span>${fmt(addDays(k * 7), { month: "short", day: "numeric" })}</span>`).join("");
-    const busiest = weeks.reduce((b, w, k) => (w.length > weeks[b].length ? k : b), 0);
-    $("runway-note").innerHTML = items.length
-      ? `${plural(items.length, "call has", "calls have")} a deadline in this window; the busiest is the week of <b>${fmt(addDays(busiest * 7), { month: "long", day: "numeric" })}</b> with ${weeks[busiest].length}. Select a week to list its calls.`
-      : "No tracked deadlines in this window.";
-    // Size the squares so the busiest week fills the plot height.
-    const plot = $("runway").clientHeight - 40;
-    const shown = Math.min(max, cap);
-    const h = Math.max(6, Math.min(22, Math.floor(plot / shown) - 3));
-    $("runway").style.setProperty("--sq", h + "px");
-  }
-
-  function renderBars() {
-    const counts = {};
-    live().forEach((i) => (i.categories || []).forEach((c) => (counts[c] = (counts[c] || 0) + 1)));
-    const rows = Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 7);
-    const top = rows.length ? rows[0][1] : 1;
-    $("bars").innerHTML = rows.map(([c, n]) =>
-      `<button class="bar-row" type="button" data-cat="${esc(c)}" aria-pressed="${state.cat === c}">
-         <span class="t">${esc(c)}</span><span class="v num">${n}</span>
-         <span class="track"><span class="fill" style="display:block;width:${(n / top) * 100}%"></span></span></button>`).join("");
-  }
-
-  // ---- The list -----------------------------------------------------------
   function row(it) {
     const meta = [it.kind, it.source_name, it.region].filter(Boolean).map(esc).join(" · ");
-    const tags = (it.categories || []).slice(0, 3).map((t) => `<span class="tag">${esc(t)}</span>`).join("");
+    const tags = (it.categories || []).slice(0, 3).map((t) => `<span class="tag${t === "Intellectual property" ? " ip" : ""}">${esc(t)}</span>`).join("");
     const status = it.status && it.status !== "unknown"
       ? `<span class="pill ${it.status}">${it.status[0].toUpperCase() + it.status.slice(1)}</span>` : '<span class="dash">–</span>';
     let dl = '<span class="dash">–</span>';
@@ -437,29 +490,48 @@
       <td class="status">${status}</td>
       <td class="r dlcell">${dl}</td></tr>`;
   }
-
-  function renderChips() {
-    const chips = [];
-    if (state.cat) chips.push(["cat", state.cat]);
-    if (state.week !== null) chips.push(["week", "Week of " + fmt(addDays(state.week * 7), { month: "short", day: "numeric" })]);
-    $("activeChips").innerHTML = chips.map(([k, label]) =>
-      `<button class="chip-active" type="button" data-clear="${k}" aria-label="Remove filter ${esc(label)}">${esc(label)} <span aria-hidden="true">×</span></button>`).join("");
-  }
-
   function renderList() {
     const items = sorted(filtered());
     const shown = items.slice(0, state.shown);
     $("count").textContent = plural(items.length, "opportunity", "opportunities");
+    const chips = [];
+    if (state.cat) chips.push(["cat", state.cat]);
+    if (state.week !== null) chips.push(["week", "Week of " + fmt(addDays(state.week * 7), { month: "short", day: "numeric" })]);
+    $("activeChips").innerHTML = chips.map(([k, label]) =>
+      `<button class="chip-active" type="button" data-clear="${k}" aria-label="Remove filter ${esc(label)}">${esc(label)} <span aria-hidden="true">×</span></button>`).join(" ");
     $("rows").innerHTML = shown.length ? shown.map(row).join("")
       : `<tr><td colspan="4" class="empty">Nothing matches these filters. <button class="linkbtn" type="button" data-reset>Clear filters</button></td></tr>`;
     $("more").innerHTML = items.length > shown.length
       ? `<span class="num">Showing 1–${shown.length} of ${items.length}</span><button class="btn btn-ghost" type="button" id="moreBtn">Show ${Math.min(PAGE, items.length - shown.length)} more</button>`
       : items.length ? `<span class="num">Showing all ${items.length}</span>` : "";
-    document.querySelectorAll(".week").forEach((w) => w.setAttribute("aria-pressed", String(state.week === +w.dataset.week)));
-    document.querySelectorAll(".bar-row").forEach((b) => b.setAttribute("aria-pressed", String(state.cat === b.dataset.cat)));
-    renderChips();
   }
 
+  // ---- Overview -----------------------------------------------------------
+  function renderRunway() {
+    const items = live().filter((i) => weekOf(i) !== null && weekOf(i) < WEEKS);
+    const weeks = Array.from({ length: WEEKS }, () => []);
+    items.forEach((i) => weeks[weekOf(i)].push(i));
+    const cap = 14;
+    $("runway").innerHTML = weeks.map((w, k) => {
+      const names = w.map((i) => `${fmt(toDate(i.deadline), { month: "short", day: "numeric" })}: ${i.title}`).join("\n");
+      const label = `${plural(w.length, "call", "calls")} closing the week of ${fmt(addDays(k * 7), { month: "long", day: "numeric" })}`;
+      return `<button class="week" type="button" data-week="${k}" aria-label="${esc(label)}" title="${esc(names || label)}">${
+        w.slice(0, cap).map((i) => `<span class="sq${isSoon(i) ? " near" : ""}"></span>`).join("")}<span class="n num">${w.length}</span></button>`;
+    }).join("");
+    $("axis").innerHTML = weeks.map((_, k) => `<span>${fmt(addDays(k * 7), { month: "short", day: "numeric" })}</span>`).join("");
+    const max = Math.max(1, ...weeks.map((w) => Math.min(w.length, cap)));
+    const h = Math.max(6, Math.min(20, Math.floor(($("runway").clientHeight - 40) / max) - 3));
+    $("runway").style.setProperty("--sq", h + "px");
+  }
+  function renderBars() {
+    const counts = {};
+    live().forEach((i) => (i.categories || []).forEach((c) => (counts[c] = (counts[c] || 0) + 1)));
+    const rows = Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 7);
+    const top = rows.length ? rows[0][1] : 1;
+    $("bars").innerHTML = rows.map(([c, n]) =>
+      `<button class="bar-row" type="button" data-cat="${esc(c)}"><span class="t">${esc(c)}</span><span class="v num">${n}</span>
+         <span class="track"><span class="fill" style="width:${(n / top) * 100}%"></span></span></button>`).join("");
+  }
   function renderSources() {
     const ok = data.sources.filter((s) => s.ok).length;
     $("srcCount").textContent = `${ok} of ${data.sources.length} read`;
@@ -480,37 +552,42 @@
     URL.revokeObjectURL(a.href);
   }
 
-  function update() { state.shown = PAGE; renderList(); }
+  function setCat(c) { state.cat = c; state.upShown = compact ? 6 : UP_PAGE; state.shown = PAGE; renderUpcoming(); if (!compact) renderList(); }
 
   function bind() {
-    $("q").addEventListener("input", (e) => { state.q = e.target.value; update(); });
-    ["region", "funder", "audience", "sort"].forEach((k) => $(k).addEventListener("change", (e) => { state[k] = e.target.value; update(); }));
-    $("hideClosed").addEventListener("change", (e) => { state.hideClosed = e.target.checked; update(); });
+    $("chips").addEventListener("click", (e) => { const c = e.target.closest(".chip"); if (c) setCat(c.dataset.cat); });
+    $("q").addEventListener("input", (e) => { state.q = e.target.value; state.shown = PAGE; renderList(); });
+    ["region", "funder", "audience", "sort"].forEach((k) => $(k).addEventListener("change", (e) => { state[k] = e.target.value; state.shown = PAGE; renderList(); }));
+    $("hideClosed").addEventListener("change", (e) => { state.hideClosed = e.target.checked; renderList(); });
     $("runway").addEventListener("click", (e) => {
       const w = e.target.closest(".week"); if (!w) return;
-      state.week = state.week === +w.dataset.week ? null : +w.dataset.week;
-      state.sort = "deadline"; $("sort").value = "deadline";
-      update();
-      if (state.week !== null) $("list").scrollIntoView({ behavior: "smooth", block: "start" });
+      state.week = +w.dataset.week; state.sort = "deadline"; $("sort").value = "deadline"; state.shown = PAGE;
+      renderList(); $("all").scrollIntoView({ behavior: "smooth" });
     });
     $("bars").addEventListener("click", (e) => {
       const b = e.target.closest(".bar-row"); if (!b) return;
-      state.cat = state.cat === b.dataset.cat ? "" : b.dataset.cat;
-      update();
+      setCat(b.dataset.cat); $("all").scrollIntoView({ behavior: "smooth" });
     });
     document.addEventListener("click", (e) => {
       const c = e.target.closest("[data-clear]");
-      if (c) { if (c.dataset.clear === "cat") state.cat = ""; else state.week = null; update(); }
+      if (c) { if (c.dataset.clear === "cat") setCat(""); else { state.week = null; renderList(); } }
+      if (e.target.closest("[data-cat-clear]")) setCat("");
       if (e.target.closest("[data-reset]")) {
-        Object.assign(state, { q: "", region: "", funder: "", audience: "", cat: "", week: null, hideClosed: true });
+        Object.assign(state, { q: "", region: "", funder: "", audience: "", week: null, hideClosed: true });
         ["q", "region", "funder", "audience"].forEach((k) => ($(k).value = ""));
         $("hideClosed").checked = true;
-        update();
+        setCat("");
       }
       if (e.target.closest("#moreBtn")) { state.shown += PAGE; renderList(); }
+      if (e.target.closest("#upMore")) { state.upShown += UP_PAGE; renderUpcoming(); }
     });
     $("csv").addEventListener("click", downloadCsv);
-    let t; window.addEventListener("resize", () => { clearTimeout(t); t = setTimeout(renderRunway, 150); });
+    let t; window.addEventListener("resize", () => { clearTimeout(t); t = setTimeout(() => { if (!compact) renderRunway(); }, 150); });
+  }
+
+  if (compact) {
+    document.body.classList.add("compact");
+    $("all").hidden = true; $("overview").hidden = true; $("viewAll").hidden = true;
   }
 
   fetch("data/opportunities.json", { cache: "no-cache" })
@@ -524,11 +601,11 @@
       if (d.meta.generated) $("stamp").textContent = `Updated ${fmt(new Date(d.meta.generated), { month: "long", day: "numeric", year: "numeric" })} · refreshed every Monday`;
       readHash();
       ["q", "region", "audience", "funder"].forEach((k) => ($(k).value = state[k]));
-      bind(); renderSummary(); renderRunway(); renderBars(); renderSources(); renderList();
+      bind(); renderFinding(); renderChips(); renderUpcoming();
+      if (!compact) { renderList(); renderRunway(); renderBars(); renderSources(); }
     })
     .catch(() => {
       $("finding").textContent = "Couldn't load the opportunity list. Please refresh the page in a minute.";
-      $("rows").innerHTML = '<tr><td colspan="4" class="empty">The list could not be loaded.</td></tr>';
     });
 })();
 </script>
