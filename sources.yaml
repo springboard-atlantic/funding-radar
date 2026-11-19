@@ -245,6 +245,18 @@ sources:
     kind: Program
     categories: [Startups & spin-offs, Research]
 
+  - id: research-nb
+    name: Research NB
+    funder: Research NB (New Brunswick)
+    region: New Brunswick
+    type: html
+    url: https://researchnb.ca/research-funding/
+    scope: body
+    include: researchnb\.ca/programs/[a-z0-9-]+/?$
+    detail: true
+    kind: Program
+    categories: [Research]
+
   - id: nl-jgrd
     name: Newfoundland and Labrador – Industry funding
     funder: Government of NL – Jobs, Growth and Rural Development
@@ -278,6 +290,31 @@ sources:
     url: https://www.ngen.ca/funding
     kind: Program
     categories: [Industry partnership, SME & business]
+
+  # ---------------------------------------------------------------- Health research charities
+  - id: cancer-society
+    name: Canadian Cancer Society
+    funder: Canadian Cancer Society
+    region: National
+    type: html
+    url: https://cancer.ca/en/research/for-researchers
+    include: cancer\.ca/en/research/for-researchers/funding-opportunities/[a-z0-9-]+
+    detail: true
+    default_status: open
+    kind: Call
+    categories: [Research, Health & life sciences]
+
+  - id: ms-canada
+    name: MS Canada
+    funder: MS Canada
+    region: National
+    type: html
+    url: https://mscanada.ca/funding-opportunities
+    include: mscanada\.ca/(research-grants|targeted-competitions|endms-research-and-training-network-awards-and-programs)
+    detail: true
+    title_from_detail: true
+    kind: Program
+    categories: [Research, Health & life sciences]
 
   # ---------------------------------------------------------------- Intellectual property
   - id: ised-ip

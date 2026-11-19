@@ -184,13 +184,21 @@ def detect_status(text: str) -> str:
     return "unknown"
 
 
+def strip_tracking(url: str) -> str:
+    """Drop analytics parameters (utm_*, _ga, _gl, gclid) so links are clean and stable."""
+    parts = urlsplit(url)
+    query = [(k, v) for k, v in parse_qsl(parts.query, keep_blank_values=True)
+             if not re.match(r"(utm_|_ga$|_gl$|gclid$|fbclid$)", k, re.I)]
+    return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(query), parts.fragment))
+
+
 def item_id(url: str) -> str:
     return hashlib.sha1(normalize_url(url).encode()).hexdigest()[:16]
 
 
 def normalize_url(url: str) -> str:
     parts = urlsplit(url)
-    query = urlencode(sorted((k, v) for k, v in parse_qsl(parts.query) if not k.lower().startswith("utm_")))
+    query = urlencode(sorted((k, v) for k, v in parse_qsl(parts.query) if not re.match(r"(utm_|_ga$|_gl$|gclid$|fbclid$)", k, re.I)))
     return urlunsplit((parts.scheme, parts.netloc.lower(), parts.path.rstrip("/"), query, ""))
 
 
@@ -533,6 +541,7 @@ def run(only: set[str] | None = None) -> None:
                 scope_text = raw["title"] + (" " + raw.get("description", "") if src.get("type") == "gcnews" else "")
                 if out_of_scope and out_of_scope.search(scope_text):
                     continue
+                raw["url"] = strip_tracking(raw["url"])
                 iid = item_id(raw["url"])
                 old = prev_items.get(iid)
                 if src.get("detail") and details_left > 0 and (old is None or not old.get("description")):

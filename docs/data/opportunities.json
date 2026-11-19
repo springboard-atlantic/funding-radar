@@ -1,8 +1,8 @@
 {
  "meta": {
-  "generated": "2026-11-16T20:17:15+00:00",
+  "generated": "2026-11-19T19:09:20+00:00",
   "baseline": "2026-10-26",
-  "item_count": 324
+  "item_count": 329
  },
  "sources": [
   {
@@ -30,10 +30,10 @@
    "name": "Canada Foundation for Innovation",
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities",
    "region": "National",
-   "ok": false,
-   "count": 0,
-   "error": "HTTP 403",
-   "seconds": 0.2
+   "ok": true,
+   "count": 7,
+   "error": null,
+   "seconds": 10.8
   },
   {
    "id": "ocean-supercluster",
@@ -44,6 +44,16 @@
    "count": 4,
    "error": null,
    "seconds": 1.3
+  },
+  {
+   "id": "cancer-society",
+   "name": "Canadian Cancer Society",
+   "url": "https://cancer.ca/en/research/for-researchers",
+   "region": "National",
+   "ok": true,
+   "count": 5,
+   "error": null,
+   "seconds": 1.4
   },
   {
    "id": "cihr",
@@ -181,7 +191,7 @@
    "url": "https://research-tools.mun.ca/funding/opportunities/",
    "region": "Atlantic",
    "ok": true,
-   "count": 95,
+   "count": 92,
    "error": null,
    "seconds": 179.1
   },
@@ -194,6 +204,16 @@
    "count": 15,
    "error": null,
    "seconds": 0.3
+  },
+  {
+   "id": "ms-canada",
+   "name": "MS Canada",
+   "url": "https://mscanada.ca/funding-opportunities",
+   "region": "National",
+   "ok": true,
+   "count": 3,
+   "error": null,
+   "seconds": 7.2
   },
   {
    "id": "dnd-ip",
@@ -253,7 +273,7 @@
    "ok": false,
    "count": 0,
    "error": "HTTP 403",
-   "seconds": 0.1
+   "seconds": 1.1
   },
   {
    "id": "nrc-ideation",
@@ -263,7 +283,7 @@
    "ok": false,
    "count": 0,
    "error": "HTTP 403",
-   "seconds": 1.6
+   "seconds": 2.4
   },
   {
    "id": "nrc-irap",
@@ -273,7 +293,7 @@
    "ok": false,
    "count": 0,
    "error": "HTTP 403",
-   "seconds": 0.2
+   "seconds": 2.1
   },
   {
    "id": "irap-youth",
@@ -283,7 +303,7 @@
    "ok": false,
    "count": 0,
    "error": "HTTP 403",
-   "seconds": 0.1
+   "seconds": 2.5
   },
   {
    "id": "nrc-ip-licensing",
@@ -293,7 +313,7 @@
    "ok": false,
    "count": 0,
    "error": "HTTP 403",
-   "seconds": 0.1
+   "seconds": 2.4
   },
   {
    "id": "nserc",
@@ -304,6 +324,16 @@
    "count": 30,
    "error": null,
    "seconds": 4.2
+  },
+  {
+   "id": "research-nb",
+   "name": "Research NB",
+   "url": "https://researchnb.ca/research-funding/",
+   "region": "New Brunswick",
+   "ok": false,
+   "count": 0,
+   "error": "connection refused by site (possible bot protection)",
+   "seconds": 21.9
   },
   {
    "id": "research-ns",
@@ -347,6 +377,293 @@
   }
  ],
  "items": [
+  {
+   "id": "2274957d757072ab",
+   "title": "endMS Research and Training Network Awards and Programs",
+   "url": "https://mscanada.ca/endms-research-and-training-network-awards-and-programs",
+   "description": "MS Canada supports the next generation of talented young researchers who will take on the mantle of advancing MS research in the search for a cure. The annual studentship and fellowship award competition is a key plank of MS Canada’s research training program that allows us to build a robust network of bright minds in the field and is aimed at graduate students and postdoctoral fellows intent on…",
+   "funder": "MS Canada",
+   "via": null,
+   "source_id": "ms-canada",
+   "source_name": "MS Canada",
+   "region": "National",
+   "kind": "Program",
+   "categories": [
+    "Health & life sciences",
+    "Research",
+    "Talent & internships"
+   ],
+   "audience": [
+    "Universities",
+    "Students & trainees"
+   ],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "2a092f9d0b587257",
+   "title": "endMS Research and Training Network Awards and Programs",
+   "url": "https://mscanada.ca/endms-research-and-training-network-awards-and-programs?_ga=2.48995503.822170821.1536584016-203288996.1498058925",
+   "description": "MS Canada supports the next generation of talented young researchers who will take on the mantle of advancing MS research in the search for a cure. The annual studentship and fellowship award competition is a key plank of MS Canada’s research training program that allows us to build a robust network of bright minds in the field and is aimed at graduate students and postdoctoral fellows intent on…",
+   "funder": "MS Canada",
+   "via": null,
+   "source_id": "ms-canada",
+   "source_name": "MS Canada",
+   "region": "National",
+   "kind": "Program",
+   "categories": [
+    "Health & life sciences",
+    "Research",
+    "Talent & internships"
+   ],
+   "audience": [
+    "Universities",
+    "Students & trainees"
+   ],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": false
+  },
+  {
+   "id": "f591b3a760517367",
+   "title": "Workplace Cancer Research Grants 2027",
+   "url": "https://cancer.ca/en/research/for-researchers/funding-opportunities/2027-wcr-grants",
+   "description": "Open funding opportunities Biology to Prevention Award by Cancer Research UK (cycle 3) Awards for Excellence 2026 Environmental Cancer Research Grants 2027 Health Equity Research Grants 2027",
+   "funder": "Canadian Cancer Society",
+   "via": null,
+   "source_id": "cancer-society",
+   "source_name": "Canadian Cancer Society",
+   "region": "National",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": "2027-01-13",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "5fc7c51d183f1d1b",
+   "title": "Targeted Competitions",
+   "url": "https://mscanada.ca/targeted-competitions",
+   "description": "In addition to general funding opportunities that encompass the breadth of topics in MS research, MS Canada administers a number of targeted research funding competitions to address priority research areas and accelerate the translation of research into outcomes that will make a meaningful impact for people living with MS. Many of these funding opportunities are available through collaborations…",
+   "funder": "MS Canada",
+   "via": null,
+   "source_id": "ms-canada",
+   "source_name": "MS Canada",
+   "region": "National",
+   "kind": "Program",
+   "categories": [
+    "Health & life sciences",
+    "Research",
+    "Industry partnership",
+    "Startups & spin-offs"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "048ca66d70cc471a",
+   "title": "Targeted Competitions",
+   "url": "https://mscanada.ca/targeted-competitions?_ga=2.48995503.822170821.1536584016-203288996.1498058925",
+   "description": "In addition to general funding opportunities that encompass the breadth of topics in MS research, MS Canada administers a number of targeted research funding competitions to address priority research areas and accelerate the translation of research into outcomes that will make a meaningful impact for people living with MS. Many of these funding opportunities are available through collaborations…",
+   "funder": "MS Canada",
+   "via": null,
+   "source_id": "ms-canada",
+   "source_name": "MS Canada",
+   "region": "National",
+   "kind": "Program",
+   "categories": [
+    "Health & life sciences",
+    "Research",
+    "Industry partnership",
+    "Startups & spin-offs"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": false
+  },
+  {
+   "id": "f2c7fe8241a3d155",
+   "title": "Research Grants",
+   "url": "https://mscanada.ca/research-grants",
+   "description": "MS Canada has funded medical research into multiple sclerosis since the first grant of $10,000 was approved in 1949. MS Canada is one of the largest funders of MS research in Canada. Through the administration of its research funding programs, MS Canada is committed to advancing research that investigates all aspects of multiple sclerosis, including causes of MS, diagnosis, repair of nerve…",
+   "funder": "MS Canada",
+   "via": null,
+   "source_id": "ms-canada",
+   "source_name": "MS Canada",
+   "region": "National",
+   "kind": "Program",
+   "categories": [
+    "Research",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "b19a498582178d7d",
+   "title": "Research Grants",
+   "url": "https://mscanada.ca/research-grants?_ga=2.48995503.822170821.1536584016-203288996.1498058925",
+   "description": "MS Canada has funded medical research into multiple sclerosis since the first grant of $10,000 was approved in 1949. MS Canada is one of the largest funders of MS research in Canada. Through the administration of its research funding programs, MS Canada is committed to advancing research that investigates all aspects of multiple sclerosis, including causes of MS, diagnosis, repair of nerve…",
+   "funder": "MS Canada",
+   "via": null,
+   "source_id": "ms-canada",
+   "source_name": "MS Canada",
+   "region": "National",
+   "kind": "Program",
+   "categories": [
+    "Research",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": false
+  },
+  {
+   "id": "2d6a486c8f069575",
+   "title": "Health Equity Research Grants 2027",
+   "url": "https://cancer.ca/en/research/for-researchers/funding-opportunities/2027-he-grants",
+   "description": "Open funding opportunities Biology to Prevention Award by Cancer Research UK (cycle 3) Awards for Excellence 2026 Environmental Cancer Research Grants 2027 Workplace Cancer Research Grants 2027",
+   "funder": "Canadian Cancer Society",
+   "via": null,
+   "source_id": "cancer-society",
+   "source_name": "Canadian Cancer Society",
+   "region": "National",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": "2027-03-09",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "ce5697b8e7faec58",
+   "title": "Environmental Cancer Research Grants 2027",
+   "url": "https://cancer.ca/en/research/for-researchers/funding-opportunities/2027-ecr-grants",
+   "description": "Open funding opportunities Biology to Prevention Award by Cancer Research UK (cycle 3) Awards for Excellence 2026 Workplace Cancer Research Grants 2027 Health Equity Research Grants 2027",
+   "funder": "Canadian Cancer Society",
+   "via": null,
+   "source_id": "cancer-society",
+   "source_name": "Canadian Cancer Society",
+   "region": "National",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": "2027-01-13",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "8d50921025f26201",
+   "title": "Biology to Prevention Award",
+   "url": "https://cancer.ca/en/research/for-researchers/funding-opportunities/cruk-bio-to-prevention",
+   "description": "Open funding opportunities Awards for Excellence 2026 Environmental Cancer Research Grants 2027 Workplace Cancer Research Grants 2027 Health Equity Research Grants 2027",
+   "funder": "Canadian Cancer Society",
+   "via": null,
+   "source_id": "cancer-society",
+   "source_name": "Canadian Cancer Society",
+   "region": "National",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": "2026-11-27",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "703fe06380755848",
+   "title": "Awards for Excellence 2026",
+   "url": "https://cancer.ca/en/research/for-researchers/funding-opportunities/2026-awards-for-excellence",
+   "description": "Open funding opportunities Biology to Prevention Award by Cancer Research UK (cycle 3) Environmental Cancer Research Grants 2027 Workplace Cancer Research Grants 2027 Health Equity Research Grants 2027",
+   "funder": "Canadian Cancer Society",
+   "via": null,
+   "source_id": "cancer-society",
+   "source_name": "Canadian Cancer Society",
+   "region": "National",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
   {
    "id": "570cddb726a583a5",
    "title": "Health Care Foundation Grant",
@@ -4146,23 +4463,26 @@
    "id": "82ca9951105f7bd4",
    "title": "Northern Fund",
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/northern-fund",
-   "description": "",
+   "description": "The Northern Fund will provide eligible institutions and organizations in Northern Canada with research infrastructure that will enhance the capacity for research projects that address the priorities of the region and its communities. These research projects will be conceived, developed, led and managed by Northern institutions, researchers and communities.",
    "funder": "Canada Foundation for Innovation",
+   "via": null,
    "source_id": "cfi",
    "source_name": "Canada Foundation for Innovation",
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Infrastructure & equipment",
-    "Research"
+    "Research",
+    "Infrastructure & equipment"
    ],
-   "audience": [],
+   "audience": [
+    "Universities"
+   ],
    "deadline": null,
    "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-11-19",
    "updated": null,
    "active": true
   },
@@ -4739,47 +5059,24 @@
    "id": "8219c594f8a4285d",
    "title": "Major Science Initiatives Fund",
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/major-science-initiatives-fund",
-   "description": "",
+   "description": "The Major Science Initiatives Fund (MSIF) provides support for the ongoing operating and maintenance needs of research facilities of national importance. It promotes responsible stewardship by ensuring these facilities adopt best practices for their management and governance.",
    "funder": "Canada Foundation for Innovation",
+   "via": null,
    "source_id": "cfi",
    "source_name": "Canada Foundation for Innovation",
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Infrastructure & equipment",
-    "Research"
+    "Research",
+    "Infrastructure & equipment"
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
-   "updated": null,
-   "active": true
-  },
-  {
-   "id": "525d7b62c7c1ba67",
-   "title": "MS Canada Discovery Research Grants",
-   "url": "https://research-tools.mun.ca/funding/opportunities/ms-canada-discovery-research-grants/",
-   "description": "The Discovery Research Grant Program is intended to support various research projects aligned with MS Canada’s (MSC) strategic plan. The strategic plan outlines four key impact areas:",
-   "funder": "MS Canada",
-   "via": "Memorial University",
-   "source_id": "mun-rfd",
-   "source_name": "Memorial University – Research Funding Database",
-   "region": "Atlantic",
-   "kind": "Call",
-   "categories": [
-    "Research"
-   ],
-   "audience": [],
-   "deadline": null,
-   "status": "unknown",
-   "published": null,
-   "content_hash": null,
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "updated": null,
    "active": true
   },
@@ -5175,8 +5472,9 @@
    "id": "67afc7e643db055f",
    "title": "John R. Evans Leaders Fund",
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/john-r-evans-leaders-fund",
-   "description": "",
+   "description": "Learn about how the John R. Evans Leaders Fund (JELF), which helps research institutions attract the best researchers, and view guidelines and deadlines to apply.",
    "funder": "Canada Foundation for Innovation",
+   "via": null,
    "source_id": "cfi",
    "source_name": "Canada Foundation for Innovation",
    "region": "National",
@@ -5185,13 +5483,15 @@
     "Infrastructure & equipment",
     "Research"
    ],
-   "audience": [],
+   "audience": [
+    "Universities"
+   ],
    "deadline": null,
    "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-11-19",
    "updated": null,
    "active": true
   },
@@ -5702,6 +6002,31 @@
    "active": true
   },
   {
+   "id": "f9551fee896af773",
+   "title": "Innovation Fund",
+   "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/innovation-fund-old",
+   "description": "Learn about the Innovation Fund, which helps keep Canada at the forefront of research and innovation, and view guidelines and deadlines to apply.",
+   "funder": "Canada Foundation for Innovation",
+   "via": null,
+   "source_id": "cfi",
+   "source_name": "Canada Foundation for Innovation",
+   "region": "National",
+   "kind": "Call",
+   "categories": [
+    "Infrastructure & equipment",
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2027-02-02",
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "a26178fd2bfd50d3",
    "title": "Innovation Fund",
    "url": "https://www.innovationpei.com/program/innovation-fund/",
@@ -5726,30 +6051,6 @@
    "content_hash": null,
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-16",
-   "updated": null,
-   "active": true
-  },
-  {
-   "id": "f9551fee896af773",
-   "title": "Innovation Fund",
-   "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/innovation-fund-old",
-   "description": "",
-   "funder": "Canada Foundation for Innovation",
-   "source_id": "cfi",
-   "source_name": "Canada Foundation for Innovation",
-   "region": "National",
-   "kind": "Call",
-   "categories": [
-    "Infrastructure & equipment",
-    "Research"
-   ],
-   "audience": [],
-   "deadline": "2027-02-02",
-   "status": "unknown",
-   "published": null,
-   "content_hash": null,
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
    "updated": null,
    "active": true
   },
@@ -7760,25 +8061,28 @@
    "id": "4cc789f2793613fa",
    "title": "College Fund",
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/college-fund",
-   "description": "",
+   "description": "Learn about the College Fund, which helps colleges foster partnerships that address the needs of an industry or community, and view guidelines and deadlines to apply.",
    "funder": "Canada Foundation for Innovation",
+   "via": null,
    "source_id": "cfi",
    "source_name": "Canada Foundation for Innovation",
    "region": "National",
    "kind": "Call",
    "categories": [
     "Infrastructure & equipment",
-    "Research"
+    "Research",
+    "Industry partnership"
    ],
    "audience": [
-    "Colleges & polytechnics"
+    "Colleges & polytechnics",
+    "Industry & SMEs"
    ],
    "deadline": null,
    "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-11-19",
    "updated": null,
    "active": true
   },
@@ -8082,6 +8386,7 @@
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/canada-impact-plus-research-infrastructure-fund",
    "description": "Canada Impact+ Research Infrastructure Fund The Canada Impact+ Research Infrastructure Fund (CIRIF) is part of an initiative created to attract globally recognized researchers to Canada to transform groundbreaking discoveries into innovative products, policies and solutions that benefit Canadians.",
    "funder": "Canada Foundation for Innovation",
+   "via": null,
    "source_id": "cfi",
    "source_name": "Canada Foundation for Innovation",
    "region": "National",
@@ -8099,7 +8404,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-11-19",
    "updated": null,
    "active": true
   },
@@ -8637,31 +8942,6 @@
    "active": false
   },
   {
-   "id": "d7444c0037a27519",
-   "title": "Brain Tumour Research Grants",
-   "url": "https://research-tools.mun.ca/funding/opportunities/brain-tumour-research-grants/",
-   "description": "We invite research proposals across the full spectrum of brain tumour research, including basic science, translational research, clinical investigation (including early-phase clinical trials), health services research, population and public health research, patient-reported outcomes and quality-of-life studies.",
-   "funder": "Brain Tumour Foundation of Canada",
-   "via": "Memorial University",
-   "source_id": "mun-rfd",
-   "source_name": "Memorial University – Research Funding Database",
-   "region": "Atlantic",
-   "kind": "Call",
-   "categories": [
-    "Research",
-    "Health & life sciences"
-   ],
-   "audience": [],
-   "deadline": null,
-   "status": "unknown",
-   "published": null,
-   "content_hash": null,
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-11-16",
-   "updated": null,
-   "active": true
-  },
-  {
    "id": "806a39fccb286e32",
    "title": "Black Entrepreneurship Program Ecosystem Fund",
    "url": "https://www.canada.ca/en/atlantic-canada-opportunities/services/bep-ecosystem-fund-atlantic-canada.html",
@@ -8692,8 +8972,9 @@
    "id": "d681e7683cb75c84",
    "title": "Biosciences Research Infrastructure Fund",
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/biosciences-research-infrastructure-fund",
-   "description": "",
+   "description": "Learn about the Biosciences Research Infrastructure Fund (BRIF), which supports biosciences research infrastructure, and view guidelines and deadlines to apply.",
    "funder": "Canada Foundation for Innovation",
+   "via": null,
    "source_id": "cfi",
    "source_name": "Canada Foundation for Innovation",
    "region": "National",
@@ -8704,36 +8985,11 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
-   "published": null,
-   "content_hash": null,
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
-   "updated": null,
-   "active": true
-  },
-  {
-   "id": "5b17ef223c3d4c3f",
-   "title": "Biology to Prevention Award",
-   "url": "https://research-tools.mun.ca/funding/opportunities/biology-to-prevention-award/",
-   "description": "In partnership with the Canadian Cancer Society, Cancer Research UK has launched a new funding opportunity for UK-Canada Research teams working in primary prevention.",
-   "funder": "Canadian Cancer Society",
-   "via": "Memorial University",
-   "source_id": "mun-rfd",
-   "source_name": "Memorial University – Research Funding Database",
-   "region": "Atlantic",
-   "kind": "Call",
-   "categories": [
-    "Research",
-    "Industry partnership"
-   ],
-   "audience": [],
-   "deadline": "2026-12-04",
    "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "updated": null,
    "active": true
   },
