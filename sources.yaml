@@ -21,6 +21,7 @@
 #   title_from_detail  true = use the item page's main heading as the title
 #   categories / audience   tags always applied to this source's items
 #   kind        Call / Program / Announcement (how the item is labelled)
+#   fallback_items  programs to list when the site refuses automated reading (see research-nb)
 #   enabled     false to switch a source off without deleting it
 
 # Scope: Atlantic Canada and national programs only. Items whose title names another
@@ -256,6 +257,31 @@ sources:
     detail: true
     kind: Program
     categories: [Research]
+    # researchnb.ca refuses automated reading from many networks (including GitHub's).
+    # When it does, these programs are listed instead. Programs as listed on
+    # researchnb.ca/research-funding/ in November 2026; update if they change.
+    fallback_items:
+      - title: Impact Fund
+        url: https://researchnb.ca/programs/if/
+        description: Research NB core funding program. Status in Nov 2026 - open, closes December 10, 2026. Apply through the Research NB portal.
+      - title: Ideas Advancement Fund
+        url: https://researchnb.ca/programs/iaf/
+        description: Research NB core funding program. Status in Nov 2026 - closed, next intake opens September 2026.
+      - title: CFI Matching Fund
+        url: https://researchnb.ca/programs/cfi/
+        description: Research NB matching funds for Canada Foundation for Innovation awards. Infrastructure and equipment.
+      - title: Bridging Fund
+        url: https://researchnb.ca/programs/bf/
+        description: Research NB core funding program to bridge research programs between grants.
+      - title: Dual-Use Technology Challenge
+        url: https://researchnb.ca/programs/dual-use-tech/
+        description: Research NB challenge program for dual-use (civilian and defence) technology research.
+      - title: Modernizing New Brunswick's Forestry Sector Challenge
+        url: https://researchnb.ca/programs/m-nb-fs/
+        description: Research NB challenge program supporting research to modernize New Brunswick's forestry sector.
+      - title: AI Expert-in-Residence
+        url: https://researchnb.ca/programs/ai-eir/
+        description: Research NB program placing artificial intelligence expertise with New Brunswick organizations.
 
   - id: nl-jgrd
     name: Newfoundland and Labrador – Industry funding

@@ -1,8 +1,8 @@
 {
  "meta": {
-  "generated": "2026-11-19T19:12:30+00:00",
+  "generated": "2026-11-19T19:14:04+00:00",
   "baseline": "2026-10-26",
-  "item_count": 326
+  "item_count": 333
  },
  "sources": [
   {
@@ -30,10 +30,10 @@
    "name": "Canada Foundation for Innovation",
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities",
    "region": "National",
-   "ok": false,
-   "count": 0,
-   "error": "HTTP 403",
-   "seconds": 0.1
+   "ok": true,
+   "count": 7,
+   "error": null,
+   "seconds": 1.2
   },
   {
    "id": "ocean-supercluster",
@@ -331,9 +331,9 @@
    "url": "https://researchnb.ca/research-funding/",
    "region": "New Brunswick",
    "ok": false,
-   "count": 0,
-   "error": "connection refused by site (possible bot protection)",
-   "seconds": 18.7
+   "count": 7,
+   "error": "connection refused by site (possible bot protection) – showing the program list kept in sources.yaml",
+   "seconds": 21.9
   },
   {
    "id": "research-ns",
@@ -667,6 +667,30 @@
    "active": true
   },
   {
+   "id": "bc01d720acad3a98",
+   "title": "Modernizing New Brunswick's Forestry Sector Challenge",
+   "url": "https://researchnb.ca/programs/m-nb-fs/",
+   "description": "Research NB challenge program supporting research to modernize New Brunswick's forestry sector.",
+   "funder": "Research NB (New Brunswick)",
+   "via": null,
+   "source_id": "research-nb",
+   "source_name": "Research NB",
+   "region": "New Brunswick",
+   "kind": "Program",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "fa60724699a3afef",
    "title": "Marathon of Hope Clinician Scientist Awards – LOI",
    "url": "https://research-tools.mun.ca/funding/opportunities/marathon-of-hope-clinician-scientist-awards-loi/",
@@ -741,6 +765,54 @@
    "active": true
   },
   {
+   "id": "f3444fbb89bdb1c8",
+   "title": "Impact Fund",
+   "url": "https://researchnb.ca/programs/if/",
+   "description": "Research NB core funding program. Status in Nov 2026 - open, closes December 10, 2026. Apply through the Research NB portal.",
+   "funder": "Research NB (New Brunswick)",
+   "via": null,
+   "source_id": "research-nb",
+   "source_name": "Research NB",
+   "region": "New Brunswick",
+   "kind": "Program",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2026-12-10",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "f89e93932aee812e",
+   "title": "Ideas Advancement Fund",
+   "url": "https://researchnb.ca/programs/iaf/",
+   "description": "Research NB core funding program. Status in Nov 2026 - closed, next intake opens September 2026.",
+   "funder": "Research NB (New Brunswick)",
+   "via": null,
+   "source_id": "research-nb",
+   "source_name": "Research NB",
+   "region": "New Brunswick",
+   "kind": "Program",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "closed",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "2d6a486c8f069575",
    "title": "Health Equity Research Grants 2027",
    "url": "https://cancer.ca/en/research/for-researchers/funding-opportunities/2027-he-grants",
@@ -791,6 +863,31 @@
    "active": true
   },
   {
+   "id": "3e02db6d7ae058a9",
+   "title": "Dual-Use Technology Challenge",
+   "url": "https://researchnb.ca/programs/dual-use-tech/",
+   "description": "Research NB challenge program for dual-use (civilian and defence) technology research.",
+   "funder": "Research NB (New Brunswick)",
+   "via": null,
+   "source_id": "research-nb",
+   "source_name": "Research NB",
+   "region": "New Brunswick",
+   "kind": "Program",
+   "categories": [
+    "Research",
+    "Defence & dual-use"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "d5018aec76217f70",
    "title": "College and Community Social Innovation Fund grants",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/college-and-community-social-innovation-fund-grants",
@@ -812,6 +909,55 @@
    ],
    "deadline": "2027-03-03",
    "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "dff391c4f0134400",
+   "title": "CFI Matching Fund",
+   "url": "https://researchnb.ca/programs/cfi/",
+   "description": "Research NB matching funds for Canada Foundation for Innovation awards. Infrastructure and equipment.",
+   "funder": "Research NB (New Brunswick)",
+   "via": null,
+   "source_id": "research-nb",
+   "source_name": "Research NB",
+   "region": "New Brunswick",
+   "kind": "Program",
+   "categories": [
+    "Research",
+    "Infrastructure & equipment"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "057cf10f8213cd46",
+   "title": "Bridging Fund",
+   "url": "https://researchnb.ca/programs/bf/",
+   "description": "Research NB core funding program to bridge research programs between grants.",
+   "funder": "Research NB (New Brunswick)",
+   "via": null,
+   "source_id": "research-nb",
+   "source_name": "Research NB",
+   "region": "New Brunswick",
+   "kind": "Program",
+   "categories": [
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
@@ -862,6 +1008,31 @@
    "audience": [],
    "deadline": null,
    "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "4bd19525be1d5502",
+   "title": "AI Expert-in-Residence",
+   "url": "https://researchnb.ca/programs/ai-eir/",
+   "description": "Research NB program placing artificial intelligence expertise with New Brunswick organizations.",
+   "funder": "Research NB (New Brunswick)",
+   "via": null,
+   "source_id": "research-nb",
+   "source_name": "Research NB",
+   "region": "New Brunswick",
+   "kind": "Program",
+   "categories": [
+    "Research",
+    "AI & digital"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
@@ -4618,7 +4789,7 @@
    "id": "82ca9951105f7bd4",
    "title": "Northern Fund",
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/northern-fund",
-   "description": "The Northern Fund will provide eligible institutions and organizations in Northern Canada with research infrastructure that will enhance the capacity for research projects that address the priorities of the region and its communities. These research projects will be conceived, developed, led and managed by Northern institutions, researchers and communities.",
+   "description": "",
    "funder": "Canada Foundation for Innovation",
    "via": null,
    "source_id": "cfi",
@@ -4626,12 +4797,10 @@
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Research",
-    "Infrastructure & equipment"
+    "Infrastructure & equipment",
+    "Research"
    ],
-   "audience": [
-    "Universities"
-   ],
+   "audience": [],
    "deadline": null,
    "status": "unknown",
    "published": null,
@@ -5215,7 +5384,7 @@
    "id": "8219c594f8a4285d",
    "title": "Major Science Initiatives Fund",
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/major-science-initiatives-fund",
-   "description": "The Major Science Initiatives Fund (MSIF) provides support for the ongoing operating and maintenance needs of research facilities of national importance. It promotes responsible stewardship by ensuring these facilities adopt best practices for their management and governance.",
+   "description": "",
    "funder": "Canada Foundation for Innovation",
    "via": null,
    "source_id": "cfi",
@@ -5223,12 +5392,12 @@
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Research",
-    "Infrastructure & equipment"
+    "Infrastructure & equipment",
+    "Research"
    ],
    "audience": [],
    "deadline": null,
-   "status": "open",
+   "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
@@ -5625,7 +5794,7 @@
    "id": "67afc7e643db055f",
    "title": "John R. Evans Leaders Fund",
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/john-r-evans-leaders-fund",
-   "description": "Learn about how the John R. Evans Leaders Fund (JELF), which helps research institutions attract the best researchers, and view guidelines and deadlines to apply.",
+   "description": "",
    "funder": "Canada Foundation for Innovation",
    "via": null,
    "source_id": "cfi",
@@ -5636,9 +5805,7 @@
     "Infrastructure & equipment",
     "Research"
    ],
-   "audience": [
-    "Universities"
-   ],
+   "audience": [],
    "deadline": null,
    "status": "unknown",
    "published": null,
@@ -6157,6 +6324,31 @@
    "active": true
   },
   {
+   "id": "f9551fee896af773",
+   "title": "Innovation Fund",
+   "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/innovation-fund-old",
+   "description": "",
+   "funder": "Canada Foundation for Innovation",
+   "via": null,
+   "source_id": "cfi",
+   "source_name": "Canada Foundation for Innovation",
+   "region": "National",
+   "kind": "Call",
+   "categories": [
+    "Infrastructure & equipment",
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2027-02-02",
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "a26178fd2bfd50d3",
    "title": "Innovation Fund",
    "url": "https://www.innovationpei.com/program/innovation-fund/",
@@ -6178,31 +6370,6 @@
    "deadline": null,
    "status": "unknown",
    "published": "2022-09-20T12:02:23",
-   "content_hash": null,
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
-   "updated": null,
-   "active": true
-  },
-  {
-   "id": "f9551fee896af773",
-   "title": "Innovation Fund",
-   "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/innovation-fund-old",
-   "description": "Learn about the Innovation Fund, which helps keep Canada at the forefront of research and innovation, and view guidelines and deadlines to apply.",
-   "funder": "Canada Foundation for Innovation",
-   "via": null,
-   "source_id": "cfi",
-   "source_name": "Canada Foundation for Innovation",
-   "region": "National",
-   "kind": "Call",
-   "categories": [
-    "Infrastructure & equipment",
-    "Research"
-   ],
-   "audience": [],
-   "deadline": "2027-02-02",
-   "status": "unknown",
-   "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
@@ -8203,7 +8370,7 @@
    "id": "4cc789f2793613fa",
    "title": "College Fund",
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/college-fund",
-   "description": "Learn about the College Fund, which helps colleges foster partnerships that address the needs of an industry or community, and view guidelines and deadlines to apply.",
+   "description": "",
    "funder": "Canada Foundation for Innovation",
    "via": null,
    "source_id": "cfi",
@@ -8212,12 +8379,10 @@
    "kind": "Call",
    "categories": [
     "Infrastructure & equipment",
-    "Research",
-    "Industry partnership"
+    "Research"
    ],
    "audience": [
-    "Colleges & polytechnics",
-    "Industry & SMEs"
+    "Colleges & polytechnics"
    ],
    "deadline": null,
    "status": "unknown",
@@ -9106,7 +9271,7 @@
    "id": "d681e7683cb75c84",
    "title": "Biosciences Research Infrastructure Fund",
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities/biosciences-research-infrastructure-fund",
-   "description": "Learn about the Biosciences Research Infrastructure Fund (BRIF), which supports biosciences research infrastructure, and view guidelines and deadlines to apply.",
+   "description": "",
    "funder": "Canada Foundation for Innovation",
    "via": null,
    "source_id": "cfi",
@@ -9119,7 +9284,7 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "open",
+   "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",

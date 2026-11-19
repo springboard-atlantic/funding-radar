@@ -529,7 +529,18 @@ def run(only: set[str] | None = None) -> None:
         status = {"id": src["id"], "name": src["name"], "url": src.get("home") or src["url"],
                   "region": src.get("region", "National"), "ok": True, "count": 0, "error": None}
         try:
-            raws = EXTRACTORS[src.get("type", "html")](src)
+            fallback_note = None
+            try:
+                raws = EXTRACTORS[src.get("type", "html")](src)
+            except Exception as e:
+                # A site that refuses automated reading can carry a hand-kept program list
+                # (`fallback_items` in sources.yaml) so its programs stay on the radar.
+                if not src.get("fallback_items"):
+                    raise
+                fallback_note = f"{e}"[:120] + " – showing the program list kept in sources.yaml"
+                raws = [{"title": f["title"], "url": f["url"], "description": f.get("description", ""),
+                         "extra_text": f.get("description", "")} for f in src["fallback_items"]]
+                src = {**src, "detail": False}
             title_include = re.compile(src["title_include"], re.I) if src.get("title_include") and src.get("type") != "gcnews" else None
             out_of_scope = re.compile(config["exclude_regions"]) if config.get("exclude_regions") else None
             details_left = src.get("max_detail", MAX_DETAIL_FETCHES)
@@ -556,6 +567,9 @@ def run(only: set[str] | None = None) -> None:
             if status["count"] == 0 and not raws:
                 status["ok"] = False
                 status["error"] = "no items found – page layout may have changed"
+            if fallback_note:
+                status["ok"] = False
+                status["error"] = fallback_note
         except Exception as e:  # keep going: one broken site must not stop the run
             status["ok"] = False
             status["error"] = str(e)[:200] or type(e).__name__
