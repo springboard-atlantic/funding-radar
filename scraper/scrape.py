@@ -638,7 +638,7 @@ def build_item(iid: str, raw: dict, src: dict, old: dict | None, today: str) -> 
     deadline = raw.get("deadline") or find_deadline(text) or (old or {}).get("deadline")
     if deadline and deadline < today:
         deadline = None
-    status = raw.get("status") or detect_status(f"{raw['title']} {raw.get('extra_text', '')[:600]}")
+    status = src.get("force_status") or raw.get("status") or detect_status(f"{raw['title']} {raw.get('extra_text', '')[:600]}")
     if status == "unknown" and src.get("default_status"):
         status = src["default_status"]
     updated = (old or {}).get("updated")

@@ -22,6 +22,7 @@
 #   categories / audience   tags always applied to this source's items
 #   kind        Call / Program / Announcement (how the item is labelled)
 #   fallback_items  programs to list when the site refuses automated reading (see research-nb)
+#   force_status  always use this status (upcoming/open/closed), whatever the page text says
 #   enabled     false to switch a source off without deleting it
 
 # Scope: Atlantic Canada and national programs only. Items whose title names another
@@ -59,6 +60,33 @@ sources:
     exclude: (54570|54171|50987)\.html
     detail: true
     kind: Announcement
+    categories: [Research, Health & life sciences]
+
+  - id: cihr-upcoming
+    name: CIHR – upcoming funding opportunities
+    funder: Canadian Institutes of Health Research
+    region: National
+    type: html
+    url: https://cihr-irsc.gc.ca/e/51605.html
+    scope: "#details-panel1"
+    include: cihr-irsc\.gc\.ca/e/5\d{4}\.html
+    detail: true
+    force_status: upcoming
+    kind: Call
+    categories: [Research, Health & life sciences]
+
+  # Same page, "Published funding opportunities" tab: notices whose call is now open on ResearchNet.
+  - id: cihr-launched
+    name: CIHR – launched funding opportunities
+    funder: Canadian Institutes of Health Research
+    region: National
+    type: html
+    url: https://cihr-irsc.gc.ca/e/51605.html
+    scope: "#details-panel2"
+    include: cihr-irsc\.gc\.ca/e/5\d{4}\.html
+    detail: true
+    force_status: unknown   # launched on ResearchNet; it may have closed since, so no open/closed label
+    kind: Call
     categories: [Research, Health & life sciences]
 
   - id: sshrc
@@ -152,6 +180,33 @@ sources:
     include: defence-ideas/(element|opportunit|current)/.+
     detail: true
     kind: Call
+    categories: [Defence & dual-use]
+
+  - id: drdc-partnerships
+    name: DRDC – partnerships and opportunities
+    funder: Defence Research and Development Canada
+    region: National
+    type: page
+    url: https://www.canada.ca/en/defence-research-development/services/partnerships-opportunities.html
+    kind: Program
+    categories: [Defence & dual-use, Industry partnership]
+
+  - id: dnd-nserc-trainee
+    name: DND/NSERC Research Trainee Matching Program
+    funder: Defence Research and Development Canada with NSERC
+    region: National
+    type: page
+    url: https://www.canada.ca/en/defence-research-development/services/partnerships-opportunities/dnd-nserc-opportunities.html
+    kind: Program
+    categories: [Defence & dual-use, Talent & internships]
+
+  - id: cssp
+    name: Canadian Safety and Security Program (CSSP)
+    funder: Defence Research and Development Canada – Centre for Security Science
+    region: National
+    type: page
+    url: https://science.gc.ca/site/science/en/canadian-safety-and-security-program
+    kind: Program
     categories: [Defence & dual-use]
 
   - id: gc-news

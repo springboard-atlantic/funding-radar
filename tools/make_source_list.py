@@ -31,12 +31,13 @@ HOW = {
     "sshrc": "SSHRC's published opportunity data file",
 }
 GROUPS = [
-    ("Federal research", ["nserc", "cihr", "sshrc", "nfrf", "cfi", "genome-canada", "mitacs"]),
-    ("Federal innovation & industry", ["nrc-irap", "isc", "ideas", "gc-news", "acoa-aif", "tcs-ipp", "global-clusters", "ngen"]),
+    ("Federal research", ["nserc", "cihr", "cihr-upcoming", "cihr-launched", "sshrc", "nfrf", "cfi", "genome-canada", "mitacs"]),
+    ("Federal innovation & industry", ["nrc-irap", "isc", "gc-news", "acoa-aif", "tcs-ipp", "global-clusters", "ngen"]),
     ("Atlantic Canada", ["acoa", "research-ns", "invest-ns", "innovation-pei", "ocean-supercluster", "nbif", "research-nb",
                          "nl-jgrd", "mun-rfd"]),
     ("Health research charities", ["cancer-society", "ms-canada"]),
-    ("Intellectual property", ["ised-ip", "cipo-financing", "cipo-ktep", "springboard-ip", "nrc-ip-licensing", "dnd-ip"]),
+    ("Intellectual property", ["ised-ip", "cipo-financing", "cipo-ktep", "springboard-ip", "nrc-ip-licensing"]),
+    ("Defence & dual-use", ["ideas", "drdc-partnerships", "dnd-nserc-trainee", "cssp", "dnd-ip"]),
     ("Emerging sectors", ["nrc-challenge", "nrc-ideation"]),
     ("Colleges & talent", ["cican", "swpp", "irap-youth"]),
 ]

@@ -1,8 +1,8 @@
 {
  "meta": {
-  "generated": "2026-11-19T19:14:04+00:00",
+  "generated": "2026-11-20T00:28:23+00:00",
   "baseline": "2026-10-26",
-  "item_count": 333
+  "item_count": 350
  },
  "sources": [
   {
@@ -13,7 +13,7 @@
    "ok": true,
    "count": 16,
    "error": null,
-   "seconds": 1.3
+   "seconds": 3.1
   },
   {
    "id": "acoa-aif",
@@ -23,7 +23,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 1.3
+   "seconds": 2.9
   },
   {
    "id": "cfi",
@@ -33,7 +33,7 @@
    "ok": true,
    "count": 7,
    "error": null,
-   "seconds": 1.2
+   "seconds": 0.9
   },
   {
    "id": "ocean-supercluster",
@@ -43,7 +43,7 @@
    "ok": true,
    "count": 4,
    "error": null,
-   "seconds": 1.4
+   "seconds": 1.5
   },
   {
    "id": "cancer-society",
@@ -53,7 +53,17 @@
    "ok": true,
    "count": 5,
    "error": null,
-   "seconds": 0.4
+   "seconds": 1.8
+  },
+  {
+   "id": "cssp",
+   "name": "Canadian Safety and Security Program (CSSP)",
+   "url": "https://science.gc.ca/site/science/en/canadian-safety-and-security-program",
+   "region": "National",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "seconds": 1.7
   },
   {
    "id": "cihr",
@@ -63,7 +73,27 @@
    "ok": true,
    "count": 24,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.9
+  },
+  {
+   "id": "cihr-launched",
+   "name": "CIHR – launched funding opportunities",
+   "url": "https://cihr-irsc.gc.ca/e/51605.html",
+   "region": "National",
+   "ok": true,
+   "count": 11,
+   "error": null,
+   "seconds": 7.2
+  },
+  {
+   "id": "cihr-upcoming",
+   "name": "CIHR – upcoming funding opportunities",
+   "url": "https://cihr-irsc.gc.ca/e/51605.html",
+   "region": "National",
+   "ok": true,
+   "count": 2,
+   "error": null,
+   "seconds": 1.6
   },
   {
    "id": "cipo-financing",
@@ -83,7 +113,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 1.5
+   "seconds": 1.6
   },
   {
    "id": "cican",
@@ -93,7 +123,27 @@
    "ok": true,
    "count": 3,
    "error": null,
-   "seconds": 1.3
+   "seconds": 0.8
+  },
+  {
+   "id": "dnd-nserc-trainee",
+   "name": "DND/NSERC Research Trainee Matching Program",
+   "url": "https://www.canada.ca/en/defence-research-development/services/partnerships-opportunities/dnd-nserc-opportunities.html",
+   "region": "National",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "seconds": 2.6
+  },
+  {
+   "id": "drdc-partnerships",
+   "name": "DRDC – partnerships and opportunities",
+   "url": "https://www.canada.ca/en/defence-research-development/services/partnerships-opportunities.html",
+   "region": "National",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "seconds": 4.6
   },
   {
    "id": "genome-canada",
@@ -103,7 +153,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 0.6
+   "seconds": 1.4
   },
   {
    "id": "global-clusters",
@@ -113,7 +163,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "id": "gc-news",
@@ -123,7 +173,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 1.2
+   "seconds": 1.4
   },
   {
    "id": "ideas",
@@ -133,7 +183,7 @@
    "ok": true,
    "count": 6,
    "error": null,
-   "seconds": 6.1
+   "seconds": 3.8
   },
   {
    "id": "tcs-ipp",
@@ -143,7 +193,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 3.3
+   "seconds": 4.9
   },
   {
    "id": "innovation-pei",
@@ -153,7 +203,7 @@
    "ok": true,
    "count": 29,
    "error": null,
-   "seconds": 1.2
+   "seconds": 2.0
   },
   {
    "id": "isc",
@@ -163,7 +213,7 @@
    "ok": true,
    "count": 5,
    "error": null,
-   "seconds": 0.2
+   "seconds": 1.0
   },
   {
    "id": "invest-ns",
@@ -171,9 +221,9 @@
    "url": "https://investnovascotia.ca/incentives-programs-services",
    "region": "Nova Scotia",
    "ok": true,
-   "count": 19,
+   "count": 20,
    "error": null,
-   "seconds": 22.4
+   "seconds": 28.8
   },
   {
    "id": "ised-ip",
@@ -183,7 +233,7 @@
    "ok": true,
    "count": 4,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.9
   },
   {
    "id": "mun-rfd",
@@ -193,7 +243,7 @@
    "ok": true,
    "count": 97,
    "error": null,
-   "seconds": 42.6
+   "seconds": 40.9
   },
   {
    "id": "mitacs",
@@ -203,7 +253,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "seconds": 0.2
+   "seconds": 1.5
   },
   {
    "id": "ms-canada",
@@ -213,7 +263,7 @@
    "ok": true,
    "count": 3,
    "error": null,
-   "seconds": 0.2
+   "seconds": 1.3
   },
   {
    "id": "dnd-ip",
@@ -223,7 +273,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 2.2
+   "seconds": 3.1
   },
   {
    "id": "nbif",
@@ -233,7 +283,7 @@
    "ok": true,
    "count": 2,
    "error": null,
-   "seconds": 0.1
+   "seconds": 1.1
   },
   {
    "id": "nfrf",
@@ -243,7 +293,7 @@
    "ok": true,
    "count": 7,
    "error": null,
-   "seconds": 6.6
+   "seconds": 6.8
   },
   {
    "id": "nl-jgrd",
@@ -253,7 +303,7 @@
    "ok": true,
    "count": 9,
    "error": null,
-   "seconds": 22.2
+   "seconds": 20.8
   },
   {
    "id": "ngen",
@@ -263,7 +313,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 0.2
+   "seconds": 1.1
   },
   {
    "id": "nrc-challenge",
@@ -273,7 +323,7 @@
    "ok": false,
    "count": 0,
    "error": "HTTP 403",
-   "seconds": 0.0
+   "seconds": 0.8
   },
   {
    "id": "nrc-ideation",
@@ -283,7 +333,7 @@
    "ok": false,
    "count": 0,
    "error": "HTTP 403",
-   "seconds": 1.5
+   "seconds": 2.2
   },
   {
    "id": "nrc-irap",
@@ -293,7 +343,7 @@
    "ok": false,
    "count": 0,
    "error": "HTTP 403",
-   "seconds": 0.1
+   "seconds": 1.9
   },
   {
    "id": "irap-youth",
@@ -303,7 +353,7 @@
    "ok": false,
    "count": 0,
    "error": "HTTP 403",
-   "seconds": 0.0
+   "seconds": 0.8
   },
   {
    "id": "nrc-ip-licensing",
@@ -313,7 +363,7 @@
    "ok": false,
    "count": 0,
    "error": "HTTP 403",
-   "seconds": 0.0
+   "seconds": 0.7
   },
   {
    "id": "nserc",
@@ -323,7 +373,7 @@
    "ok": true,
    "count": 30,
    "error": null,
-   "seconds": 7.4
+   "seconds": 4.1
   },
   {
    "id": "research-nb",
@@ -333,7 +383,7 @@
    "ok": false,
    "count": 7,
    "error": "connection refused by site (possible bot protection) – showing the program list kept in sources.yaml",
-   "seconds": 21.9
+   "seconds": 21.2
   },
   {
    "id": "research-ns",
@@ -343,7 +393,7 @@
    "ok": true,
    "count": 2,
    "error": null,
-   "seconds": 0.1
+   "seconds": 0.9
   },
   {
    "id": "springboard-ip",
@@ -353,7 +403,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 5.0
+   "seconds": 1.0
   },
   {
    "id": "sshrc",
@@ -363,7 +413,7 @@
    "ok": true,
    "count": 33,
    "error": null,
-   "seconds": 0.3
+   "seconds": 1.0
   },
   {
    "id": "swpp",
@@ -373,7 +423,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 4.4
+   "seconds": 2.4
   }
  ],
  "items": [
@@ -642,6 +692,35 @@
    "active": true
   },
   {
+   "id": "37eebe6fe1fdfbf9",
+   "title": "Partnerships and opportunities",
+   "url": "https://www.canada.ca/en/defence-research-development/services/partnerships-opportunities.html",
+   "description": "Partnerships are at the core of Defence Research and Development Canada’s success in delivering science and technology solutions to the Canadian Armed Forces and the Department of National Defence. Our wealth of expertise and specialized facilities make us a destination-of-choice for collaborative partnerships with industry, academia and government.",
+   "funder": "Defence Research and Development Canada",
+   "via": null,
+   "source_id": "drdc-partnerships",
+   "source_name": "DRDC – partnerships and opportunities",
+   "region": "National",
+   "kind": "Program",
+   "categories": [
+    "Research",
+    "Industry partnership",
+    "Infrastructure & equipment",
+    "Defence & dual-use"
+   ],
+   "audience": [
+    "Industry & SMEs"
+   ],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": "60eb24d5549ccff06552d55fba17112bb83008cb",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "9b8f16e9211a45a4",
    "title": "Partnership Development Grants",
    "url": "https://sshrc-crsh.canada.ca/en/funding/opportunities/partnership-development-grants.aspx",
@@ -659,6 +738,343 @@
    "audience": [],
    "deadline": null,
    "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "6f370d623796bfe3",
+   "title": "Notice of Upcoming Operating Grants: Evaluating community-based programs and social innovations that support aging in the community",
+   "url": "https://cihr-irsc.gc.ca/e/54701.html",
+   "description": "[Launch date 2026-05-29]",
+   "funder": "Canadian Institutes of Health Research",
+   "via": null,
+   "source_id": "cihr-launched",
+   "source_name": "CIHR – launched funding opportunities",
+   "region": "National",
+   "kind": "Call",
+   "categories": [
+    "Health & life sciences",
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "1da03ad80c537276",
+   "title": "Notice of Upcoming Funding Opportunity: Team Grant: Avian Influenza Coordination and Knowledge Mobilization Hub",
+   "url": "https://cihr-irsc.gc.ca/e/54639.html",
+   "description": "[Launch date 2026-03-27]",
+   "funder": "Canadian Institutes of Health Research",
+   "via": null,
+   "source_id": "cihr-launched",
+   "source_name": "CIHR – launched funding opportunities",
+   "region": "National",
+   "kind": "Call",
+   "categories": [
+    "Health & life sciences",
+    "Research",
+    "Commercialization"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "6ff211fc5e959d78",
+   "title": "Notice of Upcoming Funding Opportunity: Team Grant – GACD 2026: Implementation science to tackle Non-Communicable Diseases (NCDs): Maximizing collaboration and coordination with and beyond the healthcare system",
+   "url": "https://cihr-irsc.gc.ca/e/54557.html",
+   "description": "[Launch date 2026-03-18]",
+   "funder": "Canadian Institutes of Health Research",
+   "via": null,
+   "source_id": "cihr-launched",
+   "source_name": "CIHR – launched funding opportunities",
+   "region": "National",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Industry partnership",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "86597ec1baeb679a",
+   "title": "Notice of Upcoming Funding Opportunity: Pan-Canadian 2S/LGBTQI+ Knowledge-to-Action Hub",
+   "url": "https://cihr-irsc.gc.ca/e/54836.html",
+   "description": "",
+   "funder": "Canadian Institutes of Health Research",
+   "via": null,
+   "source_id": "cihr-upcoming",
+   "source_name": "CIHR – upcoming funding opportunities",
+   "region": "National",
+   "kind": "Call",
+   "categories": [
+    "Health & life sciences",
+    "Research"
+   ],
+   "audience": [],
+   "deadline": "2027-09-01",
+   "status": "upcoming",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "edb50369eacbd7b5",
+   "title": "Notice of Upcoming Funding Opportunity: Nursing in Indigenous Research in Action (NIRA) Chairs Funding Opportunity",
+   "url": "https://cihr-irsc.gc.ca/e/54780.html",
+   "description": "The Canadian Institutes of Health Research (CIHR) and partners are pleased to announce the upcoming launch of an expanded Nursing in Indigenous Research in Action (NIRA) Chairs Program Funding Opportunity, formerly known as the Indigenous Research Chairs in Nursing Initiative. This expanded program builds on the success and learnings of the original initiative, while creating new opportunities…",
+   "funder": "Canadian Institutes of Health Research",
+   "via": null,
+   "source_id": "cihr-launched",
+   "source_name": "CIHR – launched funding opportunities",
+   "region": "National",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Industry partnership",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "4ec17792456c333a",
+   "title": "Notice of Upcoming Funding Opportunity: National Cancer Data and Bio-Resource Coordinating Hub Team Grants",
+   "url": "https://cihr-irsc.gc.ca/e/54777.html",
+   "description": "The Canadian Institutes of Health Research (CIHR) is pleased to announce the upcoming launch of the National Cancer Data and Bio-Resource Coordinating Hub Team Grants. This funding opportunity is led by the CIHR Institute of Cancer Research (CIHR-ICR) with the Digital Research Alliance of Canada (the Alliance) as a mandatory applicant partner.",
+   "funder": "Canadian Institutes of Health Research",
+   "via": null,
+   "source_id": "cihr-launched",
+   "source_name": "CIHR – launched funding opportunities",
+   "region": "National",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Industry partnership",
+    "Health & life sciences",
+    "AI & digital"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "f5583481c8dae0b8",
+   "title": "Notice of Upcoming Funding Opportunity: Health System Impact (HSI) Fellowship",
+   "url": "https://cihr-irsc.gc.ca/e/53708.html",
+   "description": "The Health System Impact (HSI) Fellowship is led by CIHR’s Institute of Health Services and Policy Research (IHSPR) in partnership with CIHR’s Institute of Aging (IA), Institute of Cancer Research (ICR), Institute of Circulatory and Respiratory Health (ICRH), Institute of Gender and Health (IGH), Institute of Indigenous Peoples' Health (IIPH), Institute of Infection and Immunity (III), Institute…",
+   "funder": "Canadian Institutes of Health Research",
+   "via": null,
+   "source_id": "cihr-launched",
+   "source_name": "CIHR – launched funding opportunities",
+   "region": "National",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Industry partnership",
+    "Talent & internships",
+    "Health & life sciences"
+   ],
+   "audience": [
+    "Students & trainees"
+   ],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "0496f34483f18fd9",
+   "title": "Notice of Upcoming Funding Opportunity on School Food Programs - Team Grant: Funding Research for Evidence in School Food and Health (FRESH)",
+   "url": "https://cihr-irsc.gc.ca/e/54596.html",
+   "description": "[Launch date 2026-04-08]",
+   "funder": "Canadian Institutes of Health Research",
+   "via": null,
+   "source_id": "cihr-launched",
+   "source_name": "CIHR – launched funding opportunities",
+   "region": "National",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": "2027-04-01",
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "b0616349a7ee9074",
+   "title": "Notice of Upcoming Funding Opportunity for a Pan-Canadian Single Research Ethics Review Initiative",
+   "url": "https://cihr-irsc.gc.ca/e/54768.html",
+   "description": "This is a notice of an upcoming funding opportunity that will replace the cancelled Pan-Canadian Single Research Ethics Review Initiative directed grant funding opportunity. After the launch of the directed grant opportunity in April 2026, CIHR received information that at least one other actor in the Canadian research ecosystem felt able to address all the objectives of the funding opportunity…",
+   "funder": "Canadian Institutes of Health Research",
+   "via": null,
+   "source_id": "cihr-launched",
+   "source_name": "CIHR – launched funding opportunities",
+   "region": "National",
+   "kind": "Call",
+   "categories": [
+    "Health & life sciences",
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "15701e89d379faf8",
+   "title": "Notice of Upcoming Funding Opportunity for Team Grant - National Platform for Evidence-Based Programs and Practices: Youth Mental Health",
+   "url": "https://cihr-irsc.gc.ca/e/54698.html",
+   "description": "[Launch date 2026-06-18]",
+   "funder": "Canadian Institutes of Health Research",
+   "via": null,
+   "source_id": "cihr-launched",
+   "source_name": "CIHR – launched funding opportunities",
+   "region": "National",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Talent & internships",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "96cb8d40df6c8658",
+   "title": "Notice of Upcoming Funding Opportunity for Operating Grant: Evaluation and Implementation Science for Youth Mental Health",
+   "url": "https://cihr-irsc.gc.ca/e/54699.html",
+   "description": "[Launch date 2026-06-18]",
+   "funder": "Canadian Institutes of Health Research",
+   "via": null,
+   "source_id": "cihr-launched",
+   "source_name": "CIHR – launched funding opportunities",
+   "region": "National",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Talent & internships",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "4a782526c2429481",
+   "title": "Notice of Upcoming Funding Opportunity for Catalyst Grant: Reimagining Acute Care",
+   "url": "https://cihr-irsc.gc.ca/e/54654.html",
+   "description": "[Launch date 2026-03-25]",
+   "funder": "Canadian Institutes of Health Research",
+   "via": null,
+   "source_id": "cihr-launched",
+   "source_name": "CIHR – launched funding opportunities",
+   "region": "National",
+   "kind": "Call",
+   "categories": [
+    "Health & life sciences",
+    "Research"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "dffa14bfb8bb5225",
+   "title": "Notice of Funding Opportunity: Team Grant – GACD 2027: Implementation research focused on strategies targeting chronic non-communicable diseases (NCD) in children and young people",
+   "url": "https://cihr-irsc.gc.ca/e/54858.html",
+   "description": "",
+   "funder": "Canadian Institutes of Health Research",
+   "via": null,
+   "source_id": "cihr-upcoming",
+   "source_name": "CIHR – upcoming funding opportunities",
+   "region": "National",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Talent & internships",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "upcoming",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
@@ -888,6 +1304,35 @@
    "active": true
   },
   {
+   "id": "2a800fca7277d040",
+   "title": "DND/NSERC Research Trainee Matching Program opportunities",
+   "url": "https://www.canada.ca/en/defence-research-development/services/partnerships-opportunities/dnd-nserc-opportunities.html",
+   "description": "Defence Research and Development Canada (DRDC) has partnered with the Natural Sciences and Engineering Research Council of Canada (NSERC) to provide opportunities at DRDC labs across Canada.",
+   "funder": "Defence Research and Development Canada with NSERC",
+   "via": null,
+   "source_id": "dnd-nserc-trainee",
+   "source_name": "DND/NSERC Research Trainee Matching Program",
+   "region": "National",
+   "kind": "Program",
+   "categories": [
+    "Research",
+    "Industry partnership",
+    "Talent & internships",
+    "Defence & dual-use"
+   ],
+   "audience": [
+    "Students & trainees"
+   ],
+   "deadline": null,
+   "status": "open",
+   "published": null,
+   "content_hash": "6abcebeccf96f7f90f2eab5be2dace4565911623",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
    "id": "d5018aec76217f70",
    "title": "College and Community Social Innovation Fund grants",
    "url": "https://nserc-crsng.canada.ca/en/funding-opportunity/college-and-community-social-innovation-fund-grants",
@@ -911,6 +1356,32 @@
    "status": "open",
    "published": null,
    "content_hash": null,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "d36b2a42054cddd0",
+   "title": "Canadian Safety and Security Program",
+   "url": "https://science.gc.ca/site/science/en/canadian-safety-and-security-program",
+   "description": "A federally-funded program led by Defence Research and Development Canada’s Centre for Security Science (DRDC CSS), in partnership with Public Safety Canada.",
+   "funder": "Defence Research and Development Canada – Centre for Security Science",
+   "via": null,
+   "source_id": "cssp",
+   "source_name": "Canadian Safety and Security Program (CSSP)",
+   "region": "National",
+   "kind": "Program",
+   "categories": [
+    "Research",
+    "Industry partnership",
+    "Defence & dual-use"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "closed",
+   "published": null,
+   "content_hash": "7c08064d8dab47f05c651eee40fe87b79340e147",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-19",
    "updated": null,
@@ -2348,7 +2819,7 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "0f0a022d1d49affa",
@@ -2449,7 +2920,7 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "15f68e0ec78166f8",
@@ -2473,7 +2944,7 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "e0946b99cdbc3e39",
@@ -2625,7 +3096,7 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "c97b53ebb769528f",
@@ -3120,7 +3591,7 @@
    "deadline": null,
    "status": "open",
    "published": null,
-   "content_hash": "1b2dbd105e6f72aff9accde9d4f5a897aed8bc4c",
+   "content_hash": "40f1a0df9889829cb5f2731b982993ac35554549",
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": "2026-11-19",
@@ -5376,9 +5847,9 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "updated": null,
-   "active": false
+   "active": true
   },
   {
    "id": "8219c594f8a4285d",
@@ -5630,9 +6101,9 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "updated": null,
-   "active": false
+   "active": true
   },
   {
    "id": "cc8731ffca3d2781",
@@ -6293,7 +6764,7 @@
    "deadline": "2026-11-29",
    "status": "upcoming",
    "published": null,
-   "content_hash": "f73088ecf4a214fed663d05143e3823912d1b8e0",
+   "content_hash": "85de886f1d74c14e86f3489cfac8af4072156f2d",
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": "2026-11-19",
@@ -7357,9 +7828,9 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "updated": null,
-   "active": false
+   "active": true
   },
   {
    "id": "1848156b36c82b62",
@@ -7437,9 +7908,9 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "updated": null,
-   "active": false
+   "active": true
   },
   {
    "id": "f5a81d5fa5beab69",
@@ -8414,9 +8885,9 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "updated": null,
-   "active": false
+   "active": true
   },
   {
    "id": "aa2cf42124e70db6",
