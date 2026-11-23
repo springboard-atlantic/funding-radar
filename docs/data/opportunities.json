@@ -1,8 +1,8 @@
 {
  "meta": {
-  "generated": "2026-11-20T00:28:23+00:00",
+  "generated": "2026-11-23T22:03:27+00:00",
   "baseline": "2026-10-26",
-  "item_count": 350
+  "item_count": 338
  },
  "sources": [
   {
@@ -13,7 +13,7 @@
    "ok": true,
    "count": 16,
    "error": null,
-   "seconds": 3.1
+   "seconds": 2.0
   },
   {
    "id": "acoa-aif",
@@ -23,17 +23,17 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 2.9
+   "seconds": 2.1
   },
   {
    "id": "cfi",
    "name": "Canada Foundation for Innovation",
    "url": "https://www.innovation.ca/apply-manage-awards/funding-opportunities",
    "region": "National",
-   "ok": true,
-   "count": 7,
-   "error": null,
-   "seconds": 0.9
+   "ok": false,
+   "count": 0,
+   "error": "HTTP 403",
+   "seconds": 0.1
   },
   {
    "id": "ocean-supercluster",
@@ -43,7 +43,7 @@
    "ok": true,
    "count": 4,
    "error": null,
-   "seconds": 1.5
+   "seconds": 1.4
   },
   {
    "id": "cancer-society",
@@ -53,7 +53,7 @@
    "ok": true,
    "count": 5,
    "error": null,
-   "seconds": 1.8
+   "seconds": 0.7
   },
   {
    "id": "cssp",
@@ -63,7 +63,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 1.7
+   "seconds": 1.4
   },
   {
    "id": "cihr",
@@ -73,7 +73,7 @@
    "ok": true,
    "count": 24,
    "error": null,
-   "seconds": 0.9
+   "seconds": 0.5
   },
   {
    "id": "cihr-launched",
@@ -83,7 +83,7 @@
    "ok": true,
    "count": 11,
    "error": null,
-   "seconds": 7.2
+   "seconds": 1.6
   },
   {
    "id": "cihr-upcoming",
@@ -91,9 +91,9 @@
    "url": "https://cihr-irsc.gc.ca/e/51605.html",
    "region": "National",
    "ok": true,
-   "count": 2,
+   "count": 3,
    "error": null,
-   "seconds": 1.6
+   "seconds": 6.5
   },
   {
    "id": "cipo-financing",
@@ -103,7 +103,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 1.5
+   "seconds": 1.6
   },
   {
    "id": "cipo-ktep",
@@ -123,7 +123,7 @@
    "ok": true,
    "count": 3,
    "error": null,
-   "seconds": 0.8
+   "seconds": 0.4
   },
   {
    "id": "dnd-nserc-trainee",
@@ -133,7 +133,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 2.6
+   "seconds": 4.5
   },
   {
    "id": "drdc-partnerships",
@@ -143,7 +143,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 4.6
+   "seconds": 2.5
   },
   {
    "id": "genome-canada",
@@ -153,7 +153,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 1.4
+   "seconds": 0.9
   },
   {
    "id": "global-clusters",
@@ -163,7 +163,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.5
   },
   {
    "id": "gc-news",
@@ -173,7 +173,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 1.4
+   "seconds": 0.4
   },
   {
    "id": "ideas",
@@ -183,7 +183,7 @@
    "ok": true,
    "count": 6,
    "error": null,
-   "seconds": 3.8
+   "seconds": 24.7
   },
   {
    "id": "tcs-ipp",
@@ -193,7 +193,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 4.9
+   "seconds": 3.8
   },
   {
    "id": "innovation-pei",
@@ -203,7 +203,7 @@
    "ok": true,
    "count": 29,
    "error": null,
-   "seconds": 2.0
+   "seconds": 1.4
   },
   {
    "id": "isc",
@@ -213,7 +213,7 @@
    "ok": true,
    "count": 5,
    "error": null,
-   "seconds": 1.0
+   "seconds": 0.5
   },
   {
    "id": "invest-ns",
@@ -221,9 +221,9 @@
    "url": "https://investnovascotia.ca/incentives-programs-services",
    "region": "Nova Scotia",
    "ok": true,
-   "count": 20,
+   "count": 17,
    "error": null,
-   "seconds": 28.8
+   "seconds": 23.9
   },
   {
    "id": "ised-ip",
@@ -233,7 +233,7 @@
    "ok": true,
    "count": 4,
    "error": null,
-   "seconds": 0.9
+   "seconds": 0.4
   },
   {
    "id": "mun-rfd",
@@ -241,9 +241,9 @@
    "url": "https://research-tools.mun.ca/funding/opportunities/",
    "region": "Atlantic",
    "ok": true,
-   "count": 97,
+   "count": 101,
    "error": null,
-   "seconds": 40.9
+   "seconds": 172.6
   },
   {
    "id": "mitacs",
@@ -253,7 +253,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "seconds": 1.5
+   "seconds": 0.3
   },
   {
    "id": "ms-canada",
@@ -263,7 +263,7 @@
    "ok": true,
    "count": 3,
    "error": null,
-   "seconds": 1.3
+   "seconds": 0.6
   },
   {
    "id": "dnd-ip",
@@ -273,7 +273,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 3.1
+   "seconds": 2.1
   },
   {
    "id": "nbif",
@@ -283,7 +283,7 @@
    "ok": true,
    "count": 2,
    "error": null,
-   "seconds": 1.1
+   "seconds": 0.5
   },
   {
    "id": "nfrf",
@@ -293,7 +293,7 @@
    "ok": true,
    "count": 7,
    "error": null,
-   "seconds": 6.8
+   "seconds": 1.6
   },
   {
    "id": "nl-jgrd",
@@ -303,7 +303,7 @@
    "ok": true,
    "count": 9,
    "error": null,
-   "seconds": 20.8
+   "seconds": 1.5
   },
   {
    "id": "ngen",
@@ -313,7 +313,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 1.1
+   "seconds": 0.2
   },
   {
    "id": "nrc-challenge",
@@ -323,7 +323,7 @@
    "ok": false,
    "count": 0,
    "error": "HTTP 403",
-   "seconds": 0.8
+   "seconds": 0.1
   },
   {
    "id": "nrc-ideation",
@@ -333,7 +333,7 @@
    "ok": false,
    "count": 0,
    "error": "HTTP 403",
-   "seconds": 2.2
+   "seconds": 1.5
   },
   {
    "id": "nrc-irap",
@@ -343,7 +343,7 @@
    "ok": false,
    "count": 0,
    "error": "HTTP 403",
-   "seconds": 1.9
+   "seconds": 0.2
   },
   {
    "id": "irap-youth",
@@ -353,7 +353,7 @@
    "ok": false,
    "count": 0,
    "error": "HTTP 403",
-   "seconds": 0.8
+   "seconds": 0.0
   },
   {
    "id": "nrc-ip-licensing",
@@ -363,7 +363,7 @@
    "ok": false,
    "count": 0,
    "error": "HTTP 403",
-   "seconds": 0.7
+   "seconds": 0.0
   },
   {
    "id": "nserc",
@@ -371,9 +371,9 @@
    "url": "https://nserc-crsng.canada.ca/en/funding/funding-opportunity?field_fo_status%5Bopen%5D=open",
    "region": "National",
    "ok": true,
-   "count": 30,
+   "count": 29,
    "error": null,
-   "seconds": 4.1
+   "seconds": 4.2
   },
   {
    "id": "research-nb",
@@ -383,7 +383,7 @@
    "ok": false,
    "count": 7,
    "error": "connection refused by site (possible bot protection) – showing the program list kept in sources.yaml",
-   "seconds": 21.2
+   "seconds": 19.0
   },
   {
    "id": "research-ns",
@@ -393,7 +393,7 @@
    "ok": true,
    "count": 2,
    "error": null,
-   "seconds": 0.9
+   "seconds": 0.8
   },
   {
    "id": "springboard-ip",
@@ -403,7 +403,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 1.0
+   "seconds": 6.4
   },
   {
    "id": "sshrc",
@@ -413,7 +413,7 @@
    "ok": true,
    "count": 33,
    "error": null,
-   "seconds": 1.0
+   "seconds": 0.8
   },
   {
    "id": "swpp",
@@ -423,10 +423,146 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "seconds": 2.4
+   "seconds": 4.2
   }
  ],
  "items": [
+  {
+   "id": "0f41cf360aaa62a1",
+   "title": "Travel Awards – Institute Community Support",
+   "url": "https://research-tools.mun.ca/funding/opportunities/travel-awards-institute-community-support/",
+   "description": "Through the Institute Community Support (ICS) Program, CIHR Institutes and Initiatives are launching the ICS Travel Awards competition for master’s and doctoral students, postdoctoral fellows, early career researchers, and knowledge users to present their own research at national and international meetings, workshops, or conferences.",
+   "funder": "Canadian Institute of Health Research (CIHR)",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Talent & internships",
+    "International"
+   ],
+   "audience": [
+    "Universities",
+    "Students & trainees"
+   ],
+   "deadline": "2026-12-15",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-23",
+   "last_seen": "2026-11-23",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "6ad19e87ff6c082b",
+   "title": "Sustainable Agriculture Research Initiative",
+   "url": "https://research-tools.mun.ca/funding/opportunities/sustainable-agriculture-research-initiative/",
+   "description": "Please note: Applicants must read the full Connection Grants funding opportunity description, complete the Connection Grants application form and follow the accompanying instructions .",
+   "funder": "Social Sciences and Humanities Research Council (SSHRC)",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "SME & business",
+    "Clean tech & climate"
+   ],
+   "audience": [
+    "Industry & SMEs"
+   ],
+   "deadline": "2027-02-01",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-23",
+   "last_seen": "2026-11-23",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "a24aa9171c2d4cd1",
+   "title": "Notice of Upcoming Funding Opportunity: Operating Grant: Advancing a Life Course Approach to Menopause Research",
+   "url": "https://cihr-irsc.gc.ca/e/54865.html",
+   "description": "The Canadian Institutes of Health Research (CIHR) and partners are pleased to announce the upcoming launch of the Menopause and Our Health Initiative, including its first funding opportunity: Operating Grant: Advancing a Life Course Approach to Menopause Research . This funding opportunity is co-led by CIHR's Institutes of Gender and Health (IGH) and Indigenous Peoples' Health (IIPH) in…",
+   "funder": "Canadian Institutes of Health Research",
+   "via": null,
+   "source_id": "cihr-upcoming",
+   "source_name": "CIHR – upcoming funding opportunities",
+   "region": "National",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Industry partnership",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "upcoming",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-23",
+   "last_seen": "2026-11-23",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "852c3250299b090f",
+   "title": "Jen Johnston Prize for Research Excellence",
+   "url": "https://research-tools.mun.ca/funding/opportunities/jen-johnston-prize-for-research-excellence/",
+   "description": "Celebrating outstanding trainee-led cancer research, applications and nominations are open for the 2026 Jen Johnston Prize for Research Excellence. This annual award honors the legacy of Jen Johnston by recognizing exceptional published work (sole or co-first author) by BHCRI trainees. The winning trainee will present their research at BHCRI’s upcoming Spring 2027 Bi-Annual Conference.",
+   "funder": "Beatrice Hunter Cancer Research Institute",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Talent & internships"
+   ],
+   "audience": [
+    "Students & trainees"
+   ],
+   "deadline": "2026-11-30",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-23",
+   "last_seen": "2026-11-23",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "6892b55c36981a64",
+   "title": "COVID-19 burden and benefit of vaccination in individuals at increased risk RFP",
+   "url": "https://research-tools.mun.ca/funding/opportunities/covid-19-burden-and-benefit-of-vaccination-in-individuals-at-increased-risk-rfp/",
+   "description": "Pfizer Global Medical Grants (GMG) supports the global healthcare community’s independent initiatives (e.g., research, quality improvement, or education) to improve patient outcomes in areas of unmet medical need that are aligned with Pfizer’s medical and/or scientific strategies.",
+   "funder": "Pfizer Inc",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "International",
+    "Health & life sciences"
+   ],
+   "audience": [],
+   "deadline": "2027-01-14",
+   "status": "open",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-11-23",
+   "last_seen": "2026-11-23",
+   "updated": null,
+   "active": true
+  },
   {
    "id": "2274957d757072ab",
    "title": "endMS Research and Training Network Awards and Programs",
@@ -452,7 +588,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -506,7 +642,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -533,7 +669,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -587,7 +723,7 @@
    "published": "2026-11-16T10:08:49-05:00",
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -612,7 +748,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -645,7 +781,7 @@
    "id": "043ce9b9ddad19b6",
    "title": "Patient Voices in Research – LOI",
    "url": "https://research-tools.mun.ca/funding/opportunities/patient-voices-in-research-loi/",
-   "description": "Developed in collaboration with the MOHCCN’s Patient Working Group, the Patient Voices in Research award supports high-quality research addressing priorities identified by people with lived experience of cancer.",
+   "description": "",
    "funder": "Terry Fox Research Institute",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -653,8 +789,7 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research",
-    "Industry partnership"
+    "Research"
    ],
    "audience": [],
    "deadline": "2026-12-14",
@@ -662,7 +797,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -670,7 +805,7 @@
    "id": "f1e555f808b01983",
    "title": "Patient Voices in Research Initiative – Full Application",
    "url": "https://research-tools.mun.ca/funding/opportunities/patient-voices-in-research-initiative-full-application/",
-   "description": "Developed in collaboration with the MOHCCN’s Patient Working Group, the Patient Voices in Research award supports high-quality research addressing priorities identified by people with lived experience of cancer.",
+   "description": "",
    "funder": "Terry Fox Research Institute",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -678,8 +813,7 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research",
-    "Industry partnership"
+    "Research"
    ],
    "audience": [],
    "deadline": "2027-02-01",
@@ -687,7 +821,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -716,7 +850,7 @@
    "published": null,
    "content_hash": "60eb24d5549ccff06552d55fba17112bb83008cb",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -741,7 +875,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -766,7 +900,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -792,7 +926,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -818,7 +952,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -826,7 +960,7 @@
    "id": "86597ec1baeb679a",
    "title": "Notice of Upcoming Funding Opportunity: Pan-Canadian 2S/LGBTQI+ Knowledge-to-Action Hub",
    "url": "https://cihr-irsc.gc.ca/e/54836.html",
-   "description": "",
+   "description": "The Canadian Institutes of Health Research (CIHR) Institute of Gender and Health is pleased to announce the upcoming launch of the Pan-Canadian 2S/LGBTQI+ Knowlegde-to-Action Hub funding opportunity.",
    "funder": "Canadian Institutes of Health Research",
    "via": null,
    "source_id": "cihr-upcoming",
@@ -834,8 +968,8 @@
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Health & life sciences",
-    "Research"
+    "Research",
+    "Health & life sciences"
    ],
    "audience": [],
    "deadline": "2027-09-01",
@@ -843,7 +977,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -851,7 +985,7 @@
    "id": "edb50369eacbd7b5",
    "title": "Notice of Upcoming Funding Opportunity: Nursing in Indigenous Research in Action (NIRA) Chairs Funding Opportunity",
    "url": "https://cihr-irsc.gc.ca/e/54780.html",
-   "description": "The Canadian Institutes of Health Research (CIHR) and partners are pleased to announce the upcoming launch of an expanded Nursing in Indigenous Research in Action (NIRA) Chairs Program Funding Opportunity, formerly known as the Indigenous Research Chairs in Nursing Initiative. This expanded program builds on the success and learnings of the original initiative, while creating new opportunities…",
+   "description": "",
    "funder": "Canadian Institutes of Health Research",
    "via": null,
    "source_id": "cihr-launched",
@@ -859,9 +993,8 @@
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Research",
-    "Industry partnership",
-    "Health & life sciences"
+    "Health & life sciences",
+    "Research"
    ],
    "audience": [],
    "deadline": null,
@@ -869,7 +1002,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -877,7 +1010,7 @@
    "id": "4ec17792456c333a",
    "title": "Notice of Upcoming Funding Opportunity: National Cancer Data and Bio-Resource Coordinating Hub Team Grants",
    "url": "https://cihr-irsc.gc.ca/e/54777.html",
-   "description": "The Canadian Institutes of Health Research (CIHR) is pleased to announce the upcoming launch of the National Cancer Data and Bio-Resource Coordinating Hub Team Grants. This funding opportunity is led by the CIHR Institute of Cancer Research (CIHR-ICR) with the Digital Research Alliance of Canada (the Alliance) as a mandatory applicant partner.",
+   "description": "",
    "funder": "Canadian Institutes of Health Research",
    "via": null,
    "source_id": "cihr-launched",
@@ -885,10 +1018,8 @@
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Research",
-    "Industry partnership",
     "Health & life sciences",
-    "AI & digital"
+    "Research"
    ],
    "audience": [],
    "deadline": null,
@@ -896,7 +1027,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -904,7 +1035,7 @@
    "id": "f5583481c8dae0b8",
    "title": "Notice of Upcoming Funding Opportunity: Health System Impact (HSI) Fellowship",
    "url": "https://cihr-irsc.gc.ca/e/53708.html",
-   "description": "The Health System Impact (HSI) Fellowship is led by CIHR’s Institute of Health Services and Policy Research (IHSPR) in partnership with CIHR’s Institute of Aging (IA), Institute of Cancer Research (ICR), Institute of Circulatory and Respiratory Health (ICRH), Institute of Gender and Health (IGH), Institute of Indigenous Peoples' Health (IIPH), Institute of Infection and Immunity (III), Institute…",
+   "description": "",
    "funder": "Canadian Institutes of Health Research",
    "via": null,
    "source_id": "cihr-launched",
@@ -913,7 +1044,6 @@
    "kind": "Call",
    "categories": [
     "Research",
-    "Industry partnership",
     "Talent & internships",
     "Health & life sciences"
    ],
@@ -925,7 +1055,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -950,7 +1080,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -958,7 +1088,7 @@
    "id": "b0616349a7ee9074",
    "title": "Notice of Upcoming Funding Opportunity for a Pan-Canadian Single Research Ethics Review Initiative",
    "url": "https://cihr-irsc.gc.ca/e/54768.html",
-   "description": "This is a notice of an upcoming funding opportunity that will replace the cancelled Pan-Canadian Single Research Ethics Review Initiative directed grant funding opportunity. After the launch of the directed grant opportunity in April 2026, CIHR received information that at least one other actor in the Canadian research ecosystem felt able to address all the objectives of the funding opportunity…",
+   "description": "",
    "funder": "Canadian Institutes of Health Research",
    "via": null,
    "source_id": "cihr-launched",
@@ -975,7 +1105,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1001,7 +1131,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1027,7 +1157,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1052,7 +1182,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1060,7 +1190,7 @@
    "id": "dffa14bfb8bb5225",
    "title": "Notice of Funding Opportunity: Team Grant – GACD 2027: Implementation research focused on strategies targeting chronic non-communicable diseases (NCD) in children and young people",
    "url": "https://cihr-irsc.gc.ca/e/54858.html",
-   "description": "",
+   "description": "The Canadian Institutes of Health Research (CIHR) is pleased to announce the upcoming launch of the Team Grant – GACD 2027: Implementation research focused on strategies targeting chronic non-communicable diseases (NCD) in children and young people. This funding opportunity is led by the Global Alliance for Chronic Diseases (GACD), in partnership with CIHR’s Institute of Musculoskeletal Health…",
    "funder": "Canadian Institutes of Health Research",
    "via": null,
    "source_id": "cihr-upcoming",
@@ -1069,7 +1199,9 @@
    "kind": "Call",
    "categories": [
     "Research",
+    "Industry partnership",
     "Talent & internships",
+    "International",
     "Health & life sciences"
    ],
    "audience": [],
@@ -1078,7 +1210,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1102,7 +1234,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1110,7 +1242,7 @@
    "id": "fa60724699a3afef",
    "title": "Marathon of Hope Clinician Scientist Awards – LOI",
    "url": "https://research-tools.mun.ca/funding/opportunities/marathon-of-hope-clinician-scientist-awards-loi/",
-   "description": "The MOHCCN Clinician-Scientist Awards provide promising early-career clinician-scientists with funding to pursue innovative precision oncology research while developing their careers as independent investigators.",
+   "description": "",
    "funder": "Terry Fox Research Institute",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -1126,7 +1258,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1134,7 +1266,7 @@
    "id": "fe0670470edc723b",
    "title": "Marathon of Hope Clinician Scientist Award – Full Application",
    "url": "https://research-tools.mun.ca/funding/opportunities/marathon-of-hope-clinician-scientist-award-full-application/",
-   "description": "The MOHCCN Clinician-Scientist Awards provide promising early-career clinician-scientists with funding to pursue innovative precision oncology research while developing their careers as independent investigators.",
+   "description": "",
    "funder": "Terry Fox Research Institute",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -1150,7 +1282,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1158,7 +1290,7 @@
    "id": "1341bd04eda73cda",
    "title": "Lung Ambition Awards",
    "url": "https://research-tools.mun.ca/funding/opportunities/lung-ambition-awards/",
-   "description": "Lung Cancer Canada is proud to announce that the 2027 Lung Ambition Awards – a Canadian-based lung cancer research award program – is now open for submissions! It is Lung Cancer Awareness Month and we are calling on Canadian researchers and clinicians to apply. The program will grant a total of $100,000 to two research teams working to improve the lives of people with lung cancer. The complete…",
+   "description": "",
    "funder": "Lung Cancer Canada",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -1168,15 +1300,13 @@
    "categories": [
     "Research"
    ],
-   "audience": [
-    "Universities"
-   ],
+   "audience": [],
    "deadline": "2027-02-12",
    "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1200,7 +1330,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1224,7 +1354,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1249,7 +1379,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1274,7 +1404,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1299,7 +1429,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1328,7 +1458,7 @@
    "published": null,
    "content_hash": "6abcebeccf96f7f90f2eab5be2dace4565911623",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1357,7 +1487,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1383,7 +1513,7 @@
    "published": null,
    "content_hash": "7c08064d8dab47f05c651eee40fe87b79340e147",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1408,7 +1538,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1432,7 +1562,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1457,7 +1587,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1482,7 +1612,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1507,7 +1637,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1515,7 +1645,7 @@
    "id": "570cddb726a583a5",
    "title": "Health Care Foundation Grant",
    "url": "https://research-tools.mun.ca/funding/opportunities/health-care-foundation-grant/",
-   "description": "",
+   "description": "The Health Care Foundation contributes funds annually to support and encourage research in health care. The proposals can include either clinical research or research related to the organizational and administrative aspects of healthcare. Adult-based research will receive priority in decisions for funding available from the Health Care Foundation, as funding from the Janeway Children’s Hospital…",
    "funder": "Health Care Foundation",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -1527,12 +1657,12 @@
     "Health & life sciences"
    ],
    "audience": [],
-   "deadline": "2026-11-20",
-   "status": "open",
+   "deadline": null,
+   "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1540,7 +1670,7 @@
    "id": "ae2c57038326e981",
    "title": "Global Affairs Canada Faculty Mobility for Partnership Building Program",
    "url": "https://research-tools.mun.ca/funding/opportunities/global-affairs-canada-faculty-mobility-for-partnership-building-program/",
-   "description": "",
+   "description": "Canada is expanding the Faculty Mobility for Partnership Building Program (FMPBP)’s eligibility to include all 27 European Union Member States, in addition to the existing eligible countries in Latin America and the Caribbean.",
    "funder": "Global Affairs Canada",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -1560,7 +1690,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1584,11 +1714,11 @@
     "Industry & SMEs"
    ],
    "deadline": "2026-12-18",
-   "status": "unknown",
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1596,7 +1726,7 @@
    "id": "92a815de3f87501c",
    "title": "BWF Postdoctoral Enrichment Program",
    "url": "https://research-tools.mun.ca/funding/opportunities/bwf-postdoctoral-enrichment-program/",
-   "description": "",
+   "description": "The Burroughs Wellcome Fund is a private foundation that serves and strengthens society by nurturing a diverse group of leaders in biomedical sciences to improve human health through education and powering discovery in frontiers of greatest need.",
    "funder": "Burroughs Wellcome Fund",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -1605,7 +1735,8 @@
    "kind": "Call",
    "categories": [
     "Research",
-    "Talent & internships"
+    "Talent & internships",
+    "Health & life sciences"
    ],
    "audience": [
     "Universities",
@@ -1616,7 +1747,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1642,7 +1773,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1666,7 +1797,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1691,7 +1822,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1699,7 +1830,7 @@
    "id": "5636655829d1f1a3",
    "title": "Cabot Martin Award for Research in Regional Policy and Development.",
    "url": "https://research-tools.mun.ca/funding/opportunities/cabot-martin-award-for-research-in-regional-policy-and-development/",
-   "description": "Funding can support modest projects or help launch larger research initiatives, with up to $20,000 for a one-year project. The award encourages research that informs decision-making and contributes to a stronger future for Newfoundland and Labrador.",
+   "description": "",
    "funder": "Memorial University of Newfoundland",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -1715,7 +1846,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1743,7 +1874,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1751,7 +1882,7 @@
    "id": "efea9ca4b1b6a3c1",
    "title": "BWF Career Guidance for Trainees",
    "url": "https://research-tools.mun.ca/funding/opportunities/bwf-career-guidance-for-trainees/",
-   "description": "The Burroughs Wellcome Fund’s Career Guidance for Trainees (CGT) program supports innovative approaches to helping scientists prepare for meaningful and sustainable careers. Through grants of $15,000 to $25,000 , the program funds pilot projects that offer practical, affordable, and transferable models for improving career readiness.",
+   "description": "",
    "funder": "Burroughs Wellcome Fund",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -1760,8 +1891,7 @@
    "kind": "Call",
    "categories": [
     "Research",
-    "Talent & internships",
-    "Clean tech & climate"
+    "Talent & internships"
    ],
    "audience": [
     "Students & trainees"
@@ -1771,7 +1901,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1779,7 +1909,7 @@
    "id": "2daa8d310043389a",
    "title": "World Cancer Research Fund Regular Grant Programme – LOI",
    "url": "https://research-tools.mun.ca/funding/opportunities/world-cancer-research-fund-regular-grant-programme-loi/",
-   "description": "",
+   "description": "Each eligible organisation may submit a maximum of three applications per programme per funding round (a maximum of three to the Regular Grant Programme and another maximum of three to the INSPIRE Research Challenge). Memorial adjudication will be required if more than three applications per program are received.",
    "funder": "World Cancer Research Fund",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -1795,7 +1925,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1803,7 +1933,7 @@
    "id": "4420bdd0e799df45",
    "title": "World Cancer Research Fund International INSPIRE Research Challenge",
    "url": "https://research-tools.mun.ca/funding/opportunities/world-cancer-research-fund-international-inspire-research-challenge/",
-   "description": "",
+   "description": "Each eligible organisation may submit a maximum of three applications per programme per funding round (a maximum of three to the Regular Grant Programme and another maximum of three to the INSPIRE Research Challenge). Memorial adjudication will be required if more than three applications per program are received.",
    "funder": "World Cancer Research Fund",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -1823,7 +1953,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1848,7 +1978,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1874,7 +2004,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1899,7 +2029,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1924,7 +2054,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1949,7 +2079,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1974,7 +2104,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -1982,7 +2112,7 @@
    "id": "10d9a3bb5e35beec",
    "title": "Turnbull-Tator Award in Spinal Cord Injury and Concussion Research",
    "url": "https://research-tools.mun.ca/funding/opportunities/turnbull-tator-award-in-spinal-cord-injury-and-concussion-research/",
-   "description": "",
+   "description": "Brain Canada and the Barbara Turnbull Foundation for Spinal Cord Research are pleased to launch the 2026 Turnbull-Tator Award in Spinal Cord Injury and Concussion Research .",
    "funder": "Barbara Turnbull Foundation for Spinal Cord Research, Brain Canada Foundation",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -1998,7 +2128,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2028,7 +2158,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2053,7 +2183,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2078,7 +2208,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2103,7 +2233,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2128,7 +2258,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2153,7 +2283,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2179,7 +2309,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2187,7 +2317,7 @@
    "id": "c869902c1eaa1f6d",
    "title": "Nursing in Indigenous Research in Action (NIRA) Chairs 2027",
    "url": "https://research-tools.mun.ca/funding/opportunities/nursing-in-indigenous-research-in-action-nira-chairs-2027/",
-   "description": "",
+   "description": "RIS will be offering support with application development for this opportunity. Prospective applicants are encouraged to contact Dr. Jennifer Stevens (v5js@mun.ca) or Dr. Amanda Crompton (ajcrompt@mun.ca) early during the development process to discuss the services available to them.",
    "funder": "Canadian Institute of Health Research (CIHR)",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -2203,7 +2333,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2229,7 +2359,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2237,7 +2367,7 @@
    "id": "ec44f2f342642ef4",
    "title": "NL Support – Patient-Oriented Research Development Award",
    "url": "https://research-tools.mun.ca/funding/opportunities/patient-oriented-research-development-award/",
-   "description": "",
+   "description": "The purpose of the Development Award is to support the growth of patient-oriented research in health/social research areas where it has traditionally been difficult to grow this movement. These include:",
    "funder": "Memorial University of Newfoundland",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -2245,7 +2375,8 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Health & life sciences"
    ],
    "audience": [],
    "deadline": "2026-12-31",
@@ -2253,7 +2384,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2261,7 +2392,7 @@
    "id": "cb9e0a4d1175c173",
    "title": "NL Support Patient/Public Engagement Enabling Fund",
    "url": "https://research-tools.mun.ca/funding/opportunities/nl-support-patient-public-engagement-enabling-fund/",
-   "description": "",
+   "description": "The purpose of the Patient/Public Engagement Enabling Fund is to support the development of meaningful relationships between researchers and people with relevant lived/living experience to their project topic, especially in the context of patient-oriented research and evaluation. This fund is meant to support:",
    "funder": "Memorial University of Newfoundland",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -2271,13 +2402,15 @@
    "categories": [
     "Research"
    ],
-   "audience": [],
+   "audience": [
+    "Universities"
+   ],
    "deadline": null,
    "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2302,7 +2435,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2327,7 +2460,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2352,7 +2485,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2378,7 +2511,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2406,7 +2539,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2431,7 +2564,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2456,7 +2589,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2464,7 +2597,7 @@
    "id": "bc6b67cdc8899e41",
    "title": "Call to advance research on AMR transmission – Pre-proposals",
    "url": "https://research-tools.mun.ca/funding/opportunities/call-to-advance-research-on-amr-transmission-pre-proposals/",
-   "description": "",
+   "description": "On 25 November, there will be a webinar for applicants interested in the EUP OHAMR JTC 2027. See website for registration.",
    "funder": "Canadian Institute of Health Research (CIHR), European Partnership on One Health Antimicrobial Resistance",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -2480,7 +2613,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2488,7 +2621,7 @@
    "id": "5ac96ee1097777e4",
    "title": "Call to advance research on AMR transmission – Full proposals",
    "url": "https://research-tools.mun.ca/funding/opportunities/call-to-advance-research-on-amr-transmission-full-proposals/",
-   "description": "",
+   "description": "With an estimated total budget of €28 million, the EUP OHAMR Joint Transnational Call 2027 will bring together 33 funding organisations from 26 countries to support international research collaborations aimed at improving our understanding of antimicrobial resistance (AMR) transmission and developing effective strategies to prevent its emergence and spread across the One Health spectrum.",
    "funder": "Canadian Institute of Health Research (CIHR), European Partnership on One Health Antimicrobial Resistance",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -2496,15 +2629,21 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Industry partnership",
+    "Talent & internships",
+    "International",
+    "Health & life sciences"
    ],
-   "audience": [],
+   "audience": [
+    "Students & trainees"
+   ],
    "deadline": "2027-06-23",
    "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2529,7 +2668,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2537,7 +2676,7 @@
    "id": "1b9597ae4eef7296",
    "title": "CIHR Catalyst Grant : AI-enabled technologies and Brain & Mental Health – Registration",
    "url": "https://research-tools.mun.ca/funding/opportunities/cihr-catalyst-grant-ai-enabled-technologies-and-brain-mental-health-registration/",
-   "description": "",
+   "description": "Canadian research on the impacts of AI-enabled general-purpose digital technologies on brain and mental health remains limited and methodologically constrained. Much of the current evidence relies on cross-sectional, observational, and self-reported data, limiting causal inference and obscuring the heterogeneous nature of digital experiences across platforms, content, contexts, and AI-enabled…",
    "funder": "Canadian Institute of Health Research (CIHR)",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -2555,7 +2694,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2563,7 +2702,7 @@
    "id": "5330bdd2e5ead238",
    "title": "CIHR Catalyst Grant : AI-enabled technologies and Brain & Mental Health – Application",
    "url": "https://research-tools.mun.ca/funding/opportunities/cihr-catalyst-grant-ai-enabled-technologies-and-brain-mental-health-application/",
-   "description": "",
+   "description": "Canadian research on the impacts of AI-enabled general-purpose digital technologies on brain and mental health remains limited and methodologically constrained. Much of the current evidence relies on cross-sectional, observational, and self-reported data, limiting causal inference and obscuring the heterogeneous nature of digital experiences across platforms, content, contexts, and AI-enabled…",
    "funder": "Canadian Institute of Health Research (CIHR)",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -2581,7 +2720,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2606,7 +2745,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2632,7 +2771,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2640,7 +2779,7 @@
    "id": "a5f9454c5aa2a27b",
    "title": "endMS Doctoral Studentship Awards and Postdoctoral Fellowship Program",
    "url": "https://research-tools.mun.ca/funding/opportunities/endms-doctoral-studentship-awards-and-postdoctoral-fellowship-program/",
-   "description": "",
+   "description": "The endMS Doctoral Studentship Award provides opportunities for research training and broadening the scientific understanding of MS for students currently enrolled in a Doctoral level program. MS Canada (MSC) will support studentships aligned with it’s strategic plan.",
    "funder": "MS Canada",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -2660,7 +2799,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2686,7 +2825,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2711,7 +2850,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2736,7 +2875,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2765,7 +2904,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2793,7 +2932,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2801,7 +2940,7 @@
    "id": "1fed5aa318dc2c48",
    "title": "UK Market Bridge Program",
    "url": "https://investnovascotia.ca/incentives-programs-services/uk-market-bridge-program",
-   "description": "",
+   "description": "Apply today to join our virtual United Kingdom (UK) export readiness program for Atlantic Canadian small-to-medium enterprises (up to 499 paid employees).",
    "funder": "Invest Nova Scotia",
    "via": null,
    "source_id": "invest-ns",
@@ -2809,23 +2948,26 @@
    "region": "Nova Scotia",
    "kind": "Program",
    "categories": [
-    "SME & business"
+    "SME & business",
+    "International"
    ],
-   "audience": [],
+   "audience": [
+    "Industry & SMEs"
+   ],
    "deadline": null,
    "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
-   "active": false
+   "active": true
   },
   {
    "id": "0f0a022d1d49affa",
    "title": "UArctic Chairs",
    "url": "https://research-tools.mun.ca/funding/opportunities/uarctic-chairs/",
-   "description": "",
+   "description": "UArctic Chairs are highly qualified academics who will serve as academic drivers in a broad area of relevance to the Arctic. They implement and drive collaborative actions in research and education among UArctic members and Thematic Networks , and build partnerships with the broader Arctic community.",
    "funder": "uArctic",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -2833,7 +2975,8 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Industry partnership"
    ],
    "audience": [],
    "deadline": "2026-12-01",
@@ -2841,7 +2984,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2865,7 +3008,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2902,30 +3045,6 @@
    "id": "f9ff80cb63f79876",
    "title": "Trade Missions",
    "url": "https://investnovascotia.ca/incentives-programs-services/trade-missions",
-   "description": "For a nominal fee, we’ll take you into a market and provide you with an itinerary including:",
-   "funder": "Invest Nova Scotia",
-   "via": null,
-   "source_id": "invest-ns",
-   "source_name": "Invest Nova Scotia",
-   "region": "Nova Scotia",
-   "kind": "Program",
-   "categories": [
-    "SME & business"
-   ],
-   "audience": [],
-   "deadline": null,
-   "status": "unknown",
-   "published": null,
-   "content_hash": null,
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
-   "updated": null,
-   "active": false
-  },
-  {
-   "id": "15f68e0ec78166f8",
-   "title": "Trade Market Intelligence (TMI)",
-   "url": "https://investnovascotia.ca/incentives-programs-services/trade-market-intelligence-tmi",
    "description": "",
    "funder": "Invest Nova Scotia",
    "via": null,
@@ -2942,9 +3061,33 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
-   "active": false
+   "active": true
+  },
+  {
+   "id": "15f68e0ec78166f8",
+   "title": "Trade Market Intelligence (TMI)",
+   "url": "https://investnovascotia.ca/incentives-programs-services/trade-market-intelligence-tmi",
+   "description": "You can download the Guidelines by clicking the link on the sidebar under Related Documents.",
+   "funder": "Invest Nova Scotia",
+   "via": null,
+   "source_id": "invest-ns",
+   "source_name": "Invest Nova Scotia",
+   "region": "Nova Scotia",
+   "kind": "Program",
+   "categories": [
+    "SME & business"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-11-23",
+   "updated": null,
+   "active": true
   },
   {
    "id": "e0946b99cdbc3e39",
@@ -2966,7 +3109,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -2996,7 +3139,7 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "0afdcb10623d1cc6",
@@ -3021,7 +3164,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3029,7 +3172,7 @@
    "id": "9b04157900a68b88",
    "title": "Test Drives",
    "url": "https://www.canada.ca/en/department-national-defence/programs/defence-ideas/element/test-drives.html",
-   "description": "",
+   "description": "The Department of National Defence will put your tech through its paces.",
    "funder": "Department of National Defence – IDEaS",
    "via": null,
    "source_id": "ideas",
@@ -3041,11 +3184,11 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3070,7 +3213,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3078,7 +3221,7 @@
    "id": "2533b8c28c95dca9",
    "title": "Tariff and Customs Advisory Program",
    "url": "https://investnovascotia.ca/incentives-programs-services/tariff-and-customs-advisory-program",
-   "description": "",
+   "description": "We are accepting applications for the Tariff and Customs Advisory Program (TCAP). Spaces are limited. The application deadline is December 31, 2026, or until program funds are fully committed.",
    "funder": "Invest Nova Scotia",
    "via": null,
    "source_id": "invest-ns",
@@ -3090,19 +3233,19 @@
    ],
    "audience": [],
    "deadline": "2026-12-31",
-   "status": "unknown",
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
-   "active": false
+   "active": true
   },
   {
    "id": "c97b53ebb769528f",
    "title": "Targeted Geoscience Initiative",
    "url": "https://research-tools.mun.ca/funding/opportunities/targeted-geoscience-initiative/",
-   "description": "",
+   "description": "The Targeted Geoscience Initiative (TGI) is currently accepting proposals for one- or two-year projects to improve the effectiveness of targeting buried mineral deposits by the Canadian mineral industry.",
    "funder": "National Research Council of Canada (NRC)",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -3110,15 +3253,18 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Industry partnership"
    ],
-   "audience": [],
+   "audience": [
+    "Industry & SMEs"
+   ],
    "deadline": null,
    "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3145,7 +3291,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3173,7 +3319,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3263,7 +3409,7 @@
    "id": "84d994b47430733c",
    "title": "Supplier Diversity Certification Program",
    "url": "https://investnovascotia.ca/incentives-programs-services/supplier-diversity-certification-program",
-   "description": "You can download the Guidelines & FAQ by clicking the link on the sidebar under Related Documents.",
+   "description": "",
    "funder": "Invest Nova Scotia",
    "via": null,
    "source_id": "invest-ns",
@@ -3275,11 +3421,11 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "open",
+   "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3303,7 +3449,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3356,7 +3502,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3409,7 +3555,7 @@
    "published": null,
    "content_hash": "8464bcccc3f4ebdf84a73457501433266d2fb81d",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3434,7 +3580,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3462,7 +3608,7 @@
    "published": "2022-03-15T08:41:14",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3488,7 +3634,7 @@
    "published": "2022-03-24T11:55:48",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3515,7 +3661,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3523,7 +3669,7 @@
    "id": "2fe57d3a9e5d5cf8",
    "title": "Stem Cell Network Research Funding Competition – LOI",
    "url": "https://research-tools.mun.ca/funding/opportunities/stem-cell-network-research-funding-competition-loi/",
-   "description": "",
+   "description": "For more than 20 years, the Stem Cell Network has made strategic investments in stem cell and regenerative medicine research, helping to position Canada as a global leader in the field. As Canada’s only national stem cell and regenerative medicine network, SCN’s research funding translates Canadian regenerative medicine research discoveries from the innovation and developmental stages through…",
    "funder": "Stem Cell Network",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -3531,7 +3677,8 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "International"
    ],
    "audience": [],
    "deadline": null,
@@ -3539,7 +3686,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3547,7 +3694,7 @@
    "id": "ff9c05801fffe13d",
    "title": "Stem Cell Network Research Funding Competition – Full Application",
    "url": "https://research-tools.mun.ca/funding/opportunities/stem-cell-network-research-funding-competition-full-application/",
-   "description": "",
+   "description": "For more than 20 years, the Stem Cell Network has made strategic investments in stem cell and regenerative medicine research, helping to position Canada as a global leader in the field. As Canada’s only national stem cell and regenerative medicine network, SCN’s research funding translates Canadian regenerative medicine research discoveries from the innovation and developmental stages through…",
    "funder": "Stem Cell Network",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -3555,7 +3702,8 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "International"
    ],
    "audience": [],
    "deadline": "2026-11-24",
@@ -3563,7 +3711,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3591,10 +3739,10 @@
    "deadline": null,
    "status": "open",
    "published": null,
-   "content_hash": "40f1a0df9889829cb5f2731b982993ac35554549",
+   "content_hash": "1b2dbd105e6f72aff9accde9d4f5a897aed8bc4c",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
-   "updated": "2026-11-19",
+   "last_seen": "2026-11-23",
+   "updated": "2026-11-23",
    "active": true
   },
   {
@@ -3617,7 +3765,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3645,7 +3793,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3670,7 +3818,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3678,7 +3826,7 @@
    "id": "7bb271e2cae1c9c7",
    "title": "Sony Research Award Program",
    "url": "https://research-tools.mun.ca/funding/opportunities/sony-research-award-program/",
-   "description": "",
+   "description": "As part of one of the world’s most innovative and recognizable brands, Sony is committed to support university research and innovation in the U.S., Canada, India, and select European countries, while also fostering partnerships with university faculty and researchers. The Sony Research Award Program provides funding for cutting-edge academic research and helps build a collaborative relationship…",
    "funder": "Sony",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -3686,15 +3834,18 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Industry partnership"
    ],
-   "audience": [],
+   "audience": [
+    "Universities"
+   ],
    "deadline": null,
    "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3720,7 +3871,7 @@
    "published": "2022-10-27T14:14:13",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3748,7 +3899,7 @@
    "published": "2022-03-15T08:35:26",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3772,7 +3923,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3797,7 +3948,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3805,7 +3956,7 @@
    "id": "13ff7691e7ad42e6",
    "title": "Sandboxes",
    "url": "https://www.canada.ca/en/department-national-defence/programs/defence-ideas/element/sandboxes.html",
-   "description": "",
+   "description": "We bring in the experts, you bring the technology. Then, it’s play time.",
    "funder": "Department of National Defence – IDEaS",
    "via": null,
    "source_id": "ideas",
@@ -3817,11 +3968,11 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3829,7 +3980,7 @@
    "id": "e484b37e9fbc953d",
    "title": "Salmon Conservation Funding",
    "url": "https://research-tools.mun.ca/funding/opportunities/salmon-conservation-funding/",
-   "description": "",
+   "description": "Proposals for the 2026 funding year will be accepted until Friday, November 27th, 2026 at 5pm EST.",
    "funder": "The Foundation for Conservation of Atlantic Salmon",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -3845,7 +3996,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3853,7 +4004,7 @@
    "id": "091ef66144bbda39",
    "title": "Salary Based Research Grant Programs",
    "url": "https://research-tools.mun.ca/funding/opportunities/salary-based-research-grant-programs/",
-   "description": "",
+   "description": "This self-funded program opportunity permits, under certain conditions, a researcher to receive a research grant in lieu of their salary, through a mechanism which includes peer review. The grant may be used for all the purposes of a grant-in-aid of research, except salary remuneration for the Researcher. This program covers only research activities and is not intended to cover projects directed…",
    "funder": "Memorial University of Newfoundland",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -3863,13 +4014,15 @@
    "categories": [
     "Research"
    ],
-   "audience": [],
+   "audience": [
+    "Universities"
+   ],
    "deadline": null,
    "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3897,7 +4050,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3924,7 +4077,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -3932,7 +4085,7 @@
    "id": "745739c2fc97a7c7",
    "title": "SSHRC Explore – October 2026- Revised",
    "url": "https://research-tools.mun.ca/funding/opportunities/sshrc-explore-october-2026/",
-   "description": "",
+   "description": "“ Please note: due to connection issues experienced by the University community on October 13th 2026, the deadline for these applications has been adjusted to October 14th 2026 5PM. “",
    "funder": "Memorial University of Newfoundland",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -3942,13 +4095,15 @@
    "categories": [
     "Research"
    ],
-   "audience": [],
+   "audience": [
+    "Universities"
+   ],
    "deadline": null,
    "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4002,13 +4157,13 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "ff47ee52c4a93e4f",
    "title": "Research opportunities in HAWC suborbital, science, and application development activities (ROHSSA) – Cycle 4 NOI",
    "url": "https://research-tools.mun.ca/funding/opportunities/research-opportunities-in-hawc-suborbital-science-and-application-development-activities-rohssa-cycle-4-noi/",
-   "description": "",
+   "description": "The Canadian Space Agency ( CSA ) is pleased to announce a funding opportunity for the Canadian space science community to pursue research and development activities in priority areas of the High-altitude Aerosols, Water vapour and Clouds (HAWC) mission.",
    "funder": "Canadian Space Agency",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -4016,7 +4171,8 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Quantum & emerging tech"
    ],
    "audience": [],
    "deadline": "2027-08-31",
@@ -4024,7 +4180,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4032,7 +4188,7 @@
    "id": "68613865ac2d9b37",
    "title": "Research opportunities in HAWC suborbital, science, and application development activities (ROHSSA) – Cycle 4 Application",
    "url": "https://research-tools.mun.ca/funding/opportunities/research-opportunities-in-hawc-suborbital-science-and-application-development-activities-rohssa-cycle-4-application/",
-   "description": "",
+   "description": "The Canadian Space Agency ( CSA ) is pleased to announce a funding opportunity for the Canadian space science community to pursue research and development activities in priority areas of the High-altitude Aerosols, Water vapour and Clouds (HAWC) mission.",
    "funder": "Canadian Space Agency",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -4040,7 +4196,8 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Quantum & emerging tech"
    ],
    "audience": [],
    "deadline": "2027-10-05",
@@ -4048,7 +4205,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4074,7 +4231,7 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "99a6e32ef5a34040",
@@ -4098,7 +4255,7 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "76e00c344236e3f0",
@@ -4148,7 +4305,7 @@
    "published": "2022-10-27T14:13:28",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4175,7 +4332,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4200,7 +4357,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4226,7 +4383,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4234,7 +4391,7 @@
    "id": "3bff69322ff12df0",
    "title": "Regional Development Fund",
    "url": "https://www.gov.nl.ca/jgrd/funding/regional-development-fund/",
-   "description": "The Department of Jobs, Growth and Rural Development provides support to organizations by way of non-repayable contributions for projects aimed...",
+   "description": "",
    "funder": "Government of NL – Jobs, Growth and Rural Development",
    "via": null,
    "source_id": "nl-jgrd",
@@ -4250,7 +4407,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4279,7 +4436,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4301,12 +4458,12 @@
     "AI & digital"
    ],
    "audience": [],
-   "deadline": "2026-11-20",
+   "deadline": null,
    "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4331,7 +4488,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4361,7 +4518,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4387,13 +4544,13 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "f4b50a67e2f8f260",
    "title": "Publication Subvention – September 2026",
    "url": "https://research-tools.mun.ca/funding/opportunities/publication-subvention-september-2026/",
-   "description": "",
+   "description": "This program provides financial assistance to scholarly publishing from within the university community. Priority will be given to original book-length manuscripts of merit. Book chapters will be considered where funds permit.",
    "funder": "Memorial University of Newfoundland",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -4403,13 +4560,15 @@
    "categories": [
     "Research"
    ],
-   "audience": [],
+   "audience": [
+    "Universities"
+   ],
    "deadline": null,
    "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4435,7 +4594,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4459,7 +4618,7 @@
    "published": "2022-01-27T21:48:26",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4484,7 +4643,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4492,7 +4651,7 @@
    "id": "bf5a4d57f88b8923",
    "title": "Productivity and Innovation Voucher Program",
    "url": "https://investnovascotia.ca/incentives-programs-services/productivity-and-innovation-voucher-program",
-   "description": "",
+   "description": "You can download the Guidelines, FAQ, and the Application Form by clicking the link on the sidebar under Related Documents.",
    "funder": "Invest Nova Scotia",
    "via": null,
    "source_id": "invest-ns",
@@ -4504,11 +4663,11 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
+   "status": "closed",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4534,7 +4693,7 @@
    "published": "2026-09-01T13:42:13",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4561,7 +4720,7 @@
    "published": "2024-05-30T11:11:00",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4590,7 +4749,7 @@
    "published": "2022-01-27T21:45:16",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4598,7 +4757,7 @@
    "id": "b32e12419fc3bf1e",
    "title": "Preserving Human Skills and Agency in The Age of Intelligent Technologies",
    "url": "https://research-tools.mun.ca/funding/opportunities/preserving-human-skills-and-agency-in-the-age-of-intelligent-technologies/",
-   "description": "",
+   "description": "CSA Group is pleased to announce the launch of a new research initiative within the Explore Research Program , a forward-looking research effort designed to support projects that help Canada anticipate and address emerging challenges. The new initiative, Preserving Human Skills and Agency in The Age of Intelligent Technologies , aims to understand how to identify and support the capabilities…",
    "funder": "CSA Group",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -4614,7 +4773,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4639,7 +4798,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4647,7 +4806,7 @@
    "id": "3e2b08963766c72b",
    "title": "Point",
    "url": "https://www.canada.ca/en/department-national-defence/programs/defence-ideas/element/point.html",
-   "description": "",
+   "description": "The POINT pilot is being tested on select IDEaS contract-based challenges to help streamline the acquisition of innovations that have successfully completed IDEaS funding. At Canada’s discretion, promising innovations may be awarded a contract for the acquisition of their solution at scale for operational use by the Department of National Defence and the Canadian Armed Forces (DND/CAF).",
    "funder": "Department of National Defence – IDEaS",
    "via": null,
    "source_id": "ideas",
@@ -4663,7 +4822,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4671,7 +4830,7 @@
    "id": "a93528a6c41c467f",
    "title": "Pfizer RFP: Clinical Research Studies of Atirmociclib in HR+/HER2- and/or HER2+ Breast Cancer",
    "url": "https://research-tools.mun.ca/funding/opportunities/pfizer-rfp-clinical-research-studies-of-atirmociclib-in-hr-her2-and-or-her2-breast-cancer/",
-   "description": "",
+   "description": "Pfizer supports the global healthcare community’s independent initiatives (e.g., research, quality improvement or education) to improve patient outcomes in areas of unmet medical need that are aligned with Pfizer’s medical and/or scientific strategies.",
    "funder": "Pfizer Inc",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -4680,6 +4839,7 @@
    "kind": "Call",
    "categories": [
     "Research",
+    "International",
     "Health & life sciences"
    ],
    "audience": [],
@@ -4688,7 +4848,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4696,7 +4856,7 @@
    "id": "393ae3a106bf8f2c",
    "title": "Pfizer New Mechanisms and Emerging Treatment Options in Metastatic Castration Resistant Prostate Cancer (mCRPC)",
    "url": "https://research-tools.mun.ca/funding/opportunities/pfizer-new-mechanisms-and-emerging-treatment-options-in-metastatic-castration-resistant-prostate-cancer-mcrpc/",
-   "description": "",
+   "description": "Pfizer Global Medical Grants (GMG) supports the global healthcare community’s independent initiatives (e.g., research, quality improvement, or education) to improve patient outcomes in areas of unmet medical need that are aligned with Pfizer’s medical and/or scientific strategies.",
    "funder": "Pfizer Inc",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -4704,7 +4864,9 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "International",
+    "Health & life sciences"
    ],
    "audience": [],
    "deadline": null,
@@ -4712,7 +4874,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4720,7 +4882,7 @@
    "id": "1b84274f1d408f58",
    "title": "Payroll Rebate",
    "url": "https://investnovascotia.ca/incentives-programs-services/payroll-rebate",
-   "description": "A payroll rebate is a performance-based incentive that helps growing companies succeed in Nova Scotia. Designed to reward results, it provides a return on eligible gross payroll, paid annually as your company meets agreed-upon growth targets. Rebates are issued for a set term—typically five years—up to an approved amount.",
+   "description": "",
    "funder": "Invest Nova Scotia",
    "via": null,
    "source_id": "invest-ns",
@@ -4730,15 +4892,13 @@
    "categories": [
     "SME & business"
    ],
-   "audience": [
-    "Industry & SMEs"
-   ],
+   "audience": [],
    "deadline": null,
    "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4767,7 +4927,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4819,7 +4979,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4852,7 +5012,7 @@
    "id": "d02ffbf477c2751b",
    "title": "POPCORN One-Year Pilot Randomized Trial Funding Opportunity",
    "url": "https://research-tools.mun.ca/funding/opportunities/popcorn-one-year-pilot-randomized-trial-funding-opportunity/",
-   "description": "",
+   "description": "to announce a Call for Applications for a one-year funding opportunity for pilot Randomized Trials (RTs), supporting the launch of new Canadian trials and the expansion of existing international trials into Canada.",
    "funder": "POPCORN (Pediatric Outcome imProvement through COordination of Research Networks)",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -4860,15 +5020,19 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Talent & internships",
+    "International"
    ],
-   "audience": [],
+   "audience": [
+    "Students & trainees"
+   ],
    "deadline": "2026-12-01",
    "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -4895,7 +5059,7 @@
    "published": "2022-10-27T14:12:45",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5006,7 +5170,7 @@
    "published": "2026-03-26T15:57:52",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5030,7 +5194,7 @@
    "published": "2026-03-26T15:56:14",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5065,7 +5229,7 @@
    "id": "1920e280527a03bd",
    "title": "OFI Community-Led Research Program – Tier 2",
    "url": "https://research-tools.mun.ca/funding/opportunities/ofi-community-led-research-program-tier-2/",
-   "description": "",
+   "description": "The Community-Led Research Program is designed to support community‑led initiatives that build respectful, reciprocal relationships between Indigenous and Indigenous‑linked communities and the four Transforming Climate Action (TCA) partner institutions: Dalhousie University, Université du Québec à Rimouski, Université Laval, and Memorial University.",
    "funder": "Ocean Frontier Institute",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -5073,15 +5237,19 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Industry partnership",
+    "Clean tech & climate"
    ],
-   "audience": [],
+   "audience": [
+    "Universities"
+   ],
    "deadline": "2026-11-30",
    "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5089,7 +5257,7 @@
    "id": "005d71160323a297",
    "title": "Nutrition Research Funding Program – LOI",
    "url": "https://research-tools.mun.ca/funding/opportunities/nutrition-research-funding-program-loi/",
-   "description": "",
+   "description": "DFC’s Nutrition Research Funding Program offers financial support for research projects in the area of human nutrition and health, food science and sustainable diets, in relation to dairy products. Projects are peer-reviewed and evaluated by an expert scientific advisory committee comprised of renowned Canadian researchers with expertise in various areas of food science, nutrition, health and…",
    "funder": "Dairy Farmers of Canada",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -5097,15 +5265,19 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Clean tech & climate",
+    "Health & life sciences"
    ],
-   "audience": [],
+   "audience": [
+    "Universities"
+   ],
    "deadline": "2026-12-01",
    "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5113,7 +5285,7 @@
    "id": "526e3c3ecfed3e00",
    "title": "Nutrition Research Funding Program – Full Application",
    "url": "https://research-tools.mun.ca/funding/opportunities/nutrition-research-funding-program-full-application/",
-   "description": "",
+   "description": "DFC’s Nutrition Research Funding Program offers financial support for research projects in the area of human nutrition and health, food science and sustainable diets, in relation to dairy products. Projects are peer-reviewed and evaluated by an expert scientific advisory committee comprised of renowned Canadian researchers with expertise in various areas of food science, nutrition, health and…",
    "funder": "Dairy Farmers of Canada",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -5121,15 +5293,19 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Clean tech & climate",
+    "Health & life sciences"
    ],
-   "audience": [],
+   "audience": [
+    "Universities"
+   ],
    "deadline": "2027-04-16",
    "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5137,7 +5313,7 @@
    "id": "05b3980ff894e0b2",
    "title": "Nova Scotia Research and Development Tax Credit",
    "url": "https://investnovascotia.ca/incentives-programs-services/nova-scotia-research-and-development-tax-credit",
-   "description": "This credit offers tax relief to Nova Scotia corporations that incur qualified scientific research and experimental development (SR&ED) expenditures made in Nova Scotia, as defined by the federal Income Tax Act. You can claim this credit if you have a permanent establishment in Nova Scotia and if you made eligible expenditures for research and development carried out in Nova Scotia.",
+   "description": "",
    "funder": "Invest Nova Scotia",
    "via": null,
    "source_id": "invest-ns",
@@ -5154,7 +5330,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5182,13 +5358,13 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "e02cdb2150951b1b",
    "title": "Nova Scotia Capital Investment Tax Credit",
    "url": "https://investnovascotia.ca/incentives-programs-services/nova-scotia-capital-investment-tax-credit",
-   "description": "The Capital Investment Tax Credit (CITC) is a refundable corporate tax credit that can be claimed for capital costs directly related to acquiring qualified property for use in Nova Scotia as part of an approved project.",
+   "description": "",
    "funder": "Invest Nova Scotia",
    "via": null,
    "source_id": "invest-ns",
@@ -5204,7 +5380,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5212,7 +5388,7 @@
    "id": "a12c0c33cc39a302",
    "title": "Northern Scientific Training Program (NSTP) 2027-2028",
    "url": "https://research-tools.mun.ca/funding/opportunities/northern-scientific-training-program-nstp-2027-2028/",
-   "description": "",
+   "description": "Undergraduates: submit to Research Initiatives & Services via e-mail (internalgrants@mun.ca).",
    "funder": "Memorial University of Newfoundland",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -5220,15 +5396,18 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Talent & internships"
    ],
-   "audience": [],
+   "audience": [
+    "Students & trainees"
+   ],
    "deadline": null,
    "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5252,7 +5431,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5330,7 +5509,7 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "3f35c09680b4e68c",
@@ -5355,7 +5534,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5379,7 +5558,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5407,7 +5586,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5432,7 +5611,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5456,7 +5635,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5533,7 +5712,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5596,7 +5775,7 @@
    "id": "3c62ee99aba41fbc",
    "title": "NL Support Health Professional-led Research/Evaluation Funding",
    "url": "https://research-tools.mun.ca/funding/opportunities/nl-support-health-professional-led-research-evaluation-funding/",
-   "description": "",
+   "description": "Applications from Units at Memorial University will follow a Unit Submitted Process within the Researcher Portal",
    "funder": "NL SUPPORT",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -5607,13 +5786,15 @@
     "Research",
     "Health & life sciences"
    ],
-   "audience": [],
+   "audience": [
+    "Universities"
+   ],
    "deadline": null,
    "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5643,7 +5824,7 @@
    "published": null,
    "content_hash": "20661e2c35dfaf952b018fffbfa299f1eb4abe43",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": "2026-11-19",
    "active": true
   },
@@ -5651,7 +5832,7 @@
    "id": "690c98754c3a9506",
    "title": "Multiculturalism and Anti-Racism Program (MARP) the Projects Component, Anti-Racism Call",
    "url": "https://research-tools.mun.ca/funding/opportunities/multiculturalism-and-anti-racism-program-marp-the-projects-component-anti-racism-call/",
-   "description": "",
+   "description": "The Multiculturalism and Anti-Racism Program (MARP) is launching a new call for proposals under the Projects Component, Anti-Racism Call . Eligible organizations are invited to submit a funding application by November 12 at 4:00 p.m. (ET) . * Applications received after November 12, 2026, at 4:00 p.m. (ET) will not be considered .",
    "funder": "Government of Canada",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -5667,7 +5848,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5675,7 +5856,7 @@
    "id": "3c3f9f1c75ad4bda",
    "title": "Multiculturalism and Anti-Racism Program (MARP) Events Component – Intake 3",
    "url": "https://research-tools.mun.ca/funding/opportunities/multiculturalism-and-anti-racism-program-marp-events-component-intake-3/",
-   "description": "",
+   "description": "The Multiculturalism and Anti-Racism Program (MARP) supports the mandate of the Department of Canadian Heritage by building on Canada’s strength as a diverse and inclusive society.",
    "funder": "Government of Canada",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -5691,7 +5872,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5699,7 +5880,7 @@
    "id": "f477084ff1f4d5c1",
    "title": "Multiculturalism and Anti-Racism Program (MARP) Events Component – Intake 2",
    "url": "https://research-tools.mun.ca/funding/opportunities/multiculturalism-and-anti-racism-program-marp-events-component-intake-2/",
-   "description": "",
+   "description": "The Multiculturalism and Anti-Racism Program (MARP) supports the mandate of the Department of Canadian Heritage by building on Canada’s strength as a diverse and inclusive society.",
    "funder": "Government of Canada",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -5715,7 +5896,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5723,7 +5904,7 @@
    "id": "211481cda3020b4c",
    "title": "Multiculturalism and Anti-Racism Program (MARP) Events Component – Intake 1",
    "url": "https://research-tools.mun.ca/funding/opportunities/multiculturalism-and-anti-racism-program-marp-events-component-intake-1/",
-   "description": "",
+   "description": "The Multiculturalism and Anti-Racism Program (MARP) supports the mandate of the Department of Canadian Heritage by building on Canada’s strength as a diverse and inclusive society.",
    "funder": "Government of Canada",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -5739,7 +5920,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5768,7 +5949,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5796,7 +5977,7 @@
    "published": "2026-05-21T15:40:02",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5825,13 +6006,13 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "64fdcd69c2babfd7",
    "title": "Market Entry Development Program",
    "url": "https://investnovascotia.ca/incentives-programs-services/market-entry-development-program",
-   "description": "",
+   "description": "We are currently accepting applications for the Market Entry Development Program.",
    "funder": "Invest Nova Scotia",
    "via": null,
    "source_id": "invest-ns",
@@ -5843,11 +6024,11 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5906,31 +6087,7 @@
    "id": "8e447fede912ae08",
    "title": "MINDS Targeted Engagement Grants (TEGs) and Young MINDS Initiative",
    "url": "https://research-tools.mun.ca/funding/opportunities/minds-targeted-engagement-grants-tegs-and-young-minds-initiative/",
-   "description": "",
-   "funder": "National Defence and the Canadian Armed Forces",
-   "via": "Memorial University",
-   "source_id": "mun-rfd",
-   "source_name": "Memorial University – Research Funding Database",
-   "region": "Atlantic",
-   "kind": "Call",
-   "categories": [
-    "Research"
-   ],
-   "audience": [],
-   "deadline": null,
-   "status": "unknown",
-   "published": null,
-   "content_hash": null,
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
-   "updated": null,
-   "active": true
-  },
-  {
-   "id": "6d49efa8b24d3345",
-   "title": "MINDS Collaborative Networks Program",
-   "url": "https://research-tools.mun.ca/funding/opportunities/minds-collaborative-networks-program/",
-   "description": "",
+   "description": "MINDS Targeted Engagement Grants provide funding for projects related to defence and security policy.",
    "funder": "National Defence and the Canadian Armed Forces",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -5939,7 +6096,33 @@
    "kind": "Call",
    "categories": [
     "Research",
-    "Industry partnership"
+    "Defence & dual-use"
+   ],
+   "audience": [],
+   "deadline": null,
+   "status": "unknown",
+   "published": null,
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-11-23",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "6d49efa8b24d3345",
+   "title": "MINDS Collaborative Networks Program",
+   "url": "https://research-tools.mun.ca/funding/opportunities/minds-collaborative-networks-program/",
+   "description": "Collaborative Networks involve multi-disciplinary teams of experts from across Canada and abroad. Networks increase and diversify research on defence and security issues in Canada, with the aim to meet the Defence Team’s need for relevant and timely policy advice.",
+   "funder": "National Defence and the Canadian Armed Forces",
+   "via": "Memorial University",
+   "source_id": "mun-rfd",
+   "source_name": "Memorial University – Research Funding Database",
+   "region": "Atlantic",
+   "kind": "Call",
+   "categories": [
+    "Research",
+    "Industry partnership",
+    "Defence & dual-use"
    ],
    "audience": [],
    "deadline": "2026-11-23",
@@ -5947,7 +6130,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5955,7 +6138,7 @@
    "id": "92ac7d48f7a3c31d",
    "title": "MEOPAR Living Lab Fund",
    "url": "https://research-tools.mun.ca/funding/opportunities/meopar-living-lab-fund/",
-   "description": "",
+   "description": "MEOPAR has opened a new Call for Proposals for the Living Lab Fund, supporting existing, place-based partnerships working to address coastal and marine challenges across Canada.",
    "funder": "MEOPAR (Marine Environmental Observation Prediction & Response network)",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -5963,15 +6146,17 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Industry partnership",
+    "Ocean"
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -5979,7 +6164,7 @@
    "id": "fb5d6c4dc2b349da",
    "title": "MEOPAR Expedition Fund",
    "url": "https://research-tools.mun.ca/funding/opportunities/meopar-expedition-fund/",
-   "description": "",
+   "description": "With funding from the Strategic Science Fund (SSF), MEOPAR has launched the Expedition Fund; a program to support Canadian leadership in ocean-going marine research.",
    "funder": "MEOPAR (Marine Environmental Observation Prediction & Response network)",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -5987,7 +6172,8 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Ocean"
    ],
    "audience": [],
    "deadline": null,
@@ -5995,7 +6181,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6021,13 +6207,13 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "04db6896ea929107",
    "title": "Local Supplier Food Safety Support Pilot Program",
    "url": "https://investnovascotia.ca/incentives-programs-services/local-supplier-food-safety-support-pilot-program",
-   "description": "The Local Supplier Food Safety Support Pilot Program will help Nova Scotia food and beverage producers successfully achieve and maintain food safety requirements for retailers, food service companies and institutions, or to adjust their food safety program to meet emerging food safety requirements or new markets.",
+   "description": "",
    "funder": "Invest Nova Scotia",
    "via": null,
    "source_id": "invest-ns",
@@ -6037,15 +6223,13 @@
    "categories": [
     "SME & business"
    ],
-   "audience": [
-    "Industry & SMEs"
-   ],
+   "audience": [],
    "deadline": null,
    "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6075,7 +6259,7 @@
    "published": "2022-10-27T14:12:13",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6083,7 +6267,7 @@
    "id": "fda39c0cd57fa290",
    "title": "Launch Export Atlantic Incubator",
    "url": "https://investnovascotia.ca/incentives-programs-services/launch-export-atlantic-incubator",
-   "description": "Download the Guidelines by clicking the link on the sidebar under Related Documents.",
+   "description": "",
    "funder": "Invest Nova Scotia",
    "via": null,
    "source_id": "invest-ns",
@@ -6097,11 +6281,11 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "closed",
+   "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6126,7 +6310,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6230,7 +6414,7 @@
    "published": null,
    "content_hash": "363fe9e69a200b6998bbdf37559eae480062627d",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": "2026-11-16",
    "active": true
   },
@@ -6257,7 +6441,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6290,7 +6474,7 @@
    "id": "c461d0e056bd8a46",
    "title": "Job Accelerator and Growth Program",
    "url": "https://www.gov.nl.ca/jgrd/funding/job-accelerator-and-growth-program/",
-   "description": "The Job Accelerator and Growth Program (JAG Program) is a new program created to support job creation and investment in...",
+   "description": "",
    "funder": "Government of NL – Jobs, Growth and Rural Development",
    "via": null,
    "source_id": "nl-jgrd",
@@ -6307,7 +6491,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6315,7 +6499,7 @@
    "id": "521c25f1b23967c4",
    "title": "J.R. Smallwood Foundation for Newfoundland & Labrador Studies",
    "url": "https://research-tools.mun.ca/funding/opportunities/j-r-smallwood-foundation-for-newfoundland-labrador-studies/",
-   "description": "",
+   "description": "Currently the Foundation offers funding under three grant categories: the Research Grant , the Conference Grant and the Publication Subvention Grant . The application deadline for all types of funding is N ovember 25, 2026. There are three separate sets of instructions for Research Grants. Applicants should follow the instructions that fit their circumstances.",
    "funder": "Memorial University of Newfoundland",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -6331,7 +6515,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6339,7 +6523,7 @@
    "id": "434e53172be6cb66",
    "title": "Investment Attraction Fund",
    "url": "https://www.gov.nl.ca/jgrd/funding/investment-attraction-fund/",
-   "description": "PURPOSE The Investment Attraction Fund (“Fund”) is designed to attract large-scale businesses and foreign direct investment (“FDI”) to the Province...",
+   "description": "",
    "funder": "Government of NL – Jobs, Growth and Rural Development",
    "via": null,
    "source_id": "nl-jgrd",
@@ -6349,15 +6533,13 @@
    "categories": [
     "SME & business"
    ],
-   "audience": [
-    "Industry & SMEs"
-   ],
+   "audience": [],
    "deadline": null,
    "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6365,7 +6547,7 @@
    "id": "01b88865e5877487",
    "title": "Invest Nova Scotia Accelerate",
    "url": "https://investnovascotia.ca/incentives-programs-services/invest-nova-scotia-accelerate",
-   "description": "",
+   "description": "You can download the Guidelines, Application Form, Eligible Expenses & Claims FAQ documents by clicking the link on the sidebar under Related Documents.",
    "funder": "Invest Nova Scotia",
    "via": null,
    "source_id": "invest-ns",
@@ -6378,13 +6560,13 @@
    ],
    "audience": [],
    "deadline": "2027-01-12",
-   "status": "unknown",
+   "status": "closed",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-23",
    "updated": null,
-   "active": false
+   "active": true
   },
   {
    "id": "b3cfebf6702bc295",
@@ -6449,7 +6631,7 @@
    "id": "38099bb1e0362076",
    "title": "International Grenfell Association Grant",
    "url": "https://research-tools.mun.ca/funding/opportunities/international-grenfell-association-grant/",
-   "description": "",
+   "description": "International Grenfell Association (IGA) grants are funded through monies raised since the early 1900’s by supporters in Canada, the USA, Great Britain, and Ireland. Used initially to pay for programs now provided by government, these funds create a grant program that responds to the needs of coastal communities in Northern Newfoundland and Labrador.",
    "funder": "International Grenfell Association",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -6469,7 +6651,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6499,7 +6681,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6553,7 +6735,7 @@
    "published": null,
    "content_hash": "f2b2f5d2244a0a7537be4ae122cf97a9908b6450",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6584,7 +6766,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6608,7 +6790,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6657,7 +6839,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6665,7 +6847,7 @@
    "id": "8d90db0605ef098d",
    "title": "Innovation and Business Development Fund",
    "url": "https://www.gov.nl.ca/jgrd/funding/innovation-and-business-development-fund/",
-   "description": "The Innovation and Business Development Fund is focused on investments to grow Newfoundland and Labrador’s oil and gas supply and...",
+   "description": "",
    "funder": "Government of NL – Jobs, Growth and Rural Development",
    "via": null,
    "source_id": "nl-jgrd",
@@ -6683,7 +6865,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6713,7 +6895,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6721,7 +6903,7 @@
    "id": "d67660b4c3f7e0e2",
    "title": "Innovation Rebate Program",
    "url": "https://investnovascotia.ca/incentives-programs-services/innovation-rebate-program",
-   "description": "",
+   "description": "You can download the Guidelines and FAQ by clicking the link on the sidebar under Related Documents.",
    "funder": "Invest Nova Scotia",
    "via": null,
    "source_id": "invest-ns",
@@ -6737,7 +6919,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6766,7 +6948,7 @@
    "published": null,
    "content_hash": "85de886f1d74c14e86f3489cfac8af4072156f2d",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": "2026-11-19",
    "active": true
   },
@@ -6774,7 +6956,7 @@
    "id": "e33d3fc0b62105d8",
    "title": "Innovation Networks",
    "url": "https://www.canada.ca/en/department-national-defence/programs/defence-ideas/element/innovation-networks.html",
-   "description": "",
+   "description": "Up to $3M to stimulate the free flow of ideas critical for innovation.",
    "funder": "Department of National Defence – IDEaS",
    "via": null,
    "source_id": "ideas",
@@ -6786,11 +6968,39 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
+   "updated": null,
+   "active": true
+  },
+  {
+   "id": "a26178fd2bfd50d3",
+   "title": "Innovation Fund",
+   "url": "https://www.innovationpei.com/program/innovation-fund/",
+   "description": "The Innovation Fund assists businesses to bring a new product, service, or process (“product”) to market by providing financial support for the costs to refine and commercialize an innovative product that has demonstrated potential for export market uptake.",
+   "funder": "Innovation PEI",
+   "via": null,
+   "source_id": "innovation-pei",
+   "source_name": "Innovation PEI",
+   "region": "Prince Edward Island",
+   "kind": "Program",
+   "categories": [
+    "Commercialization",
+    "SME & business",
+    "International"
+   ],
+   "audience": [
+    "Industry & SMEs"
+   ],
+   "deadline": null,
+   "status": "unknown",
+   "published": "2022-09-20T12:02:23",
+   "content_hash": null,
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6820,34 +7030,6 @@
    "active": true
   },
   {
-   "id": "a26178fd2bfd50d3",
-   "title": "Innovation Fund",
-   "url": "https://www.innovationpei.com/program/innovation-fund/",
-   "description": "The Innovation Fund assists businesses to bring a new product, service, or process (“product”) to market by providing financial support for the costs to refine and commercialize an innovative product that has demonstrated potential for export market uptake.",
-   "funder": "Innovation PEI",
-   "via": null,
-   "source_id": "innovation-pei",
-   "source_name": "Innovation PEI",
-   "region": "Prince Edward Island",
-   "kind": "Program",
-   "categories": [
-    "Commercialization",
-    "SME & business",
-    "International"
-   ],
-   "audience": [
-    "Industry & SMEs"
-   ],
-   "deadline": null,
-   "status": "unknown",
-   "published": "2022-09-20T12:02:23",
-   "content_hash": null,
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
-   "updated": null,
-   "active": true
-  },
-  {
    "id": "85a68a965bbd5df6",
    "title": "Innovation Ecosystem",
    "url": "https://oceansupercluster.ca/innovation-ecosystem/",
@@ -6868,7 +7050,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6894,7 +7076,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6920,7 +7102,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6949,7 +7131,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -6978,7 +7160,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7002,7 +7184,7 @@
    "published": "2026-03-26T16:07:50",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7026,7 +7208,7 @@
    "published": "2026-03-26T16:07:09",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7051,7 +7233,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7078,7 +7260,7 @@
    "published": "2026-03-26T16:11:05",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7133,7 +7315,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7162,7 +7344,7 @@
    "published": null,
    "content_hash": "0f44f730fe1d4ac6b4c09f20964233557a7d12fc",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7212,7 +7394,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7295,7 +7477,7 @@
    "id": "1002d180bef88820",
    "title": "Harvester Enterprise Loan Program",
    "url": "https://www.gov.nl.ca/jgrd/funding/harvester-enterprise-loan-program/",
-   "description": "The Harvester Enterprise Loan Program (the “Program”) is an enhancement of the former Fisheries Loan Guarantee Program and will expand...",
+   "description": "",
    "funder": "Government of NL – Jobs, Growth and Rural Development",
    "via": null,
    "source_id": "nl-jgrd",
@@ -7303,8 +7485,7 @@
    "region": "Newfoundland and Labrador",
    "kind": "Program",
    "categories": [
-    "SME & business",
-    "Ocean"
+    "SME & business"
    ],
    "audience": [
     "Industry & SMEs"
@@ -7314,7 +7495,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7322,7 +7503,7 @@
    "id": "2b1c3e357401109d",
    "title": "GreenShoots",
    "url": "https://investnovascotia.ca/incentives-programs-services/greenshoots",
-   "description": "",
+   "description": "You can download the Info Kit and Application Form by clicking the link on the sidebar under Related Documents.",
    "funder": "Invest Nova Scotia",
    "via": null,
    "source_id": "invest-ns",
@@ -7335,11 +7516,11 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
+   "status": "closed",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7347,7 +7528,7 @@
    "id": "6af09785c084546d",
    "title": "Green Transition Fund Program",
    "url": "https://www.gov.nl.ca/jgrd/funding/green-transition-fund-program/",
-   "description": "As of March 1st, 2025, the Green Transition Fund will be accepting applications through a continual intake process. Applicants are...",
+   "description": "",
    "funder": "Government of NL – Jobs, Growth and Rural Development",
    "via": null,
    "source_id": "nl-jgrd",
@@ -7360,11 +7541,11 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "open",
+   "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7394,7 +7575,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7424,7 +7605,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7453,7 +7634,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7482,7 +7663,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7512,7 +7693,7 @@
    "published": null,
    "content_hash": "c485c64f7f95a3c0577bf0024893bfd043481a0e",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": "2026-11-19",
    "active": true
   },
@@ -7542,7 +7723,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7566,7 +7747,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7591,7 +7772,7 @@
    "published": null,
    "content_hash": "e95991e62422ace08ab62050e81cbb9e65bad844",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7599,7 +7780,7 @@
    "id": "41b2a75f286af432",
    "title": "France Canada Research Fund (FCRF)",
    "url": "https://research-tools.mun.ca/funding/opportunities/france-canada-research-fund-fcrf/",
-   "description": "",
+   "description": "The France Canada Research Fund is a major instrument of Franco-Canadian scientific cooperation, created in 2000 through an agreement between the French Embassy in Canada and a consortium of 23 Canadian universities.",
    "funder": "France Canada Research Fund (FCRF)",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -7607,15 +7788,19 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Industry partnership",
+    "Infrastructure & equipment"
    ],
-   "audience": [],
+   "audience": [
+    "Universities"
+   ],
    "deadline": "2027-01-08",
    "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7641,7 +7826,7 @@
    "published": "2022-03-15T08:34:00",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7666,7 +7851,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7719,7 +7904,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7743,7 +7928,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7799,7 +7984,7 @@
    "published": "2026-05-21T15:40:53",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7830,7 +8015,7 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "1848156b36c82b62",
@@ -7855,7 +8040,7 @@
    "published": "2026-07-30T15:49:54",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7863,7 +8048,7 @@
    "id": "c6c520abcc3067e4",
    "title": "Export Development Program",
    "url": "https://investnovascotia.ca/incentives-programs-services/export-development-program",
-   "description": "",
+   "description": "The Export Development Program supports businesses to increase sales outside of Nova Scotia and improve competitiveness.",
    "funder": "Invest Nova Scotia",
    "via": null,
    "source_id": "invest-ns",
@@ -7874,13 +8059,15 @@
     "SME & business",
     "International"
    ],
-   "audience": [],
+   "audience": [
+    "Industry & SMEs"
+   ],
    "deadline": null,
-   "status": "unknown",
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7910,7 +8097,7 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "f5a81d5fa5beab69",
@@ -7932,7 +8119,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7958,7 +8145,7 @@
    "published": "2022-01-27T21:09:29",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -7986,7 +8173,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8014,7 +8201,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8044,7 +8231,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8070,7 +8257,7 @@
    "published": "2022-10-27T14:10:50",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8124,7 +8311,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8148,7 +8335,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8179,7 +8366,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8203,7 +8390,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8211,7 +8398,7 @@
    "id": "1ec67d734b368783",
    "title": "EcoAction Stream 2: Freshwater Sustainability and Innovation across Canada",
    "url": "https://research-tools.mun.ca/funding/opportunities/ecoaction-stream-2-freshwater-sustainability-and-innovation-across-canada/",
-   "description": "",
+   "description": "EcoAction Stream 2: Freshwater Sustainability and Innovation across Canada will fund projects related to one of the following objectives:",
    "funder": "Environment and Climate Change Canada",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -8228,7 +8415,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8236,7 +8423,7 @@
    "id": "d497160adc1c531d",
    "title": "Early Stage Commercialization Fund",
    "url": "https://investnovascotia.ca/incentives-programs-services/early-stage-commercialization-fund",
-   "description": "",
+   "description": "You can download the Guidelines and Proposal Form by clicking the link on the sidebar under Related Documents.",
    "funder": "Invest Nova Scotia",
    "via": null,
    "source_id": "invest-ns",
@@ -8249,11 +8436,11 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
+   "status": "closed",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8277,7 +8464,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8303,7 +8490,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8434,7 +8621,7 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "7da0061ed83bddbb",
@@ -8467,7 +8654,7 @@
    "id": "57a0443334b8d87f",
    "title": "DOD Reconstructive Transplant Research Program (RTRP) Investigator-Initiated Research Award Award – Pre-Application",
    "url": "https://research-tools.mun.ca/funding/opportunities/dod-reconstructive-transplant-research-program-rtrp-investigator-initiated-research-award-award-pre-application/",
-   "description": "",
+   "description": "Memorial Deadline: RIS Review not required for pre-application",
    "funder": "Department of Defence - United States of America",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -8483,7 +8670,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8491,7 +8678,7 @@
    "id": "6296d81432d5d816",
    "title": "DOD Reconstructive Transplant Research Program (RTRP) Investigator-Initiated Research Award Award – Full Application",
    "url": "https://research-tools.mun.ca/funding/opportunities/dod-reconstructive-transplant-research-program-rtrp-investigator-initiated-research-award-award-full-application/",
-   "description": "",
+   "description": "The Investigator-Initiated Research Award is intended to support studies that have the potential to make an important contribution to reconstructive transplant research, patient care and/or quality of life. Though the RTRP Investigator-Initiated Research Award supports groundbreaking research, all projects must demonstrate solid scientific rationale with military-relevant utility.",
    "funder": "Department of Defence - United States of America",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -8499,7 +8686,8 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Defence & dual-use"
    ],
    "audience": [],
    "deadline": null,
@@ -8507,7 +8695,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8531,7 +8719,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8566,7 +8754,7 @@
    "id": "65474d46a7c316e6",
    "title": "CubeSat Initiative in Canada for STEM (CUBICS) 2026",
    "url": "https://research-tools.mun.ca/funding/opportunities/cubesat-initiative-in-canada-for-stem-cubics-2026/",
-   "description": "",
+   "description": "Following the successful Canadian CubeSat Project ( CCP ) in 2017 and the CubeSats Initiative in Canada for STEM (CUBICS) in 2022 , the Canadian Space Agency is launching a new Canada-wide initiative. CUBICS 2026 will provide postsecondary institutions across Canada with an opportunity to engage their students in a real space science mission by designing, building, testing, and eventually…",
    "funder": "Canadian Space Agency",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -8574,15 +8762,19 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Talent & internships",
+    "Quantum & emerging tech"
    ],
-   "audience": [],
-   "deadline": "2026-11-19",
-   "status": "open",
+   "audience": [
+    "Students & trainees"
+   ],
+   "deadline": null,
+   "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8607,7 +8799,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8632,7 +8824,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8640,7 +8832,7 @@
    "id": "6d9087f2babe6959",
    "title": "Contests",
    "url": "https://www.canada.ca/en/department-national-defence/programs/defence-ideas/element/contests.html",
-   "description": "",
+   "description": "Competition between innovators is the fuel we use to foster the best innovative solutions.",
    "funder": "Department of National Defence – IDEaS",
    "via": null,
    "source_id": "ideas",
@@ -8648,15 +8840,18 @@
    "region": "National",
    "kind": "Call",
    "categories": [
-    "Defence & dual-use"
+    "Defence & dual-use",
+    "SME & business"
    ],
-   "audience": [],
+   "audience": [
+    "Industry & SMEs"
+   ],
    "deadline": null,
-   "status": "unknown",
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8689,7 +8884,7 @@
    "id": "77ea24c039f3a87e",
    "title": "Competitive Projects",
    "url": "https://www.canada.ca/en/department-national-defence/programs/defence-ideas/element/competitive-projects.html",
-   "description": "",
+   "description": "Up to $6.75M in phased development funding to propel technology forward.",
    "funder": "Department of National Defence – IDEaS",
    "via": null,
    "source_id": "ideas",
@@ -8701,11 +8896,11 @@
    ],
    "audience": [],
    "deadline": null,
-   "status": "unknown",
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8731,7 +8926,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8758,7 +8953,7 @@
    "published": "2026-03-26T16:05:58",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8784,7 +8979,7 @@
    "published": "2026-03-26T16:05:21",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8792,7 +8987,7 @@
    "id": "dca18478fe93b2ce",
    "title": "Community Capacity Building",
    "url": "https://www.gov.nl.ca/jgrd/funding/community-capacity-building-program/",
-   "description": "The Community Capacity Building component assists groups by enhancing skills essential to regional economic planning, development and implementation. The component...",
+   "description": "",
    "funder": "Government of NL – Jobs, Growth and Rural Development",
    "via": null,
    "source_id": "nl-jgrd",
@@ -8808,7 +9003,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8833,7 +9028,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8887,7 +9082,7 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "aa2cf42124e70db6",
@@ -8941,7 +9136,7 @@
    "published": "2022-03-15T08:32:27",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -8968,7 +9163,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9020,7 +9215,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9070,7 +9265,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9100,7 +9295,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9108,7 +9303,7 @@
    "id": "9680825d2ed05c36",
    "title": "Canada Nature Fund for Aquatic Species at Risk (CNFASAR)",
    "url": "https://research-tools.mun.ca/funding/opportunities/canada-nature-fund-for-aquatic-species-at-risk-cnfasar/",
-   "description": "",
+   "description": "The objective of CNFASAR is to advance recovery outcomes for aquatic species at risk by supporting multi-year, multi-partner, and multi-species stewardship projects that use place- or threat-based approaches to deliver recovery measures for aquatic species at risk.",
    "funder": "Fisheries and Oceans Canada",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -9116,7 +9311,8 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Industry partnership"
    ],
    "audience": [],
    "deadline": null,
@@ -9124,7 +9320,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9153,7 +9349,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9208,7 +9404,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9238,7 +9434,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9266,7 +9462,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9293,7 +9489,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9321,7 +9517,7 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "2879c5816ba66600",
@@ -9347,7 +9543,7 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "3c0f7bce9fbf1ecd",
@@ -9401,7 +9597,7 @@
    "id": "545780c3247f5f8c",
    "title": "CIHR Planning and Dissemination Grants – Institute/Initiative Community Support (Winter 2027 Competition)",
    "url": "https://research-tools.mun.ca/funding/opportunities/cihr-planning-and-dissemination-grants-institute-initiative-community-support-winter-2027-competition/",
-   "description": "",
+   "description": "CIHR’s mandate is to excel, according to internationally accepted standards of scientific excellence, in the creation of new knowledge and its translation into improved health, more effective health services and products, and a strengthened health care system. As part of that mandate, since its inception, CIHR has helped shape the field of knowledge mobilization, build associated skills and…",
    "funder": "Canadian Institute of Health Research (CIHR)",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -9409,15 +9605,21 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Commercialization",
+    "Talent & internships",
+    "International",
+    "Health & life sciences"
    ],
-   "audience": [],
+   "audience": [
+    "Students & trainees"
+   ],
    "deadline": null,
    "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9445,7 +9647,7 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "70de3e950182da80",
@@ -9471,13 +9673,13 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "0c542ffdcd9c4eab",
    "title": "CIHR Health System Impact Fellowship",
    "url": "https://research-tools.mun.ca/funding/opportunities/cihr-health-system-impact-fellowship/",
-   "description": "",
+   "description": "An information webinar for prospective applicants and health system organizations will take place on November 4, 2026 , from 12:00–1:00 p.m. ET. Register here .",
    "funder": "Canadian Institute of Health Research (CIHR)",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -9497,7 +9699,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9523,7 +9725,7 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "03002eb2b23aad83",
@@ -9549,7 +9751,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9557,7 +9759,7 @@
    "id": "be761e3da1b2c0c4",
    "title": "Business Investment Program",
    "url": "https://www.gov.nl.ca/jgrd/funding/business-investment-program/",
-   "description": "The Business Investment Program provides term loans to small and medium-sized enterprises (SMEs) in strategic growth sectors as identified by...",
+   "description": "",
    "funder": "Government of NL – Jobs, Growth and Rural Development",
    "via": null,
    "source_id": "nl-jgrd",
@@ -9575,7 +9777,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9583,7 +9785,7 @@
    "id": "49acc74cbe5d55bd",
    "title": "Business Growth Program",
    "url": "https://www.gov.nl.ca/jgrd/funding/business-growth-program/",
-   "description": "The Business Growth Program provides non-repayable contributions for projects or initiatives to assist businesses start, innovate, scale and improve sales...",
+   "description": "",
    "funder": "Government of NL – Jobs, Growth and Rural Development",
    "via": null,
    "source_id": "nl-jgrd",
@@ -9601,7 +9803,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9627,7 +9829,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9651,7 +9853,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9659,7 +9861,7 @@
    "id": "c6f934424eeb8184",
    "title": "British Academy International Interdisciplinary Research programme",
    "url": "https://research-tools.mun.ca/funding/opportunities/british-academy-international-interdisciplinary-research-programme/",
-   "description": "",
+   "description": "RIS will be offering support with application development for this opportunity. Prospective applicants are encouraged to contact Dr. Jennifer Stevens (v5js@mun.ca) or Dr. Amanda Crompton (ajcrompt@mun.ca) early during the development process to discuss the services available to them.",
    "funder": "British Academy (The)",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -9679,7 +9881,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9734,7 +9936,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9793,7 +9995,7 @@
    "id": "539765e893f8f10a",
    "title": "Banting Foundation Discovery Award – NOI",
    "url": "https://research-tools.mun.ca/funding/opportunities/banting-foundation-discovery-award-noi/",
-   "description": "",
+   "description": "The Banting Discovery Foundation provides feasibility and pilot grants of up to $30,000 to help early-career scientists establish independence and build their research programs. Funding supports essential research needs, from hiring trainees to acquiring equipment, enabling researchers to pursue bold ideas and advance health and biomedical science.",
    "funder": "Banting Research Foundation",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -9801,15 +10003,21 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Talent & internships",
+    "Infrastructure & equipment",
+    "Health & life sciences"
    ],
-   "audience": [],
+   "audience": [
+    "Universities",
+    "Students & trainees"
+   ],
    "deadline": null,
    "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9817,7 +10025,7 @@
    "id": "52fa2abe57db3fc1",
    "title": "Banting Discovery Foundation Discovery Award – Full Application",
    "url": "https://research-tools.mun.ca/funding/opportunities/banting-discovery-foundation-discovery-award-full-application/",
-   "description": "",
+   "description": "The Banting Discovery Foundation provides feasibility and pilot grants of up to $30,000 to help early-career scientists establish independence and build their research programs. Funding supports essential research needs, from hiring trainees to acquiring equipment, enabling researchers to pursue bold ideas and advance health and biomedical science.",
    "funder": "Banting Research Foundation",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -9825,15 +10033,21 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Talent & internships",
+    "Infrastructure & equipment",
+    "Health & life sciences"
    ],
-   "audience": [],
+   "audience": [
+    "Universities",
+    "Students & trainees"
+   ],
    "deadline": "2027-01-25",
    "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9859,7 +10073,7 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "db11397cb26fd499",
@@ -9883,7 +10097,7 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "1161e145dc0982aa",
@@ -9908,7 +10122,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9938,7 +10152,7 @@
    "published": null,
    "content_hash": "17223dca9153548946acf1ae775e141d15564e7b",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9946,7 +10160,7 @@
    "id": "8bae18ab5437a77e",
    "title": "Atlantic Fisheries Fund",
    "url": "https://research-tools.mun.ca/funding/opportunities/atlantic-fisheries-fund/",
-   "description": "",
+   "description": "The renewed Atlantic Fisheries Fund (AFF) is a contribution program funded jointly by the federal and provincial governments. It will invest over $300 million over 5 years to support Canada’s fish and seafood sector.",
    "funder": "Fisheries and Oceans Canada",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -9963,7 +10177,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -9991,7 +10205,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10019,7 +10233,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10027,7 +10241,7 @@
    "id": "a6dd14a43a15a89f",
    "title": "ArcticNet Call for Proposals: Partnered Research Program",
    "url": "https://research-tools.mun.ca/funding/opportunities/arcticnet-call-for-proposals-partnered-research-program/",
-   "description": "",
+   "description": "This new Call for Proposals brings together ArcticNet and competition partners, Genome Canada and the Ocean Tracking Network (OTN) , to support interdisciplinary research addressing key priorities across the Canadian North.",
    "funder": "ArcticNet",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -10036,7 +10250,8 @@
    "kind": "Call",
    "categories": [
     "Research",
-    "Industry partnership"
+    "Industry partnership",
+    "Ocean"
    ],
    "audience": [],
    "deadline": "2026-12-18",
@@ -10044,7 +10259,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10073,7 +10288,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10108,7 +10323,7 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "dfd1cd166ac88696",
@@ -10131,7 +10346,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10161,7 +10376,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10191,7 +10406,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10217,7 +10432,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10241,7 +10456,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10269,7 +10484,7 @@
    "published": "2022-10-27T13:42:43",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10297,7 +10512,7 @@
    "published": "2025-01-21T15:13:50",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10328,7 +10543,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10358,7 +10573,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10389,7 +10604,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10421,7 +10636,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10447,7 +10662,7 @@
    "published": "2026-03-26T15:59:36",
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10474,7 +10689,7 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-11-19",
    "updated": null,
-   "active": true
+   "active": false
   },
   {
    "id": "fc1bfe59dab5d564",
@@ -10505,7 +10720,7 @@
    "id": "1882170aa49e9dcb",
    "title": "AACR-CIHR Scholar-in-Training Awards",
    "url": "https://research-tools.mun.ca/funding/opportunities/aacr-cihr-scholar-in-training-awards/",
-   "description": "",
+   "description": "In partnership with the American Association for Cancer Research (AACR), the CIHR Institute of Cancer Research is thrilled to re-open applications for the AACR-CIHR Scholar-in-Training Awards (SITAs)! The AACR-CIHR SITAs will support PhD students, postdocs and post-health degree fellows from Canada to present their research at the AACR Annual Meeting 2027 from April 2-7, 2027, in Orlando,…",
    "funder": "American Association for Cancer Research, Canadian Institute of Health Research (CIHR)",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -10513,15 +10728,21 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Industry partnership",
+    "Talent & internships",
+    "Health & life sciences"
    ],
-   "audience": [],
+   "audience": [
+    "Universities",
+    "Students & trainees"
+   ],
    "deadline": null,
-   "status": "unknown",
+   "status": "open",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10546,7 +10767,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10554,7 +10775,7 @@
    "id": "2ebd1dee5e4bc54e",
    "title": "2027 WES Ecosystem Fund",
    "url": "https://research-tools.mun.ca/funding/opportunities/2027-wes-ecosystem-fund/",
-   "description": "",
+   "description": "The Government of Canada is advancing gender equality and women’s economic empowerment through the Women Entrepreneurship Strategy (WES, or the Strategy). As part of the Strategy, the Government is ensuring women across Canada have access to the business supports they need to start or grow a business. The 2027 WES Ecosystem Fund call for proposals is now open. This call will identify and select…",
    "funder": "Government of Canada",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -10562,15 +10783,19 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Intellectual property",
+    "Startups & spin-offs"
    ],
-   "audience": [],
+   "audience": [
+    "Industry & SMEs"
+   ],
    "deadline": null,
    "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10578,7 +10803,7 @@
    "id": "8511c6e40d72e5f9",
    "title": "2026 Transformation Competition",
    "url": "https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/transformation/2026/competition-concours-eng.aspx",
-   "description": "Funding opportunity description for the 2026 Transformation Competition",
+   "description": "",
    "funder": "Tri-agency (NFRF)",
    "via": null,
    "source_id": "nfrf",
@@ -10594,7 +10819,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10602,7 +10827,7 @@
    "id": "29241ec616019f9d",
    "title": "2026 International Joint Initiative for Research Harnessing Disruptive Technologies to Address Global Challenges",
    "url": "https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/international/2026/competition-concours-eng.aspx",
-   "description": "2026 International Joint Initiative for Research Harnessing Disruptive Technologies to Address Global Challenges",
+   "description": "",
    "funder": "Tri-agency (NFRF)",
    "via": null,
    "source_id": "nfrf",
@@ -10622,7 +10847,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10630,7 +10855,7 @@
    "id": "5b03189fa9622f01",
    "title": "2026 Future Leaders in Canadian Brain Research – application",
    "url": "https://research-tools.mun.ca/funding/opportunities/2026-future-leaders-in-canadian-brain-research-application/",
-   "description": "",
+   "description": "Supported by the Canada Brain Research Fund, the purpose of the Future Leaders in Canadian Brain Research program is to accelerate novel and transformative research that will fundamentally change our understanding of nervous system function and dysfunction and their impact on health. The ultimate goal is to reduce the social and economic burden of neurological and mental health illnesses through…",
    "funder": "Brain Canada Foundation",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -10638,7 +10863,9 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Startups & spin-offs",
+    "Health & life sciences"
    ],
    "audience": [],
    "deadline": "2027-02-17",
@@ -10646,7 +10873,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10654,7 +10881,7 @@
    "id": "55738adec11d216a",
    "title": "2026 Future Leaders in Canadian Brain Research – LOI",
    "url": "https://research-tools.mun.ca/funding/opportunities/2026-future-leaders-in-canadian-brain-research-loi/",
-   "description": "",
+   "description": "Supported by the Canada Brain Research Fund, the purpose of the Future Leaders in Canadian Brain Research program is to accelerate novel and transformative research that will fundamentally change our understanding of nervous system function and dysfunction and their impact on health. The ultimate goal is to reduce the social and economic burden of neurological and mental health illnesses through…",
    "funder": "Brain Canada Foundation",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -10662,7 +10889,9 @@
    "region": "Atlantic",
    "kind": "Call",
    "categories": [
-    "Research"
+    "Research",
+    "Startups & spin-offs",
+    "Health & life sciences"
    ],
    "audience": [],
    "deadline": null,
@@ -10670,7 +10899,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10678,7 +10907,7 @@
    "id": "38f35309934181a3",
    "title": "2026 Exploration Competition",
    "url": "https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/exploration/2026/competition-concours-eng.aspx",
-   "description": "Funding opportunity description for the New Frontiers in Research Fund: 2026 Exploration Competition",
+   "description": "",
    "funder": "Tri-agency (NFRF)",
    "via": null,
    "source_id": "nfrf",
@@ -10694,7 +10923,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10702,7 +10931,7 @@
    "id": "e843df750d8857bb",
    "title": "*REVISED* SSHRC Exchange- International Representation – October 2026",
    "url": "https://research-tools.mun.ca/funding/opportunities/sshrc-exchange-international-representation-october-2026/",
-   "description": "",
+   "description": "Please note: due to connection issues experienced by the University community on October 13th 2026, the deadline for these applications has been adjusted to October 14th 2026 5PM.",
    "funder": "Memorial University of Newfoundland",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -10715,6 +10944,7 @@
     "International"
    ],
    "audience": [
+    "Universities",
     "Students & trainees"
    ],
    "deadline": null,
@@ -10722,7 +10952,7 @@
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   },
@@ -10730,7 +10960,7 @@
    "id": "8806e064b36d1323",
    "title": "*REVISED* SSHRC Exchange -Paper Presentation at Scholarly Conference – October 2026",
    "url": "https://research-tools.mun.ca/funding/opportunities/sshrc-exchange-paper-presentation-at-scholarly-conference-october-2026/",
-   "description": "",
+   "description": "Please note: due to connection issues experienced by the University community on October 13th 2026, the deadline for these applications has been adjusted to October 14th 2026 5PM.",
    "funder": "Memorial University of Newfoundland",
    "via": "Memorial University",
    "source_id": "mun-rfd",
@@ -10740,13 +10970,15 @@
    "categories": [
     "Research"
    ],
-   "audience": [],
+   "audience": [
+    "Universities"
+   ],
    "deadline": null,
    "status": "unknown",
    "published": null,
    "content_hash": null,
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-23",
    "updated": null,
    "active": true
   }
